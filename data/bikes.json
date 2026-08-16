@@ -4,7 +4,7 @@
     "publication": "Used Bike Guide",
     "currency": "GBP",
     "issue": "2026 Q3",
-    "last_refreshed": "2026-08-16",
+    "last_refreshed": "2026-08-17",
     "notes": "Seed prices are unverified editorial estimates. Run a price refresh before going to press."
   },
   "bikes": [
@@ -1238,14 +1238,15 @@
         "tall for shorter riders"
       ],
       "price": {
-        "low": 3000,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "RD04 1990-93 £2750-£3500; later RD07 stronger. Reckon on c.£3k for a usable one"
     },
     {
       "id": "yamaha-rd350-lc-1980",
@@ -2260,14 +2261,15 @@
         "many have been crashed"
       ],
       "price": {
-        "low": 3500,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1998-99: rough £1200-1800, tidy £2200-3100, mint £3500-4200. Early 1992 bikes to £10k"
     },
     {
       "id": "honda-cbr600f-f3-1991",
@@ -2290,14 +2292,15 @@
         "most have big miles"
       ],
       "price": {
-        "low": 1200,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 3400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early 90s bikes c.£1000; 1998-W rough £1500-1800, tidy £2200-2800, mint £3000-3400"
     },
     {
       "id": "honda-vfr750f-1990",
@@ -2320,14 +2323,15 @@
         "reg/rec can fail"
       ],
       "price": {
-        "low": 2000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK listings £895-£2599; condition and extras matter more than year"
     },
     {
       "id": "honda-cb600f-hornet-1998",
@@ -2350,14 +2354,15 @@
         "rear shock wears out"
       ],
       "price": {
-        "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1300,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Guide £1500-£2750 by year; 1998 private £1500, 2006 dealer £2750"
     },
     {
       "id": "honda-vtr1000f-firestorm-1997",
@@ -2380,14 +2385,15 @@
         "carburettor icing"
       ],
       "price": {
-        "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Tatty from just over £1000; good early £1900-2500, later big-tank £3000-3500"
     },
     {
       "id": "honda-cbr1100xx-blackbird-1996",
@@ -2410,14 +2416,15 @@
         "linked brakes divide opinion"
       ],
       "price": {
-        "low": 2200,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 4300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Anything with an MOT makes £2500; low-mileage later bikes near £4000"
     },
     {
       "id": "honda-nx650-dominator-1988",
@@ -2471,14 +2478,15 @@
         "many have been modified"
       ],
       "price": {
-        "low": 3500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £1800-2400, tidy £3500-4500, mint £5000-6000. Collector 1998 red/white ask far more"
     },
     {
       "id": "yamaha-yzf-r6-1999",
@@ -2503,12 +2511,13 @@
       "price": {
         "low": 1800,
         "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2002 private £2400 / dealer £3400; 2000 private £2100 / dealer £2950"
     },
     {
       "id": "yamaha-yzf1000r-thunderace-1996",
@@ -2531,14 +2540,15 @@
         "heavy"
       ],
       "price": {
-        "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 3300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £900-1400, tidy £1600-2500, mint £2800-3300"
     },
     {
       "id": "yamaha-trx850-1995",
@@ -2562,13 +2572,14 @@
       ],
       "price": {
         "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £2521-£3995; still cheap for a cult bike"
     },
     {
       "id": "yamaha-xjr1300-1998",
@@ -2591,14 +2602,15 @@
         "brakes need help"
       ],
       "price": {
-        "low": 3000,
+        "low": 3500,
         "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Carb bikes from c.£3999; late old-style just under £6000 at a dealer"
     },
     {
       "id": "yamaha-fzs600-fazer-1998",
@@ -2621,14 +2633,15 @@
         "soft suspension"
       ],
       "price": {
-        "low": 900,
-        "high": 2200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 600,
+        "high": 2700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Poor examples c.£600; tidy 2003 in a dealer c.£2500-£2700"
     },
     {
       "id": "yamaha-tdm850-1991",
@@ -2651,14 +2664,15 @@
         "vague steering"
       ],
       "price": {
-        "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1000,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1991-95 £1200-£2000; 1996-2001 £1950-£3200"
     },
     {
       "id": "yamaha-xj600-diversion-1992",
@@ -2712,13 +2726,14 @@
       ],
       "price": {
         "low": 900,
-        "high": 2200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £900-1100, tidy £1500-2200, mint £2500-3000"
     },
     {
       "id": "suzuki-gsf1200-bandit-1996",
@@ -2741,14 +2756,15 @@
         "corrosion"
       ],
       "price": {
-        "low": 1500,
+        "low": 1750,
         "high": 3500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1999 high-miler £1750 up to £3500 for a low-mileage 2005"
     },
     {
       "id": "suzuki-tl1000s-1997",
