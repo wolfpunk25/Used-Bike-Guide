@@ -35,10 +35,15 @@ EBAY_SCOPE = "https://api.ebay.com/oauth/api_scope"
 # results look wrong -- eBay does reorganise these occasionally.
 DEFAULT_CATEGORY = "6024"
 
+# How much to trust a price. "verified" = sampled from many live listings;
+# "researched" = taken from a published UK price guide; "thin" = derived from a
+# handful of listings; "unverified" = seed estimate, not researched at all.
+CONFIDENCE_LEVELS = ("verified", "researched", "thin", "unverified")
+
 WORKSHEET_COLS = [
     "id", "make", "model", "variant", "years",
     "current_low", "current_high", "current_as_of", "current_source",
-    "new_low", "new_high", "sample_size", "source", "notes",
+    "new_low", "new_high", "sample_size", "source", "confidence", "notes",
 ]
 
 
@@ -102,7 +107,8 @@ def cmd_worksheet(args):
                 "variant": b.get("variant", ""), "years": years(b),
                 "current_low": p.get("low", ""), "current_high": p.get("high", ""),
                 "current_as_of": p.get("as_of") or "", "current_source": p.get("source", ""),
-                "new_low": "", "new_high": "", "sample_size": "", "source": "", "notes": "",
+                "new_low": "", "new_high": "", "sample_size": "", "source": "",
+                "confidence": "", "notes": "",
             })
     print("Wrote worksheet for %d bikes -> %s" % (len(doc["bikes"]), out))
     print("Fill in new_low / new_high / sample_size / source, then run:")
@@ -138,11 +144,15 @@ def cmd_apply(args):
             if lo_i > hi_i:
                 lo_i, hi_i = hi_i, lo_i
             sample = (row.get("sample_size") or "").strip()
+            conf = (row.get("confidence") or "").strip() or "verified"
+            if conf not in CONFIDENCE_LEVELS:
+                unknown.append("%s (unknown confidence %r)" % (bike_id, conf))
+                continue
             apply_price(
                 index[bike_id], lo_i, hi_i,
                 (row.get("source") or "manual-research").strip(),
                 int(sample) if sample.isdigit() else 0,
-                today,
+                today, confidence=conf,
             )
             if (row.get("notes") or "").strip():
                 index[bike_id]["notes"] = row["notes"].strip()

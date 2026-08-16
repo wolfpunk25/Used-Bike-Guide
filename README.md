@@ -83,24 +83,56 @@ Add those two values as repository secrets and `refresh-prices.yml` will run it 
 on the 15th of Feb/May/Aug/Nov, raising a **pull request** rather than committing — so
 someone signs off on the numbers before they reach a layout.
 
+### Route 3 — auction sold prices (Iconic Auctioneers)
+
+```bash
+python3 scripts/iconic_sold.py --limit 4
+```
+
+Iconic publish real **sold** prices — what bikes actually made, not what sellers
+hoped for — through a clean JSON endpoint, and their `robots.txt` sets no
+restrictions. Results accumulate in `data/auction-sold.csv`, deduplicated by lot,
+so the archive compounds each quarter. It already holds 355 sales.
+
+The catch, measured rather than assumed: only **10% of those lots are 2005 or
+newer**, and just **8 of our 30 entries have any comparable at all** — mostly a
+single sale each. It is an excellent feed for a classics section and no use for
+pricing a 2013 ZX-6R. The script prints that split every run so it stays honest.
+
 ### What the automatic route can and can't cover
 
-Worth being straight about this, because it shaped the design:
+Worth being straight about this, because it shaped the design.
 
-- **Autotrader can't be scraped.** Their `robots.txt` explicitly disallows `/bike-search`
-  and `/bike-details`, and their terms prohibit automated collection. They do sell a
-  Valuations API to trade partners — as a publisher you may well be able to license it,
-  and that would be the single best data source here. Worth a call to their commercial team.
-- **eBay prohibits scraping** but the Browse API is free and allowed. It gives *asking*
-  prices for active listings, not sold prices; sold data needs partner-level access.
-- **Auction results** (H&H, Bonhams) are published, but skew heavily to classic and
-  collector machines — little use for a 2013 ZX-6R.
-- **Car & Classic and similar** sit behind bot protection.
+**Assessed and rejected:**
 
-So: asking prices from eBay give you a defensible, automatable baseline; a licensed
-Autotrader feed would be better; and editorial judgement on top of either is what makes it
-a *guide* rather than a price list. The assisted route exists because that judgement is the
-valuable part and shouldn't be automated away.
+| Source | Verdict |
+|---|---|
+| Autotrader | `robots.txt` disallows `/bike-search` and `/bike-details*` for all agents, and the terms prohibit automated collection. Off limits. |
+| eBay (scraping) | `robots.txt` prohibits it outright and points to the official API. |
+| Motorcycles To Go | `robots.txt` contains an explicit `User-agent: ClaudeBot / Disallow: /`. The operator has specifically excluded us, so we don't touch it. |
+| Car & Classic | Behind Cloudflare bot protection. |
+| The Bike Market | `robots.txt` is permissive, but model pages return HTTP 500 ("We have been alerted"). Too unreliable to depend on. |
+| Bigmoto | One dealer group's own stock across three sites, heavy on small-capacity imports, and it 403s anything but a real browser. Not a market sample. |
+| The Motorcycle Barn | Permissive and readable, but 32 bikes of one dealer's stock. Useful as a spot-check, not a feed. |
+| MotoDealer | Permissive, and has a valuation tool, but it's a young community registry — thin volume today. Worth revisiting. |
+| Auction houses (H&H, Bonhams) | Published results, but overwhelmingly classic and collector machines. |
+
+**Usable today:**
+
+- **eBay Browse API** — official, free, permitted. Asking prices for active UK
+  listings, not sold prices; sold data needs partner-level access.
+- **Iconic Auctioneers** — real sold prices, classic-heavy (see above).
+- **Published UK price guides** — Bennetts BikeSocial publish per-generation used
+  ranges. This is where the current Q3 numbers came from.
+
+**Worth buying:** Autotrader license a Valuations API to trade partners. As a
+publisher you may well be able to get commercial access, and it would be the
+single best source here by some distance — worth a call to their commercial team.
+
+So: published guides give defensible editorial numbers today, eBay gives an
+automatable baseline, auctions give real transaction data for classics, and a
+licensed Autotrader feed would beat all three. Editorial judgement on top is what
+makes it a *guide* rather than a price list.
 
 ---
 
@@ -128,7 +160,7 @@ and will refuse to publish broken data.
 | `verdict` | 1–10. |
 | `description` | The write-up. Keep under ~400 characters for the layout. |
 | `pros`, `cons` | Arrays; exported comma-joined into the `Plus` / `Minus` CSV columns. |
-| `price` | Written by the refresh scripts. Don't hand-edit unless you also update `as_of`. |
+| `price` | Written by the refresh scripts. Don't hand-edit unless you also update `as_of`. `confidence` is one of `verified` (sampled from many live listings), `researched` (from a published UK price guide), `thin` (only a handful of comparables — flagged in the UI), or `unverified` (seed estimate). |
 | `price_history` | Appended automatically. Drives the Change column. |
 
 Photos aren't handled here by design — they're dropped in at page-design stage, as you

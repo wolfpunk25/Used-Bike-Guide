@@ -51,6 +51,11 @@
     return ((nowMid - prevMid) / prevMid) * 100;
   }
 
+  // A price is "solid" if it came from a real sample or a published guide.
+  function isSolid(b) {
+    return b.confidence === 'verified' || b.confidence === 'researched';
+  }
+
   function midpoint(lo, hi) {
     if (lo == null && hi == null) return null;
     if (lo == null) return hi;
@@ -93,8 +98,8 @@
       // Overlap test: keep a bike whose range intersects the requested window.
       if (pmin !== null && b.price_high != null && b.price_high < pmin) return false;
       if (pmax !== null && b.price_low != null && b.price_low > pmax) return false;
-      if (conf === 'verified' && b.confidence !== 'verified') return false;
-      if (conf === 'unverified' && b.confidence === 'verified') return false;
+      if (conf === 'verified' && !isSolid(b)) return false;
+      if (conf === 'unverified' && isSolid(b)) return false;
       return true;
     });
 
@@ -125,9 +130,9 @@
     });
 
     els.empty.hidden = view.length !== 0;
-    var unver = view.filter(function (b) { return b.confidence !== 'verified'; }).length;
+    var unver = view.filter(function (b) { return !isSolid(b); }).length;
     els.summary.textContent = view.length + ' of ' + state.bikes.length + ' bikes' +
-      (unver ? ' — ' + unver + ' still on unverified prices' : ' — all prices verified');
+      (unver ? ' — ' + unver + ' need a price check' : ' — all prices researched or verified');
 
     Array.prototype.forEach.call(document.querySelectorAll('th[data-sort]'), function (th) {
       var on = th.dataset.sort === state.sort.key;
@@ -193,12 +198,16 @@
     tr.appendChild(ch);
 
     var ck = document.createElement('td');
-    if (b.confidence === 'verified') {
+    if (isSolid(b)) {
       ck.textContent = shortDate(b.as_of);
+      if (b.confidence === 'researched') ck.title = 'From a published UK price guide';
     } else {
       var badge = document.createElement('span');
       badge.className = 'badge-unverified';
-      badge.textContent = 'check';
+      badge.textContent = b.confidence === 'thin' ? 'thin' : 'check';
+      badge.title = b.confidence === 'thin'
+        ? 'Derived from only a handful of listings — worth a second look'
+        : 'Not yet researched';
       ck.appendChild(badge);
     }
     tr.appendChild(ck);
@@ -357,9 +366,9 @@
     fillSelect(els.make, uniq(state.bikes.map(function (b) { return b.make; })));
     fillSelect(els.category, uniq(state.bikes.map(function (b) { return b.category; })));
 
-    var unver = state.bikes.filter(function (b) { return b.confidence !== 'verified'; }).length;
+    var unver = state.bikes.filter(function (b) { return !isSolid(b); }).length;
     if (unver) {
-      showStatus('<strong>' + unver + ' of ' + state.bikes.length + ' bikes</strong> are on unverified seed prices. ' +
+      showStatus('<strong>' + unver + ' of ' + state.bikes.length + ' bikes</strong> need a price check. ' +
         'Run a price refresh before this issue goes to press — see <code>README.md</code>.');
     } else if (state.meta.last_refreshed) {
       showStatus('Prices last refreshed <strong>' + shortDate(state.meta.last_refreshed) + '</strong>.');

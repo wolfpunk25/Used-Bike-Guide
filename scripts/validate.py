@@ -50,8 +50,11 @@ def main():
                 errors.append("%s: price low %s above high %s" % (where, lo, hi))
             if hi > lo * 4:
                 warnings.append("%s: price range looks very wide (%s-%s)" % (where, lo, hi))
-        if p.get("confidence") != "verified":
-            warnings.append("%s: price not verified (%s)" % (where, p.get("source")))
+        conf = p.get("confidence")
+        if conf not in ("verified", "researched", "thin", "unverified"):
+            errors.append("%s: unknown confidence %r" % (where, conf))
+        elif conf not in ("verified", "researched"):
+            warnings.append("%s: price needs checking (%s, %s)" % (where, conf, p.get("source")))
 
         desc = b.get("description") or ""
         if len(desc) > 400:
