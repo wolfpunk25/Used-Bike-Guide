@@ -181,18 +181,40 @@ def main():
 
     with open(BIKES, encoding="utf-8") as fh:
         guide = json.load(fh)["bikes"]
-    hits = 0
+    hits, priceable = 0, 0
     for b in guide:
-        want_make, want_model = b["make"].lower(), b["model"].lower().split()[0]
-        n = sum(1 for r in rows
-                if want_make in (r["make"] or "").lower()
-                and want_model in (r["model"] or r["lot_name"] or "").lower())
-        if n:
-            hits += 1
-            print("  matched %-34s %d sale(s)" % (b["make"] + " " + b["model"], n))
-    print("\n%d of %d guide entries have any auction comparable." % (hits, len(guide)))
-    if hits < len(guide) / 4:
-        print("Too sparse to price the main listings - treat as a classics feed.")
+        want_make = b["make"].lower()
+        # Match on make plus the distinguishing model words, and require the sale
+        # year to fall inside the entry's generation - otherwise a Daytona 675
+        # gets priced off a Daytona 955i.
+        want_model = b["model"].lower().replace("-", " ").split()
+        yf, yt = b.get("year_from"), b.get("year_to") or b.get("year_from")
+        sales = []
+        for r in rows:
+            if want_make not in (r["make"] or "").lower():
+                continue
+            hay = ((r["model"] or "") + " " + (r["lot_name"] or "")).lower().replace("-", " ")
+            if not all(w in hay for w in want_model):
+                continue
+            if not str(r.get("year")).isdigit():
+                continue
+            y = int(r["year"])
+            if yf and yt and not (yf - 1 <= y <= yt + 1):
+                continue
+            sales.append(int(r["sold_price"]))
+        if not sales:
+            continue
+        hits += 1
+        sales.sort()
+        flag = ""
+        if len(sales) >= 5:
+            priceable += 1
+            flag = "  <- enough to price"
+        print("  %-38s %2d sale(s)  £%s-£%s%s"
+              % (b["make"] + " " + b["model"], len(sales), sales[0], sales[-1], flag))
+
+    print("\n%d of %d guide entries have a year-matched auction comparable." % (hits, len(guide)))
+    print("%d have 5 or more sales - enough to derive a price from." % priceable)
     return 0
 
 

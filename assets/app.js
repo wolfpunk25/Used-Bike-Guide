@@ -86,6 +86,8 @@
     var q = els.q.value.trim().toLowerCase();
     var make = els.make.value, cat = els.category.value;
     var minV = els.verdict.value ? Number(els.verdict.value) : null;
+    var yfrom = els.yfrom.value !== '' ? Number(els.yfrom.value) : null;
+    var yto = els.yto.value !== '' ? Number(els.yto.value) : null;
     var pmin = els.pmin.value !== '' ? Number(els.pmin.value) : null;
     var pmax = els.pmax.value !== '' ? Number(els.pmax.value) : null;
     var conf = els.conf.value;
@@ -95,6 +97,10 @@
       if (make && b.make !== make) return false;
       if (cat && b.category !== cat) return false;
       if (minV !== null && !(b.verdict >= minV)) return false;
+      // Keep a bike whose production run overlaps the requested window, so a
+      // 1998-2003 model still shows up when you ask for the 1990s.
+      if (yfrom !== null && (b.year_to || b.year_from) < yfrom) return false;
+      if (yto !== null && b.year_from > yto) return false;
       // Overlap test: keep a bike whose range intersects the requested window.
       if (pmin !== null && b.price_high != null && b.price_high < pmin) return false;
       if (pmax !== null && b.price_low != null && b.price_low > pmax) return false;
@@ -338,11 +344,11 @@
   }
 
   function wire() {
-    ['q', 'make', 'category', 'verdict', 'pmin', 'pmax', 'conf'].forEach(function (k) {
+    ['q', 'make', 'category', 'verdict', 'yfrom', 'yto', 'pmin', 'pmax', 'conf'].forEach(function (k) {
       els[k].addEventListener('input', render);
     });
     $('#reset').addEventListener('click', function () {
-      ['q', 'pmin', 'pmax'].forEach(function (k) { els[k].value = ''; });
+      ['q', 'yfrom', 'yto', 'pmin', 'pmax'].forEach(function (k) { els[k].value = ''; });
       ['make', 'category', 'verdict', 'conf'].forEach(function (k) { els[k].value = ''; });
       render();
     });
@@ -381,6 +387,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     els = {
       q: $('#q'), make: $('#f-make'), category: $('#f-category'), verdict: $('#f-verdict'),
+      yfrom: $('#f-yfrom'), yto: $('#f-yto'),
       pmin: $('#f-pmin'), pmax: $('#f-pmax'), conf: $('#f-conf'),
       rows: $('#rows'), summary: $('#summary'), empty: $('#empty'), status: $('#status-bar')
     };
