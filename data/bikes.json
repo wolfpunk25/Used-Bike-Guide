@@ -2695,14 +2695,15 @@
         "rust"
       ],
       "price": {
-        "low": 700,
+        "low": 500,
         "high": 1800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Cheap end of the market; higher listings are the later XJ6, not the Diversion"
     },
     {
       "id": "suzuki-gsf600-bandit-1995",
@@ -2787,14 +2788,15 @@
         "needs suspension work"
       ],
       "price": {
-        "low": 2200,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Good sorted examples well under £3000; listings £2250-£2995"
     },
     {
       "id": "suzuki-gsx-r600-srad-1997",
@@ -2817,14 +2819,15 @@
         "most have been ridden hard"
       ],
       "price": {
-        "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1000,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1997 rough £1000-1500, tidy £1800-2400, mint £2600-2800"
     },
     {
       "id": "suzuki-gsx1300r-hayabusa-1999",
@@ -2847,14 +2850,15 @@
         "heavy"
       ],
       "price": {
-        "low": 3000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2800,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Tidy early bikes under £4000; unrestricted 1999-2000 bikes hold value best"
     },
     {
       "id": "suzuki-rf900r-1994",
@@ -2907,14 +2911,15 @@
         "dated brakes"
       ],
       "price": {
-        "low": 1800,
+        "low": 1200,
         "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Projects from £595; typical £2300-£3500, immaculate low-mileage to £3995"
     },
     {
       "id": "kawasaki-zx-7r-1996",
@@ -2937,14 +2942,15 @@
         "down on power against rivals"
       ],
       "price": {
-        "low": 3000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Typical £2500-£3500; 1996-2000 listings £2995-£3499. RR variants far rarer"
     },
     {
       "id": "kawasaki-zx-9r-1994",
@@ -2967,14 +2973,15 @@
         "early ones handle poorly"
       ],
       "price": {
-        "low": 2200,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Good one under £3000; £2000-£2500 buys the widest choice. Dealer asks to £5000 are optimistic"
     },
     {
       "id": "kawasaki-er-5-1997",
@@ -2999,12 +3006,13 @@
       "price": {
         "low": 700,
         "high": 1600,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Searched but found no reliable UK price guide; figure retained from estimate"
     },
     {
       "id": "kawasaki-w650-1999",
@@ -3027,14 +3035,15 @@
         "good ones command real money"
       ],
       "price": {
-        "low": 4000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rougher/high-mileage approaching £3000, well-maintained above £4000. Customs far more"
     },
     {
       "id": "triumph-speed-triple-t509-1997",
@@ -3057,14 +3066,15 @@
         "early electrics"
       ],
       "price": {
-        "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Guide for the 955 successor: rough £1250-1550 to mint £3000. T509 885 tracks slightly below"
     },
     {
       "id": "triumph-daytona-955i-1997",
@@ -3087,14 +3097,15 @@
         "patchy early build"
       ],
       "price": {
-        "low": 2200,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1700,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Clean examples from c.£2250; listings £1750 (41k miles) to £3955 (7k miles)"
     },
     {
       "id": "triumph-trophy-1200-1991",
@@ -3117,14 +3128,15 @@
         "dated"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1200,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Older T300-era bikes at the cheap end; higher listings are the 2012-on Trophy"
     },
     {
       "id": "triumph-thunderbird-900-1995",
@@ -3147,14 +3159,15 @@
         "modest brakes"
       ],
       "price": {
-        "low": 2200,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Projects £1.8-2.8k, roadworthy £3.2-4.8k, collector-grade £5.5-7.5k. Sport 10-20% more"
     },
     {
       "id": "triumph-tiger-900-1993",
@@ -3179,12 +3192,13 @@
       "price": {
         "low": 2000,
         "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Searched but found no reliable UK guide for 1993-2000; figure retained from estimate"
     },
     {
       "id": "ducati-916-1994",
@@ -3207,14 +3221,15 @@
         "expensive servicing"
       ],
       "price": {
-        "low": 9000,
-        "high": 20000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Mid-market £6500-£14000; £22-27k results are premium outliers"
     },
     {
       "id": "ducati-748-1995",
@@ -3237,14 +3252,15 @@
         "desmo servicing costs"
       ],
       "price": {
-        "low": 5000,
-        "high": 10000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4000,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Baseline around £6000; SP with low miles over £8000. Service history worth c.£1000"
     },
     {
       "id": "ducati-monster-m900-1993",
@@ -3269,12 +3285,13 @@
       "price": {
         "low": 3000,
         "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2002 at £3209 up to £6998 for a 1999; 1993 auction estimate £4000-£6000"
     },
     {
       "id": "aprilia-rs250-1995",
