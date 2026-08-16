@@ -3314,14 +3314,15 @@
         "hard to find unmolested"
       ],
       "price": {
-        "low": 6000,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Adverts cluster £9300-£14700; values have risen sharply since c.£7500 in 2019"
     },
     {
       "id": "aprilia-pegaso-650-1992",
@@ -3374,14 +3375,15 @@
         "heavy off-road"
       ],
       "price": {
-        "low": 2800,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "From £2000 with 60k+ miles; £3000-£4000 buys under 40k. Good one c.£3500"
     },
     {
       "id": "bmw-f650-funduro-1993",
@@ -3404,14 +3406,15 @@
         "tall seat"
       ],
       "price": {
-        "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £750-£2495; a 2001 made £862 at auction"
     },
     {
       "id": "bmw-r1100s-1998",
@@ -3434,14 +3437,15 @@
         "final drive wear"
       ],
       "price": {
-        "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2300,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Standard bikes £2500-£5000; Boxer Cup variants to £9000"
     },
     {
       "id": "cagiva-mito-125-1990",
@@ -3464,14 +3468,15 @@
         "most have been thrashed"
       ],
       "price": {
-        "low": 2000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1991 with 13k miles at £2995; a 1993 SP made only £978 at auction"
     },
     {
       "id": "honda-cg125-1976",
@@ -4036,13 +4041,14 @@
       ],
       "price": {
         "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Second-gen guide rough £1500-2000 to mint £3400-3800; first-gen sits below that"
     },
     {
       "id": "suzuki-dl650-v-strom-2004",
@@ -4875,14 +4881,15 @@
         "dealer network"
       ],
       "price": {
-        "low": 2800,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1998 rough £1500-1900, tidy £2300-3200, mint £3500-4500. Best-value used litre bike"
     },
     {
       "id": "aprilia-tuono-1000-2002",
@@ -8570,14 +8577,15 @@
         "most have been thrashed"
       ],
       "price": {
-        "low": 2500,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Older bulbous-fairing bikes £1500-£2000 at dealers; RSV-style from £2000 to £3500"
     },
     {
       "id": "yamaha-yzf-r125-2008",
