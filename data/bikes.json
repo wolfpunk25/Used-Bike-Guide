@@ -2077,13 +2077,21 @@
       "price": {
         "low": 2000,
         "high": 5500,
-        "as_of": "2026-08-16",
+        "as_of": "2026-08-17",
         "source": "uk-market-research",
         "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Thin UK data; US guide $2000-$8000 converted and adjusted"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 2000,
+          "high": 5500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Still no UK-specific data found; US-derived figure retained and flagged"
     },
     {
       "id": "yamaha-tdr250-1988",
@@ -2881,14 +2889,15 @@
         "heavy"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Poor early bikes from c.£700, nice 1999 c.£1200, dealer machines to £2500"
     },
     {
       "id": "kawasaki-zzr1100-1990",
@@ -3346,13 +3355,14 @@
       ],
       "price": {
         "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Sensible band £1300-£2300; listings £1195-£2995"
     },
     {
       "id": "bmw-r1100gs-1994",
@@ -3532,12 +3542,13 @@
       "price": {
         "low": 900,
         "high": 2200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Search returns the unrelated 2026 KLE500; no usable data for the 1991-2007 bike"
     },
     {
       "id": "suzuki-dr350-1990",
@@ -3560,14 +3571,15 @@
         "survivors are scarce"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Can be had for under £1000; tidier examples to c.£2546"
     },
     {
       "id": "honda-cb1000-big-one-1993",
@@ -3590,14 +3602,15 @@
         "thirsty"
       ],
       "price": {
-        "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "European comparables c.£1800-£3800; UK custom example at £3999"
     },
     {
       "id": "honda-cbr1000rr-fireblade-2004",
@@ -3740,14 +3753,15 @@
         "not an off-roader"
       ],
       "price": {
-        "low": 1800,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1999 at £2500 up to £4299 for a 2008; later 2012-13 bikes higher still"
     },
     {
       "id": "honda-st1300-pan-european-2002",
@@ -8848,14 +8862,15 @@
         "limited lean angle"
       ],
       "price": {
-        "low": 7000,
-        "high": 13000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Wide span: 2001 at £4000, 1990 at £13995, 2024 at £18490. Year drives it more than mileage"
     },
     {
       "id": "harley-davidson-street-bob-2006",
@@ -8908,14 +8923,15 @@
         "slow steering"
       ],
       "price": {
-        "low": 8000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019-21 bikes £13995-£14499; earlier examples well below that"
     },
     {
       "id": "moto-guzzi-griso-2005",
