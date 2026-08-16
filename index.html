@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Used Bike Guide — listings database</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <h1>Used Bike Guide</h1>
+      <p class="strap">Internal listings database <span id="issue-tag"></span></p>
+    </div>
+    <div class="masthead-actions">
+      <button id="export-csv" class="btn btn-primary">Export CSV</button>
+      <button id="export-json" class="btn">Export JSON</button>
+    </div>
+  </div>
+</header>
+
+<div id="status-bar" class="status-bar" hidden></div>
+
+<main>
+  <section class="controls" aria-label="Filters">
+    <div class="control control-grow">
+      <label for="q">Search</label>
+      <input type="search" id="q" placeholder="Make, model, or text in the write-up&hellip;" autocomplete="off">
+    </div>
+    <div class="control">
+      <label for="f-make">Make</label>
+      <select id="f-make"><option value="">All makes</option></select>
+    </div>
+    <div class="control">
+      <label for="f-category">Category</label>
+      <select id="f-category"><option value="">All categories</option></select>
+    </div>
+    <div class="control">
+      <label for="f-verdict">Min verdict</label>
+      <select id="f-verdict">
+        <option value="">Any</option>
+        <option value="6">6+</option><option value="7">7+</option>
+        <option value="8">8+</option><option value="9">9+</option>
+      </select>
+    </div>
+    <div class="control control-narrow">
+      <label for="f-pmin">Price from</label>
+      <input type="number" id="f-pmin" placeholder="&pound;0" step="500" min="0">
+    </div>
+    <div class="control control-narrow">
+      <label for="f-pmax">Price to</label>
+      <input type="number" id="f-pmax" placeholder="&pound;any" step="500" min="0">
+    </div>
+    <div class="control">
+      <label for="f-conf">Price data</label>
+      <select id="f-conf">
+        <option value="">All</option>
+        <option value="verified">Verified only</option>
+        <option value="unverified">Needs checking</option>
+      </select>
+    </div>
+    <div class="control control-shrink">
+      <label>&nbsp;</label>
+      <button id="reset" class="btn btn-quiet">Reset</button>
+    </div>
+  </section>
+
+  <p id="summary" class="summary" role="status"></p>
+
+  <div class="table-wrap">
+    <table id="grid">
+      <thead>
+        <tr>
+          <th class="col-expand" scope="col"><span class="sr-only">Expand</span></th>
+          <th data-sort="make" scope="col">Make</th>
+          <th data-sort="model" scope="col">Model</th>
+          <th data-sort="year_from" scope="col">Year</th>
+          <th data-sort="engine_cc" class="num" scope="col">Engine</th>
+          <th data-sort="category" scope="col">Category</th>
+          <th data-sort="verdict" class="num" scope="col">Verdict</th>
+          <th data-sort="price_low" class="num" scope="col">Price from</th>
+          <th data-sort="price_high" class="num" scope="col">Price to</th>
+          <th data-sort="change" class="num" scope="col">Change</th>
+          <th data-sort="as_of" scope="col">Checked</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p id="empty" class="empty" hidden>No bikes match those filters.</p>
+</main>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

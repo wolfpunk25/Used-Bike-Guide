@@ -1,0 +1,54 @@
+name: Refresh prices
+
+# Quarterly, a fortnight before each issue closes. Also runnable on demand.
+on:
+  schedule:
+    - cron: '0 6 15 2,5,8,11 *'
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue label to stamp, e.g. 2026 Q4"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Pull asking prices from eBay
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          if [ -z "$EBAY_CLIENT_ID" ]; then
+            echo "::warning::EBAY_CLIENT_ID not set - skipping automatic refresh."
+            echo "Use the worksheet workflow instead (see README)."
+            exit 0
+          fi
+          python3 scripts/refresh_prices.py ebay ${{ inputs.issue && format('--issue "{0}"', inputs.issue) || '' }}
+
+      - name: Validate
+        run: python3 scripts/validate.py
+
+      # Opens a PR rather than committing straight to main, so a human signs
+      # off on the numbers before they reach the layout.
+      - name: Raise a PR with the new prices
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Refresh used prices"
+          branch: price-refresh
+          delete-branch: true
+          title: "Price refresh"
+          body: |
+            Automated price refresh from the eBay Browse API.
+
+            Check the numbers against the guide's own judgement before merging —
+            asking prices run ahead of transaction prices.
