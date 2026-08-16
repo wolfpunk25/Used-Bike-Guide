@@ -94,13 +94,37 @@ def apply_price(bike, low, high, source, sample_size, as_of, confidence="verifie
 
 # ------------------------------------------------------------------- worksheet
 
+def select(bikes, args):
+    """Narrow a worksheet to one batch: a decade, a make, or whatever still
+    needs pricing. Keeps a price pass to a reviewable size."""
+    out = []
+    for b in bikes:
+        if args.make and args.make.lower() not in b["make"].lower():
+            continue
+        if args.category and args.category.lower() not in (b.get("category") or "").lower():
+            continue
+        yf, yt = b.get("year_from"), b.get("year_to") or b.get("year_from")
+        # Overlap, matching the front end: a 1998-2003 bike is in the 1990s.
+        if args.year_from and yt < args.year_from:
+            continue
+        if args.year_to and yf > args.year_to:
+            continue
+        if args.todo and (b.get("price") or {}).get("confidence") in ("verified", "researched"):
+            continue
+        out.append(b)
+    return out
+
+
 def cmd_worksheet(args):
     doc = load()
     out = args.file or os.path.join(ROOT, "data", "price-worksheet.csv")
+    chosen = select(doc["bikes"], args)
+    if not chosen:
+        sys.exit("Nothing matched that selection.")
     with open(out, "w", encoding="utf-8-sig", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=WORKSHEET_COLS)
         w.writeheader()
-        for b in doc["bikes"]:
+        for b in chosen:
             p = b.get("price") or {}
             w.writerow({
                 "id": b["id"], "make": b.get("make", ""), "model": b.get("model", ""),
@@ -110,7 +134,7 @@ def cmd_worksheet(args):
                 "new_low": "", "new_high": "", "sample_size": "", "source": "",
                 "confidence": "", "notes": "",
             })
-    print("Wrote worksheet for %d bikes -> %s" % (len(doc["bikes"]), out))
+    print("Wrote worksheet for %d bikes -> %s" % (len(chosen), out))
     print("Fill in new_low / new_high / sample_size / source, then run:")
     print("  python3 scripts/refresh_prices.py apply --file %s" % out)
     return 0
@@ -272,6 +296,11 @@ def main():
 
     w = sub.add_parser("worksheet", help="emit a CSV to research prices into")
     w.add_argument("--file")
+    w.add_argument("--year-from", type=int, help="only bikes on sale in or after this year")
+    w.add_argument("--year-to", type=int, help="only bikes on sale in or before this year")
+    w.add_argument("--make")
+    w.add_argument("--category")
+    w.add_argument("--todo", action="store_true", help="skip anything already researched")
     w.set_defaults(func=cmd_worksheet)
 
     a = sub.add_parser("apply", help="apply a filled-in worksheet")

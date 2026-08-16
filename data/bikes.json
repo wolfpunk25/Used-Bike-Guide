@@ -959,14 +959,15 @@
         "frames flex if pushed"
       ],
       "price": {
-        "low": 4000,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 8000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1983 FA c.£2950, 1980 FB sold £5750, minter with UK provenance £7989"
     },
     {
       "id": "honda-cbx1000-1978",
@@ -989,14 +990,15 @@
         "parts are getting scarce"
       ],
       "price": {
-        "low": 9000,
-        "high": 20000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8000,
+        "high": 18000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Market average c.£13.4k; auction comparable £7475. UK investment-grade examples scarce"
     },
     {
       "id": "honda-vf750f-interceptor-1983",
@@ -1019,14 +1021,15 @@
         "neglected ones are money pits"
       ],
       "price": {
-        "low": 2500,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 5000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Little UK data; US sales $2200-$7875 converted and adjusted"
     },
     {
       "id": "honda-vfr750r-rc30-1988",
@@ -1049,14 +1052,15 @@
         "too precious to ride properly"
       ],
       "price": {
-        "low": 40000,
-        "high": 75000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 18000,
+        "high": 35000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £15-19k, tidy £20-27k, mint £30-35k. £65k record is an outlier"
     },
     {
       "id": "honda-cbr600f-1987",
@@ -1079,14 +1083,15 @@
         "clean examples are getting rare"
       ],
       "price": {
-        "low": 1500,
-        "high": 3500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early bikes around £1000; values flat, unlike Blades and VFRs"
     },
     {
       "id": "honda-cbr1000f-1987",
@@ -1109,14 +1114,15 @@
         "soggy suspension when tired"
       ],
       "price": {
-        "low": 1200,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 3200,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £900-£3199 by year and mileage"
     },
     {
       "id": "honda-ns400r-1985",
@@ -1139,14 +1145,15 @@
         "needs proper two-stroke care"
       ],
       "price": {
-        "low": 7000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 11000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £4-5k, tidy £6-9k, mint £10-12k. £10k less than an RG500"
     },
     {
       "id": "honda-xbr500-1985",
@@ -1169,14 +1176,15 @@
         "vibration at speed"
       ],
       "price": {
-        "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1650,
+        "high": 4000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1987 at £1650, tidy 1988 at £3995"
     },
     {
       "id": "honda-transalp-xl600v-1987",
@@ -1199,14 +1207,15 @@
         "soft suspension"
       ],
       "price": {
-        "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1250,
+        "high": 3900,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK/near-market listings £1255-£3895"
     },
     {
       "id": "honda-africa-twin-xrv750-1990",
@@ -1259,14 +1268,15 @@
         "genuine ones command a premium"
       ],
       "price": {
-        "low": 5000,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 13000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Top 4L0 and YPVS examples £10-15k; broader market below that"
     },
     {
       "id": "yamaha-rd500lc-1984",
@@ -1289,14 +1299,15 @@
         "fragile and thirsty"
       ],
       "price": {
-        "low": 18000,
-        "high": 35000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 10000,
+        "high": 22000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £17995-£21989; auctions £18975 and £17438, but one at £9281"
     },
     {
       "id": "yamaha-fz750-1985",
@@ -1319,14 +1330,15 @@
         "rust around the frame"
       ],
       "price": {
-        "low": 2000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 7000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Good 1987 at £2400; fully restored UK bike £8495"
     },
     {
       "id": "yamaha-fzr1000-exup-1989",
@@ -1349,14 +1361,15 @@
         "carb balancing is a chore"
       ],
       "price": {
-        "low": 3500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1200,
+        "high": 3500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £863-£2899; typical money £1500-£2000"
     },
     {
       "id": "yamaha-xj900-1983",
@@ -1379,14 +1392,15 @@
         "weight tells in town"
       ],
       "price": {
-        "low": 1200,
-        "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 600,
+        "high": 2400,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "eBay and classifieds £550-£2390"
     },
     {
       "id": "yamaha-sr500-1978",
@@ -1409,14 +1423,15 @@
         "genuinely slow"
       ],
       "price": {
-        "low": 3000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 6000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Imports from c.£1500; well-presented 1983 at £5989"
     },
     {
       "id": "yamaha-v-max-1985",
@@ -1439,14 +1454,15 @@
         "tiny fuel range"
       ],
       "price": {
-        "low": 4500,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 7000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Road-ready £3800-£5800; well-presented to £7300. Auction median £2415"
     },
     {
       "id": "yamaha-fj1200-1986",
@@ -1469,14 +1485,15 @@
         "fork dive under braking"
       ],
       "price": {
-        "low": 1800,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 2500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Consistent £1500-£2500 across UK classifieds"
     },
     {
       "id": "suzuki-gsx-r750-slabside-1985",
@@ -1499,14 +1516,15 @@
         "originality is rare and pricey"
       ],
       "price": {
-        "low": 9000,
-        "high": 20000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4000,
+        "high": 10000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1987 slabside auction £3335; clean 1985-89 bikes reach £9-10k+"
     },
     {
       "id": "suzuki-gsx-r1100-1986",
@@ -1530,13 +1548,14 @@
       ],
       "price": {
         "low": 3500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 9000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Projects £3.5-5k, roadworthy £6.5-9k, restored £10-14k"
     },
     {
       "id": "suzuki-rg500-gamma-1985",
@@ -1559,14 +1578,15 @@
         "demanding maintenance"
       ],
       "price": {
-        "low": 20000,
-        "high": 38000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 12000,
+        "high": 25000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £9995-£21500; tidy examples the fat end of £20k. Auction £24725"
     },
     {
       "id": "suzuki-gsx1100s-katana-1981",
@@ -1589,14 +1609,15 @@
         "good ones cost real money"
       ],
       "price": {
-        "low": 9000,
-        "high": 22000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 10000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Typical £5500-£7500, needs-work c.£4300, minter c.£10k. Auction £4715"
     },
     {
       "id": "kawasaki-gpz900r-1984",
@@ -1619,14 +1640,15 @@
         "cam chain tensioners need watching"
       ],
       "price": {
-        "low": 3500,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 5500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £900-1600, tidy £2000-3500, mint £4500-5500"
     },
     {
       "id": "kawasaki-gpz600r-1985",
@@ -1649,14 +1671,15 @@
         "survivors are scarce"
       ],
       "price": {
-        "low": 1500,
-        "high": 3500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Few complete examples listed; mostly projects. Project seen at £800"
     },
     {
       "id": "kawasaki-zxr750-1989",
@@ -1679,14 +1702,15 @@
         "many have been raced"
       ],
       "price": {
-        "low": 3500,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 7000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £2799-£12000; good examples from c.£2k, most £3250-£4500"
     },
     {
       "id": "kawasaki-z1300-1979",
@@ -1710,13 +1734,14 @@
       ],
       "price": {
         "low": 5000,
-        "high": 11000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 10000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Most usable examples £5-10k; 1979 listed £8495"
     },
     {
       "id": "bmw-r80g-s-1980",
@@ -1739,14 +1764,15 @@
         "originality commands a premium"
       ],
       "price": {
-        "low": 7000,
-        "high": 15000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5500,
+        "high": 12000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Typical £5500-£9500; sound usable classics £7000-£12000"
     },
     {
       "id": "bmw-k100-1983",
@@ -1769,14 +1795,15 @@
         "looks are an acquired taste"
       ],
       "price": {
-        "low": 1800,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1000,
+        "high": 3000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "£1000-£2000 typical, good ones to £3000. Café racer demand firming values"
     },
     {
       "id": "bmw-r100rs-1976",
@@ -1799,14 +1826,15 @@
         "good ones are pricey"
       ],
       "price": {
-        "low": 6000,
-        "high": 13000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 10500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Road-ready £5000-£9500; UK average £5600-£9000, restored £10k+"
     },
     {
       "id": "ducati-851-1988",
@@ -1829,14 +1857,15 @@
         "early electrics are troublesome"
       ],
       "price": {
-        "low": 9000,
-        "high": 20000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 13000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Typical 1989-91 £7000-£12500, most around £10k. SP variants far higher"
     },
     {
       "id": "moto-guzzi-le-mans-1976",
@@ -1859,14 +1888,15 @@
         "brakes need upgrading"
       ],
       "price": {
-        "low": 5500,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 15000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Auction £5635; fully restored 1977 listed £18500"
     },
     {
       "id": "laverda-jota-1976",
@@ -1889,14 +1919,15 @@
         "demanding to ride slowly"
       ],
       "price": {
-        "low": 10000,
-        "high": 20000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8000,
+        "high": 17000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Bonhams 1981 Jota 180 £7705; 1980 listed £16000. Early 180s worth most"
     },
     {
       "id": "triumph-bonneville-t140-1973",
@@ -1919,14 +1950,15 @@
         "needs constant fettling"
       ],
       "price": {
-        "low": 4500,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3500,
+        "high": 8000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Private from £5000, dealers £6-8k for mint. Auction median £3047"
     },
     {
       "id": "norton-commando-850-1973",
@@ -1949,14 +1981,15 @@
         "electrics are period-correct"
       ],
       "price": {
-        "low": 7000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 10000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £4950-£9995; excellent 1973 Roadster £9950"
     },
     {
       "id": "harley-davidson-fxr-1982",
@@ -1979,14 +2012,15 @@
         "comfort is relative"
       ],
       "price": {
-        "low": 7000,
-        "high": 15000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 9000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK listings £2500-£20000, bulk £3000-£8995"
     },
     {
       "id": "honda-gold-wing-gl1100-1980",
@@ -2009,14 +2043,15 @@
         "dated brakes"
       ],
       "price": {
-        "low": 2500,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1983 sold at auction £4025; 1980 listed c.£2000"
     },
     {
       "id": "suzuki-dr750s-big-1988",
@@ -2039,14 +2074,15 @@
         "spares are hard work"
       ],
       "price": {
-        "low": 2500,
+        "low": 2000,
         "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Thin UK data; US guide $2000-$8000 converted and adjusted"
     },
     {
       "id": "yamaha-tdr250-1988",
@@ -2069,14 +2105,15 @@
         "rare in good order"
       ],
       "price": {
-        "low": 4000,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 6000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rebuilt one-owner £1999; low-mileage 1989 £5995"
     },
     {
       "id": "kawasaki-gt550-1983",
@@ -2099,14 +2136,15 @@
         "most are worn out"
       ],
       "price": {
-        "low": 800,
-        "high": 2000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 795,
+        "high": 2500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1987 at £795, excellent 1988 at £2000"
     },
     {
       "id": "suzuki-gs550-1977",
@@ -2129,14 +2167,15 @@
         "rust in the usual places"
       ],
       "price": {
-        "low": 1800,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1000,
+        "high": 3300,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Restoration projects from a few hundred; tidy examples to £3250"
     },
     {
       "id": "honda-cb900f-bol-d-or-1979",
@@ -2159,14 +2198,15 @@
         "brakes are period"
       ],
       "price": {
-        "low": 3500,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1500,
+        "high": 6000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Tidy standard under £1000 at the bottom; 1981-85 listings £2755-£6889"
     },
     {
       "id": "yamaha-xt500-1976",
@@ -2189,14 +2229,15 @@
         "vibration"
       ],
       "price": {
-        "low": 5000,
-        "high": 10000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4000,
+        "high": 9000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £4999-£10206; auctions £4025 and £6670. Auction median £3565"
     },
     {
       "id": "honda-cbr900rr-fireblade-1992",
@@ -2399,14 +2440,15 @@
         "most have hard lives"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Realistic band £2000-£3750, recent data clustering low-to-mid £3000s"
     },
     {
       "id": "yamaha-yzf-r1-1998",
@@ -3419,14 +3461,15 @@
         "styling is functional at best"
       ],
       "price": {
-        "low": 700,
-        "high": 1800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Decent drum-brake bike c.£800, electric start c.£1200. Depreciation-proof"
     },
     {
       "id": "kawasaki-kle500-1991",
@@ -8069,14 +8112,15 @@
         "frame flexes"
       ],
       "price": {
-        "low": 15000,
-        "high": 35000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 12000,
+        "high": 28000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Private 1972 £22150 down to 1976 £11600; dealer prices higher"
     },
     {
       "id": "honda-cb400-four-1975",
@@ -8099,14 +8143,15 @@
         "good ones are pricey"
       ],
       "price": {
-        "low": 6000,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2800,
+        "high": 6500,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Range £2800-£6000, rideable c.£3000. Auction median £2530"
     },
     {
       "id": "suzuki-gt750-1972",
@@ -8129,14 +8174,15 @@
         "brakes are of their time"
       ],
       "price": {
-        "low": 7000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3500,
+        "high": 10000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Good original from c.£1500-£2500, minters to £10k. Auction median £7130"
     },
     {
       "id": "yamaha-xs650-1970",
@@ -8159,14 +8205,15 @@
         "standard examples are rare"
       ],
       "price": {
-        "low": 4000,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 7000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Good authentic roadsters under £5000; tidy customs c.£7000"
     },
     {
       "id": "honda-vf1000r-1984",
@@ -8189,14 +8236,15 @@
         "complex to service"
       ],
       "price": {
-        "low": 7000,
-        "high": 15000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 14000,
+        "as_of": "2026-08-16",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Little firm UK data; collector interest rising, prices vary widely"
     },
     {
       "id": "honda-cbr600rr-2003",
