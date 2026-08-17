@@ -18138,6 +18138,905 @@
       },
       "price_history": [],
       "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "bmw-r100s-1976",
+      "make": "BMW",
+      "model": "R100S",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1976,
+      "year_to": 1980,
+      "engine_cc": 980,
+      "verdict": 8,
+      "description": "A boxer twin with a handlebar fairing styled by Hans Muth, built when BMW decided it wanted a sports bike. Not fast by superbike standards, but effortless over distance and beautifully engineered.",
+      "pros": [
+        "Superb long-distance manners",
+        "handsome cockpit fairing",
+        "shaft drive"
+      ],
+      "cons": [
+        "Modest outright performance",
+        "good ones command real money"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "bmw-r69s-1960",
+      "make": "BMW",
+      "model": "R69S",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1960,
+      "year_to": 1969,
+      "engine_cc": 594,
+      "verdict": 9,
+      "description": "The last of the classic Earles-fork boxers, with a steering damper and a level of refinement nothing else offered in 1960. A blue-chip BMW classic and priced accordingly.",
+      "pros": [
+        "Beautifully engineered",
+        "genuine classic status",
+        "strong values"
+      ],
+      "cons": [
+        "Five-figure money for good ones",
+        "Earles forks feel odd at first"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 18000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1961 R69S with Steib sidecar £10350; 1958 R69 £5750"
+    },
+    {
+      "id": "ducati-350-desmo-1968",
+      "make": "Ducati",
+      "model": "350 Desmo",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1968,
+      "year_to": 1974,
+      "engine_cc": 340,
+      "verdict": 8,
+      "description": "The first production desmodromic Ducati, and the start of everything that followed. Light, willing and full of character, with a single-cylinder charm the later V-twins never quite replaced.",
+      "pros": [
+        "First production desmo",
+        "light and playful",
+        "significant to Ducati history"
+      ],
+      "cons": [
+        "Only 22bhp",
+        "specialist parts"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "ducati-pantah-500sl-1979",
+      "make": "Ducati",
+      "model": "Pantah 500SL",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1979,
+      "year_to": 1983,
+      "engine_cc": 499,
+      "verdict": 8,
+      "description": "The first belt-driven Ducati V-twin, and the architectural ancestor of the 916 and everything since. Historically vital and still cheap next to the bikes it spawned.",
+      "pros": [
+        "Founded the modern Ducati line",
+        "belt drive simplicity",
+        "undervalued"
+      ],
+      "cons": [
+        "Electrics are period Italian",
+        "parts need hunting"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1984 Pantah 600SL £2990. Good 500SLs ask considerably more"
+    },
+    {
+      "id": "ducati-900ss-bevel-1975",
+      "make": "Ducati",
+      "model": "900SS",
+      "variant": "Bevel",
+      "category": "Classic",
+      "year_from": 1975,
+      "year_to": 1982,
+      "engine_cc": 864,
+      "verdict": 10,
+      "description": "The bevel-drive 900SS, and the basis of Mike Hailwood's 1978 TT win. Desmodromic, hand-built and gloriously uncompromising — among the most desirable Ducatis ever made.",
+      "pros": [
+        "Blue-chip Ducati classic",
+        "Hailwood TT associations",
+        "stunning engineering"
+      ],
+      "cons": [
+        "Serious money",
+        "bevel servicing is specialist work"
+      ],
+      "price": {
+        "low": 20000,
+        "high": 45000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: a 1991 900SS project made £8050; genuine bevel-drive bikes are a different market entirely"
+    },
+    {
+      "id": "honda-vtr1000-sp-1-sp-2-2000",
+      "make": "Honda",
+      "model": "VTR1000 SP-1",
+      "variant": "SP-2",
+      "category": "Superbike",
+      "year_from": 2000,
+      "year_to": 2006,
+      "engine_cc": 999,
+      "verdict": 9,
+      "description": "Honda's homologation V-twin, built to beat Ducati at their own game — and it did, twice. Raw, focused and increasingly collectable as the last of the analogue Honda superbikes.",
+      "pros": [
+        "Genuine WSBK pedigree",
+        "glorious V-twin",
+        "values climbing"
+      ],
+      "cons": [
+        "Tiny fuel range",
+        "uncompromising riding position"
+      ],
+      "price": {
+        "low": 4500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "yamaha-sdr-200-1987",
+      "make": "Yamaha",
+      "model": "SDR 200",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 1987,
+      "year_to": 1989,
+      "engine_cc": 195,
+      "verdict": 8,
+      "description": "The Whippet. A 200cc two-stroke single in a trellis frame weighing barely 100kg, built for Japan and smuggled out by enthusiasts. Utterly unlike anything else and now a proper cult bike.",
+      "pros": [
+        "Extraordinary lightness",
+        "genuine rarity",
+        "cult status"
+      ],
+      "cons": [
+        "Grey import parts supply",
+        "two-stroke upkeep"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "yamaha-yzf600r-thundercat-1996",
+      "make": "Yamaha",
+      "model": "YZF600R",
+      "variant": "Thundercat",
+      "category": "Sports tourer",
+      "year_from": 1996,
+      "year_to": 2007,
+      "engine_cc": 599,
+      "verdict": 7,
+      "description": "A sports tourer wearing supersport clothes, and a far more comfortable proposition than the R6 that followed. Strong, dependable and now extremely cheap.",
+      "pros": [
+        "Comfortable for the class",
+        "tough motor",
+        "very cheap"
+      ],
+      "cons": [
+        "Heavier than a true supersport",
+        "dated brakes"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "triumph-x75-hurricane-1972",
+      "make": "Triumph",
+      "model": "X75 Hurricane",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1972,
+      "year_to": 1975,
+      "engine_cc": 740,
+      "verdict": 9,
+      "description": "Craig Vetter's factory special, with glass-fibre bodywork, a stepped seat and three pipes down one side. Credited with inventing the factory custom, and among the most collectable Triumphs of all.",
+      "pros": [
+        "Landmark design",
+        "genuine rarity",
+        "blue-chip collectable"
+      ],
+      "cons": [
+        "Very expensive",
+        "impractical fuel range"
+      ],
+      "price": {
+        "low": 18000,
+        "high": 30000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "mv-agusta-600gt-1965",
+      "make": "MV Agusta",
+      "model": "600GT",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1965,
+      "year_to": 1970,
+      "engine_cc": 592,
+      "verdict": 8,
+      "description": "The Black Pig. MV's first four-cylinder road bike, deliberately made heavy and ugly so it could not embarrass the racing department. Only 135 or so were built, which makes it fabulously rare.",
+      "pros": [
+        "Extreme rarity",
+        "MV four-cylinder history",
+        "fascinating backstory"
+      ],
+      "cons": [
+        "Deliberately unattractive",
+        "six-figure territory for the best"
+      ],
+      "price": {
+        "low": 30000,
+        "high": 60000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "yamaha-pw50-1981",
+      "make": "Yamaha",
+      "model": "PW50",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 1981,
+      "year_to": 2025,
+      "engine_cc": 49,
+      "verdict": 9,
+      "description": "The bike that has taught more children to ride than anything else. Automatic, shaft driven, adjustable and virtually indestructible. Values barely move because demand never stops.",
+      "pros": [
+        "Perfect first bike for a child",
+        "almost unbreakable",
+        "holds value remarkably"
+      ],
+      "cons": [
+        "Outgrown quickly",
+        "not road legal"
+      ],
+      "price": {
+        "low": 500,
+        "high": 1200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "kawasaki-ninja-h2-2015",
+      "make": "Kawasaki",
+      "model": "Ninja H2",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 998,
+      "verdict": 10,
+      "description": "A supercharged, 200bhp road-legal superbike with a mirror-finish paint job and a soundtrack like nothing else. The track-only H2R makes 300bhp. Genuinely unlike any other production motorcycle.",
+      "pros": [
+        "Supercharged and unique",
+        "astonishing performance",
+        "landmark engineering"
+      ],
+      "cons": [
+        "Very expensive",
+        "impractical for everyday use"
+      ],
+      "price": {
+        "low": 11000,
+        "high": 17000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "ktm-rc8-2008",
+      "make": "KTM",
+      "model": "RC8",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2008,
+      "year_to": 2015,
+      "engine_cc": 1195,
+      "verdict": 8,
+      "description": "KTM's only superbike, with a 75-degree V-twin and origami styling that still looks futuristic. Sharp, angry and rare, with a following that keeps values firm.",
+      "pros": [
+        "Distinctive design",
+        "strong V-twin",
+        "genuine rarity"
+      ],
+      "cons": [
+        "Uncompromising ergonomics",
+        "expensive servicing"
+      ],
+      "price": {
+        "low": 4500,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "kawasaki-zx-10-tomcat-1988",
+      "make": "Kawasaki",
+      "model": "ZX-10",
+      "variant": "Tomcat",
+      "category": "Superbike",
+      "year_from": 1988,
+      "year_to": 1990,
+      "engine_cc": 997,
+      "verdict": 8,
+      "description": "The fastest production bike of its day and the first Kawasaki with an aluminium perimeter frame. Big, heavy and immensely fast in a straight line — a genuine period landmark.",
+      "pros": [
+        "Historic significance",
+        "huge straight-line pace",
+        "increasingly collectable"
+      ],
+      "cons": [
+        "Heavy",
+        "dated chassis by modern standards"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "suzuki-intruder-vs800-1985",
+      "make": "Suzuki",
+      "model": "Intruder",
+      "variant": "VS800",
+      "category": "Cruiser",
+      "year_from": 1985,
+      "year_to": 2005,
+      "engine_cc": 805,
+      "verdict": 6,
+      "description": "Suzuki's long-running V-twin cruiser, sold in every capacity from 125 to 1400. Honest, cheap and dependable, if never as characterful as the American competition.",
+      "pros": [
+        "Very cheap",
+        "reliable",
+        "shaft drive on bigger models"
+      ],
+      "cons": [
+        "Lacks cruiser character",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "suzuki-boulevard-m109r-2006",
+      "make": "Suzuki",
+      "model": "Boulevard",
+      "variant": "M109R",
+      "category": "Cruiser",
+      "year_from": 2006,
+      "year_to": 2019,
+      "engine_cc": 1783,
+      "verdict": 7,
+      "description": "The Intruder renamed and, in M109R form, given a 1.8-litre V-twin and a 240-section rear tyre. A genuine power cruiser that will out-drag most sportsbikes to sixty.",
+      "pros": [
+        "Enormous torque",
+        "striking styling",
+        "good value used"
+      ],
+      "cons": [
+        "Very heavy",
+        "limited lean angle"
+      ],
+      "price": {
+        "low": 4500,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "keeway-cruiser-250-2015",
+      "make": "Keeway",
+      "model": "Cruiser 250",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2015,
+      "year_to": 2020,
+      "engine_cc": 249,
+      "verdict": 5,
+      "description": "A budget cruiser aimed at riders who wanted the look on an A2 licence. Basic in every respect, but cheap enough that the compromises are forgivable.",
+      "pros": [
+        "Very cheap",
+        "cruiser styling on a small capacity",
+        "low seat"
+      ],
+      "cons": [
+        "Basic build",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "bmw-hp4-2012",
+      "make": "BMW",
+      "model": "HP4",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2012,
+      "year_to": 2014,
+      "engine_cc": 999,
+      "verdict": 9,
+      "description": "An S1000RR with the first semi-active suspension fitted to a production motorcycle, plus forged wheels and titanium exhaust. A genuine technical landmark and produced in small numbers.",
+      "pros": [
+        "First semi-active suspension",
+        "huge performance",
+        "rare"
+      ],
+      "cons": [
+        "Expensive",
+        "costly to maintain"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "yamaha-road-star-1999",
+      "make": "Yamaha",
+      "model": "Road Star",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 1999,
+      "year_to": 2014,
+      "engine_cc": 1670,
+      "verdict": 7,
+      "description": "A big air-cooled pushrod V-twin built to take the fight to Milwaukee. Torquey, simple and endlessly customisable, with a loyal following on both sides of the Atlantic.",
+      "pros": [
+        "Huge torque",
+        "great custom base",
+        "very durable"
+      ],
+      "cons": [
+        "Heavy",
+        "modest brakes"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "kawasaki-zzr600-1990",
+      "make": "Kawasaki",
+      "model": "ZZR600",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 1990,
+      "year_to": 2008,
+      "engine_cc": 599,
+      "verdict": 7,
+      "description": "An overlooked middleweight sports tourer that stayed on sale for eighteen years. Roomy, stable and quick enough, and now about as much bike as you can buy for the money.",
+      "pros": [
+        "Comfortable and stable",
+        "tough",
+        "extremely cheap"
+      ],
+      "cons": [
+        "Dated",
+        "heavy for a 600"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "yamaha-fs1-e-1973",
+      "make": "Yamaha",
+      "model": "FS1-E",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 1973,
+      "year_to": 1977,
+      "engine_cc": 49,
+      "verdict": 9,
+      "description": "The Fizzy. The pedal-equipped sports moped that put a generation of sixteen-year-olds on the road, and now worth many times what it cost new. Nostalgia has made it genuinely valuable.",
+      "pros": [
+        "Enormous nostalgia value",
+        "strong and rising prices",
+        "simple mechanics"
+      ],
+      "cons": [
+        "Very slow",
+        "original examples are rare and pricey"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1974 FS1-E sold £4600, 1976 FS1 £4025, another £3105"
+    },
+    {
+      "id": "triumph-trident-t150-t160-1968",
+      "make": "Triumph",
+      "model": "Trident",
+      "variant": "T150/T160",
+      "category": "Classic",
+      "year_from": 1968,
+      "year_to": 1976,
+      "engine_cc": 740,
+      "verdict": 8,
+      "description": "Britain's answer to the CB750, badged as both the Triumph Trident and the BSA Rocket 3. A magnificent triple soundtrack, let down at the time by styling and BSA's collapse.",
+      "pros": [
+        "Glorious triple",
+        "genuine British superbike",
+        "strong club support"
+      ],
+      "cons": [
+        "Heavy",
+        "oil leaks are traditional"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1976 T160 Trident £5175; BSA A75R Rocket 3 £5520 and £5750"
+    },
+    {
+      "id": "velocette-thruxton-1964",
+      "make": "Velocette",
+      "model": "Thruxton",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1964,
+      "year_to": 1971,
+      "engine_cc": 499,
+      "verdict": 9,
+      "description": "The final and finest development of the Venom, built in tiny numbers and a winner at the Production TT. The connoisseur's British single, and priced as such.",
+      "pros": [
+        "Genuine racing pedigree",
+        "very rare",
+        "blue-chip British classic"
+      ],
+      "cons": [
+        "Serious money",
+        "fakes exist, so provenance matters"
+      ],
+      "price": {
+        "low": 12000,
+        "high": 22000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "norton-jubilee-250-1958",
+      "make": "Norton",
+      "model": "Jubilee",
+      "variant": "250",
+      "category": "Classic",
+      "year_from": 1958,
+      "year_to": 1966,
+      "engine_cc": 249,
+      "verdict": 6,
+      "description": "Norton's smallest ever engine and its first unit-construction twin, built to chase the learner market. Not their finest hour mechanically, but cheap and increasingly interesting.",
+      "pros": [
+        "Cheapest way into a Norton",
+        "unusual small twin",
+        "light"
+      ],
+      "cons": [
+        "Fragile by Norton standards",
+        "values stay low"
+      ],
+      "price": {
+        "low": 800,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1961 Jubilee £862, 1965 £230. Values remain very low"
+    },
+    {
+      "id": "moto-morini-350-sport-1973",
+      "make": "Moto Morini",
+      "model": "350 Sport",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1973,
+      "year_to": 1983,
+      "engine_cc": 344,
+      "verdict": 8,
+      "description": "A 72-degree V-twin with Heron heads and beautiful proportions, and one of the great Italian middleweights. Sweet-handling, well engineered and still undervalued.",
+      "pros": [
+        "Lovely V-twin",
+        "superb handling",
+        "undervalued"
+      ],
+      "cons": [
+        "Parts require patience",
+        "small dealer support"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: c.1974 350 Mk1 £1035; tidy Sport models list well above that"
+    },
+    {
+      "id": "triumph-model-h-1915",
+      "make": "Triumph",
+      "model": "Model H",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1915,
+      "year_to": 1923,
+      "engine_cc": 499,
+      "verdict": 8,
+      "description": "The Trusty. Over 30,000 were built for despatch riders in the Great War, and it did as much as anything to establish the motorcycle as serious transport. A genuine piece of history.",
+      "pros": [
+        "Enormous historical significance",
+        "surprisingly usable",
+        "strong club support"
+      ],
+      "cons": [
+        "Hand gearchange and total-loss oiling",
+        "pre-war riding skills required"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: c.1919 Model H 550cc sold £4830"
+    },
+    {
+      "id": "metisse-desert-racer-2009",
+      "make": "Metisse",
+      "model": "Desert Racer",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 2009,
+      "year_to": 2015,
+      "engine_cc": 499,
+      "verdict": 8,
+      "description": "A faithful recreation of Steve McQueen's Rickman Metisse, built in a limited run of 300. Beautifully made, genuinely rideable and carrying the best backstory in motorcycling.",
+      "pros": [
+        "Superb build quality",
+        "McQueen provenance",
+        "limited run"
+      ],
+      "cons": [
+        "Expensive for a replica",
+        "niche appeal"
+      ],
+      "price": {
+        "low": 10000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1978 Rickman Metisse Triumph £6900. The 2009 replica run listed at £13999 new"
+    },
+    {
+      "id": "norton-manx-1946",
+      "make": "Norton",
+      "model": "Manx",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1946,
+      "year_to": 1962,
+      "engine_cc": 499,
+      "verdict": 10,
+      "description": "The definitive British racing single, and the bike that dominated the Isle of Man for a generation. The Featherbed frame it introduced changed motorcycle chassis design permanently.",
+      "pros": [
+        "Landmark racing machine",
+        "introduced the Featherbed frame",
+        "blue-chip investment"
+      ],
+      "cons": [
+        "Pure racer, not road legal",
+        "replicas and specials abound"
+      ],
+      "price": {
+        "low": 30000,
+        "high": 60000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "kawasaki-ar50-1981",
+      "make": "Kawasaki",
+      "model": "AR50",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 1981,
+      "year_to": 1994,
+      "engine_cc": 49,
+      "verdict": 7,
+      "description": "A proper little motorcycle rather than a moped, with a monoshock frame and disc brake at a time when rivals had neither. Restricted to 30mph but sharp-handling and much loved.",
+      "pros": [
+        "Grown-up chassis for a 50",
+        "great handling",
+        "nostalgia value"
+      ],
+      "cons": [
+        "Very slow",
+        "most have been thrashed"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
     }
   ]
 }
