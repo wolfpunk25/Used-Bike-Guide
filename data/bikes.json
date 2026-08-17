@@ -4346,14 +4346,15 @@
         "brakes are modest"
       ],
       "price": {
-        "low": 4000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 5300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Over 20k miles c.£3000; sweet spot £4000-£5000 for sub-10k. 2016 with 10.7k miles £4995"
     },
     {
       "id": "triumph-speed-triple-1050-2005",
@@ -5213,14 +5214,15 @@
         "basic suspension"
       ],
       "price": {
-        "low": 2900,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 5300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2014 with 23k miles £2990; 2019 with 5.8k miles £5290"
     },
     {
       "id": "honda-cb500x-2013",
@@ -5244,13 +5246,14 @@
       ],
       "price": {
         "low": 3000,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020-21 examples £4499-£4895; earlier bikes below that"
     },
     {
       "id": "honda-cb1000r-2008",
@@ -5335,14 +5338,15 @@
         "heavy for the class"
       ],
       "price": {
-        "low": 3500,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3800,
+        "high": 5400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 higher-mileage £3989 up to £5395 for a tidy 2018"
     },
     {
       "id": "honda-msx125-grom-2013",
@@ -5425,14 +5429,15 @@
         "VTEC still noticeable"
       ],
       "price": {
-        "low": 4500,
+        "low": 4000,
         "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2014 dealer £5900 / private £4700; £6000 buys c.10k miles with full luggage"
     },
     {
       "id": "honda-cmx500-rebel-2017",
@@ -5757,14 +5762,15 @@
         "soft suspension"
       ],
       "price": {
-        "low": 3800,
-        "high": 6200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 5800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012-14 £2150-£3499; 2019 £4995; 2023 £5490-£5790"
     },
     {
       "id": "kawasaki-z650-2017",
@@ -5848,13 +5854,14 @@
       ],
       "price": {
         "low": 4500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012 from £4990; 2016-18 £5389-£6850; 2019-20 £8290-£8790"
     },
     {
       "id": "kawasaki-z900rs-2018",
@@ -5907,14 +5914,15 @@
         "tall"
       ],
       "price": {
-        "low": 4000,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 with 17k miles £4750; 2017 £6495; 2024 examples £9799-£11995"
     },
     {
       "id": "kawasaki-vulcan-s-2015",
@@ -6117,14 +6125,15 @@
         "firm ride"
       ],
       "price": {
-        "low": 6500,
-        "high": 10000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7000,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2014-15 £7299-£7999; 2022-23 £9695-£11999. Values holding unusually well"
     },
     {
       "id": "bmw-s1000r-2014",
@@ -6147,14 +6156,15 @@
         "expensive out of warranty"
       ],
       "price": {
-        "low": 5000,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2014 stock c.£6000, Sport c.£7000; 2017-on £8000-£11500. Sport spec matters - it cannot be retrofitted"
     },
     {
       "id": "bmw-g310r-2017",
@@ -6267,14 +6277,15 @@
         "hot in traffic"
       ],
       "price": {
-        "low": 6000,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Base examples from c.£4475; 1200S 2015 £7300-£7995"
     },
     {
       "id": "ducati-multistrada-1200-2010",
@@ -6297,14 +6308,15 @@
         "complex electronics"
       ],
       "price": {
-        "low": 5500,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 7800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2010 bikes to c.£6000; 2012 listings £4999-£7750"
     },
     {
       "id": "ducati-diavel-2011",
@@ -6327,14 +6339,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 6500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012 £5999-£6995; 2016 Carbon £9990"
     },
     {
       "id": "ktm-1290-super-duke-r-2014",
@@ -6357,14 +6370,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 7500,
+        "low": 6800,
         "high": 11000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 from £6990; 2019 £8499; 2020 £9350; 2023 £10495"
     },
     {
       "id": "ktm-690-duke-2012",
@@ -6509,13 +6523,14 @@
       ],
       "price": {
         "low": 6500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 with 19k miles £6790; 2020 Factory £10790. Guide range £7000-£9000"
     },
     {
       "id": "mv-agusta-f3-675-2012",
@@ -6748,14 +6763,15 @@
         "firm ride"
       ],
       "price": {
-        "low": 6000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5800,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012 with 16k miles £6189; 2016 £6995; 2018 KRT with 2.2k miles £9990"
     },
     {
       "id": "suzuki-katana-2019",
