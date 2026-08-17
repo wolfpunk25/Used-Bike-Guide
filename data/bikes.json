@@ -12742,7 +12742,7 @@
       "make": "KTM",
       "model": "450 EXC",
       "variant": "",
-      "category": "Adventure",
+      "category": "Enduro",
       "year_from": 2003,
       "year_to": 2025,
       "engine_cc": 449,
@@ -12758,15 +12758,23 @@
         "not a road bike"
       ],
       "price": {
-        "low": 2800,
-        "high": 5500,
+        "low": 3600,
+        "high": 8800,
         "as_of": "2026-08-17",
-        "source": "budget-dealer-list+market",
+        "source": "market+dealer-lists",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 2800,
+          "high": 5500,
+          "source": "budget-dealer-list+market",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Realigned with the 350 and 500 EXC-F after review; the earlier figure rested on a single 2010 data point and sat out of step with the rest of the range"
     },
     {
       "id": "sinnis-terrain-380-2019",
@@ -14912,7 +14920,7 @@
       "make": "Husqvarna",
       "model": "701 Enduro",
       "variant": "",
-      "category": "Adventure",
+      "category": "Enduro",
       "year_from": 2016,
       "year_to": 2025,
       "engine_cc": 692,
@@ -15532,7 +15540,7 @@
       "make": "Beta",
       "model": "RR 4T 125",
       "variant": "",
-      "category": "Adventure",
+      "category": "Enduro",
       "year_from": 2018,
       "year_to": 2025,
       "engine_cc": 124,
@@ -17386,6 +17394,750 @@
       },
       "price_history": [],
       "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ktm-300-exc-1990",
+      "make": "KTM",
+      "model": "300 EXC",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 1990,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 9,
+      "description": "The definitive road-legal two-stroke enduro, and the bike most serious green-laners and enduro riders end up on. Light, savagely torquey and capable of climbing almost anything. TPI fuel injection from 2018 transformed the fuelling.",
+      "pros": [
+        "Astonishing off-road ability",
+        "very light",
+        "huge dealer and parts support"
+      ],
+      "cons": [
+        "Short service intervals",
+        "hopeless as road transport"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "ktm-250-exc-f-2007",
+      "make": "KTM",
+      "model": "250 EXC-F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2007,
+      "year_to": 2025,
+      "engine_cc": 250,
+      "verdict": 8,
+      "description": "The four-stroke 250 enduro, and the easiest of the EXC range to ride fast. Less brutal than the 300 two-stroke and far more forgiving for a rider still learning technique.",
+      "pros": [
+        "Very manageable power",
+        "excellent chassis",
+        "forgiving"
+      ],
+      "cons": [
+        "Needs revs off road",
+        "service intervals in hours"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "ktm-350-exc-f-2012",
+      "make": "KTM",
+      "model": "350 EXC-F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2012,
+      "year_to": 2025,
+      "engine_cc": 350,
+      "verdict": 9,
+      "description": "The sweet spot of the EXC range for many riders — the agility of a 250 with usefully more drive. Arguably the most complete road-legal enduro you can buy.",
+      "pros": [
+        "Superb balance of power and weight",
+        "brilliant chassis",
+        "widely regarded as the pick"
+      ],
+      "cons": [
+        "Expensive",
+        "frequent servicing"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "ktm-500-exc-f-2012",
+      "make": "KTM",
+      "model": "500 EXC-F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2012,
+      "year_to": 2025,
+      "engine_cc": 510,
+      "verdict": 8,
+      "description": "The big four-stroke EXC, with enough torque to lug up anything and just about enough road manners to ride there. Popular for adventure conversions and rally builds.",
+      "pros": [
+        "Huge torque",
+        "usable on road",
+        "strong aftermarket"
+      ],
+      "cons": [
+        "Heavy for the class",
+        "vibration at road speeds"
+      ],
+      "price": {
+        "low": 3800,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "husqvarna-te-300-2014",
+      "make": "Husqvarna",
+      "model": "TE 300",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 9,
+      "description": "The Husqvarna take on the 300 two-stroke enduro, sharing KTM architecture with different suspension settings and bodywork. Every bit as capable and often a little cheaper used.",
+      "pros": [
+        "Superb off-road ability",
+        "light",
+        "often cheaper than the KTM"
+      ],
+      "cons": [
+        "Short service intervals",
+        "not road transport"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 7800,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "husqvarna-fe-250-2014",
+      "make": "Husqvarna",
+      "model": "FE 250",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 250,
+      "verdict": 8,
+      "description": "A friendly four-stroke enduro that flatters a developing rider. Light, tractable and typically well finished, with the same competition underpinnings as the KTM equivalent.",
+      "pros": [
+        "Very approachable",
+        "excellent chassis",
+        "good finish"
+      ],
+      "cons": [
+        "Modest torque",
+        "service intervals in hours"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2024 FE 250 with 276 miles £6899"
+    },
+    {
+      "id": "husqvarna-fe-350-2014",
+      "make": "Husqvarna",
+      "model": "FE 350",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 350,
+      "verdict": 9,
+      "description": "The 350 four-stroke, and for many the ideal road-legal enduro. Enough drive for anything a trail throws up without the weight of a 450.",
+      "pros": [
+        "Ideal power-to-weight",
+        "superb suspension",
+        "widely admired"
+      ],
+      "cons": [
+        "Expensive",
+        "frequent maintenance"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "husqvarna-fe-501-2014",
+      "make": "Husqvarna",
+      "model": "FE 501",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 510,
+      "verdict": 8,
+      "description": "The biggest FE, with enormous torque and enough road ability to make it a genuine dual-purpose machine. A favourite base for lightweight adventure builds.",
+      "pros": [
+        "Massive torque",
+        "road-usable",
+        "great conversion base"
+      ],
+      "cons": [
+        "Heavy off road",
+        "vibration"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2025 FE 501 with 323 miles £8995"
+    },
+    {
+      "id": "beta-rr-300-2t-2013",
+      "make": "Beta",
+      "model": "RR 300 2T",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2013,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 8,
+      "description": "The Italian alternative to the Austrians, with a softer power delivery that many riders find easier in tight going. Well made and with a loyal following.",
+      "pros": [
+        "Friendly delivery",
+        "excellent in tight going",
+        "well built"
+      ],
+      "cons": [
+        "Smaller dealer network",
+        "resale below KTM"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 7700,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2026 RR 2T 300 with delivery mileage £7700"
+    },
+    {
+      "id": "beta-rr-350-4t-2013",
+      "make": "Beta",
+      "model": "RR 350 4T",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2013,
+      "year_to": 2025,
+      "engine_cc": 349,
+      "verdict": 8,
+      "description": "A four-stroke Beta enduro with Sachs suspension and a distinctly Italian feel. Capable and characterful, and usually cheaper used than the equivalent KTM.",
+      "pros": [
+        "Good value used",
+        "capable chassis",
+        "distinctive"
+      ],
+      "cons": [
+        "Dealer coverage",
+        "parts lead times"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 6800,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "gasgas-ec-300-2000",
+      "make": "GasGas",
+      "model": "EC 300",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2000,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 8,
+      "description": "A Spanish two-stroke enduro with a long competition history, now built under KTM ownership and sharing much with the EXC. Earlier Spanish-built bikes have their own following.",
+      "pros": [
+        "Strong competition history",
+        "capable",
+        "cheaper than KTM equivalents"
+      ],
+      "cons": [
+        "Pre-KTM parts supply",
+        "values vary by era"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "gasgas-ec-350f-2021",
+      "make": "GasGas",
+      "model": "EC 350F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 350,
+      "verdict": 8,
+      "description": "The four-stroke GasGas, essentially an EXC-F in red with simpler suspension and a lower price. A sensible way into a competitive enduro bike.",
+      "pros": [
+        "Cheaper than the KTM equivalent",
+        "proven platform",
+        "capable"
+      ],
+      "cons": [
+        "Fewer adjustments than the KTM",
+        "service intervals"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "sherco-se-300-2010",
+      "make": "Sherco",
+      "model": "SE 300",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2010,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 8,
+      "description": "A French two-stroke enduro with a devoted following and genuine competition pedigree. Slightly softer than a KTM and rated highly for extreme enduro.",
+      "pros": [
+        "Excellent in extreme going",
+        "strong following",
+        "distinctive"
+      ],
+      "cons": [
+        "Small dealer network",
+        "resale is patchy"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "sherco-sef-450-2015",
+      "make": "Sherco",
+      "model": "SEF 450",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 449,
+      "verdict": 8,
+      "description": "The big four-stroke Sherco, with plenty of torque and a chassis that suits fast open going. Rare in the UK, which cuts both ways on price.",
+      "pros": [
+        "Strong engine",
+        "good for fast trails",
+        "cheap used"
+      ],
+      "cons": [
+        "Rare, so parts take time",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "yamaha-wr250f-2001",
+      "make": "Yamaha",
+      "model": "WR250F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2001,
+      "year_to": 2025,
+      "engine_cc": 250,
+      "verdict": 8,
+      "description": "Yamaha's four-stroke enduro, road legal in UK trim and famously tough. Less highly strung than the Austrian competition and cheaper to keep, which wins it a lot of friends.",
+      "pros": [
+        "Very durable",
+        "longer service intervals than rivals",
+        "cheap to run"
+      ],
+      "cons": [
+        "Heavier than a KTM",
+        "softer standard suspension"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "yamaha-wr450f-2003",
+      "make": "Yamaha",
+      "model": "WR450F",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2003,
+      "year_to": 2025,
+      "engine_cc": 450,
+      "verdict": 8,
+      "description": "The big WR, with strong torque and Yamaha reliability. A sensible choice for riders who want competition ability without competition running costs.",
+      "pros": [
+        "Tough and reliable",
+        "strong torque",
+        "reasonable running costs"
+      ],
+      "cons": [
+        "Heavy",
+        "tall seat"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "honda-crf450x-2005",
+      "make": "Honda",
+      "model": "CRF450X",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2005,
+      "year_to": 2025,
+      "engine_cc": 449,
+      "verdict": 8,
+      "description": "Honda's road-legal enduro, built to last rather than to win. Softer and heavier than the Europeans, and correspondingly far cheaper to own over a season.",
+      "pros": [
+        "Legendary durability",
+        "long service intervals",
+        "cheap to run"
+      ],
+      "cons": [
+        "Heavy",
+        "soft standard suspension"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2016 CRF450X with 4334 miles £3899; 2024 CRF450RX £6500"
+    },
+    {
+      "id": "honda-crf300-rally-2021",
+      "make": "Honda",
+      "model": "CRF300 Rally",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 286,
+      "verdict": 8,
+      "description": "The CRF300L with a rally fairing, bigger tank and longer travel. Genuinely useful for long green-lane days and small-scale adventure touring.",
+      "pros": [
+        "Good range",
+        "comfortable for the class",
+        "reliable"
+      ],
+      "cons": [
+        "Slow on road",
+        "tall"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 5800,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Priced against the CRF300L, which the dealer lists carry at £4250-£5200"
+    },
+    {
+      "id": "suzuki-dr650se-1996",
+      "make": "Suzuki",
+      "model": "DR650SE",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 1996,
+      "year_to": 2025,
+      "engine_cc": 644,
+      "verdict": 8,
+      "description": "A big air-cooled single trail bike that has barely changed in thirty years. Simple, tough and endlessly modifiable — a favourite for budget round-the-world builds.",
+      "pros": [
+        "Bombproof",
+        "simple to fix",
+        "huge aftermarket"
+      ],
+      "cons": [
+        "Dated suspension",
+        "vibration"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "kawasaki-klx230-2020",
+      "make": "Kawasaki",
+      "model": "KLX230",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 233,
+      "verdict": 7,
+      "description": "A light, friendly trail bike aimed at newcomers rather than racers. Low seat, easy power and Kawasaki dependability make it an ideal first green-laner.",
+      "pros": [
+        "Very approachable",
+        "light",
+        "reliable"
+      ],
+      "cons": [
+        "Modest suspension",
+        "not a competition bike"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "rieju-mr-300-racing-2021",
+      "make": "Rieju",
+      "model": "MR 300 Racing",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 293,
+      "verdict": 8,
+      "description": "A Spanish enduro built around the well-proven GasGas two-stroke engine after Rieju acquired the tooling. Capable, well specced and usually cheaper than the big names.",
+      "pros": [
+        "Proven engine",
+        "good specification",
+        "keen price"
+      ],
+      "cons": [
+        "Very small dealer network",
+        "unproven residuals"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "fantic-xef-250-2022",
+      "make": "Fantic",
+      "model": "XEF 250",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 250,
+      "verdict": 7,
+      "description": "An Italian enduro using Yamaha's WR250F engine in Fantic's own chassis. Well finished and distinctive, with the reassurance of Japanese mechanicals underneath.",
+      "pros": [
+        "Yamaha engine reliability",
+        "good finish",
+        "distinctive"
+      ],
+      "cons": [
+        "Dealer coverage",
+        "resale unproven"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2026 XEF 250 Enduro Trail with 1341 miles £2999"
+    },
+    {
+      "id": "ajp-pr7-2017",
+      "make": "AJP",
+      "model": "PR7",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2017,
+      "year_to": 2025,
+      "engine_cc": 600,
+      "verdict": 7,
+      "description": "A Portuguese lightweight adventure bike with a SWM-sourced single and genuine off-road ability. Rare, characterful and far lighter than the mainstream adventure crowd.",
+      "pros": [
+        "Very light for an adventure bike",
+        "genuinely capable",
+        "distinctive"
+      ],
+      "cons": [
+        "Tiny dealer network",
+        "limited parts availability"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
+    },
+    {
+      "id": "honda-xr400r-1996",
+      "make": "Honda",
+      "model": "XR400R",
+      "variant": "",
+      "category": "Enduro",
+      "year_from": 1996,
+      "year_to": 2004,
+      "engine_cc": 397,
+      "verdict": 8,
+      "description": "An air-cooled four-stroke enduro from before the class went highly strung. Heavy by modern standards but almost impossible to break, and still a favourite for green-laning.",
+      "pros": [
+        "Nearly indestructible",
+        "simple",
+        "cheap to run"
+      ],
+      "cons": [
+        "Heavy",
+        "kick-start only"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Road-legal enduro values are driven by engine hours and year far more than mileage; range spans an older high-hours example to a recent low-hours one"
     }
   ]
 }
