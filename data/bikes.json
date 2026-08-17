@@ -4686,14 +4686,15 @@
         "early recalls"
       ],
       "price": {
-        "low": 2800,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1900,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £1750-£3995, most £2800-£3500. Has fallen further than expected"
     },
     {
       "id": "bmw-r1200rt-2005",
@@ -4747,14 +4748,15 @@
         "belt services"
       ],
       "price": {
-        "low": 2800,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK listings sparse; most comparables are overseas, so treat with caution"
     },
     {
       "id": "ducati-monster-696-2008",
@@ -4777,14 +4779,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 3000,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2800,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Sweet spot £3000-£4500; 2009 with 19k miles £3350, low-mileage 2008 £4250"
     },
     {
       "id": "ducati-1098-2007",
@@ -4807,14 +4810,15 @@
         "runs hot"
       ],
       "price": {
-        "low": 7000,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5500,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Standard 1098 £5499-£7795; the £17-21k results are 1098R variants, not the base bike"
     },
     {
       "id": "ducati-hypermotard-1100-2007",
@@ -4838,13 +4842,14 @@
       ],
       "price": {
         "low": 4000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1100S listings £5590-£6240; base 1100 sits below that"
     },
     {
       "id": "ktm-990-adventure-2006",
@@ -4868,13 +4873,14 @@
       ],
       "price": {
         "low": 4000,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Well-used early bikes £4500-£5000 at a dealer; 2008-2012 listings £3999-£6750"
     },
     {
       "id": "ktm-990-super-duke-2005",
@@ -4897,14 +4903,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 3800,
+        "low": 3900,
         "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006 with 12k miles £3995; 2010 with 5k miles £4999; modified examples higher"
     },
     {
       "id": "aprilia-rsv-mille-1998",
@@ -4958,14 +4965,15 @@
         "parts can be scarce"
       ],
       "price": {
-        "low": 3500,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3200,
+        "high": 5600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Dealers price a good one £3500-£5500; Factory models £4000-£6000"
     },
     {
       "id": "harley-davidson-sportster-1200-2004",
@@ -4988,14 +4996,15 @@
         "limited ground clearance"
       ],
       "price": {
-        "low": 4500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4000,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £3999-£10000, most £5500-£8495; 2010s models at the top"
     },
     {
       "id": "harley-davidson-v-rod-2002",
@@ -5019,13 +5028,14 @@
       ],
       "price": {
         "low": 5000,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "eBay UK bands cluster under £5560 and £5560-£11100"
     },
     {
       "id": "buell-xb12s-lightning-2004",
@@ -5049,13 +5059,14 @@
       ],
       "price": {
         "low": 3000,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK dealer c.£4490; wider listings £3384-£4497"
     },
     {
       "id": "mv-agusta-brutale-910-2005",
@@ -5078,14 +5089,15 @@
         "dealer network"
       ],
       "price": {
-        "low": 4000,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3400,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2005 examples £3399-£4454; 2007 c.£5495"
     },
     {
       "id": "moto-guzzi-v7-classic-2008",
@@ -5110,12 +5122,13 @@
       "price": {
         "low": 3500,
         "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £3698-£5999; 2008 with 6k miles £3698"
     },
     {
       "id": "royal-enfield-bullet-500-2000",
@@ -5138,14 +5151,15 @@
         "build quality varies"
       ],
       "price": {
-        "low": 2000,
+        "low": 1200,
         "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Wide spread on eBay UK: £930, £1500, £1900 up to £4500 by age and condition"
     },
     {
       "id": "suzuki-gsf650-bandit-2005",
@@ -5168,14 +5182,15 @@
         "unexciting"
       ],
       "price": {
-        "low": 1500,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1200,
+        "high": 3300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £1000-1500, tidy £1900-2600, mint £2800-3300"
     },
     {
       "id": "honda-cbr500r-2013",
@@ -5258,14 +5273,15 @@
         "overshadowed by rivals"
       ],
       "price": {
-        "low": 3000,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3300,
+        "high": 5700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Private-sale guide £3750 (2009) rising to £5700 (2017); listings £3795-£4990"
     },
     {
       "id": "honda-cbr1000rr-fireblade-2008",
