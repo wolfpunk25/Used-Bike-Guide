@@ -10712,6 +10712,99 @@
       },
       "price_history": [],
       "notes": "Listings £9995-£13950; a 1952 carried a £6000-£8000 auction estimate"
+    },
+    {
+      "id": "triumph-bonneville-speedmaster-1200-2018",
+      "make": "Triumph",
+      "model": "Bonneville Speedmaster",
+      "variant": "1200",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 1200,
+      "verdict": 8,
+      "description": "The Bobber's more practical cousin, with pillion provision, a bigger tank and forward controls. Same torquey 1200 twin, but set up for actually going somewhere rather than posing outside a cafe.",
+      "pros": [
+        "Torquey 1200 twin",
+        "far more usable than the Bobber",
+        "superb finish"
+      ],
+      "cons": [
+        "Heavy",
+        "forward controls do not suit everyone"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Five in dealer stock at £11995-£13795 (recent, low-mileage); older examples sit below"
+    },
+    {
+      "id": "triumph-scrambler-400-x-2024",
+      "make": "Triumph",
+      "model": "Scrambler 400 X",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 398,
+      "verdict": 8,
+      "description": "The Speed 400 given longer travel, a 19-inch front wheel and wider bars. Light, genuinely capable on a gravel track and priced to embarrass bikes costing twice as much. Arguably the pick of the small Triumphs.",
+      "pros": [
+        "Excellent value",
+        "light and capable",
+        "proper finish for the money"
+      ],
+      "cons": [
+        "Modest power",
+        "basic suspension damping"
+      ],
+      "price": {
+        "low": 5300,
+        "high": 6700,
+        "as_of": "2026-08-17",
+        "source": "dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Four in dealer stock at £5795-£6645 against c.£5995 new"
+    },
+    {
+      "id": "bmw-r1200rs-2015",
+      "make": "BMW",
+      "model": "R1200RS",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2015,
+      "year_to": 2018,
+      "engine_cc": 1170,
+      "verdict": 7,
+      "description": "A half-faired boxer sports tourer, effectively the R1200R with weather protection. Comfortable, quick enough and quietly capable, but sold in small numbers, which keeps used prices sensible.",
+      "pros": [
+        "Comfortable over distance",
+        "characterful boxer",
+        "undervalued"
+      ],
+      "cons": [
+        "Rare, so choice is limited",
+        "options inflate asking prices"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 7800,
+        "as_of": "2026-08-17",
+        "source": "dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Two in dealer stock at £6999 (Sport SE spec)"
     }
   ]
 }
