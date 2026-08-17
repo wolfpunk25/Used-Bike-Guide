@@ -18,10 +18,10 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Pull asking prices from eBay
         env:
@@ -41,7 +41,7 @@ jobs:
       # Opens a PR rather than committing straight to main, so a human signs
       # off on the numbers before they reach the layout.
       - name: Raise a PR with the new prices
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "Refresh used prices"
           branch: price-refresh
