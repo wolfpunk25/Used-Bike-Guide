@@ -6030,14 +6030,22 @@
       ],
       "price": {
         "low": 5500,
-        "high": 9500,
+        "high": 11000,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2021 RS with 5.5k miles £7490; 2023 RS £7999; newest RS £9489-£10495"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 5500,
+          "high": 9500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Widened: Webbs hold eight at £7799-£11995. RS spec drives the top"
     },
     {
       "id": "triumph-bonneville-t120-2016",
@@ -6092,14 +6100,22 @@
       ],
       "price": {
         "low": 7500,
-        "high": 10500,
+        "high": 11500,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2020 with 9.2k miles £8000; 2022 £9990; 2023 with 2.9k £10299"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 7500,
+          "high": 10500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Nudged up: a main dealer example at £14295 sits well above our previous top"
     },
     {
       "id": "triumph-speed-twin-1200-2019",
@@ -6123,14 +6139,22 @@
       ],
       "price": {
         "low": 6500,
-        "high": 9500,
+        "high": 11000,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2019 £7344; 2020 £7690-£7990; 2024 £9390. New now £12495"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 6500,
+          "high": 9500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Widened: Webbs stock £6999-£14795, the top being current RS models"
     },
     {
       "id": "triumph-street-scrambler-2017",
@@ -7518,14 +7542,22 @@
       ],
       "price": {
         "low": 4500,
-        "high": 6600,
+        "high": 8000,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2021 higher-mileage from £4490; 2024 examples £5390-£5990; top c.£6995"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 4500,
+          "high": 6600,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Widened: Webbs stock £6499-£7945. Floor kept for private sales"
     },
     {
       "id": "triumph-tiger-900-2020",
@@ -7673,14 +7705,22 @@
       ],
       "price": {
         "low": 6500,
-        "high": 7600,
+        "high": 9000,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2025 with 875 miles £6900; dealer used example £6789. Very few genuinely used yet"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 6500,
+          "high": 7600,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Widened after dealer cross-check: Webbs hold four at £6499-£8995, above our previous £7600 top"
     },
     {
       "id": "bmw-r1300gs-2024",
