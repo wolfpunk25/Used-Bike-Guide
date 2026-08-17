@@ -19750,6 +19750,378 @@
       },
       "price_history": [],
       "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "mv-agusta-brutale-750-2001",
+      "make": "MV Agusta",
+      "model": "Brutale 750",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2001,
+      "year_to": 2005,
+      "engine_cc": 749,
+      "verdict": 8,
+      "description": "The original Brutale, and one of Massimo Tamburini's finest shapes. A howling four-cylinder naked with exquisite detailing and the organ-pipe exhausts that became an MV signature.",
+      "pros": [
+        "Gorgeous design",
+        "glorious noise",
+        "genuine exclusivity"
+      ],
+      "cons": [
+        "Expensive servicing",
+        "dealer network was thin when new"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "ducati-streetfighter-848-2011",
+      "make": "Ducati",
+      "model": "Streetfighter 848",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2011,
+      "year_to": 2015,
+      "engine_cc": 849,
+      "verdict": 8,
+      "description": "A 848 superbike stripped of its fairing and given wide bars. Sharp, loud and considerably more usable on the road than the 1098-based original, with the same aggressive stance.",
+      "pros": [
+        "Superb chassis",
+        "strong twin",
+        "more usable than the 1098 version"
+      ],
+      "cons": [
+        "Hot in traffic",
+        "belt services"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "suzuki-tl1000r-1998",
+      "make": "Suzuki",
+      "model": "TL1000R",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 1998,
+      "year_to": 2003,
+      "engine_cc": 996,
+      "verdict": 7,
+      "description": "The faired, homologation-flavoured TL, built to go World Superbike racing. Heavier and less successful than Suzuki hoped, but a strong, characterful V-twin and cheap for what it is.",
+      "pros": [
+        "Charismatic V-twin",
+        "rare",
+        "cheap for a homologation bike"
+      ],
+      "cons": [
+        "Heavy",
+        "rotary damper reputation lingers"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "honda-vfr800x-crossrunner-2011",
+      "make": "Honda",
+      "model": "VFR800X",
+      "variant": "Crossrunner",
+      "category": "Adventure",
+      "year_from": 2011,
+      "year_to": 2021,
+      "engine_cc": 782,
+      "verdict": 7,
+      "description": "A V4 adventure-styled road bike, using the VFR800 engine in a taller chassis. Not an off-roader, but a superb all-weather all-rounder with a wonderful engine note.",
+      "pros": [
+        "Glorious V4",
+        "comfortable",
+        "excellent build"
+      ],
+      "cons": [
+        "Heavy",
+        "no real off-road ability"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "yamaha-xt600-1984",
+      "make": "Yamaha",
+      "model": "XT600",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 1984,
+      "year_to": 2003,
+      "engine_cc": 595,
+      "verdict": 8,
+      "description": "The big air-cooled XT single, and the backbone of trail riding for two decades. Simple, tough and endlessly repairable, with a following that keeps tidy examples in demand.",
+      "pros": [
+        "Very tough",
+        "simple to fix",
+        "strong following"
+      ],
+      "cons": [
+        "Vibration",
+        "kick-start on early models"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "yamaha-xt1200z-super-tenere-2010",
+      "make": "Yamaha",
+      "model": "XT1200Z",
+      "variant": "Super Tenere",
+      "category": "Adventure",
+      "year_from": 2010,
+      "year_to": 2021,
+      "engine_cc": 1199,
+      "verdict": 8,
+      "description": "Yamaha's big shaft-driven adventure bike, built to Dakar-winning heritage but aimed squarely at long-distance touring. Immensely durable and consistently undervalued against the GS.",
+      "pros": [
+        "Shaft drive",
+        "enormously durable",
+        "cheaper than the equivalent GS"
+      ],
+      "cons": [
+        "Heavy",
+        "less refined than the BMW"
+      ],
+      "price": {
+        "low": 4500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "yamaha-xvs650-dragstar-1997",
+      "make": "Yamaha",
+      "model": "XVS650",
+      "variant": "Dragstar",
+      "category": "Cruiser",
+      "year_from": 1997,
+      "year_to": 2016,
+      "engine_cc": 649,
+      "verdict": 7,
+      "description": "A mid-size V-twin cruiser with shaft drive and classic proportions. Easy to ride, cheap to own and a popular base for customs, which is where many have ended up.",
+      "pros": [
+        "Shaft drive",
+        "very easy to ride",
+        "huge custom scene"
+      ],
+      "cons": [
+        "Modest performance",
+        "soft suspension"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "honda-xl125v-varadero-2001",
+      "make": "Honda",
+      "model": "XL125V",
+      "variant": "Varadero",
+      "category": "Adventure",
+      "year_from": 2001,
+      "year_to": 2016,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A learner-legal V-twin adventure bike that looks like the 1000 and rides like a proper motorcycle. Heavy for a 125, but comfortable and unusually grown-up.",
+      "pros": [
+        "Full-size feel",
+        "comfortable",
+        "V-twin character on a 125"
+      ],
+      "cons": [
+        "Heavy for the class",
+        "slow"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "suzuki-rgv250-1988",
+      "make": "Suzuki",
+      "model": "RGV250",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 1988,
+      "year_to": 1996,
+      "engine_cc": 249,
+      "verdict": 9,
+      "description": "A V-twin two-stroke race replica with a genuine GP pedigree and a powerband that arrives like a light switch. One of the great 250 strokers and now seriously collectable.",
+      "pros": [
+        "Genuine race replica",
+        "thrilling powerband",
+        "values climbing hard"
+      ],
+      "cons": [
+        "Two-stroke running costs",
+        "few unmolested survivors"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "triumph-speed-four-2002",
+      "make": "Triumph",
+      "model": "Speed Four",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2002,
+      "year_to": 2006,
+      "engine_cc": 599,
+      "verdict": 7,
+      "description": "A naked TT600, and a much better bike than its sales suggested. The fuelling problems were sorted by then, the chassis is excellent, and it remains genuinely cheap.",
+      "pros": [
+        "Excellent chassis",
+        "undervalued",
+        "distinctive"
+      ],
+      "cons": [
+        "Overshadowed by the Street Triple",
+        "small tank"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "suzuki-bandit-400-1989",
+      "make": "Suzuki",
+      "model": "Bandit 400",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 1989,
+      "year_to": 1997,
+      "engine_cc": 398,
+      "verdict": 7,
+      "description": "A grey-import Japanese-market four with a screaming top end and classic naked looks. A2-friendly and increasingly popular as a project base.",
+      "pros": [
+        "Revvy little four",
+        "classic styling",
+        "great project base"
+      ],
+      "cons": [
+        "Grey import parts supply",
+        "modest torque"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
+    },
+    {
+      "id": "harley-davidson-dyna-low-rider-fxdl-1993",
+      "make": "Harley-Davidson",
+      "model": "Dyna Low Rider",
+      "variant": "FXDL",
+      "category": "Cruiser",
+      "year_from": 1993,
+      "year_to": 2017,
+      "engine_cc": 1690,
+      "verdict": 8,
+      "description": "The Dyna-framed Low Rider, with twin shocks and a rubber-mounted engine that makes it noticeably more comfortable than the Softails. A favourite among riders who actually cover miles.",
+      "pros": [
+        "Better ride than a Softail",
+        "classic proportions",
+        "strong following"
+      ],
+      "cons": [
+        "Discontinued when Dyna ended",
+        "limited lean angle"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added after cross-referencing morebikes.co.uk used buyer guides; priced from UK market knowledge"
     }
   ]
 }
