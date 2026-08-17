@@ -8668,14 +8668,15 @@
         "expensive used"
       ],
       "price": {
-        "low": 8000,
-        "high": 11500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9500,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 10.2k miles £10489; with 8.4k miles £13190. Seed was too low"
     },
     {
       "id": "yamaha-yzf-r1-2015",
@@ -8698,14 +8699,15 @@
         "expensive to service"
       ],
       "price": {
-        "low": 8000,
-        "high": 11500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9500,
+        "high": 13500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "High-mileage c.£10000, tidy low-mileage c.£11500, 2019 tops out c.£14000. R1M starts £13500"
     },
     {
       "id": "aprilia-rs125-1995",
@@ -8852,14 +8854,15 @@
         "small for taller riders"
       ],
       "price": {
-        "low": 2600,
-        "high": 3900,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 7.1k miles £2750; 2020 with 12.6k £3495; 2023 £3250"
     },
     {
       "id": "honda-pcx125-2010",
@@ -8944,14 +8947,15 @@
         "no character"
       ],
       "price": {
-        "low": 3200,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3300,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Guide by year: 2019 c.£3450, 2020 £3850, 2021 £4450, 2022 £4600"
     },
     {
       "id": "honda-forza-350-2021",
@@ -9252,14 +9256,15 @@
         "basic"
       ],
       "price": {
-        "low": 1800,
+        "low": 1900,
         "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rarely drops below £2000 even at five years old; typical £2000-£2500"
     },
     {
       "id": "lexmoto-lxr-125-2017",
@@ -9282,14 +9287,15 @@
         "build quality is basic"
       ],
       "price": {
-        "low": 1200,
-        "high": 2000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1400,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Typically advertised c.£1500; 2021 examples £1899-£1999, newer to £2918"
     },
     {
       "id": "ducati-scrambler-1100-2018",
@@ -9312,14 +9318,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 6500,
+        "low": 5200,
         "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 15.4k miles £6295; 2018 with 12k £7600; 2021 with 2.3k £7699"
     },
     {
       "id": "triumph-rocket-3-r-2020",
@@ -9372,14 +9379,15 @@
         "expensive"
       ],
       "price": {
-        "low": 11000,
+        "low": 9500,
         "high": 15000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 LE with 18.5k miles £9790; 2022 with 36k £10999; 2022 with 12.7k £15500"
     },
     {
       "id": "ktm-390-adventure-2020",
@@ -9583,14 +9591,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 4500,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4800,
+        "high": 6300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2018 with 5.9k miles £5199; 2021 examples £6290"
     },
     {
       "id": "mv-agusta-brutale-800-2013",
