@@ -19192,6 +19192,564 @@
       },
       "price_history": [],
       "notes": "Added from the best-value 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "suzuki-gsx1400-2001",
+      "make": "Suzuki",
+      "model": "GSX1400",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2001,
+      "year_to": 2008,
+      "engine_cc": 1402,
+      "verdict": 8,
+      "description": "The last great air-cooled Japanese muscle bike, with 1400cc of unstressed torque and the physical presence of a small car. Built in modest numbers and increasingly collectable.",
+      "pros": [
+        "Colossal torque",
+        "imposing presence",
+        "strong and rising values"
+      ],
+      "cons": [
+        "Very heavy",
+        "thirsty"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "honda-cb1100-ex-2010",
+      "make": "Honda",
+      "model": "CB1100",
+      "variant": "EX",
+      "category": "Retro",
+      "year_from": 2010,
+      "year_to": 2020,
+      "engine_cc": 1140,
+      "verdict": 9,
+      "description": "An air-cooled inline four built in the 1970s idiom but with modern metallurgy and Honda's best finish. Beautifully detailed and widely regarded as investment-grade among modern retros.",
+      "pros": [
+        "Exquisite detailing",
+        "genuine air-cooled four",
+        "holds value strongly"
+      ],
+      "cons": [
+        "Modest performance for the capacity",
+        "heavy"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "kawasaki-zephyr-750-1991",
+      "make": "Kawasaki",
+      "model": "Zephyr 750",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1991,
+      "year_to": 1996,
+      "engine_cc": 738,
+      "verdict": 8,
+      "description": "One of the bikes that started the factory retro movement, styled after the Z1 and built when nobody else was looking backwards. Increasingly collectable and still usable daily.",
+      "pros": [
+        "Pioneered the retro class",
+        "handsome",
+        "rising values"
+      ],
+      "cons": [
+        "Modest performance",
+        "rust on neglected examples"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "kawasaki-zephyr-1100-1992",
+      "make": "Kawasaki",
+      "model": "Zephyr 1100",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1992,
+      "year_to": 1996,
+      "engine_cc": 1062,
+      "verdict": 8,
+      "description": "The big Zephyr, with a detuned GPZ1100 motor and proper Z1 presence. Rarer than the 750 in the UK and correspondingly sought after.",
+      "pros": [
+        "Strong air-cooled four",
+        "real presence",
+        "scarce in the UK"
+      ],
+      "cons": [
+        "Heavy",
+        "parts getting harder to find"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "honda-cb750-seven-fifty-1992",
+      "make": "Honda",
+      "model": "CB750",
+      "variant": "Seven Fifty",
+      "category": "Retro",
+      "year_from": 1992,
+      "year_to": 2003,
+      "engine_cc": 747,
+      "verdict": 7,
+      "description": "An unfussy air-cooled four with hydraulic valve lifters, so it never needs a shim service. Built for despatch riders and riding schools, and almost impossible to wear out.",
+      "pros": [
+        "No valve clearances to set",
+        "unburstable",
+        "very cheap"
+      ],
+      "cons": [
+        "Modest performance",
+        "plain styling"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "suzuki-gsx750-inazuma-1998",
+      "make": "Suzuki",
+      "model": "GSX750",
+      "variant": "Inazuma",
+      "category": "Retro",
+      "year_from": 1998,
+      "year_to": 2002,
+      "engine_cc": 749,
+      "verdict": 7,
+      "description": "An understated retro naked using the oil-cooled GSX-R-derived motor. Overlooked when new and still cheap, which makes it one of the better-kept secrets of the class.",
+      "pros": [
+        "Proven oil-cooled motor",
+        "undervalued",
+        "comfortable"
+      ],
+      "cons": [
+        "Anonymous styling",
+        "few were sold"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "yamaha-xjr400-1993",
+      "make": "Yamaha",
+      "model": "XJR400",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1993,
+      "year_to": 2008,
+      "engine_cc": 399,
+      "verdict": 7,
+      "description": "A scaled-down XJR built for the Japanese market and imported in numbers. Classic muscle-bike looks with a high-revving 400 four underneath, and A2-friendly power.",
+      "pros": [
+        "Classic looks in a small package",
+        "revvy four",
+        "distinctive"
+      ],
+      "cons": [
+        "Grey import parts supply",
+        "modest torque"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "triumph-thruxton-1200-r-2016",
+      "make": "Triumph",
+      "model": "Thruxton 1200 R",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2016,
+      "year_to": 2024,
+      "engine_cc": 1200,
+      "verdict": 9,
+      "description": "The Thruxton grown up, with Ohlins, Brembo and a genuinely quick 1200 twin. A café racer that actually goes and stops like a modern bike, and holds value accordingly.",
+      "pros": [
+        "Superb suspension and brakes",
+        "quick and characterful",
+        "strong residuals"
+      ],
+      "cons": [
+        "Committed riding position",
+        "expensive"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "bmw-r-ninet-racer-2017",
+      "make": "BMW",
+      "model": "R nineT Racer",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2017,
+      "year_to": 2020,
+      "engine_cc": 1170,
+      "verdict": 8,
+      "description": "The nineT with a half fairing and low clip-ons, styled after 1970s endurance racers. Beautiful to look at, uncompromising to ride, and made in small numbers.",
+      "pros": [
+        "Stunning half-fairing design",
+        "boxer character",
+        "collectable"
+      ],
+      "cons": [
+        "Very committed riding position",
+        "limited practicality"
+      ],
+      "price": {
+        "low": 6500,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "honda-hawk-11-2022",
+      "make": "Honda",
+      "model": "Hawk 11",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 1084,
+      "verdict": 8,
+      "description": "A café racer built on Africa Twin mechanicals, with a bullet fairing and clip-ons. Rare in the UK and quite unlike anything else Honda currently sells.",
+      "pros": [
+        "Distinctive rocket fairing",
+        "proven 1100 twin",
+        "genuine rarity"
+      ],
+      "cons": [
+        "Committed ergonomics",
+        "scarce, so choice is limited"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "royal-enfield-scram-411-2022",
+      "make": "Royal Enfield",
+      "model": "Scram 411",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 411,
+      "verdict": 7,
+      "description": "A road-biased Himalayan with a 19-inch front wheel and less bodywork. Simpler, lighter-feeling and cheaper, and just as easy to fix on a kerbside.",
+      "pros": [
+        "Very cheap",
+        "simple to maintain",
+        "charming"
+      ],
+      "cons": [
+        "Slow",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "benelli-leoncino-500-2018",
+      "make": "Benelli",
+      "model": "Leoncino 500",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 500,
+      "verdict": 7,
+      "description": "An Italian-designed, Chinese-built scrambler with a decent parallel twin and genuine style. A2-legal and priced well below the European competition.",
+      "pros": [
+        "Good looks",
+        "A2 legal",
+        "keen price"
+      ],
+      "cons": [
+        "Weak residuals",
+        "dealer network"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "husqvarna-vitpilen-401-2018",
+      "make": "Husqvarna",
+      "model": "Vitpilen 401",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2018,
+      "year_to": 2024,
+      "engine_cc": 373,
+      "verdict": 7,
+      "description": "The café racer sibling to the Svartpilen, with clip-ons and stark Scandinavian styling. KTM 390 mechanics underneath make it sharp and light.",
+      "pros": [
+        "Striking design",
+        "light and sharp",
+        "A2 legal"
+      ],
+      "cons": [
+        "Firm ride",
+        "committed riding position"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "suzuki-vanvan-200-2017",
+      "make": "Suzuki",
+      "model": "VanVan 200",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2017,
+      "year_to": 2021,
+      "engine_cc": 199,
+      "verdict": 7,
+      "description": "A fat-tyred retro utility bike with genuine cult status in the UK. Slow, soft and enormously likeable, with running costs close to nothing.",
+      "pros": [
+        "Huge charm",
+        "very cheap to run",
+        "cult following"
+      ],
+      "cons": [
+        "Slow",
+        "limited practicality"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "mash-black-seven-125-2015",
+      "make": "Mash",
+      "model": "Black Seven 125",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "A French-branded, Chinese-built learner retro that looks far more expensive than it is. Basic underneath, but a genuinely handsome way onto two wheels.",
+      "pros": [
+        "Looks the part for very little",
+        "A1 legal",
+        "cheap to run"
+      ],
+      "cons": [
+        "Basic mechanicals",
+        "limited dealer support"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "fb-mondial-hps-125-2018",
+      "make": "FB Mondial",
+      "model": "HPS 125",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "A learner-legal café racer with an Italian badge and styling that punches far above the price. Well finished for the class and genuinely desirable.",
+      "pros": [
+        "Striking styling",
+        "good finish for a 125",
+        "distinctive badge"
+      ],
+      "cons": [
+        "Small dealer network",
+        "slow, inevitably"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "herald-cafe-125-2018",
+      "make": "Herald",
+      "model": "Cafe 125",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "A simple British-branded learner café racer using proven single-cylinder tech. Cheap, easy to fix and a friendly entry point into retro biking.",
+      "pros": [
+        "Very cheap",
+        "simple to maintain",
+        "period looks"
+      ],
+      "cons": [
+        "Basic finish",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1600,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "chang-jiang-pekin-express-2019",
+      "make": "Chang Jiang",
+      "model": "Pekin Express",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 655,
+      "verdict": 7,
+      "description": "A modern reproduction of the BMW-derived Chinese military outfit, sold new with a sidecar and updated mechanicals. Utterly impractical and completely charming.",
+      "pros": [
+        "Genuinely unusual",
+        "sidecar included",
+        "strong period character"
+      ],
+      "cons": [
+        "Slow and heavy",
+        "specialist servicing"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the modern-classics 50 cross-reference; priced from UK market knowledge and our dealer lists"
     }
   ]
 }
