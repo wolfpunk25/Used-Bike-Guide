@@ -657,9 +657,9 @@
       ],
       "price": {
         "low": 5000,
-        "high": 7300,
+        "high": 8500,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
@@ -670,9 +670,16 @@
           "high": 7500,
           "source": "uk-classifieds",
           "sample_size": 0
+        },
+        {
+          "as_of": "2026-08-17",
+          "low": 5000,
+          "high": 7300,
+          "source": "uk-market-research",
+          "sample_size": 0
         }
       ],
-      "notes": "2017 with 15.3k miles £5699; low-mileage 2017 c.£7295"
+      "notes": "Widened after dealer cross-check: Webbs/CMC hold T100s at £7499-£10195, above our previous £7300 top"
     },
     {
       "id": "ducati-scrambler-icon-2015",
@@ -6302,14 +6309,22 @@
       ],
       "price": {
         "low": 9500,
-        "high": 13500,
+        "high": 14800,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-stock",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Median c.£11999. 2019 with 18k miles £9487-£10190; 2022 c.£13290"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 9500,
+          "high": 13500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Widened: CMC hold two at £14499-£14799, above our previous £13500 top"
     },
     {
       "id": "ducati-panigale-959-2016",
