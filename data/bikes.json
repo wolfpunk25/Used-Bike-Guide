@@ -3634,13 +3634,14 @@
       ],
       "price": {
         "low": 2800,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early examples £3000-£5000 on the classifieds; 2007 with 41k miles at £3490"
     },
     {
       "id": "honda-cbr954rr-fireblade-2002",
@@ -3664,13 +3665,14 @@
       ],
       "price": {
         "low": 3000,
-        "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £2990-£3500; tidy private sales upward of £4000, dealers near £5000"
     },
     {
       "id": "honda-cbf600-2004",
@@ -3845,13 +3847,14 @@
       ],
       "price": {
         "low": 3500,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2004 with 35k miles £4695; 2006 with 23k miles £5340"
     },
     {
       "id": "yamaha-fz6-fazer-2004",
@@ -3875,13 +3878,14 @@
       ],
       "price": {
         "low": 1400,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "High-mileage private £1500-£2000; tidy sub-20k c.£2500; dealer low-mileage c.£3500"
     },
     {
       "id": "yamaha-fz1-fazer-2006",
@@ -3904,14 +3908,15 @@
         "soft standard suspension"
       ],
       "price": {
-        "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "High-mileage c.£2000; 20-30k miles £3000-£3500; a real beauty c.£4000"
     },
     {
       "id": "yamaha-mt-01-2005",
@@ -3934,14 +3939,15 @@
         "limited revs"
       ],
       "price": {
-        "low": 4000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "From £6000 at c.25k miles, pristine £8000-£9000. Scarcity keeps values firm"
     },
     {
       "id": "yamaha-xt660r-2004",
@@ -4024,14 +4030,15 @@
         "many abused"
       ],
       "price": {
-        "low": 4000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "K5-K6 rough £2500-3200, tidy £3600-4500, mint £5000-5500. Listings run above guide"
     },
     {
       "id": "suzuki-sv650s-1999",
@@ -4085,14 +4092,15 @@
         "soft suspension"
       ],
       "price": {
-        "low": 2000,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2200,
+        "high": 3900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Under £2500 available; budget £3000-£3500 for a nice sub-20k example"
     },
     {
       "id": "suzuki-dl1000-v-strom-2002",
@@ -4115,14 +4123,15 @@
         "styling"
       ],
       "price": {
-        "low": 1800,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2002-08 bikes £2000-£3000 tidy with luggage; later ones higher"
     },
     {
       "id": "suzuki-gsr600-2006",
@@ -4175,14 +4184,15 @@
         "demands respect"
       ],
       "price": {
-        "low": 3000,
-        "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2900,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2004 with 26k miles £2999; 2007 with 9.5k miles £5499"
     },
     {
       "id": "kawasaki-z750-2004",
@@ -4205,14 +4215,15 @@
         "corrosion"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1700,
+        "high": 4400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2004-06 private c.£2000, dealer c.£2500; later Z750R 2011-13 £3266-£4495"
     },
     {
       "id": "kawasaki-z1000-2003",
@@ -4236,13 +4247,14 @@
       ],
       "price": {
         "low": 2500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "First-gen tidy under £3500; 2013 with 16k miles £6295. Green paint carries a premium"
     },
     {
       "id": "kawasaki-er-6n-2006",
@@ -4265,14 +4277,15 @@
         "modest power"
       ],
       "price": {
-        "low": 1500,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £800-1300, tidy £1600-3000, mint £3400-3800"
     },
     {
       "id": "kawasaki-zzr1400-2006",
@@ -4295,14 +4308,15 @@
         "thirsty when used"
       ],
       "price": {
-        "low": 4000,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 7400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006-2010 £3000-£5000; 2015 with 14k miles £7390"
     },
     {
       "id": "kawasaki-w800-2011",
@@ -4356,13 +4370,14 @@
       ],
       "price": {
         "low": 3000,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2005 private £3350 / dealer £4200, rising to 2010 private £4100 / dealer £5150"
     },
     {
       "id": "triumph-sprint-st-1050-2005",
@@ -4475,14 +4490,15 @@
         "early bikes had issues"
       ],
       "price": {
-        "low": 3000,
+        "low": 3200,
         "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early private £3200, dealer from £3800; 2012 dealer c.£5650"
     },
     {
       "id": "triumph-tiger-1050-2007",
