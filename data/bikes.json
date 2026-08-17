@@ -8112,7 +8112,7 @@
       "make": "Zero",
       "model": "SR/F",
       "variant": "",
-      "category": "Naked",
+      "category": "Electric",
       "year_from": 2020,
       "year_to": 2025,
       "engine_cc": 0,
@@ -8128,21 +8128,22 @@
         "heavy depreciation"
       ],
       "price": {
-        "low": 8000,
-        "high": 13000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 SR/F with 7000 miles £6495; 2023 SR with 1655 miles £7600. Seed of £8-13k was too high"
     },
     {
       "id": "bmw-ce-04-2022",
       "make": "BMW",
       "model": "CE-04",
       "variant": "",
-      "category": "Commuter",
+      "category": "Electric",
       "year_from": 2022,
       "year_to": 2025,
       "engine_cc": 0,
@@ -8158,14 +8159,15 @@
         "expensive new"
       ],
       "price": {
-        "low": 7000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5600,
+        "high": 7400,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Used listings £5689 and £7399 (Avant-garde pack); £11700 new"
     },
     {
       "id": "ducati-monster-2021",
@@ -9598,6 +9600,285 @@
         "sample_size": 0
       },
       "price_history": []
+    },
+    {
+      "id": "maeving-rm1-2022",
+      "make": "Maeving",
+      "model": "RM1",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "A British-built electric commuter styled like a 1920s boardtracker, and genuinely lovely to look at. Removable batteries mean you can charge it in a flat with no driveway. Restricted to 45mph, so it is a town bike and nothing else.",
+      "pros": [
+        "Beautiful build quality",
+        "removable batteries",
+        "made in Coventry"
+      ],
+      "cons": [
+        "45mph limit rules out A-roads",
+        "40-mile range on a single battery"
+      ],
+      "price": {
+        "low": 2900,
+        "high": 3700,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Maeving approved-used stock: 2023-24 examples £2995-£3690 by battery count and mileage"
+    },
+    {
+      "id": "maeving-rm1s-2023",
+      "make": "Maeving",
+      "model": "RM1S",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2023,
+      "year_to": 2026,
+      "engine_cc": 0,
+      "verdict": 8,
+      "description": "The RM1 given the performance it always deserved. 70mph and 80 miles of range turn a town-only curio into something you can actually commute on. Still the best-finished electric bike at anything like the money.",
+      "pros": [
+        "70mph makes it usable",
+        "superb fit and finish",
+        "10-litre tank storage"
+      ],
+      "cons": [
+        "Expensive for a 125-equivalent",
+        "range drops fast at speed"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Maeving approved-used: 2025 with 1625 miles £5995; 2026 delivery-mileage £6245. New £7495"
+    },
+    {
+      "id": "livewire-one-2021",
+      "make": "LiveWire",
+      "model": "One",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "Harley's electric spin-off, and a seriously quick motorcycle. Instant torque, proper Showa suspension and Brembo brakes. It cost £28,750 at launch and has depreciated brutally, which is precisely why it is now interesting.",
+      "pros": [
+        "Genuinely fast",
+        "premium chassis",
+        "enormous depreciation works in your favour"
+      ],
+      "cons": [
+        "Still expensive used",
+        "charging network dependency"
+      ],
+      "price": {
+        "low": 11000,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "EEMC 2023 example £12990; £22990 new. Reported 30-40% loss in the first two years"
+    },
+    {
+      "id": "livewire-s2-del-mar-2024",
+      "make": "LiveWire",
+      "model": "S2 Del Mar",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 8,
+      "description": "A flat-track-styled middleweight electric on LiveWire's new Arrow platform. Lighter, cheaper and far more usable around town than the One, with a claimed 80 miles of real-world range.",
+      "pros": [
+        "Light and agile",
+        "strong real-world range",
+        "distinctive styling"
+      ],
+      "cons": [
+        "Thin dealer network",
+        "values still settling"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "EEMC 2024 with 124 miles £9490"
+    },
+    {
+      "id": "zero-s-2013",
+      "make": "Zero",
+      "model": "S",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2013,
+      "year_to": 2024,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "The bike that made electric motorcycling ordinary. Naked, unfussy and almost maintenance-free, with a belt drive and no gearbox to think about. Battery size varies enormously by year, so check the kWh before the mileage.",
+      "pros": [
+        "Almost no servicing",
+        "smooth and quiet",
+        "cheap to run"
+      ],
+      "cons": [
+        "Battery capacity varies wildly by year",
+        "charging times on early bikes"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "EEMC stock: 2018 SR 14.4 with 16k miles £4290; 2022 S 14.4 with 6k miles £8990"
+    },
+    {
+      "id": "zero-fxe-2022",
+      "make": "Zero",
+      "model": "FXE",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "A supermoto-styled electric that is light enough to be genuinely entertaining in town. Short range limits it to commuting and hooliganism, but it is very good at both.",
+      "pros": [
+        "Light and flickable",
+        "great in traffic",
+        "modular battery"
+      ],
+      "cons": [
+        "Around 70 miles of range",
+        "limited motorway ability"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "EEMC 2023 FXE 7.2 with 1419 miles £5990"
+    },
+    {
+      "id": "zero-ds-2013",
+      "make": "Zero",
+      "model": "DS",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2013,
+      "year_to": 2024,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "The dual-sport Zero, with longer travel and a 19-inch front wheel. More comfortable than the S over rough surfaces, though it is no more an off-roader than most adventure bikes are.",
+      "pros": [
+        "Comfortable",
+        "near-silent on green lanes",
+        "low running costs"
+      ],
+      "cons": [
+        "Not a serious off-roader",
+        "range anxiety off the beaten track"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Few dedicated DS listings; a 2020 DS seen at £3550. Partly derived from S-model comparables"
+    },
+    {
+      "id": "energica-eva-ribelle-2020",
+      "make": "Energica",
+      "model": "Eva Ribelle",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2020,
+      "year_to": 2024,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "An Italian electric super naked with a 21.5kWh battery and the weight to match. Ferociously quick and beautifully made, but heavy and expensive, and Energica's commercial troubles make support a real question.",
+      "pros": [
+        "Huge performance",
+        "DC rapid charging",
+        "superb build"
+      ],
+      "cons": [
+        "Very heavy",
+        "tiny dealer network and uncertain support"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Only two Energicas listed nationally; £25440 new. Range inferred from comparable EV depreciation"
+    },
+    {
+      "id": "super-soco-tc-max-2019",
+      "make": "Super Soco",
+      "model": "TC Max",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 6,
+      "description": "The electric commuter that undercut everything. 58mph, a retro-flavoured chassis and a price that made petrol 125s look expensive. Build quality is where the money was saved.",
+      "pros": [
+        "Very cheap to buy and run",
+        "adequate town performance",
+        "removable battery"
+      ],
+      "cons": [
+        "Basic finish",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "ev-dealer-stock",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "TC Max used listings scarce; TSx and Wanderer seen at £1600-£1800. New TC Max £3995"
     }
   ]
 }
