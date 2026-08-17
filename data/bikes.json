@@ -828,15 +828,23 @@
         "pricey servicing"
       ],
       "price": {
-        "low": 6800,
-        "high": 8800,
-        "as_of": "2026-08-16",
-        "source": "uk-classifieds",
-        "confidence": "thin",
+        "low": 7000,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Thin UK used market; single 2021 comparable at £7890"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 6800,
+          "high": 8800,
+          "source": "uk-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2021-22 with 11-13k miles c.£7295; 2025 low-mileage c.£9495. Good examples sell fast"
     },
     {
       "id": "ktm-890-duke-r-2020",
@@ -859,15 +867,23 @@
         "aggressive stock fuelling"
       ],
       "price": {
-        "low": 5300,
+        "low": 5200,
         "high": 7500,
-        "as_of": "2026-08-16",
-        "source": "uk-classifieds",
-        "confidence": "thin",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "No Bennetts used guide; sampled from UK classified listings"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 5300,
+          "high": 7500,
+          "source": "uk-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2021 from £5290; 2023 with 5.5k miles £6100; tidy examples to c.£8995"
     },
     {
       "id": "triumph-speed-triple-1050-rs-2018",
@@ -7099,13 +7115,14 @@
       ],
       "price": {
         "low": 3800,
-        "high": 5200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 6.3k miles £4695; 2025 examples c.£4499"
     },
     {
       "id": "yamaha-mt-09-2021",
@@ -7965,14 +7982,15 @@
         "thirsty"
       ],
       "price": {
-        "low": 10000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9500,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2024 S £11999 against £17349-£18699 new"
     },
     {
       "id": "aprilia-tuono-660-2021",
@@ -7995,14 +8013,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 6500,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5600,
+        "high": 7300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 11.8k miles £5690; 2023 with 3.7k £7190; 2024 with 1.2k £6995"
     },
     {
       "id": "aprilia-tuareg-660-2022",
@@ -8025,14 +8044,15 @@
         "small tank for the class"
       ],
       "price": {
-        "low": 8000,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6800,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 2.1k miles £7495; higher-mileage examples c.£6990. New £10244"
     },
     {
       "id": "harley-davidson-pan-america-2021",
@@ -8055,14 +8075,15 @@
         "dealer network for adventure support"
       ],
       "price": {
-        "low": 10000,
+        "low": 8800,
         "high": 13500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 Special £8999; 2025 ST £12795; 2025 standard £14999"
     },
     {
       "id": "harley-davidson-nightster-2022",
@@ -8085,14 +8106,15 @@
         "less character than the air-cooled bikes"
       ],
       "price": {
-        "low": 8000,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2024 with low miles £7499-£8499; 2023 £7390-£9390"
     },
     {
       "id": "indian-ftr1200-2019",
@@ -8146,14 +8168,15 @@
         "limited lean angle"
       ],
       "price": {
-        "low": 5000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4100,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 5.8k miles £4199; typical £4489-£4595"
     },
     {
       "id": "royal-enfield-hunter-350-2022",
@@ -8176,14 +8199,15 @@
         "not a motorway bike"
       ],
       "price": {
-        "low": 2800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2700,
+        "high": 3700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Median £3347 across 2023-25; range £2795-£3699 against £3899 new"
     },
     {
       "id": "cfmoto-700cl-x-2021",
@@ -8206,14 +8230,15 @@
         "dealer network"
       ],
       "price": {
-        "low": 4200,
-        "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3800,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2025 Sport with 3.4k miles £4199 against £6299 new. Residuals are weak"
     },
     {
       "id": "zero-sr-f-2020",
@@ -8298,14 +8323,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 7500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 16.2k miles £6499; 2023 £7999-£8599; 2025 £10250-£10795"
     },
     {
       "id": "kawasaki-z1-900-1972",
@@ -9010,14 +9036,15 @@
         "heavy"
       ],
       "price": {
-        "low": 4000,
-        "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3800,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Dealer stock £4199-£4249 with c.6k miles"
     },
     {
       "id": "harley-davidson-fat-boy-1990",
@@ -9381,14 +9408,15 @@
         "expensive tyres"
       ],
       "price": {
-        "low": 13000,
-        "high": 17000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 13500,
+        "high": 17500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 7.7k miles £16995; 2023 with 3.2k £17245"
     },
     {
       "id": "bmw-r1250rt-2019",
@@ -9442,14 +9470,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 4200,
-        "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4000,
+        "high": 5600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Dealer used c.£5499 against £6199 new"
     },
     {
       "id": "honda-cb650r-2024",
@@ -9472,14 +9501,15 @@
         "modest low-down torque"
       ],
       "price": {
-        "low": 7000,
-        "high": 8800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6300,
+        "high": 7600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2024 with 435 miles £6589, with 1152 miles £6389. New E-Clutch £7899"
     },
     {
       "id": "yamaha-xsr900-2022",
@@ -9502,14 +9532,15 @@
         "committed riding position"
       ],
       "price": {
-        "low": 8000,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7200,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 £7295-£7499; 2023 £7500-£7995; 2025 £8495-£8994"
     },
     {
       "id": "suzuki-gsx-8r-2024",
@@ -9532,14 +9563,15 @@
         "modest wind protection"
       ],
       "price": {
-        "low": 7000,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 8200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Too new for a deep used market; new c.£8999 and GSX-8S comparables £5200-£6999"
     },
     {
       "id": "kawasaki-eliminator-500-2023",
@@ -9562,14 +9594,15 @@
         "modest torque for a cruiser"
       ],
       "price": {
-        "low": 4800,
+        "low": 4700,
         "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Ex-demo from £4990; dealer listings £4995-£6399 against £5999 RRP"
     },
     {
       "id": "honda-nc750s-2014",
@@ -9717,13 +9750,14 @@
       ],
       "price": {
         "low": 14000,
-        "high": 19000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 20000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 examples £17000-£17994; 2024 £22990. Depreciation is steep from a c.£25k list"
     },
     {
       "id": "maeving-rm1-2022",
