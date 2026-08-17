@@ -5305,13 +5305,14 @@
       ],
       "price": {
         "low": 4000,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2008-09 private £4699-£4999; dealer 2014 £7799, 2016 £8699"
     },
     {
       "id": "honda-cbr650f-2014",
@@ -5664,14 +5665,15 @@
         "dated electronics on early bikes"
       ],
       "price": {
-        "low": 3500,
+        "low": 2000,
         "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Older high-mileage from c.£1800-£2250; 2014 AE with 21k miles £6500"
     },
     {
       "id": "suzuki-gsx-r1000-2009",
@@ -5695,13 +5697,14 @@
       ],
       "price": {
         "low": 4500,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 8300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2009-2014 £4990-£5999; 2015-16 dealer stock £7990-£8290"
     },
     {
       "id": "suzuki-gsx-s750-2015",
@@ -6474,14 +6477,15 @@
         "expensive parts"
       ],
       "price": {
-        "low": 7000,
-        "high": 11000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6000,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012 R from c.£6000, Factory c.£1000 more; 2016 RF £9990, 2018 £9500"
     },
     {
       "id": "aprilia-tuono-v4-2011",
@@ -8370,13 +8374,14 @@
       ],
       "price": {
         "low": 2500,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Private £2500-£3000, dealers £3300-£4000. Check hard for track use"
     },
     {
       "id": "kawasaki-zx-6r-2003",
@@ -8399,14 +8404,15 @@
         "hard-ridden examples"
       ],
       "price": {
-        "low": 2500,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "UK and near-market listings £3210-£4710; European comparables from c.£2400"
     },
     {
       "id": "yamaha-yzf-r6-2003",
@@ -8429,14 +8435,15 @@
         "uncomfortable"
       ],
       "price": {
-        "low": 2200,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £1800-2300, tidy £2800-3200, mint £3500-4100"
     },
     {
       "id": "suzuki-gsx-r600-2006",
@@ -8459,14 +8466,15 @@
         "many tracked"
       ],
       "price": {
-        "low": 2800,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006 with 20k miles £3400 up to £5495 for a low-mileage 2008"
     },
     {
       "id": "triumph-tt600-2000",
@@ -8489,14 +8497,15 @@
         "weak dealer support then"
       ],
       "price": {
-        "low": 1500,
+        "low": 1300,
         "high": 2800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £1300-£2390; even excellent examples barely break £3000"
     },
     {
       "id": "honda-vfr1200f-2010",
@@ -8549,14 +8558,15 @@
         "thirsty"
       ],
       "price": {
-        "low": 4000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3700,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Well-used c.£4000, tidy £5000-£6000; 2014-17 examples c.£6995"
     },
     {
       "id": "honda-cbr1000rr-fireblade-sp-2017",
@@ -8670,14 +8680,15 @@
         "pricey for a 125"
       ],
       "price": {
-        "low": 2600,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2012-2017 bikes £2000-£3399; newer examples £4495+ at dealers"
     },
     {
       "id": "honda-cbr125r-2004",
@@ -8700,14 +8711,15 @@
         "basic suspension"
       ],
       "price": {
-        "low": 1600,
-        "high": 2600,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 950,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2004 with 23k miles £950; 2016-17 examples £2100-£2900"
     },
     {
       "id": "ktm-125-duke-2011",
@@ -8820,14 +8832,15 @@
         "small wheels on poor roads"
       ],
       "price": {
-        "low": 3200,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2900,
+        "high": 4700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Used listings £2995-£4299; new HPE Super lists at £6300"
     },
     {
       "id": "yamaha-xmax-300-2017",
@@ -8942,13 +8955,14 @@
       ],
       "price": {
         "low": 6500,
-        "high": 11000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Available data covers only recent 114-engined bikes (£12495-£15345); older Dyna Street Bobs not well represented"
     },
     {
       "id": "harley-davidson-road-king-1994",
@@ -9002,14 +9016,15 @@
         "parts availability"
       ],
       "price": {
-        "low": 4000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "1100 examples £4350-£4995, private sales from c.£3000; 1200 SE c.£4000"
     },
     {
       "id": "bmw-f800st-2006",
@@ -9034,12 +9049,13 @@
       "price": {
         "low": 2200,
         "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2008 £2299-£2795 rising to £3195 for a 2012"
     },
     {
       "id": "bmw-g650gs-2008",
@@ -9062,14 +9078,15 @@
         "vibration"
       ],
       "price": {
-        "low": 2500,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 4250,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Rough £1800-2200, tidy £2750-3600, mint £3900-4250"
     },
     {
       "id": "suzuki-gsx650f-2008",
@@ -9092,14 +9109,15 @@
         "uninspiring"
       ],
       "price": {
-        "low": 1800,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2009 at £3190; 2013-15 examples £4041-£4967"
     },
     {
       "id": "kawasaki-ninja-300-2013",
