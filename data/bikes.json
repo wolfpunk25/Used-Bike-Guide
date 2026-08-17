@@ -13294,6 +13294,2424 @@
       },
       "price_history": [],
       "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cb1000-hornet-2024",
+      "make": "Honda",
+      "model": "CB1000 Hornet",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 1000,
+      "verdict": 8,
+      "description": "A Fireblade-derived four in a stripped-back naked chassis, undercutting the European competition by thousands. Strong, well finished and far more exciting than Honda nakeds usually manage.",
+      "pros": [
+        "Strong Fireblade-derived engine",
+        "keenly priced",
+        "superb build"
+      ],
+      "cons": [
+        "Basic suspension on the standard bike",
+        "styling is restrained"
+      ],
+      "price": {
+        "low": 7300,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-cbr650r-2019",
+      "make": "Honda",
+      "model": "CBR650R",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 649,
+      "verdict": 8,
+      "description": "The faired CB650R, with the same sweet inline four and a slightly sportier stance. Not a supersport bike, but a lovely road machine with a proper four-cylinder wail. E-Clutch offered from 2024.",
+      "pros": [
+        "Smooth inline four",
+        "comfortable for the class",
+        "great build"
+      ],
+      "cons": [
+        "Not a track weapon",
+        "heavier than twin rivals"
+      ],
+      "price": {
+        "low": 6300,
+        "high": 8200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-cbr600rr-2021",
+      "make": "Honda",
+      "model": "CBR600RR",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 599,
+      "verdict": 9,
+      "description": "The RR revived for Europe, with winglets, proper electronics and that screaming four. One of the last true supersports on sale, and priced accordingly.",
+      "pros": [
+        "Genuine supersport",
+        "glorious top end",
+        "superb chassis"
+      ],
+      "cons": [
+        "Expensive",
+        "uncompromising riding position"
+      ],
+      "price": {
+        "low": 7500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-adv350-2022",
+      "make": "Honda",
+      "model": "ADV350",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 330,
+      "verdict": 8,
+      "description": "An adventure-styled maxi-scooter with longer travel and proper wind protection. Far more capable on poor surfaces than a normal scooter and genuinely comfortable over distance.",
+      "pros": [
+        "Comfortable and capable",
+        "good weather protection",
+        "practical"
+      ],
+      "cons": [
+        "Heavy",
+        "expensive against plain scooters"
+      ],
+      "price": {
+        "low": 4400,
+        "high": 5800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-forza-125-2015",
+      "make": "Honda",
+      "model": "Forza 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 8,
+      "description": "The premium 125 maxi-scooter, with an electric screen, smart key and enough refinement to justify the price. The commuter's choice if the budget stretches.",
+      "pros": [
+        "Very refined",
+        "electric screen",
+        "strong residuals"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "bulky in town"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-forza-750-2021",
+      "make": "Honda",
+      "model": "Forza 750",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 745,
+      "verdict": 8,
+      "description": "A big automatic that blurs the line between scooter and motorcycle, using the NC750 twin and DCT. Fast, frugal and extremely practical.",
+      "pros": [
+        "Genuinely quick",
+        "huge storage",
+        "superb economy"
+      ],
+      "cons": [
+        "Very large",
+        "odd hybrid appeal"
+      ],
+      "price": {
+        "low": 6800,
+        "high": 8800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-gb350s-2023",
+      "make": "Honda",
+      "model": "GB350S",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 348,
+      "verdict": 8,
+      "description": "A simple air-cooled single with beautiful proportions and a gentle thump. Built in India, finished to a standard that shames the price, and utterly relaxing to ride.",
+      "pros": [
+        "Lovely finish",
+        "charming single",
+        "cheap to run"
+      ],
+      "cons": [
+        "Slow",
+        "not a motorway bike"
+      ],
+      "price": {
+        "low": 2700,
+        "high": 3600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-cl500-2023",
+      "make": "Honda",
+      "model": "CL500",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 471,
+      "verdict": 7,
+      "description": "A scrambler-styled take on the CB500 platform, with high pipes and a stripped-back look. Easy, light and A2-legal, if not remotely an off-roader.",
+      "pros": [
+        "Easy to ride",
+        "handsome",
+        "A2 legal"
+      ],
+      "cons": [
+        "Not a real scrambler",
+        "modest suspension"
+      ],
+      "price": {
+        "low": 3600,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-nx500-2024",
+      "make": "Honda",
+      "model": "NX500",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 471,
+      "verdict": 7,
+      "description": "The CB500X renamed and lightly updated, with a new frame and lighter wheels. Still the sensible small adventure bike, still very hard to fault for the money.",
+      "pros": [
+        "Very comfortable",
+        "A2 legal",
+        "reliable"
+      ],
+      "cons": [
+        "Modest power",
+        "limited off-road ability"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 6300,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-cb300r-2018",
+      "make": "Honda",
+      "model": "CB300R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 286,
+      "verdict": 7,
+      "description": "A Neo Sports Cafe in miniature, and one of the lightest bikes in the class. Sharp-looking, easy to ride and considerably more fun than its output suggests.",
+      "pros": [
+        "Very light",
+        "great styling",
+        "A2 legal"
+      ],
+      "cons": [
+        "Only a single",
+        "firm seat"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 4300,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-cb125r-2018",
+      "make": "Honda",
+      "model": "CB125R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 8,
+      "description": "The best-finished learner naked on sale, with upside-down forks, radial brakes and real Honda quality. Costs more than the Chinese competition and is worth every penny.",
+      "pros": [
+        "Superb build for a 125",
+        "proper suspension",
+        "strong residuals"
+      ],
+      "cons": [
+        "Expensive for the class",
+        "slow, inevitably"
+      ],
+      "price": {
+        "low": 3300,
+        "high": 4400,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-super-cub-c125-2018",
+      "make": "Honda",
+      "model": "Super Cub C125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "The Cub reborn as a premium retro, with LED lighting and a smart key. Faithful to the original in every way that matters, and priced as a lifestyle object rather than transport.",
+      "pros": [
+        "Charming and beautifully made",
+        "semi-automatic",
+        "holds value"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "slow"
+      ],
+      "price": {
+        "low": 2900,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-monkey-125-2018",
+      "make": "Honda",
+      "model": "Monkey 125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "A tiny bike with an outsized personality, and the most fun per mile of anything Honda sells. Utterly impractical beyond town, and nobody who owns one cares.",
+      "pros": [
+        "Enormous fun",
+        "brilliantly made",
+        "strong residuals"
+      ],
+      "cons": [
+        "Town use only",
+        "expensive for the size"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 3900,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "honda-dax-125-2023",
+      "make": "Honda",
+      "model": "DAX 125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "The pressed-steel Dax revived, with the Monkey's engine and a great deal of charm. A second seat makes it marginally more practical than the Monkey, if no faster.",
+      "pros": [
+        "Full of character",
+        "distinctive frame",
+        "easy to ride"
+      ],
+      "cons": [
+        "Slow",
+        "limited practicality"
+      ],
+      "price": {
+        "low": 2600,
+        "high": 3400,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "yamaha-nmax-125-2015",
+      "make": "Yamaha",
+      "model": "NMAX 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 8,
+      "description": "A sharp, well-built 125 scooter with proper brakes and traction control. Better resolved than most of the budget competition and cheap to run.",
+      "pros": [
+        "Well equipped",
+        "good brakes",
+        "economical"
+      ],
+      "cons": [
+        "Firm ride",
+        "small under-seat storage"
+      ],
+      "price": {
+        "low": 2400,
+        "high": 3600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "yamaha-r9-2025",
+      "make": "Yamaha",
+      "model": "R9",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2025,
+      "year_to": 2026,
+      "engine_cc": 890,
+      "verdict": 9,
+      "description": "The CP3 triple in a full supersport chassis, and arguably the most interesting new sportsbike in years. Torquier than a four, lighter than a litre bike, and hugely capable.",
+      "pros": [
+        "Superb triple",
+        "brilliant chassis",
+        "genuinely different"
+      ],
+      "cons": [
+        "Expensive",
+        "too new for a used market"
+      ],
+      "price": {
+        "low": 10500,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "yamaha-dt125-1974",
+      "make": "Yamaha",
+      "model": "DT125",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 1974,
+      "year_to": 2007,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "The learner-legal two-stroke trail bike that a generation grew up on. Light, willing and endlessly abused, which is why clean ones now command real money.",
+      "pros": [
+        "Cult status",
+        "light and fun",
+        "rising values"
+      ],
+      "cons": [
+        "Most have been thrashed",
+        "two-stroke upkeep"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "kawasaki-ninja-1100sx-2025",
+      "make": "Kawasaki",
+      "model": "Ninja 1100SX",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2025,
+      "year_to": 2026,
+      "engine_cc": 1099,
+      "verdict": 9,
+      "description": "The Ninja 1000SX bored out to 1100, with more midrange and the same superb all-round ability. Still one of the most complete real-world motorcycles you can buy.",
+      "pros": [
+        "Superb all-rounder",
+        "strong engine",
+        "well equipped"
+      ],
+      "cons": [
+        "Heavy",
+        "too new to be cheap"
+      ],
+      "price": {
+        "low": 9500,
+        "high": 12500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "kawasaki-ninja-500-2024",
+      "make": "Kawasaki",
+      "model": "Ninja 500",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 451,
+      "verdict": 7,
+      "description": "The Ninja 400 grown slightly, with more midrange and a friendlier spread of power. A sensible first faired bike and cheap to insure.",
+      "pros": [
+        "Easy to ride",
+        "A2 legal",
+        "cheap to run"
+      ],
+      "cons": [
+        "Not much quicker than the 400",
+        "budget suspension"
+      ],
+      "price": {
+        "low": 3900,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "kawasaki-ninja-125-2019",
+      "make": "Kawasaki",
+      "model": "Ninja 125",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "A learner sportsbike with proper Ninja styling and Kawasaki build quality. Slower than the two-stroke 125s of legend, but far easier to live with.",
+      "pros": [
+        "Looks the part",
+        "well built",
+        "A2 stepping stone"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "modest performance"
+      ],
+      "price": {
+        "low": 3300,
+        "high": 4300,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "kawasaki-z-h2-2020",
+      "make": "Kawasaki",
+      "model": "Z H2",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 998,
+      "verdict": 9,
+      "description": "A supercharged naked, which is as unhinged as it sounds. Savage midrange, a distinctive whine and performance that shames most superbikes. Utterly unique.",
+      "pros": [
+        "Supercharged and mad",
+        "huge midrange",
+        "genuinely unique"
+      ],
+      "cons": [
+        "Heavy",
+        "thirsty when used"
+      ],
+      "price": {
+        "low": 10000,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "kawasaki-ninja-h2-sx-2018",
+      "make": "Kawasaki",
+      "model": "Ninja H2 SX",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 998,
+      "verdict": 9,
+      "description": "A supercharged sports tourer, and one of the fastest ways to cross a continent. Enormous performance with panniers and cruise control fitted.",
+      "pros": [
+        "Supercharged performance",
+        "genuinely comfortable",
+        "well equipped"
+      ],
+      "cons": [
+        "Very expensive",
+        "heavy"
+      ],
+      "price": {
+        "low": 11000,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-gsx-s125-2017",
+      "make": "Suzuki",
+      "model": "GSX-S125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2017,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "The naked GSX-R125, and the lightest bike in the class. Quick for a 125 because it weighs so little, with keyless ignition and a decent dash.",
+      "pros": [
+        "Very light",
+        "quick for the class",
+        "well equipped"
+      ],
+      "cons": [
+        "Basic suspension",
+        "small for taller riders"
+      ],
+      "price": {
+        "low": 2400,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-burgman-400-2007",
+      "make": "Suzuki",
+      "model": "Burgman 400",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2007,
+      "year_to": 2025,
+      "engine_cc": 400,
+      "verdict": 8,
+      "description": "The mid-size Burgman, and a superb machine for long commutes. Comfortable, quick enough for motorways and with proper storage. Far more capable than it looks.",
+      "pros": [
+        "Motorway capable",
+        "excellent comfort",
+        "practical"
+      ],
+      "cons": [
+        "Large in town",
+        "dull to look at"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-dr-z400-2000",
+      "make": "Suzuki",
+      "model": "DR-Z400",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2000,
+      "year_to": 2025,
+      "engine_cc": 398,
+      "verdict": 8,
+      "description": "A big-single trail bike with genuine off-road ability and legendary durability. Simple, tough and endlessly modifiable — the default choice for green-laning on a budget.",
+      "pros": [
+        "Very tough",
+        "genuinely capable",
+        "huge aftermarket"
+      ],
+      "cons": [
+        "Vibration on road",
+        "tall seat"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-gsx-s1000gx-2024",
+      "make": "Suzuki",
+      "model": "GSX-S1000GX",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 999,
+      "verdict": 8,
+      "description": "A crossover built on the GSX-S1000 platform, with electronic suspension and an upright stance. Fast, comfortable and rather better than its awkward category suggests.",
+      "pros": [
+        "Strong K5-derived engine",
+        "electronic suspension",
+        "comfortable"
+      ],
+      "cons": [
+        "Heavy",
+        "styling divides opinion"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-sv650x-2018",
+      "make": "Suzuki",
+      "model": "SV650X",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 645,
+      "verdict": 8,
+      "description": "The SV650 with clip-ons, a bikini fairing and café-racer intent. Same lovely V-twin, rather more style, and usually only a little more money.",
+      "pros": [
+        "Charismatic V-twin",
+        "stylish",
+        "easy to own"
+      ],
+      "cons": [
+        "Committed riding position",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 4200,
+        "high": 5800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "suzuki-address-125-2015",
+      "make": "Suzuki",
+      "model": "Address 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A light, frugal commuter scooter built to a price and none the worse for it. Nimble in traffic and astonishingly cheap to run.",
+      "pros": [
+        "Very light",
+        "excellent economy",
+        "cheap"
+      ],
+      "cons": [
+        "Basic",
+        "small wheels"
+      ],
+      "price": {
+        "low": 1400,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-c400gt-2019",
+      "make": "BMW",
+      "model": "C400GT",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 350,
+      "verdict": 7,
+      "description": "BMW's mid-size maxi-scooter, aimed squarely at premium commuters. Well finished, comfortable and quick enough for a motorway, though priced well above the Japanese equivalents.",
+      "pros": [
+        "Refined and comfortable",
+        "good weather protection",
+        "premium finish"
+      ],
+      "cons": [
+        "Expensive",
+        "heavy for the class"
+      ],
+      "price": {
+        "low": 4500,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-f900r-2020",
+      "make": "BMW",
+      "model": "F900R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 895,
+      "verdict": 7,
+      "description": "A middleweight parallel-twin naked with a strong midrange and BMW's usual solidity. Sensible rather than thrilling, and consistently good value used.",
+      "pros": [
+        "Torquey twin",
+        "comfortable",
+        "well built"
+      ],
+      "cons": [
+        "Not as exciting as rivals",
+        "options inflate prices"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-f900gs-2024",
+      "make": "BMW",
+      "model": "F900GS",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 895,
+      "verdict": 8,
+      "description": "A substantially lighter, more off-road-focused replacement for the F850GS. Genuinely capable in the dirt at last, with a punchier twin and better suspension.",
+      "pros": [
+        "Much lighter than the 850",
+        "genuinely capable off road",
+        "strong twin"
+      ],
+      "cons": [
+        "Expensive",
+        "minimal wind protection"
+      ],
+      "price": {
+        "low": 9500,
+        "high": 12500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-r12-ninet-2024",
+      "make": "BMW",
+      "model": "R12 nineT",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 1170,
+      "verdict": 8,
+      "description": "The R nineT reworked with a new frame and cleaner lines. Still the definitive modern boxer roadster, still beautifully built, and still expensive.",
+      "pros": [
+        "Superb build",
+        "timeless design",
+        "characterful boxer"
+      ],
+      "cons": [
+        "Expensive",
+        "limited practicality"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-r1300rs-2025",
+      "make": "BMW",
+      "model": "R1300RS",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2025,
+      "year_to": 2026,
+      "engine_cc": 1300,
+      "verdict": 8,
+      "description": "The RS on the new 1300 boxer platform, with more power and a sharper chassis. A fast, comfortable sports tourer with genuine long-distance ability.",
+      "pros": [
+        "Strong new boxer",
+        "comfortable",
+        "well equipped"
+      ],
+      "cons": [
+        "Very expensive",
+        "too new for a used market"
+      ],
+      "price": {
+        "low": 14000,
+        "high": 17000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-k1600gtl-2011",
+      "make": "BMW",
+      "model": "K1600GTL",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 2011,
+      "year_to": 2025,
+      "engine_cc": 1649,
+      "verdict": 9,
+      "description": "A six-cylinder luxury tourer with a silky engine and every conceivable comfort feature. Vast, expensive and utterly effortless over enormous distances.",
+      "pros": [
+        "Sublime straight six",
+        "supreme comfort",
+        "superb equipment"
+      ],
+      "cons": [
+        "Enormous weight",
+        "expensive to maintain"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 17000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-m1000xr-2024",
+      "make": "BMW",
+      "model": "M1000XR",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 999,
+      "verdict": 9,
+      "description": "An S1000XR taken to its logical extreme, with M-badged everything and close to 200bhp. Ferociously fast and genuinely usable, at a price to match.",
+      "pros": [
+        "Astonishing performance",
+        "comfortable for what it is",
+        "superb spec"
+      ],
+      "cons": [
+        "Very expensive",
+        "firm ride"
+      ],
+      "price": {
+        "low": 16000,
+        "high": 19000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-r1250r-2019",
+      "make": "BMW",
+      "model": "R1250R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2019,
+      "year_to": 2023,
+      "engine_cc": 1254,
+      "verdict": 8,
+      "description": "The naked ShiftCam boxer, and a quietly excellent road bike. Torquey, comfortable and beautifully built, if rather sober next to the Italian competition.",
+      "pros": [
+        "Superb engine",
+        "comfortable",
+        "great build"
+      ],
+      "cons": [
+        "Understated styling",
+        "options add up fast"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bmw-r1250rs-2019",
+      "make": "BMW",
+      "model": "R1250RS",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2019,
+      "year_to": 2024,
+      "engine_cc": 1254,
+      "verdict": 8,
+      "description": "The half-faired boxer, combining the R1250R's engine with proper weather protection. A superb real-world sports tourer that sells in small numbers.",
+      "pros": [
+        "Strong boxer",
+        "comfortable",
+        "practical"
+      ],
+      "cons": [
+        "Rare, so choice is limited",
+        "expensive new"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 12500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "triumph-tiger-sport-800-2024",
+      "make": "Triumph",
+      "model": "Tiger Sport 800",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 798,
+      "verdict": 8,
+      "description": "A road-focused middleweight tourer using the Street Triple's triple. Comfortable, quick and well equipped, and priced against the Japanese rather than the Germans.",
+      "pros": [
+        "Cracking triple",
+        "well equipped",
+        "comfortable"
+      ],
+      "cons": [
+        "Too new to be cheap",
+        "no off-road pretensions"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "triumph-tiger-1200-2022",
+      "make": "Triumph",
+      "model": "Tiger 1200",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 1160,
+      "verdict": 8,
+      "description": "Triumph's big adventure flagship, substantially lighter than the bike it replaced and with a T-plane triple full of character. A genuine GS rival at last.",
+      "pros": [
+        "Characterful triple",
+        "much lighter than before",
+        "well equipped"
+      ],
+      "cons": [
+        "Expensive",
+        "complex options list"
+      ],
+      "price": {
+        "low": 10500,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "triumph-scrambler-1200-2019",
+      "make": "Triumph",
+      "model": "Scrambler 1200",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 1200,
+      "verdict": 8,
+      "description": "A genuinely capable big scrambler with long-travel Ohlins and proper off-road ability. Handsome, characterful and far more able in the dirt than it looks.",
+      "pros": [
+        "Genuinely capable off road",
+        "superb suspension",
+        "great looks"
+      ],
+      "cons": [
+        "Tall",
+        "heavy"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "triumph-speed-twin-900-2019",
+      "make": "Triumph",
+      "model": "Speed Twin 900",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 900,
+      "verdict": 8,
+      "description": "The Street Twin renamed, with the 900 twin and a sportier stance. Light, easy and beautifully finished — the accessible way into the modern classic range.",
+      "pros": [
+        "Easy and approachable",
+        "superb finish",
+        "strong residuals"
+      ],
+      "cons": [
+        "Modest power",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 6300,
+        "high": 8300,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "triumph-tiger-sport-850-2021",
+      "make": "Triumph",
+      "model": "Tiger Sport 850",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2021,
+      "year_to": 2024,
+      "engine_cc": 888,
+      "verdict": 7,
+      "description": "A road-biased, softer-tuned Tiger 900 aimed at riders who wanted the comfort without the off-road pretence. Comfortable, characterful and usually cheaper than the 900.",
+      "pros": [
+        "Comfortable",
+        "characterful triple",
+        "good value"
+      ],
+      "cons": [
+        "Down on power against the 900",
+        "no off-road ability"
+      ],
+      "price": {
+        "low": 6800,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ducati-hypermotard-698-2024",
+      "make": "Ducati",
+      "model": "Hypermotard 698",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 659,
+      "verdict": 8,
+      "description": "A single-cylinder supermoto with a genuinely exotic 77bhp Superquadro engine. Light, mad and enormously entertaining, if utterly impractical for distance.",
+      "pros": [
+        "Extraordinary single",
+        "very light",
+        "huge fun"
+      ],
+      "cons": [
+        "Impractical for distance",
+        "short service intervals"
+      ],
+      "price": {
+        "low": 6800,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ducati-diavel-v4-2023",
+      "make": "Ducati",
+      "model": "Diavel V4",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 1158,
+      "verdict": 9,
+      "description": "A V4 power cruiser that handles like a naked bike. Absurdly fast, beautifully finished and far more capable through corners than the genre allows.",
+      "pros": [
+        "Ferocious V4",
+        "handles superbly",
+        "stunning"
+      ],
+      "cons": [
+        "Very expensive",
+        "limited touring ability"
+      ],
+      "price": {
+        "low": 14000,
+        "high": 19000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ducati-panigale-v4-2018",
+      "make": "Ducati",
+      "model": "Panigale V4",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 1103,
+      "verdict": 10,
+      "description": "Ducati's V4 superbike, and one of the finest sportsbikes ever made. Race-derived electronics, savage performance and a soundtrack nothing else matches.",
+      "pros": [
+        "Sublime V4",
+        "superb electronics",
+        "genuine race pedigree"
+      ],
+      "cons": [
+        "Very expensive to buy and service",
+        "uncompromising"
+      ],
+      "price": {
+        "low": 14000,
+        "high": 22000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "aprilia-rs457-2024",
+      "make": "Aprilia",
+      "model": "RS457",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 457,
+      "verdict": 8,
+      "description": "A small sportsbike with a proper aluminium frame and grown-up electronics. Sharp, well finished and a serious rival to the Japanese A2 sportsbikes.",
+      "pros": [
+        "Excellent chassis",
+        "well equipped",
+        "A2 legal"
+      ],
+      "cons": [
+        "Dealer network",
+        "too new for a used market"
+      ],
+      "price": {
+        "low": 4200,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "aprilia-sr-gt-125-2022",
+      "make": "Aprilia",
+      "model": "SR GT 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "An adventure-styled 125 scooter with slightly longer travel and a rugged look. More capable on poor surfaces than most scooters and reasonably priced.",
+      "pros": [
+        "Handles poor roads well",
+        "distinctive",
+        "practical"
+      ],
+      "cons": [
+        "Modest performance",
+        "dealer network"
+      ],
+      "price": {
+        "low": 2100,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "royal-enfield-shotgun-650-2024",
+      "make": "Royal Enfield",
+      "model": "Shotgun 650",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 648,
+      "verdict": 8,
+      "description": "A bobber-flavoured 650 twin with genuine style and the same excellent parallel twin. Well finished, easy to ride and priced far below the obvious alternatives.",
+      "pros": [
+        "Great value",
+        "handsome",
+        "lovely engine"
+      ],
+      "cons": [
+        "Heavy for the power",
+        "limited lean angle"
+      ],
+      "price": {
+        "low": 4300,
+        "high": 5600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "royal-enfield-guerrilla-450-2024",
+      "make": "Royal Enfield",
+      "model": "Guerrilla 450",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 452,
+      "verdict": 8,
+      "description": "A roadster built on the Himalayan 450's excellent new liquid-cooled single. Punchy, light and easily the most modern-feeling Royal Enfield yet.",
+      "pros": [
+        "Strong new engine",
+        "light and fun",
+        "great value"
+      ],
+      "cons": [
+        "Firm seat",
+        "dealer network varies"
+      ],
+      "price": {
+        "low": 3800,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "royal-enfield-himalayan-450-2024",
+      "make": "Royal Enfield",
+      "model": "Himalayan 450",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 452,
+      "verdict": 8,
+      "description": "A complete redesign of the Himalayan, with a proper liquid-cooled engine and far better suspension. Genuinely capable and still remarkably cheap.",
+      "pros": [
+        "Transformed by the new engine",
+        "genuinely capable off road",
+        "superb value"
+      ],
+      "cons": [
+        "Tall seat",
+        "early build niggles"
+      ],
+      "price": {
+        "low": 3900,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "bsa-gold-star-650-2022",
+      "make": "BSA",
+      "model": "Gold Star 650",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 652,
+      "verdict": 7,
+      "description": "The Gold Star name revived on a modern single, built in India under Mahindra ownership. Handsome and pleasant to ride, if lacking the original's ferocity.",
+      "pros": [
+        "Handsome",
+        "easy to ride",
+        "cheap for a modern classic"
+      ],
+      "cons": [
+        "Not the original's character",
+        "dealer network still building"
+      ],
+      "price": {
+        "low": 3800,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "husqvarna-norden-901-2022",
+      "make": "Husqvarna",
+      "model": "Norden 901",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 889,
+      "verdict": 8,
+      "description": "KTM's 890 Adventure in Swedish clothing, with softer styling and a more road-biased setup. Comfortable, capable and rather more handsome than its cousin.",
+      "pros": [
+        "Excellent engine",
+        "comfortable",
+        "genuinely capable"
+      ],
+      "cons": [
+        "Firm ride",
+        "dealer network"
+      ],
+      "price": {
+        "low": 7500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "husqvarna-701-enduro-2016",
+      "make": "Husqvarna",
+      "model": "701 Enduro",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2016,
+      "year_to": 2025,
+      "engine_cc": 692,
+      "verdict": 8,
+      "description": "A big single enduro that is genuinely competitive off road and still road legal. Light, torquey and uncompromising, with service intervals to match.",
+      "pros": [
+        "Superb off road",
+        "light",
+        "huge torque"
+      ],
+      "cons": [
+        "Short service intervals",
+        "vibration on road"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "husqvarna-701-supermoto-2016",
+      "make": "Husqvarna",
+      "model": "701 Supermoto",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2016,
+      "year_to": 2025,
+      "engine_cc": 692,
+      "verdict": 8,
+      "description": "The 701 with 17-inch wheels and sticky rubber, which turns it into one of the most entertaining road bikes made. Wheelies at will, tiring over distance.",
+      "pros": [
+        "Enormously entertaining",
+        "light",
+        "strong single"
+      ],
+      "cons": [
+        "Uncomfortable at speed",
+        "short service intervals"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "husqvarna-svartpilen-125-2020",
+      "make": "Husqvarna",
+      "model": "Svartpilen 125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "The 401's little brother, with the same Scandinavian styling on a learner-legal platform. Distinctive, well finished and a cut above the budget competition.",
+      "pros": [
+        "Distinctive styling",
+        "good finish",
+        "A2 stepping stone"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "firm ride"
+      ],
+      "price": {
+        "low": 2600,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ktm-rc125-2014",
+      "make": "KTM",
+      "model": "RC125",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A learner sportsbike with genuine track intent, sharing much with the 390. Sharp, light and quick for the class, if uncompromising on the road.",
+      "pros": [
+        "Excellent chassis",
+        "looks the part",
+        "great on track"
+      ],
+      "cons": [
+        "Committed riding position",
+        "firm ride"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ktm-390-smc-r-2024",
+      "make": "KTM",
+      "model": "390 SMC R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2024,
+      "year_to": 2026,
+      "engine_cc": 399,
+      "verdict": 8,
+      "description": "A supermoto built on the 390 platform, with long travel and 17-inch wheels. Light, punchy and hilarious in town — the natural successor to the old 690 SMC in spirit.",
+      "pros": [
+        "Huge fun in town",
+        "light",
+        "A2 legal"
+      ],
+      "cons": [
+        "Firm ride",
+        "limited touring ability"
+      ],
+      "price": {
+        "low": 4200,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "ktm-1390-super-duke-r-2024",
+      "make": "KTM",
+      "model": "1390 Super Duke R",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 1350,
+      "verdict": 9,
+      "description": "The Super Duke enlarged again, with more capacity and more electronics. Still the most uncompromising big naked on sale, and still gloriously excessive.",
+      "pros": [
+        "Monstrous engine",
+        "superb chassis",
+        "huge character"
+      ],
+      "cons": [
+        "Very expensive",
+        "thirsty"
+      ],
+      "price": {
+        "low": 13000,
+        "high": 16500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "mv-agusta-superveloce-800-2020",
+      "make": "MV Agusta",
+      "model": "Superveloce 800",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 798,
+      "verdict": 9,
+      "description": "Possibly the most beautiful motorcycle currently in production, with a triple that sounds extraordinary. Utterly impractical and completely justified on looks alone.",
+      "pros": [
+        "Stunning design",
+        "glorious triple",
+        "genuine exclusivity"
+      ],
+      "cons": [
+        "Expensive to service",
+        "dealer network"
+      ],
+      "price": {
+        "low": 11000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "voge-ds625x-2023",
+      "make": "Voge",
+      "model": "DS625X",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 581,
+      "verdict": 7,
+      "description": "A Chinese-built middleweight adventure bike with a genuinely decent parallel twin and a lot of standard kit. Undercuts the Japanese by thousands and rides far better than the badge suggests.",
+      "pros": [
+        "Remarkable equipment for the money",
+        "decent twin",
+        "comfortable"
+      ],
+      "cons": [
+        "Weak residuals",
+        "dealer network still growing"
+      ],
+      "price": {
+        "low": 3800,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "voge-ds900x-2024",
+      "make": "Voge",
+      "model": "DS900X",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 895,
+      "verdict": 7,
+      "description": "Voge's flagship adventure bike, with a 900cc twin and full electronics. A lot of motorcycle for the money, provided you accept the depreciation.",
+      "pros": [
+        "Huge specification for the price",
+        "comfortable",
+        "strong engine"
+      ],
+      "cons": [
+        "Depreciation is severe",
+        "long-term reliability unproven"
+      ],
+      "price": {
+        "low": 6500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "voge-r125-2023",
+      "make": "Voge",
+      "model": "R125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A well-equipped learner naked with upside-down forks and a colour dash. One of the better Chinese 125s and priced well below the Japanese equivalents.",
+      "pros": [
+        "Well equipped",
+        "good value",
+        "decent finish"
+      ],
+      "cons": [
+        "Residuals",
+        "dealer support varies"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "benelli-bn125-2018",
+      "make": "Benelli",
+      "model": "BN125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2018,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "An Italian-badged, Chinese-built learner naked sold at a very keen price. Nothing exceptional to ride, but honest transport with a bit of style.",
+      "pros": [
+        "Cheap",
+        "reasonable styling",
+        "easy to ride"
+      ],
+      "cons": [
+        "Basic finish",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "benelli-752s-2019",
+      "make": "Benelli",
+      "model": "752S",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 754,
+      "verdict": 7,
+      "description": "A middleweight parallel-twin naked with Italian styling and a bargain price. Heavier and less sharp than the Japanese competition, but a lot of bike for the money.",
+      "pros": [
+        "Very cheap for the capacity",
+        "distinctive styling",
+        "comfortable"
+      ],
+      "cons": [
+        "Heavy",
+        "depreciates hard"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "benelli-trk-702-2023",
+      "make": "Benelli",
+      "model": "TRK 702",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 698,
+      "verdict": 7,
+      "description": "A big-value adventure bike with a willing twin and generous equipment. Not as polished as the Japanese, but thousands cheaper and genuinely comfortable.",
+      "pros": [
+        "Excellent value",
+        "comfortable",
+        "well equipped"
+      ],
+      "cons": [
+        "Heavy",
+        "residuals are weak"
+      ],
+      "price": {
+        "low": 4800,
+        "high": 6200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "cfmoto-800nk-2023",
+      "make": "CFMoto",
+      "model": "800NK",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 799,
+      "verdict": 7,
+      "description": "A KTM-derived twin in a sharply styled naked chassis, with a TFT dash and proper electronics. The most convincing Chinese big bike yet.",
+      "pros": [
+        "Strong KTM-derived twin",
+        "well equipped",
+        "keen price"
+      ],
+      "cons": [
+        "Residuals",
+        "dealer network still building"
+      ],
+      "price": {
+        "low": 4800,
+        "high": 6200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "cfmoto-450mt-2024",
+      "make": "CFMoto",
+      "model": "450MT",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2024,
+      "year_to": 2025,
+      "engine_cc": 449,
+      "verdict": 8,
+      "description": "A light middleweight adventure bike with a 21-inch front wheel and genuine off-road ability, at a price that undercuts everything. One of the surprises of recent years.",
+      "pros": [
+        "Genuinely capable off road",
+        "light",
+        "superb value"
+      ],
+      "cons": [
+        "Dealer network",
+        "unproven long-term"
+      ],
+      "price": {
+        "low": 4600,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "cfmoto-300nk-2018",
+      "make": "CFMoto",
+      "model": "300NK",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 292,
+      "verdict": 6,
+      "description": "A small naked with decent equipment and a keen price. Competent rather than inspiring, and a sensible budget A2 choice.",
+      "pros": [
+        "Cheap",
+        "A2 legal",
+        "reasonably equipped"
+      ],
+      "cons": [
+        "Bland",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1900,
+        "high": 2700,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "royal-alloy-gp125-2018",
+      "make": "Royal Alloy",
+      "model": "GP125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A retro scooter built in the Lambretta idiom, with a steel body and classic lines. Considerably cheaper than a genuine Vespa and rather handsome.",
+      "pros": [
+        "Classic looks",
+        "steel bodywork",
+        "good value"
+      ],
+      "cons": [
+        "Not a genuine Lambretta",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "lambretta-v125-special-2018",
+      "make": "Lambretta",
+      "model": "V125 Special",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "The Lambretta name revived on a modern Austrian-designed scooter. Handsome and reasonably built, though purists argue about whether it earns the badge.",
+      "pros": [
+        "Handsome modern take",
+        "reasonable build",
+        "distinctive"
+      ],
+      "cons": [
+        "Not a classic Lambretta",
+        "limited dealer network"
+      ],
+      "price": {
+        "low": 2300,
+        "high": 3100,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "piaggio-liberty-125-2005",
+      "make": "Piaggio",
+      "model": "Liberty 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2005,
+      "year_to": 2026,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A high-wheeled commuter scooter that copes with British road surfaces far better than small-wheeled rivals. Practical, frugal and quietly excellent.",
+      "pros": [
+        "Large wheels suit poor roads",
+        "economical",
+        "easy to ride"
+      ],
+      "cons": [
+        "Plain styling",
+        "modest storage"
+      ],
+      "price": {
+        "low": 1400,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "piaggio-mp3-300-2007",
+      "make": "Piaggio",
+      "model": "MP3 300",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2007,
+      "year_to": 2025,
+      "engine_cc": 278,
+      "verdict": 7,
+      "description": "The three-wheeled Piaggio, with two wheels at the front and remarkable wet-weather stability. Odd to look at, genuinely reassuring to ride.",
+      "pros": [
+        "Excellent stability",
+        "weather protection",
+        "car-licence versions available"
+      ],
+      "cons": [
+        "Heavy",
+        "complex front end"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "beta-rr-4t-125-2018",
+      "make": "Beta",
+      "model": "RR 4T 125",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "An Italian competition-bred enduro in learner-legal form. Light, properly suspended and far more capable off road than any other 125 you can buy.",
+      "pros": [
+        "Genuine competition chassis",
+        "very light",
+        "superb off road"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "not a road bike"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "stark-varg-2022",
+      "make": "Stark",
+      "model": "VARG",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2022,
+      "year_to": 2026,
+      "engine_cc": 0,
+      "verdict": 8,
+      "description": "An electric motocrosser with up to 80bhp and a phone for a dashboard. Genuinely faster than a 450 four-stroke and nearly silent, though the MX version is not road legal.",
+      "pros": [
+        "Extraordinary performance",
+        "near-silent",
+        "adjustable power"
+      ],
+      "cons": [
+        "MX version is not road legal",
+        "limited run time"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "moto-morini-calibro-700-2023",
+      "make": "Moto Morini",
+      "model": "Calibro 700",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 693,
+      "verdict": 7,
+      "description": "A Chinese-financed revival of the Morini name, offering a well-equipped 700 cruiser at a keen price. Handsome and comfortable, if not especially quick.",
+      "pros": [
+        "Good value",
+        "comfortable",
+        "distinctive"
+      ],
+      "cons": [
+        "Brand recognition",
+        "residuals unproven"
+      ],
+      "price": {
+        "low": 3800,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "rieju-mrt-50-2010",
+      "make": "Rieju",
+      "model": "MRT 50",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2010,
+      "year_to": 2025,
+      "engine_cc": 49,
+      "verdict": 7,
+      "description": "A Spanish-built 50cc sports moped with proper suspension and a genuine competition feel. The choice for sixteen-year-olds who want something better than a scooter.",
+      "pros": [
+        "Proper motorcycle feel",
+        "good chassis",
+        "tough"
+      ],
+      "cons": [
+        "Very slow, as all 50s are",
+        "two-stroke upkeep"
+      ],
+      "price": {
+        "low": 1900,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "niu-nqi-gts-2019",
+      "make": "NIU",
+      "model": "NQi GTS",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "A well-designed electric scooter with removable batteries and app connectivity. Ideal for short urban commutes, limited by range beyond that.",
+      "pros": [
+        "Removable batteries",
+        "cheap to run",
+        "well designed"
+      ],
+      "cons": [
+        "Limited range",
+        "modest top speed"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "sym-symphony-125-2015",
+      "make": "SYM",
+      "model": "Symphony 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A Taiwanese commuter scooter with large wheels and a reputation for reliability well above its price. A sensible budget alternative to the Japanese.",
+      "pros": [
+        "Reliable",
+        "large wheels",
+        "cheap"
+      ],
+      "cons": [
+        "Plain",
+        "limited dealer network"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2100,
+        "as_of": "2026-08-17",
+        "source": "dealer-list-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
     }
   ]
 }
