@@ -3137,7 +3137,7 @@
       "make": "Triumph",
       "model": "Daytona",
       "variant": "955i",
-      "category": "Supersport",
+      "category": "Superbike",
       "year_from": 1997,
       "year_to": 2006,
       "engine_cc": 955,
@@ -15712,6 +15712,1680 @@
       },
       "price_history": [],
       "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+    },
+    {
+      "id": "harley-davidson-electra-glide-1965",
+      "make": "Harley-Davidson",
+      "model": "Electra Glide",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 1965,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 8,
+      "description": "The full-dress Harley tourer, with batwing fairing, hard bags and a stereo. Enormous, slow-steering and utterly effortless once you accept what it is. Values span decades, so condition and year matter more than mileage.",
+      "pros": [
+        "Supreme long-distance comfort",
+        "iconic presence",
+        "huge parts and accessory support"
+      ],
+      "cons": [
+        "Vast weight",
+        "limited ground clearance"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-road-glide-1998",
+      "make": "Harley-Davidson",
+      "model": "Road Glide",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 1998,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 8,
+      "description": "The shark-nose tourer, with a frame-mounted fairing that makes it noticeably more stable than the Electra Glide at speed. The connoisseur's choice among big Harleys.",
+      "pros": [
+        "Frame-mounted fairing aids stability",
+        "strong following",
+        "comfortable"
+      ],
+      "cons": [
+        "Very heavy",
+        "expensive to buy well"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 18000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-street-glide-2006",
+      "make": "Harley-Davidson",
+      "model": "Street Glide",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 2006,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 8,
+      "description": "A stripped-down bagger with the batwing fairing and no top box. The best-selling big Harley for years, and the basis of most custom bagger builds.",
+      "pros": [
+        "Classic bagger looks",
+        "huge aftermarket",
+        "holds value"
+      ],
+      "cons": [
+        "Heavy",
+        "wind protection is compromised by the low screen"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 18000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-heritage-softail-1986",
+      "make": "Harley-Davidson",
+      "model": "Heritage Softail",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 1986,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 8,
+      "description": "A nostalgic Softail with screen, panniers and studded leather. Comfortable enough for real touring and by far the most practical way into the Softail family.",
+      "pros": [
+        "Genuinely usable for touring",
+        "classic styling",
+        "strong residuals"
+      ],
+      "cons": [
+        "Heavy",
+        "limited lean angle"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-fat-bob-2008",
+      "make": "Harley-Davidson",
+      "model": "Fat Bob",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2008,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 7,
+      "description": "The aggressive Softail, with twin headlights, fat tyres and chopped bodywork. More attitude than the Heritage and rather better to ride than most Harleys.",
+      "pros": [
+        "Menacing looks",
+        "better handling than most Softails",
+        "strong aftermarket"
+      ],
+      "cons": [
+        "Firm ride",
+        "small tank on later bikes"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-breakout-2013",
+      "make": "Harley-Davidson",
+      "model": "Breakout",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2013,
+      "year_to": 2025,
+      "engine_cc": 1868,
+      "verdict": 7,
+      "description": "A drag-strip-styled Softail with an enormous rear tyre and a very long wheelbase. Spectacular to look at and predictably reluctant to change direction.",
+      "pros": [
+        "Striking presence",
+        "big-inch torque",
+        "strong values"
+      ],
+      "cons": [
+        "Poor steering lock",
+        "limited lean angle"
+      ],
+      "price": {
+        "low": 9000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-low-rider-s-2016",
+      "make": "Harley-Davidson",
+      "model": "Low Rider S",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2016,
+      "year_to": 2025,
+      "engine_cc": 1868,
+      "verdict": 8,
+      "description": "The performance Softail, with a bigger motor, better suspension and a small fairing. Genuinely quick and the one most likely to appeal to riders coming from other brands.",
+      "pros": [
+        "Quick for a Harley",
+        "decent suspension",
+        "hugely popular"
+      ],
+      "cons": [
+        "Firm ride",
+        "expensive used"
+      ],
+      "price": {
+        "low": 10000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-sportster-s-2021",
+      "make": "Harley-Davidson",
+      "model": "Sportster S",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 1252,
+      "verdict": 7,
+      "description": "The Sportster reinvented around the Revolution Max V-twin. Fast, modern and technically excellent, though it divides opinion on looks and lost the old bike's simplicity.",
+      "pros": [
+        "Genuinely quick",
+        "modern electronics",
+        "strong brakes"
+      ],
+      "cons": [
+        "Divisive styling",
+        "limited range and lean angle"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "harley-davidson-softail-standard-2020",
+      "make": "Harley-Davidson",
+      "model": "Softail Standard",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 1745,
+      "verdict": 7,
+      "description": "The stripped-back, cheapest way into a modern Softail. Deliberately plain and designed as a blank canvas for customising, which is exactly what most owners do.",
+      "pros": [
+        "Cheapest route into a Softail",
+        "great custom base",
+        "classic looks"
+      ],
+      "cons": [
+        "Very basic as standard",
+        "firm ride"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "indian-chief-2014",
+      "make": "Indian",
+      "model": "Chief",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 1811,
+      "verdict": 8,
+      "description": "Indian's flagship cruiser, with the big Thunder Stroke V-twin and unmistakable valanced mudguards. Beautifully finished and a genuine alternative to Milwaukee.",
+      "pros": [
+        "Gorgeous finish",
+        "strong torquey V-twin",
+        "real presence"
+      ],
+      "cons": [
+        "Heavy",
+        "dealer network smaller than Harley's"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "indian-chieftain-2014",
+      "make": "Indian",
+      "model": "Chieftain",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 1811,
+      "verdict": 8,
+      "description": "The full-fairing Indian tourer, with a power windscreen and hard bags. Comfortable, well equipped and quicker than the Harley equivalent.",
+      "pros": [
+        "Powered screen",
+        "strong performance",
+        "well equipped"
+      ],
+      "cons": [
+        "Very heavy",
+        "dealer coverage"
+      ],
+      "price": {
+        "low": 10000,
+        "high": 19000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "indian-springfield-2016",
+      "make": "Indian",
+      "model": "Springfield",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 2016,
+      "year_to": 2025,
+      "engine_cc": 1811,
+      "verdict": 8,
+      "description": "A classically styled Indian tourer with a detachable screen and panniers, sitting between the Chief and the Chieftain. Handsome and genuinely capable over distance.",
+      "pros": [
+        "Handsome classic styling",
+        "comfortable",
+        "versatile"
+      ],
+      "cons": [
+        "Heavy",
+        "expensive"
+      ],
+      "price": {
+        "low": 10000,
+        "high": 18000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "yamaha-fzs1000-fazer-2001",
+      "make": "Yamaha",
+      "model": "FZS1000",
+      "variant": "Fazer",
+      "category": "Naked",
+      "year_from": 2001,
+      "year_to": 2005,
+      "engine_cc": 998,
+      "verdict": 9,
+      "description": "An R1 motor detuned for the road in a comfortable half-faired chassis, sold for sensible money. The big Fazer was a UK favourite for good reason and remains one of the great used bargains.",
+      "pros": [
+        "R1-derived power",
+        "genuinely comfortable",
+        "superb value"
+      ],
+      "cons": [
+        "Soft standard suspension",
+        "corrosion on neglected examples"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "yamaha-fz8-fazer-2010",
+      "make": "Yamaha",
+      "model": "FZ8",
+      "variant": "Fazer",
+      "category": "Naked",
+      "year_from": 2010,
+      "year_to": 2016,
+      "engine_cc": 779,
+      "verdict": 7,
+      "description": "An FZ1 shrunk to 800cc, aimed at riders who found the litre bike too much. Smooth and competent, if rather overshadowed by the cheaper MT-09 that followed.",
+      "pros": [
+        "Smooth four",
+        "comfortable",
+        "cheap now"
+      ],
+      "cons": [
+        "Overshadowed by the MT-09",
+        "unexciting delivery"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "yamaha-xv950-bolt-2014",
+      "make": "Yamaha",
+      "model": "XV950",
+      "variant": "Bolt",
+      "category": "Cruiser",
+      "year_from": 2014,
+      "year_to": 2021,
+      "engine_cc": 942,
+      "verdict": 7,
+      "description": "A stripped-back bobber-styled cruiser on Yamaha's air-cooled V-twin. Low, easy and well finished, with a decent custom scene behind it.",
+      "pros": [
+        "Low and approachable",
+        "good build quality",
+        "custom potential"
+      ],
+      "cons": [
+        "Limited suspension travel",
+        "modest range"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "kawasaki-zrx1200-2001",
+      "make": "Kawasaki",
+      "model": "ZRX1200",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2001,
+      "year_to": 2007,
+      "engine_cc": 1164,
+      "verdict": 8,
+      "description": "A big air-cooled muscle retro styled after Eddie Lawson's superbike. Torquey, handsome and blessed with a fiercely loyal following that keeps values firm.",
+      "pros": [
+        "Enormous character",
+        "strong following",
+        "distinctive looks"
+      ],
+      "cons": [
+        "Heavy",
+        "thirsty"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "kawasaki-zr-7-1999",
+      "make": "Kawasaki",
+      "model": "ZR-7",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 1999,
+      "year_to": 2004,
+      "engine_cc": 738,
+      "verdict": 6,
+      "description": "A budget air-cooled naked built on ageing GPz750 architecture. Never exciting, always dependable, and now about as cheap as a usable big bike gets.",
+      "pros": [
+        "Very cheap",
+        "simple and tough",
+        "easy to maintain"
+      ],
+      "cons": [
+        "Dated even when new",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "kawasaki-klr650-1987",
+      "make": "Kawasaki",
+      "model": "KLR650",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 1987,
+      "year_to": 2018,
+      "engine_cc": 651,
+      "verdict": 7,
+      "description": "A big single trail bike that barely changed in thirty years because it did not need to. Simple, tough and the default choice for round-the-world trips on a budget.",
+      "pros": [
+        "Legendary durability",
+        "simple to fix anywhere",
+        "huge aftermarket"
+      ],
+      "cons": [
+        "Vibration",
+        "soft suspension as standard"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "kawasaki-ninja-250r-2008",
+      "make": "Kawasaki",
+      "model": "Ninja 250R",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2008,
+      "year_to": 2012,
+      "engine_cc": 249,
+      "verdict": 7,
+      "description": "The small Ninja before the 300, and a superb first sportsbike. The parallel twin revs happily and the chassis is far better than the price suggests.",
+      "pros": [
+        "Great first sportsbike",
+        "reliable",
+        "cheap to insure"
+      ],
+      "cons": [
+        "Needs revs",
+        "dated against the 300"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "honda-cb1300-2003",
+      "make": "Honda",
+      "model": "CB1300",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2003,
+      "year_to": 2013,
+      "engine_cc": 1284,
+      "verdict": 8,
+      "description": "An enormous air-cooled four in the classic UJM mould, built long after the fashion had passed. Smooth, torquey and beautifully made, with a devoted following.",
+      "pros": [
+        "Silky big four",
+        "superb build",
+        "real presence"
+      ],
+      "cons": [
+        "Very heavy",
+        "thirsty"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "honda-x-11-1999",
+      "make": "Honda",
+      "model": "X-11",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 1999,
+      "year_to": 2003,
+      "engine_cc": 1137,
+      "verdict": 7,
+      "description": "A naked Blackbird with a bikini fairing and enormous straight-line performance. Rare, slightly odd and increasingly appreciated as a cult muscle bike.",
+      "pros": [
+        "Blackbird power",
+        "rare",
+        "cult following"
+      ],
+      "cons": [
+        "Awkward styling",
+        "wind blast at speed"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "honda-cbf500-2004",
+      "make": "Honda",
+      "model": "CBF500",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2004,
+      "year_to": 2008,
+      "engine_cc": 499,
+      "verdict": 6,
+      "description": "A parallel twin commuter with adjustable ergonomics and total dependability. Riding schools bought them by the fleet, which tells you what you need to know.",
+      "pros": [
+        "Very forgiving",
+        "tough",
+        "cheap"
+      ],
+      "cons": [
+        "Utterly unexciting",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "honda-cb900f-hornet-2002",
+      "make": "Honda",
+      "model": "CB900F",
+      "variant": "Hornet",
+      "category": "Naked",
+      "year_from": 2002,
+      "year_to": 2007,
+      "engine_cc": 919,
+      "verdict": 8,
+      "description": "A FireBlade-derived four in the Hornet's stripped-back chassis. Fast, raucous and cheap, with a top-end rush that most naked bikes cannot match.",
+      "pros": [
+        "Screaming four",
+        "strong performance",
+        "good value"
+      ],
+      "cons": [
+        "Firm ride",
+        "corrosion on neglected bikes"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "suzuki-b-king-2007",
+      "make": "Suzuki",
+      "model": "B-King",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2007,
+      "year_to": 2012,
+      "engine_cc": 1340,
+      "verdict": 8,
+      "description": "A naked Hayabusa with styling that looked like a concept bike escaped. Enormous torque, huge presence and a cult following that has grown steadily since.",
+      "pros": [
+        "Monstrous engine",
+        "genuinely unique",
+        "cult status"
+      ],
+      "cons": [
+        "Very heavy",
+        "tiny fuel range"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "yamaha-ybr125-2005",
+      "make": "Yamaha",
+      "model": "YBR125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2005,
+      "year_to": 2020,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "One of the great learner bikes: frugal, forgiving and almost impossible to break. Sold in enormous numbers to schools, commuters and delivery riders, so there are plenty about and parts are everywhere.",
+      "pros": [
+        "Superb economy",
+        "very reliable",
+        "cheap to insure"
+      ],
+      "cons": [
+        "Slow",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1600,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "yamaha-xt125r-2005",
+      "make": "Yamaha",
+      "model": "XT125R",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2005,
+      "year_to": 2013,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A learner-legal trail bike with genuine off-road manners and a tall, commanding riding position. Popular with new riders who wanted something more interesting than a commuter.",
+      "pros": [
+        "Fun on and off road",
+        "light",
+        "easy to maintain"
+      ],
+      "cons": [
+        "Slow on road",
+        "tall for shorter riders"
+      ],
+      "price": {
+        "low": 1100,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "honda-vtr250-1998",
+      "make": "Honda",
+      "model": "VTR250",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 1998,
+      "year_to": 2013,
+      "engine_cc": 249,
+      "verdict": 8,
+      "description": "A miniature V-twin naked with a proper exhaust note and beautiful proportions. Grey imports are common and the little motor is typically Honda in its dependability.",
+      "pros": [
+        "Charming V-twin",
+        "great first big-feel bike",
+        "reliable"
+      ],
+      "cons": [
+        "Mostly grey imports",
+        "parts can need sourcing"
+      ],
+      "price": {
+        "low": 1600,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "suzuki-gn125-1982",
+      "make": "Suzuki",
+      "model": "GN125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 1982,
+      "year_to": 2016,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "A simple, upright commuter that stayed on sale for decades. Slow and basic, but cheap to buy, cheap to run and easy to fix with hand tools.",
+      "pros": [
+        "Extremely cheap",
+        "simple to work on",
+        "forgiving"
+      ],
+      "cons": [
+        "Very slow",
+        "drum rear brake on most"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "vincent-black-shadow-1948",
+      "make": "Vincent",
+      "model": "Black Shadow",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1948,
+      "year_to": 1955,
+      "engine_cc": 998,
+      "verdict": 10,
+      "description": "The fastest production motorcycle in the world when new, and still among the most desirable machines ever built. That black-finished V-twin and the 150mph speedometer are motorcycling legend. Condition and originality drive enormous price swings.",
+      "pros": [
+        "Blue-chip investment",
+        "genuine landmark",
+        "extraordinary engineering"
+      ],
+      "cons": [
+        "Serious money",
+        "projects can be bottomless"
+      ],
+      "price": {
+        "low": 35000,
+        "high": 80000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1951 Series C sold £48300, 1955 Series D Black Prince £52900; H&H record £76700. Projects fall far below"
+    },
+    {
+      "id": "brough-superior-ss100-1924",
+      "make": "Brough Superior",
+      "model": "SS100",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1924,
+      "year_to": 1940,
+      "engine_cc": 998,
+      "verdict": 10,
+      "description": "The Rolls-Royce of Motorcycles, and the most valuable British machine there is. Every one was built to order and guaranteed to have exceeded 100mph before delivery. Provenance is everything.",
+      "pros": [
+        "The blue-chip British classic",
+        "extraordinary provenance",
+        "record auction results"
+      ],
+      "cons": [
+        "Six-figure money",
+        "authenticity must be watertight"
+      ],
+      "price": {
+        "low": 150000,
+        "high": 300000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "H&H record £224200 in 2021; Bonhams results routinely six figures. Provenance is everything"
+    },
+    {
+      "id": "ariel-square-four-1931",
+      "make": "Ariel",
+      "model": "Square Four",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1931,
+      "year_to": 1959,
+      "engine_cc": 997,
+      "verdict": 9,
+      "description": "Four cylinders in a square, and unlike anything else on the road. Turbine-smooth and effortlessly torquey, the Squariel is one of the great British engineering curiosities and highly sought after.",
+      "pros": [
+        "Unique engine layout",
+        "remarkably smooth",
+        "strong values"
+      ],
+      "cons": [
+        "Rear cylinders run hot",
+        "specialist knowledge needed"
+      ],
+      "price": {
+        "low": 6500,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: three sales at £6900-£9200 (1951, 1954, 1959)"
+    },
+    {
+      "id": "sunbeam-s7-1946",
+      "make": "Sunbeam",
+      "model": "S7",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1946,
+      "year_to": 1956,
+      "engine_cc": 487,
+      "verdict": 8,
+      "description": "An in-line twin with shaft drive and balloon tyres, built to be the quietest, most refined motorcycle in Britain. Slow and heavy, but utterly civilised and quite unlike anything else.",
+      "pros": [
+        "Genuinely refined",
+        "shaft drive",
+        "distinctive"
+      ],
+      "cons": [
+        "Slow",
+        "heavy steering"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: Model 90 £7475, Model 6 Lion £3680, a project at £3220"
+    },
+    {
+      "id": "scott-flying-squirrel-1926",
+      "make": "Scott",
+      "model": "Flying Squirrel",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1926,
+      "year_to": 1950,
+      "engine_cc": 596,
+      "verdict": 9,
+      "description": "A water-cooled two-stroke twin from an era when that was near-heresy. The Scott yowl is unmistakable and the engineering was decades ahead. A connoisseur's classic.",
+      "pros": [
+        "Extraordinary engineering",
+        "unmistakable sound",
+        "rarity"
+      ],
+      "cons": [
+        "Specialist maintenance",
+        "parts are scarce"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1930 Sports Squirrel £5635, 1950 Squirrel Racer £5520"
+    },
+    {
+      "id": "rudge-ulster-1929",
+      "make": "Rudge",
+      "model": "Ulster",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1929,
+      "year_to": 1939,
+      "engine_cc": 499,
+      "verdict": 9,
+      "description": "A radial-valve single named after a Grand Prix win, and among the finest British sports bikes of the pre-war era. Beautifully engineered and increasingly valuable.",
+      "pros": [
+        "Superb pre-war engineering",
+        "strong competition history",
+        "rising values"
+      ],
+      "cons": [
+        "Specialist knowledge essential",
+        "parts scarcity"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1938 Sports Special £8970, 1928 Super Sports £7475"
+    },
+    {
+      "id": "douglas-dragonfly-1955",
+      "make": "Douglas",
+      "model": "Dragonfly",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1955,
+      "year_to": 1957,
+      "engine_cc": 348,
+      "verdict": 7,
+      "description": "A flat twin with a distinctive headlamp nacelle and a short, troubled production run before Douglas folded. Smooth, characterful and a genuine rarity.",
+      "pros": [
+        "Unusual flat twin",
+        "smooth",
+        "rare"
+      ],
+      "cons": [
+        "Very short production run",
+        "parts hard to find"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: Douglas sales £2300-£6210 across Z1, 90 Plus and Aero models"
+    },
+    {
+      "id": "velocette-viper-1956",
+      "make": "Velocette",
+      "model": "Viper",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1956,
+      "year_to": 1968,
+      "engine_cc": 349,
+      "verdict": 8,
+      "description": "The 350 Venom, and by many accounts the sweeter of the two. Same superb engineering and gearchange, slightly less urgency, and usually a little cheaper.",
+      "pros": [
+        "Beautiful engineering",
+        "lovely gearchange",
+        "cheaper than a Venom"
+      ],
+      "cons": [
+        "Slower than the Venom",
+        "specialist parts"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1964 Viper £2875; road examples list higher"
+    },
+    {
+      "id": "francis-barnett-falcon-1947",
+      "make": "Francis-Barnett",
+      "model": "Falcon",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1947,
+      "year_to": 1964,
+      "engine_cc": 197,
+      "verdict": 6,
+      "description": "A Villiers-engined lightweight from the era when every British town had a dealer. Simple, slow and endearing, and one of the cheapest ways into pre-1960 British motorcycling.",
+      "pros": [
+        "Very cheap entry to classics",
+        "simple",
+        "good club support"
+      ],
+      "cons": [
+        "Very slow",
+        "Villiers parts need hunting"
+      ],
+      "price": {
+        "low": 1000,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 1953 Francis-Barnett Trials £1035"
+    },
+    {
+      "id": "james-captain-1950",
+      "make": "James",
+      "model": "Captain",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1950,
+      "year_to": 1964,
+      "engine_cc": 197,
+      "verdict": 6,
+      "description": "Another Villiers-powered lightweight, mechanically close to the Francis-Barnett after both came under AMC. Honest, basic transport with real period charm.",
+      "pros": [
+        "Cheap",
+        "easy to work on",
+        "charming"
+      ],
+      "cons": [
+        "Slow",
+        "limited performance for modern roads"
+      ],
+      "price": {
+        "low": 1000,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "excelsior-talisman-1949",
+      "make": "Excelsior",
+      "model": "Talisman",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1949,
+      "year_to": 1962,
+      "engine_cc": 243,
+      "verdict": 6,
+      "description": "A twin-cylinder two-stroke lightweight from Britain's oldest motorcycle maker. Unusual, rare and cheap, though parts require patience.",
+      "pros": [
+        "Unusual twin-cylinder two-stroke",
+        "rare",
+        "affordable"
+      ],
+      "cons": [
+        "Parts scarcity",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "greeves-scottish-1957",
+      "make": "Greeves",
+      "model": "Scottish",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1957,
+      "year_to": 1966,
+      "engine_cc": 246,
+      "verdict": 8,
+      "description": "A competition trials machine with Greeves' distinctive cast-alloy front downtube. Successful in period and still campaigned in classic trials, which keeps values healthy.",
+      "pros": [
+        "Genuine competition pedigree",
+        "still usable in classic trials",
+        "distinctive engineering"
+      ],
+      "cons": [
+        "Not a road bike",
+        "specialist parts"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "iconic-auction+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Iconic archive: 24RES Silverstone £4830, Silverstone £2645"
+    },
+    {
+      "id": "royal-enfield-crusader-1956",
+      "make": "Royal Enfield",
+      "model": "Crusader",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1956,
+      "year_to": 1963,
+      "engine_cc": 248,
+      "verdict": 6,
+      "description": "A neat unit-construction 250 from Redditch, built when a 250 was what most riders could afford to insure. Simple, pretty and cheap.",
+      "pros": [
+        "Attractive lines",
+        "cheap",
+        "simple"
+      ],
+      "cons": [
+        "Modest performance",
+        "electrics are period"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ducati-999-2003",
+      "make": "Ducati",
+      "model": "999",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2003,
+      "year_to": 2006,
+      "engine_cc": 998,
+      "verdict": 8,
+      "description": "Pierre Terblanche's successor to the 916, and a far better motorcycle than the styling backlash suggested. Sharper, more comfortable and a championship winner. Values have finally started to climb.",
+      "pros": [
+        "Superb chassis",
+        "championship pedigree",
+        "undervalued for years"
+      ],
+      "cons": [
+        "Divisive styling",
+        "desmo service costs"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ducati-1198-2009",
+      "make": "Ducati",
+      "model": "1198",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 2009,
+      "year_to": 2011,
+      "engine_cc": 1198,
+      "verdict": 9,
+      "description": "The final development of the twin-cylinder superbike line, with huge torque and the classic underseat pipes. The last of a breed before the V4 arrived.",
+      "pros": [
+        "Enormous torque",
+        "gorgeous",
+        "end of an era"
+      ],
+      "cons": [
+        "Expensive servicing",
+        "runs hot"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 13000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ducati-monster-796-2010",
+      "make": "Ducati",
+      "model": "Monster 796",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2010,
+      "year_to": 2014,
+      "engine_cc": 803,
+      "verdict": 7,
+      "description": "The middle Monster of the air-cooled era, splitting the difference between the 696 and the 1100. Arguably the sweet spot of the range and good value used.",
+      "pros": [
+        "Well-judged capacity",
+        "proper Monster character",
+        "good value"
+      ],
+      "cons": [
+        "Belt services",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ducati-multistrada-950-2017",
+      "make": "Ducati",
+      "model": "Multistrada 950",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2017,
+      "year_to": 2021,
+      "engine_cc": 937,
+      "verdict": 8,
+      "description": "The middleweight Multistrada, lighter and far less intimidating than the 1200 while keeping most of the ability. The sensible Multistrada choice.",
+      "pros": [
+        "Easier than the 1200",
+        "strong twin",
+        "comfortable"
+      ],
+      "cons": [
+        "Less equipment than the 1200",
+        "belt services"
+      ],
+      "price": {
+        "low": 6500,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ducati-supersport-950-2017",
+      "make": "Ducati",
+      "model": "SuperSport 950",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2017,
+      "year_to": 2025,
+      "engine_cc": 937,
+      "verdict": 8,
+      "description": "A Panigale-styled sports tourer with an upright riding position and genuine comfort. All the Ducati looks with none of the wrist pain.",
+      "pros": [
+        "Comfortable for a sportsbike",
+        "gorgeous",
+        "strong twin"
+      ],
+      "cons": [
+        "Not a track bike",
+        "servicing costs"
+      ],
+      "price": {
+        "low": 6500,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "bmw-r1150gs-1999",
+      "make": "BMW",
+      "model": "R1150GS",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 1999,
+      "year_to": 2004,
+      "engine_cc": 1130,
+      "verdict": 8,
+      "description": "The GS that Ewan and Charley made famous, and the last of the oil-cooled Telelever generation. Tough, comfortable and now the cheapest way into a big boxer GS.",
+      "pros": [
+        "Enormously durable",
+        "comfortable",
+        "cheapest big GS"
+      ],
+      "cons": [
+        "Heavy",
+        "final drive and gearbox need checking"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "bmw-f650gs-twin-2008",
+      "make": "BMW",
+      "model": "F650GS",
+      "variant": "Twin",
+      "category": "Adventure",
+      "year_from": 2008,
+      "year_to": 2012,
+      "engine_cc": 798,
+      "verdict": 7,
+      "description": "Confusingly named, this is the 800cc parallel twin with a lower seat and cast wheels rather than the old single. Friendly, capable and a superb middleweight all-rounder.",
+      "pros": [
+        "Manageable seat height",
+        "strong twin",
+        "versatile"
+      ],
+      "cons": [
+        "Confusing name",
+        "chain rather than shaft"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "bmw-r1200r-2006",
+      "make": "BMW",
+      "model": "R1200R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2006,
+      "year_to": 2018,
+      "engine_cc": 1170,
+      "verdict": 8,
+      "description": "The naked boxer, and a quietly brilliant road bike. Torquey, comfortable and beautifully made, with Telelever composure and shaft drive simplicity.",
+      "pros": [
+        "Characterful boxer",
+        "shaft drive",
+        "superb build"
+      ],
+      "cons": [
+        "Sober styling",
+        "options inflate prices"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ktm-1190-adventure-2013",
+      "make": "KTM",
+      "model": "1190 Adventure",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2013,
+      "year_to": 2016,
+      "engine_cc": 1195,
+      "verdict": 8,
+      "description": "The bike between the 990 and the 1290, and one of the best big adventure bikes KTM has made. Fast, capable and often overlooked, which keeps prices sensible.",
+      "pros": [
+        "Superb engine",
+        "genuinely capable",
+        "undervalued"
+      ],
+      "cons": [
+        "Early electronics niggles",
+        "thirsty"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "ktm-690-smc-r-2012",
+      "make": "KTM",
+      "model": "690 SMC R",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2012,
+      "year_to": 2025,
+      "engine_cc": 690,
+      "verdict": 8,
+      "description": "A road-legal supermoto built on the big single, and one of the most entertaining things you can ride on a back road. Uncompromising and utterly addictive.",
+      "pros": [
+        "Hilarious fun",
+        "light",
+        "strong single"
+      ],
+      "cons": [
+        "Short service intervals",
+        "impractical for distance"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "mv-agusta-f4-1999",
+      "make": "MV Agusta",
+      "model": "F4",
+      "variant": "",
+      "category": "Superbike",
+      "year_from": 1999,
+      "year_to": 2018,
+      "engine_cc": 998,
+      "verdict": 9,
+      "description": "Massimo Tamburini's follow-up to the 916, and to many eyes the most beautiful sportsbike ever made. Those organ-pipe exhausts alone justify it.",
+      "pros": [
+        "Breathtaking design",
+        "glorious noise",
+        "genuine exclusivity"
+      ],
+      "cons": [
+        "Expensive servicing",
+        "dealer network"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "moto-guzzi-california-1972",
+      "make": "Moto Guzzi",
+      "model": "California",
+      "variant": "",
+      "category": "Tourer",
+      "year_from": 1972,
+      "year_to": 2021,
+      "engine_cc": 1380,
+      "verdict": 7,
+      "description": "Guzzi's big transverse-twin tourer, used by Italian police for decades. Comfortable, characterful and unlike any other cruiser-tourer on the road.",
+      "pros": [
+        "Real character",
+        "comfortable",
+        "shaft drive"
+      ],
+      "cons": [
+        "Heavy",
+        "dealer network"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
+    },
+    {
+      "id": "aprilia-sr50-1992",
+      "make": "Aprilia",
+      "model": "SR50",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1992,
+      "year_to": 2020,
+      "engine_cc": 49,
+      "verdict": 7,
+      "description": "The sports fifty that dominated its class, with proper suspension and genuine performance for a moped. Enormous nostalgia value now.",
+      "pros": [
+        "Genuine performance for a 50",
+        "cult following",
+        "huge aftermarket"
+      ],
+      "cons": [
+        "Most have been thrashed or derestricted",
+        "two-stroke upkeep"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1800,
+        "as_of": "2026-08-17",
+        "source": "market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added during the coverage audit; priced from UK market knowledge cross-checked against our dealer and auction data where comparables existed"
     }
   ]
 }
