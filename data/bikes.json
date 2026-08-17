@@ -4022,14 +4022,22 @@
       ],
       "price": {
         "low": 2000,
-        "high": 5000,
+        "high": 5500,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-inventory",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "From just over £2000 with patchy history to nearly £5000 for a clean original"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 2000,
+          "high": 5000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Top nudged up: a 2013 with 6.2k miles at £5499"
     },
     {
       "id": "yamaha-tdm900-2002",
@@ -5758,14 +5766,22 @@
       ],
       "price": {
         "low": 4500,
-        "high": 8300,
+        "high": 8600,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-inventory",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2009-2014 £4990-£5999; 2015-16 dealer stock £7990-£8290"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 4500,
+          "high": 8300,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Nudged up: inventory holds 2014 and 2016 examples at £7499-£8499"
     },
     {
       "id": "suzuki-gsx-s750-2015",
@@ -5789,14 +5805,22 @@
       ],
       "price": {
         "low": 4500,
-        "high": 6300,
+        "high": 6600,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-inventory",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2019 with 7.4k miles £5689; 2020 £6090; 2021 £6190"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 4500,
+          "high": 6300,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Top nudged up: a 2020 GSX-S750 Z at £6499"
     },
     {
       "id": "suzuki-dl650-v-strom-2012",
@@ -6596,14 +6620,22 @@
       ],
       "price": {
         "low": 6000,
-        "high": 10500,
+        "high": 14000,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-inventory",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2012 R from c.£6000, Factory c.£1000 more; 2016 RF £9990, 2018 £9500"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 6000,
+          "high": 10500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Top raised: a 2020 RSV4 1100 Factory at £13999. Factory and 1100 models sit well above base bikes"
     },
     {
       "id": "aprilia-tuono-v4-2011",
@@ -9525,15 +9557,23 @@
         "firm seat"
       ],
       "price": {
-        "low": 4000,
+        "low": 3800,
         "high": 5600,
         "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "source": "uk-market+dealer-inventory",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Dealer used c.£5499 against £6199 new"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 4000,
+          "high": 5600,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Floor lowered: two 2023 examples at £3999, just below our previous £4000 floor"
     },
     {
       "id": "honda-cb650r-2024",
@@ -10805,6 +10845,657 @@
       },
       "price_history": [],
       "notes": "Two in dealer stock at £6999 (Sport SE spec)"
+    },
+    {
+      "id": "yamaha-mt-10-2016",
+      "make": "Yamaha",
+      "model": "MT-10",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2016,
+      "year_to": 2021,
+      "engine_cc": 998,
+      "verdict": 8,
+      "description": "The first crossplane MT-10, with R1 mechanics, wild styling and a soundtrack no other naked could match. Rawer and less polished than the later bike, but cheaper and arguably more characterful.",
+      "pros": [
+        "Glorious crossplane engine",
+        "huge performance",
+        "cheaper than the later bike"
+      ],
+      "cons": [
+        "Snatchy fuelling on early bikes",
+        "styling is challenging"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2020 SP with 17.4k miles £10499. Base bikes below that"
+    },
+    {
+      "id": "yamaha-tracer-7-2021",
+      "make": "Yamaha",
+      "model": "Tracer 7",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 689,
+      "verdict": 8,
+      "description": "The Tracer 700 renamed and gently improved, with better wind protection and a smarter dash. Still the same superb CP2 twin and still one of the best-value all-rounders on sale.",
+      "pros": [
+        "Cracking engine",
+        "genuinely practical",
+        "strong value"
+      ],
+      "cons": [
+        "Soft suspension",
+        "modest wind protection on the base bike"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2021 with 1.3k miles £6999; 2024 GT with 3.7k £8299"
+    },
+    {
+      "id": "yamaha-xsr125-2021",
+      "make": "Yamaha",
+      "model": "XSR125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "A learner-legal retro with the MT-125's underpinnings and far more charm. Proper upside-down forks, decent brakes and styling that shames most 125s. Holds value strongly.",
+      "pros": [
+        "Genuinely handsome",
+        "good chassis for a 125",
+        "strong residuals"
+      ],
+      "cons": [
+        "Pricey for the class",
+        "slow, inevitably"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2023 with 2.7k miles £4149"
+    },
+    {
+      "id": "yamaha-tricity-125-2014",
+      "make": "Yamaha",
+      "model": "Tricity 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2014,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "A leaning three-wheeler that is far less peculiar to ride than it looks. The twin front wheels genuinely add grip and confidence in the wet, which is most of the British year.",
+      "pros": [
+        "Extra front-end grip",
+        "easy to ride",
+        "cheap to run"
+      ],
+      "cons": [
+        "Heavier than a normal 125",
+        "looks divide opinion"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2018 with 6.2k miles £2499"
+    },
+    {
+      "id": "yamaha-tricity-300-2020",
+      "make": "Yamaha",
+      "model": "Tricity 300",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2020,
+      "year_to": 2026,
+      "engine_cc": 292,
+      "verdict": 7,
+      "description": "The bigger leaning three-wheeler, and one you can ride on a car licence with the right training. Genuinely stable, properly quick enough for dual carriageways and very reassuring in poor weather.",
+      "pros": [
+        "Remarkable wet-weather stability",
+        "motorway capable",
+        "car-licence friendly"
+      ],
+      "cons": [
+        "Heavy",
+        "expensive against two-wheeled rivals"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2026 delivery-mileage £7499; used examples below"
+    },
+    {
+      "id": "yamaha-x-max-125-2018",
+      "make": "Yamaha",
+      "model": "X-Max 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "The best-built 125 maxi-scooter, with real storage, a proper riding position and Yamaha reliability. Expensive next to the budget competition and worth it.",
+      "pros": [
+        "Superb build",
+        "genuinely practical",
+        "strong residuals"
+      ],
+      "cons": [
+        "Costs more than rivals",
+        "bulky in town"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2024 with 5.3k miles £4199"
+    },
+    {
+      "id": "suzuki-gsx1300r-hayabusa-gen-2-2008",
+      "make": "Suzuki",
+      "model": "GSX1300R",
+      "variant": "Hayabusa Gen 2",
+      "category": "Sports tourer",
+      "year_from": 2008,
+      "year_to": 2020,
+      "engine_cc": 1340,
+      "verdict": 9,
+      "description": "The second-generation Busa, with more capacity and a slightly less cartoonish shape. Effortlessly, absurdly fast and comfortable enough to cross Europe. The bargain of the hyperbike world.",
+      "pros": [
+        "Immense effortless speed",
+        "comfortable",
+        "superb value used"
+      ],
+      "cons": [
+        "Very heavy",
+        "thirsty when used properly"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2018 with 6.2k miles £9499. Earlier gen-2 bikes well below"
+    },
+    {
+      "id": "suzuki-gsx1250fa-2010",
+      "make": "Suzuki",
+      "model": "GSX1250FA",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2010,
+      "year_to": 2016,
+      "engine_cc": 1255,
+      "verdict": 7,
+      "description": "An old-school air-cooled Bandit motor in a faired touring chassis. Torquey, unburstable and deeply unfashionable, which is exactly why it is such good value.",
+      "pros": [
+        "Bottomless torque",
+        "bulletproof",
+        "very cheap"
+      ],
+      "cons": [
+        "Heavy",
+        "dated running gear"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2014 with 12.4k miles £4999 and 2015 with 16.9k £4999"
+    },
+    {
+      "id": "suzuki-v-strom-1050-2020",
+      "make": "Suzuki",
+      "model": "V-Strom 1050",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 1037,
+      "verdict": 8,
+      "description": "The big V-Strom restyled to echo the DR Big, with better electronics and the same indestructible V-twin. The DE version adds a 21-inch front and genuine off-road intent.",
+      "pros": [
+        "Tough V-twin",
+        "comfortable",
+        "DE is properly capable"
+      ],
+      "cons": [
+        "Heavy",
+        "screen buffeting"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2021 with 16.2k miles £6999; 2023 DL1050 DE with 899 miles £8999"
+    },
+    {
+      "id": "suzuki-gsx250r-2017",
+      "make": "Suzuki",
+      "model": "GSX250R",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2017,
+      "year_to": 2024,
+      "engine_cc": 248,
+      "verdict": 6,
+      "description": "A gentle little faired twin aimed at new riders rather than the racetrack. Slow by the standards of the class, but easy, economical and typically Suzuki in its dependability.",
+      "pros": [
+        "Very easy to ride",
+        "economical",
+        "A2 legal"
+      ],
+      "cons": [
+        "Slow for a 250 sportsbike",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2017 ABS with 6k miles £2799"
+    },
+    {
+      "id": "suzuki-burgman-an650-2003",
+      "make": "Suzuki",
+      "model": "Burgman",
+      "variant": "AN650",
+      "category": "Scooter",
+      "year_from": 2003,
+      "year_to": 2019,
+      "engine_cc": 638,
+      "verdict": 7,
+      "description": "The maxi-scooter taken to its logical extreme. Enormous, comfortable and genuinely capable of long distances, with storage that shames most touring bikes.",
+      "pros": [
+        "Superb long-distance comfort",
+        "huge storage",
+        "effortless"
+      ],
+      "cons": [
+        "Very large",
+        "CVT saps some performance"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2013 AN650 with 13.8k miles £4799"
+    },
+    {
+      "id": "moto-guzzi-v85-tt-2019",
+      "make": "Moto Guzzi",
+      "model": "V85 TT",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 853,
+      "verdict": 8,
+      "description": "A transverse V-twin adventure bike with genuine charm and enough ability to back it up. Not the fastest or the most capable off road, but far more characterful than the German and Austrian default.",
+      "pros": [
+        "Full of character",
+        "comfortable",
+        "distinctive"
+      ],
+      "cons": [
+        "Down on power for the class",
+        "dealer network is thin"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2019 with 3.9k miles £6299; 2022 Travel £6999; 2023 Travel £7999"
+    },
+    {
+      "id": "moto-guzzi-v100-mandello-2022",
+      "make": "Moto Guzzi",
+      "model": "V100 Mandello",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 1042,
+      "verdict": 8,
+      "description": "Guzzi's modern flagship, with a liquid-cooled engine, active aerodynamics and genuine pace at last. A proper sports tourer with a character no Japanese rival can match.",
+      "pros": [
+        "Strong new engine",
+        "active aero actually works",
+        "real character"
+      ],
+      "cons": [
+        "Expensive",
+        "limited dealer support"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2023 with 12.8k miles £8999; 2024 S with 4.7k £10649"
+    },
+    {
+      "id": "moto-guzzi-v7-iii-2017",
+      "make": "Moto Guzzi",
+      "model": "V7 III",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2017,
+      "year_to": 2020,
+      "engine_cc": 744,
+      "verdict": 7,
+      "description": "The last of the small-block V7s before the 850, and the sweet spot for many. Handsome, relaxed and full of that sideways Guzzi lurch. Slow, but that is rather the point.",
+      "pros": [
+        "Lovely character",
+        "handsome",
+        "easy to own"
+      ],
+      "cons": [
+        "Genuinely slow",
+        "modest brakes"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2020 III Special £5999, 2019 III Carbon £6299; 2015 V7 Stone £4299"
+    },
+    {
+      "id": "ktm-690-enduro-r-2008",
+      "make": "KTM",
+      "model": "690 Enduro R",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2008,
+      "year_to": 2025,
+      "engine_cc": 693,
+      "verdict": 8,
+      "description": "The biggest single-cylinder enduro you can buy with a number plate, and a genuinely serious off-road tool. Light, torquey and capable of embarrassing far bigger adventure bikes on a green lane.",
+      "pros": [
+        "Superb off road",
+        "light",
+        "huge torque for a single"
+      ],
+      "cons": [
+        "Vibration",
+        "short service intervals"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2020 with 3.1k miles £8499; 2023 with 8k £7999; 2024 with 2k £8499"
+    },
+    {
+      "id": "ktm-790-adventure-2019",
+      "make": "KTM",
+      "model": "790 Adventure",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2019,
+      "year_to": 2024,
+      "engine_cc": 799,
+      "verdict": 8,
+      "description": "The bike that made the middleweight adventure class serious. Low-slung fuel tank, excellent electronics and genuine dirt ability. The R version is properly rally-capable.",
+      "pros": [
+        "Superb handling loaded",
+        "low centre of gravity",
+        "strong twin"
+      ],
+      "cons": [
+        "Early bikes had recalls",
+        "firm seat"
+      ],
+      "price": {
+        "low": 5500,
+        "high": 8500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2020 with 10.3k miles £5999; 2019 R with 16.3k £6999; 2024 £7599-£7999"
+    },
+    {
+      "id": "ktm-1050-adventure-2015",
+      "make": "KTM",
+      "model": "1050 Adventure",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2015,
+      "year_to": 2016,
+      "engine_cc": 1050,
+      "verdict": 7,
+      "description": "A detuned, A2-friendly big adventure bike that got overlooked between the 1090 and 1190. Softer and easier than its siblings, and cheap because nobody remembers it.",
+      "pros": [
+        "Easy-going for a big KTM",
+        "comfortable",
+        "undervalued"
+      ],
+      "cons": [
+        "Down on power against siblings",
+        "short production run"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2016 with 2k miles £6499"
+    },
+    {
+      "id": "ktm-890-smt-2023",
+      "make": "KTM",
+      "model": "890 SMT",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2023,
+      "year_to": 2025,
+      "engine_cc": 889,
+      "verdict": 8,
+      "description": "A supermoto-flavoured sports tourer built on the 890 twin. Sharp, comfortable enough for real distance and far more entertaining than the category usually allows.",
+      "pros": [
+        "Superb engine",
+        "genuinely versatile",
+        "sharp handling"
+      ],
+      "cons": [
+        "Firm ride",
+        "niche appeal keeps demand narrow"
+      ],
+      "price": {
+        "low": 7000,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2023 with 7.5k miles £7899"
+    },
+    {
+      "id": "royal-enfield-classic-350-2021",
+      "make": "Royal Enfield",
+      "model": "Classic 350",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 349,
+      "verdict": 8,
+      "description": "The J-series Classic, and a vast improvement on the old Bullet. Smooth, well finished and beautifully styled, with a thump that flatters its modest output. Superb value.",
+      "pros": [
+        "Lovely styling",
+        "much improved build",
+        "great value"
+      ],
+      "cons": [
+        "Slow",
+        "heavy for the capacity"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2023 with 1.1k miles £3499; 2025 E5 with 2.5k £2999"
+    },
+    {
+      "id": "royal-enfield-meteor-350-2021",
+      "make": "Royal Enfield",
+      "model": "Meteor 350",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 349,
+      "verdict": 7,
+      "description": "A small, low cruiser on the same J-series platform. Easy, relaxed and cheap to own, with far better finish than Royal Enfield used to manage.",
+      "pros": [
+        "Very approachable",
+        "good finish",
+        "cheap to run"
+      ],
+      "cons": [
+        "Modest performance",
+        "limited motorway ability"
+      ],
+      "price": {
+        "low": 2600,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2021 £3999 and £2999; 2022 with 713 miles £3399"
+    },
+    {
+      "id": "aprilia-tuono-v4-1100-2021",
+      "make": "Aprilia",
+      "model": "Tuono V4 1100",
+      "variant": "",
+      "category": "Super naked",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 1077,
+      "verdict": 9,
+      "description": "The Tuono grown to 1100 and given proper electronics and aero. Still one of the most exciting road bikes made, with a V4 howl that justifies the whole exercise on its own.",
+      "pros": [
+        "Sublime V4",
+        "superb chassis and electronics",
+        "huge character"
+      ],
+      "cons": [
+        "Thirsty",
+        "dealer network"
+      ],
+      "price": {
+        "low": 8500,
+        "high": 12500,
+        "as_of": "2026-08-17",
+        "source": "dealer-inventory",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Inventory: 2022 with 4.3k miles £10999"
     }
   ]
 }
