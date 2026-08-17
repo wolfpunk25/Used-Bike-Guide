@@ -6945,12 +6945,13 @@
       "price": {
         "low": 5800,
         "high": 7200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 5.8k miles £6499; typical £6000-£7000"
     },
     {
       "id": "honda-crf1100l-africa-twin-2020",
@@ -6973,14 +6974,15 @@
         "expensive with luggage"
       ],
       "price": {
-        "low": 8000,
-        "high": 12000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020-22 from £9289 with 4.7k miles; low-mileage recent examples £13300-£15900"
     },
     {
       "id": "honda-nt1100-2022",
@@ -7003,14 +7005,15 @@
         "heavy"
       ],
       "price": {
-        "low": 9000,
-        "high": 12500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8400,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 10.7k miles £8490; 2025 with 2.8k £10490; DCT ES to £12495"
     },
     {
       "id": "honda-xl750-transalp-2023",
@@ -7033,14 +7036,15 @@
         "minimal wind protection"
       ],
       "price": {
-        "low": 7000,
+        "low": 7500,
         "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 6.1k miles £7899; 2024 £8749. New 2025 c.£9899"
     },
     {
       "id": "honda-cmx1100-rebel-2021",
@@ -7063,14 +7067,15 @@
         "looks divide opinion"
       ],
       "price": {
-        "low": 7500,
+        "low": 6200,
         "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 4.2k miles £6990; 2023 with 2.4k £8295; 2025 SE £9490"
     },
     {
       "id": "honda-crf300l-2021",
@@ -7123,14 +7128,15 @@
         "styling divides opinion"
       ],
       "price": {
-        "low": 7000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6800,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 4.2k miles £6989; 2023 £7745-£7950; 2022 with 1.5k £8990"
     },
     {
       "id": "yamaha-mt-07-2021",
@@ -7153,14 +7159,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 5500,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4600,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 22k miles £4650; 2024 with 4.2k £5495; 2025 with 840 miles £6499"
     },
     {
       "id": "yamaha-yzf-r7-2022",
@@ -7183,14 +7190,15 @@
         "committed position"
       ],
       "price": {
-        "low": 6500,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6800,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 2.5k miles £7290; range to c.£9500"
     },
     {
       "id": "yamaha-tracer-9-gt-2021",
@@ -7213,14 +7221,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 8500,
-        "high": 11000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8800,
+        "high": 12500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 6k miles £8890; 2024 with 854 miles £11495; 2025 £12495"
     },
     {
       "id": "yamaha-mt-10-2022",
@@ -7243,14 +7252,15 @@
         "styling is aggressive"
       ],
       "price": {
-        "low": 10000,
-        "high": 13500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9700,
+        "high": 14500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 10k miles £9750; 2023 SP with 2.1k £13450; 2024 with 6.4k £14500"
     },
     {
       "id": "suzuki-gsx-8s-2023",
@@ -7273,14 +7283,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 6000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5700,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2024 examples £5990-£6090; strong value against a c.£8000 new price"
     },
     {
       "id": "suzuki-v-strom-800de-2023",
@@ -7303,14 +7314,15 @@
         "basic dash"
       ],
       "price": {
-        "low": 7500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6900,
+        "high": 9000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2025 with 4.3k miles £6999 - roughly a third off the £10499 launch price"
     },
     {
       "id": "suzuki-gsx-s1000gt-2022",
@@ -7333,14 +7345,15 @@
         "cruise control is basic"
       ],
       "price": {
-        "low": 8000,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Range £6500-£10300; 2025 with 1.2k miles £8999. GT+ with panniers commands a premium"
     },
     {
       "id": "suzuki-gsx1300r-hayabusa-2021",
@@ -7363,14 +7376,15 @@
         "expensive"
       ],
       "price": {
-        "low": 11000,
-        "high": 14500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9800,
+        "high": 13500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 5.6k miles £9890; 2023 with 3k £11190; 2025 with 1.4k £13490"
     },
     {
       "id": "kawasaki-ninja-1000sx-2020",
@@ -7393,14 +7407,15 @@
         "heavy"
       ],
       "price": {
-        "low": 7500,
+        "low": 5500,
         "high": 10000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 55k miles £5490; 2022 with 15.6k £7990; 2024 with 9.6k £10495"
     },
     {
       "id": "kawasaki-z650rs-2022",
@@ -7423,14 +7438,15 @@
         "budget suspension"
       ],
       "price": {
-        "low": 5500,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4900,
+        "high": 6800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 £4995-£5395; 2023 £5000-£5999; 2024 £5749"
     },
     {
       "id": "kawasaki-ninja-zx-4rr-2023",
