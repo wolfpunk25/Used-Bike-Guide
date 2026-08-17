@@ -21,8 +21,24 @@ straight from Finder won't work, because browsers block the data file from `file
 
 ## Deploying
 
-Push to `main` and the `deploy.yml` workflow validates the data and publishes to GitHub
-Pages. In the repo settings, set **Pages → Source → GitHub Actions** once.
+Push to `main` and GitHub Pages publishes it. Set **Settings → Pages → Source →
+Deploy from a branch → `main` → `/ (root)`** once, and that is the whole mechanism.
+
+The site is plain HTML, CSS, JS and JSON with no build step, so it needs no Actions
+workflow to deploy. It used to run through `actions/deploy-pages`, but frequent pushes
+got rate-limited (HTTP 429) when the runner tried to download the Pages actions from
+codeload.github.com. Serving from the branch removes that dependency entirely and
+publishes faster.
+
+`validate.yml` still runs `scripts/validate.py` on any change to the bike data, but it
+is a safety net rather than a gate — if it fails or is throttled, the site still
+publishes. Run it locally before pushing:
+
+```bash
+python3 scripts/validate.py
+```
+
+A `.nojekyll` file at the root stops Pages running the content through Jekyll.
 
 ### One thing to know about "internal"
 

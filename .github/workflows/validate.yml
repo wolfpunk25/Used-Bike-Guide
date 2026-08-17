@@ -1,0 +1,29 @@
+name: Validate bike data
+
+# Deployment no longer runs through Actions: GitHub Pages serves the site
+# directly from the main branch, which needs no actions at all. Repeated
+# deploys were being rate-limited (HTTP 429) when the runner tried to
+# download actions/configure-pages and actions/upload-pages-artifact from
+# codeload.github.com, and a static site with no build step never needed
+# the indirection.
+#
+# This workflow only checks the data. If it is throttled or fails, the site
+# still publishes - validation is a safety net, not a gate.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/bikes.json'
+      - 'scripts/validate.py'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/validate.py
