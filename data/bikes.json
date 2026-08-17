@@ -7469,14 +7469,15 @@
         "needs revs"
       ],
       "price": {
-        "low": 7000,
-        "high": 8800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Too new for a deep UK used market; European used from c.EUR7990, new UK £7699-£8799"
     },
     {
       "id": "triumph-trident-660-2021",
@@ -7499,14 +7500,15 @@
         "no traction control adjustment"
       ],
       "price": {
-        "low": 5500,
-        "high": 7000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 6600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 higher-mileage from £4490; 2024 examples £5390-£5990; top c.£6995"
     },
     {
       "id": "triumph-tiger-900-2020",
@@ -7529,14 +7531,15 @@
         "tall"
       ],
       "price": {
-        "low": 7500,
+        "low": 7400,
         "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 £7490-£8290; 2022 £9690; 2023-24 £9000-£10295. Variant (GT/Rally Pro) matters"
     },
     {
       "id": "triumph-speed-triple-1200-rs-2021",
@@ -7559,14 +7562,15 @@
         "uncompromising ride"
       ],
       "price": {
-        "low": 11000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9200,
+        "high": 14500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 10.1k miles £9200; 2024 with 4.6k £11995; 2025 with 819 miles £14499"
     },
     {
       "id": "triumph-tiger-sport-660-2022",
@@ -7589,14 +7593,15 @@
         "modest luggage"
       ],
       "price": {
-        "low": 6000,
-        "high": 7800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5600,
+        "high": 6800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 4.8k miles £6290; 2023 with 1.7k £6390; 2024 £6499"
     },
     {
       "id": "triumph-speed-400-2024",
@@ -7619,14 +7624,15 @@
         "budget suspension"
       ],
       "price": {
-        "low": 3800,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4200,
+        "high": 4900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2024 £4395; 2025 with 2.2k miles £4499. New c.£5245"
     },
     {
       "id": "triumph-daytona-660-2024",
@@ -7649,14 +7655,15 @@
         "basic suspension"
       ],
       "price": {
-        "low": 7000,
-        "high": 8800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6500,
+        "high": 7600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2025 with 875 miles £6900; dealer used example £6789. Very few genuinely used yet"
     },
     {
       "id": "bmw-r1300gs-2024",
@@ -7680,13 +7687,14 @@
       ],
       "price": {
         "low": 15000,
-        "high": 19000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 20000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "TE from c.£15995 with 8.4k miles; well-specced examples £19000-£20995"
     },
     {
       "id": "bmw-f900xr-2020",
@@ -7709,14 +7717,15 @@
         "options add up"
       ],
       "price": {
-        "low": 6500,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5900,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 £5899; 2022-23 examples c.£7499; 2024 £9000; ex-demo 2025 £9495"
     },
     {
       "id": "bmw-r18-2020",
@@ -7739,14 +7748,15 @@
         "limited lean angle"
       ],
       "price": {
-        "low": 10000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7800,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2022 with 1.7k miles £7900; 2021 with 3.5k £9995; 2024 £10592"
     },
     {
       "id": "bmw-s1000xr-2020",
@@ -7769,14 +7779,15 @@
         "thirsty when pressed"
       ],
       "price": {
-        "low": 11000,
-        "high": 14500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8900,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 16k miles £8995; 2022 £11490-£12190; 2024 TE with 3.2k £16995"
     },
     {
       "id": "ducati-multistrada-v4-2021",
@@ -7799,14 +7810,15 @@
         "complex"
       ],
       "price": {
-        "low": 13000,
+        "low": 12500,
         "high": 18000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "V4S from £12499; 2023 with 6.2k miles £16795, with 9.1k £19495"
     },
     {
       "id": "ducati-streetfighter-v4-2020",
@@ -7829,14 +7841,15 @@
         "servicing costs"
       ],
       "price": {
-        "low": 13000,
-        "high": 17000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 12500,
+        "high": 18000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Standard V4 from £12500; V4S 2023 £17495-£19495. SP variants higher again"
     },
     {
       "id": "ducati-panigale-v2-2020",
@@ -7861,12 +7874,13 @@
       "price": {
         "low": 10000,
         "high": 13500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings found but no usable prices; 34 on Autotrader nationally. Estimate retained and flagged"
     },
     {
       "id": "ducati-desertx-2022",
@@ -7889,14 +7903,15 @@
         "tall"
       ],
       "price": {
-        "low": 10000,
-        "high": 13000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 12000,
+        "high": 16000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Thin used market; pre-registered examples c.£15995 against £17471 new"
     },
     {
       "id": "ktm-890-adventure-2021",
@@ -7919,14 +7934,15 @@
         "service intervals"
       ],
       "price": {
-        "low": 7500,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5400,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 14.5k miles £5499; 2023 with 2k £7750. Depreciated far harder than seeded"
     },
     {
       "id": "ktm-1290-super-adventure-2021",
