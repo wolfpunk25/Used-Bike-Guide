@@ -3695,14 +3695,15 @@
         "soft suspension"
       ],
       "price": {
-        "low": 1500,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 900,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2005-09 bikes £895-£2000; a tidy low-mileage 2006 c.£1900"
     },
     {
       "id": "honda-cbf1000-2006",
@@ -3725,14 +3726,15 @@
         "heavy"
       ],
       "price": {
-        "low": 2000,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2800,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Listings £2995-£4998; 2010 models start c.£4000"
     },
     {
       "id": "honda-xl1000v-varadero-1999",
@@ -3786,14 +3788,15 @@
         "dull"
       ],
       "price": {
-        "low": 2500,
+        "low": 2000,
         "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early 2000s from £850-£3290; 2005-2011 £3300-£4950; dealers ask more"
     },
     {
       "id": "honda-nt700v-deauville-2006",
@@ -3816,14 +3819,15 @@
         "heavy for the power"
       ],
       "price": {
-        "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1300,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006 with 34k miles £1500; low-mileage 2007 c.£3089"
     },
     {
       "id": "yamaha-yzf-r1-2004",
@@ -3971,13 +3975,14 @@
       ],
       "price": {
         "low": 2000,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "From just over £2000 with patchy history to nearly £5000 for a clean original"
     },
     {
       "id": "yamaha-tdm900-2002",
@@ -4001,13 +4006,14 @@
       ],
       "price": {
         "low": 1800,
-        "high": 3800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2004 with 35k miles £2495; later low-mileage bikes to £4735 at a dealer"
     },
     {
       "id": "suzuki-gsx-r1000-k5-2005",
@@ -4154,14 +4160,15 @@
         "snatchy fuelling"
       ],
       "price": {
-        "low": 1500,
-        "high": 3000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2200,
+        "high": 3900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006 with 18k miles £2689; 2007 with 6k miles £3990"
     },
     {
       "id": "kawasaki-zx-10r-2004",
@@ -4400,14 +4407,15 @@
         "fairing panels are pricey"
       ],
       "price": {
-        "low": 2500,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1900,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Private sales £1875-£3450; dealer stock £2995-£3995"
     },
     {
       "id": "triumph-rocket-iii-2004",
@@ -4430,14 +4438,15 @@
         "tyres are expensive"
       ],
       "price": {
-        "low": 5000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4800,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2006 Classic with 29k miles £4995; low-mileage 2006 £6499"
     },
     {
       "id": "triumph-scrambler-900-2006",
@@ -4460,14 +4469,15 @@
         "heavy pipes get hot"
       ],
       "price": {
-        "low": 3500,
+        "low": 3600,
         "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Range £3900-£6000; 2006 part-exchange c.£3600. Depreciation has flattened"
     },
     {
       "id": "triumph-daytona-675-2006",
@@ -4521,14 +4531,15 @@
         "thirsty"
       ],
       "price": {
-        "low": 2500,
+        "low": 3000,
         "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "High-mileage c.£3000; typical 2007-2013 listings £3290-£3950, most with panniers"
     },
     {
       "id": "triumph-bonneville-865-2001",
@@ -4553,12 +4564,13 @@
       "price": {
         "low": 3200,
         "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Budget £4000-£4500 for the 865; top of the Bonnie market c.£5500"
     },
     {
       "id": "triumph-thruxton-900-2004",
@@ -4583,12 +4595,13 @@
       "price": {
         "low": 4000,
         "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Original Thruxton 900 from c.£4500; cost £7699 new in 2013"
     },
     {
       "id": "bmw-r1200gs-2004",
@@ -4611,14 +4624,15 @@
         "spec varies enormously"
       ],
       "price": {
-        "low": 4000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Has depreciated further than expected: 2004 with 27.5k miles £2850, 2010 Adventure with 58k £3990"
     },
     {
       "id": "bmw-f800gs-2008",
@@ -4641,14 +4655,15 @@
         "buzzy at motorway speeds"
       ],
       "price": {
-        "low": 3200,
+        "low": 3000,
         "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Well-used from £2999; tidy with panniers £4500-£5000; top c.£5999"
     },
     {
       "id": "bmw-k1200s-2004",
@@ -4701,14 +4716,15 @@
         "final drive checks"
       ],
       "price": {
-        "low": 3500,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2005-2011 £2150-£3799; 2012-13 £5490-£6699"
     },
     {
       "id": "ducati-multistrada-1100-2003",
