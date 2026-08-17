@@ -5369,14 +5369,15 @@
         "small for tall riders"
       ],
       "price": {
-        "low": 2200,
-        "high": 3500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2300,
+        "high": 3600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 14.5k miles £2289; 2022-25 examples £2589-£3595"
     },
     {
       "id": "honda-crf250l-2012",
@@ -5400,13 +5401,14 @@
       ],
       "price": {
         "low": 2500,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Bottom of the market c.£2500 for a 2012, rising to £5000 for a 2020. Values held up remarkably"
     },
     {
       "id": "honda-vfr800f-2014",
@@ -5490,14 +5492,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 2600,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 4600,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with higher mileage £2400; 2023 examples to £4600. New MT-125 ABS £5300"
     },
     {
       "id": "yamaha-mt-03-2016",
@@ -6401,14 +6404,15 @@
         "service intervals"
       ],
       "price": {
-        "low": 3800,
-        "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3400,
+        "high": 4900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 5k miles £3499; 2012 with 7k miles £3995; 2015 with 7k miles £4750"
     },
     {
       "id": "ktm-rc390-2014",
@@ -6431,14 +6435,15 @@
         "finish tarnishes"
       ],
       "price": {
-        "low": 3200,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2800,
+        "high": 4200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 1950 miles £2955; 2016 £3200; 2024 £3899"
     },
     {
       "id": "ktm-790-duke-2018",
@@ -6553,14 +6558,15 @@
         "dealer network"
       ],
       "price": {
-        "low": 5500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7500,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Values far stronger than expected: 2021 with 4885 miles £9000, 2015 with 7k miles £11480"
     },
     {
       "id": "royal-enfield-interceptor-650-2018",
@@ -6824,14 +6830,15 @@
         "no off-road ability"
       ],
       "price": {
-        "low": 4000,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3500,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2013 with 25k miles £3550; 2020 with 10k miles £7350; £9500 tops it with full luggage"
     },
     {
       "id": "honda-x-adv-2017",
@@ -8547,13 +8554,14 @@
       ],
       "price": {
         "low": 3500,
-        "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Dealers £4000-£5000 at c.30k miles, £5500 at c.20k; 2015 with 16k miles £6395. DCT rarely adds value"
     },
     {
       "id": "kawasaki-gtr1400-2008",
@@ -8760,14 +8768,15 @@
         "finish tarnishes"
       ],
       "price": {
-        "low": 2600,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020-21 examples £2390-£2400; 2022 £3190; near-new 2023 £3770"
     },
     {
       "id": "suzuki-gsx-r125-2017",
@@ -8820,14 +8829,15 @@
         "limited motorway ability"
       ],
       "price": {
-        "low": 1800,
-        "high": 3200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 800,
+        "high": 2900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2014 c.£800, 2018 £1350-£1799, 2021 £2250, 2025 c.£2900"
     },
     {
       "id": "vespa-gts-300-2008",
@@ -9158,14 +9168,15 @@
         "budget suspension"
       ],
       "price": {
-        "low": 2800,
-        "high": 4000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Early private just over £2000, dealers c.£2500; later bikes £2700-£3500"
     },
     {
       "id": "honda-cb125f-2015",
@@ -9488,14 +9499,15 @@
         "unexciting"
       ],
       "price": {
-        "low": 3000,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1800,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 with 16k miles £1799; 2014 with 18k miles £2999; 2017 with 6k miles £4150"
     },
     {
       "id": "aprilia-shiver-900-2017",
@@ -9548,14 +9560,15 @@
         "dealer network"
       ],
       "price": {
-        "low": 5500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5000,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015-16 examples £5999; 2019 with 3927 miles £8950"
     },
     {
       "id": "norton-commando-961-2010",
@@ -9578,14 +9591,15 @@
         "parts and support"
       ],
       "price": {
-        "low": 8000,
-        "high": 14000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8500,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Used range £8500-£13500, average c.£12000. 2010 Cafe Racer with 4518 miles £8995"
     },
     {
       "id": "honda-fireblade-cbr1000rr-r-sp-2020",
