@@ -10037,6 +10037,626 @@
       },
       "price_history": [],
       "notes": "TC Max used listings scarce; TSx and Wanderer seen at £1600-£1800. New TC Max £3995"
+    },
+    {
+      "id": "vespa-px125-1978",
+      "make": "Vespa",
+      "model": "PX125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1978,
+      "year_to": 2017,
+      "engine_cc": 123,
+      "verdict": 8,
+      "description": "The scooter that refused to die, built in one form or another for nearly forty years. Steel monocoque, hand-change gearbox on the older ones, and a shape that has never needed updating. Simple enough to fix on a kerb.",
+      "pros": [
+        "Timeless design",
+        "easy to work on",
+        "huge parts supply"
+      ],
+      "cons": [
+        "Hand gearchange takes practice",
+        "drum brakes on early bikes"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our own classifieds: T5 PX125 £4750, P125 ETS £3250. Wider market £2595-£4500"
+    },
+    {
+      "id": "vespa-px200-1977",
+      "make": "Vespa",
+      "model": "PX200",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1977,
+      "year_to": 2003,
+      "engine_cc": 198,
+      "verdict": 8,
+      "description": "The PX with enough power to keep up with traffic and then some. The 200 is the one the rally crowd want, and prices have moved up accordingly. Still the definitive Italian scooter.",
+      "pros": [
+        "Genuinely quick for a scooter",
+        "strong following",
+        "values rising"
+      ],
+      "cons": [
+        "Thirstier than the 125",
+        "good ones cost real money"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Realistic 2025-26 band £4500-£6500; earlier years cluster £3500-£4900"
+    },
+    {
+      "id": "vespa-t5-1985",
+      "make": "Vespa",
+      "model": "T5",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1985,
+      "year_to": 1992,
+      "engine_cc": 123,
+      "verdict": 7,
+      "description": "Vespa's attempt at a sporting PX, with a five-port barrel and angular 1980s bodywork. Quicker than a standard 125 and increasingly collectable among people who remember them new.",
+      "pros": [
+        "Quicker than a standard PX",
+        "distinctive styling",
+        "climbing values"
+      ],
+      "cons": [
+        "Bodywork divides opinion",
+        "rust in the floorpan"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our own classifieds: T5 mk1 £3500, T5 Classic PX125 £4750, Piaggio T5 Classic £3250"
+    },
+    {
+      "id": "lambretta-li-150-1958",
+      "make": "Lambretta",
+      "model": "LI 150",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1958,
+      "year_to": 1967,
+      "engine_cc": 148,
+      "verdict": 8,
+      "description": "The Lambretta most people picture. Slimline panels, a smooth shaft-driven engine and a shape that defined an era. More refined than a Vespa to ride, and the mod association keeps demand strong.",
+      "pros": [
+        "Beautiful lines",
+        "smoother than a Vespa",
+        "strong club scene"
+      ],
+      "cons": [
+        "Italian-built bikes cost far more than Indian ones",
+        "rust is the enemy"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: LI125 Special £4750-£5950, LI Series 3 £4850. Wider guides £2000-£4000"
+    },
+    {
+      "id": "lambretta-sx200-1966",
+      "make": "Lambretta",
+      "model": "SX200",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1966,
+      "year_to": 1969,
+      "engine_cc": 198,
+      "verdict": 9,
+      "description": "The fast one. A genuine 200 with a top-end that embarrassed small motorcycles, and now among the most sought-after scooters in the world. Check provenance obsessively — there are more SX200s about than were ever built.",
+      "pros": [
+        "The definitive fast Lambretta",
+        "blue-chip collectable",
+        "huge presence"
+      ],
+      "cons": [
+        "Fakes and rebuilds are rife",
+        "serious money"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 15000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Guides quote £9000-£22000 for the best; our own SX225 listing £4000 suggests a wide real-world spread"
+    },
+    {
+      "id": "lambretta-gp200-1969",
+      "make": "Lambretta",
+      "model": "GP200",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1969,
+      "year_to": 1971,
+      "engine_cc": 198,
+      "verdict": 9,
+      "description": "The last and most developed Innocenti Lambretta, styled by Bertone and fast enough to justify the badge. Values have roughly doubled in a decade. Indian-built SIL versions are a fraction of the price and not the same thing.",
+      "pros": [
+        "Bertone styling",
+        "the most developed Lambretta",
+        "values climbing hard"
+      ],
+      "cons": [
+        "Indian SIL copies confuse the market",
+        "expensive to restore properly"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 14000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our GP200 listing £7000; a restored example made over £11000 at H&H. Indian-built GPs far less (ours listed £3000)"
+    },
+    {
+      "id": "bsa-bantam-1948",
+      "make": "BSA",
+      "model": "Bantam",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1948,
+      "year_to": 1971,
+      "engine_cc": 173,
+      "verdict": 7,
+      "description": "A German design taken as war reparations and turned into the bike that taught Britain to ride. Simple, cheap and cheerful, with a two-stroke thump that everyone of a certain age recognises instantly.",
+      "pros": [
+        "Very cheap to buy and run",
+        "dead simple",
+        "enormous parts supply"
+      ],
+      "cons": [
+        "Slow",
+        "electrics are basic even by the standards of the day"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: D7 £1750, B175 £1800-£2250, Bantam £2500"
+    },
+    {
+      "id": "bsa-c15-1958",
+      "make": "BSA",
+      "model": "C15",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1958,
+      "year_to": 1967,
+      "engine_cc": 247,
+      "verdict": 6,
+      "description": "The 250 that put a generation on the road, and later spawned a whole family of unit singles. Modest, willing and easy to own, if never remotely exciting. A sensible first British classic.",
+      "pros": [
+        "Easy first classic",
+        "cheap",
+        "good parts availability"
+      ],
+      "cons": [
+        "Main bearing wear is common",
+        "not fast"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Two C15s in our own classifieds, both at £1950"
+    },
+    {
+      "id": "bsa-b31-1945",
+      "make": "BSA",
+      "model": "B31",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1945,
+      "year_to": 1959,
+      "engine_cc": 348,
+      "verdict": 7,
+      "description": "A pre-unit 350 single built for people who rode everywhere in all weather. Torquey, unhurried and genuinely tough, with the sort of easy manners that make an old bike usable rather than an ornament.",
+      "pros": [
+        "Very usable",
+        "strong low-down torque",
+        "tough"
+      ],
+      "cons": [
+        "Modest performance",
+        "magneto and dynamo need attention"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: B31 at £2150 and £5000 - condition drives it entirely"
+    },
+    {
+      "id": "bsa-a10-golden-flash-1950",
+      "make": "BSA",
+      "model": "A10",
+      "variant": "Golden Flash",
+      "category": "Classic",
+      "year_from": 1950,
+      "year_to": 1963,
+      "engine_cc": 646,
+      "verdict": 8,
+      "description": "The pre-unit BSA twin, and one of the great British all-rounders. Smooth for a parallel twin, comfortable over distance, and far easier to live with than its sportier siblings. That beige paint is part of the charm.",
+      "pros": [
+        "Superb long-distance manners",
+        "smooth for a British twin",
+        "huge following"
+      ],
+      "cons": [
+        "Heavy",
+        "oil leaks are traditional"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: Golden Flash £3875, Super Rocket £4000, A10 £3875"
+    },
+    {
+      "id": "bsa-a65-lightning-1964",
+      "make": "BSA",
+      "model": "A65",
+      "variant": "Lightning",
+      "category": "Classic",
+      "year_from": 1964,
+      "year_to": 1972,
+      "engine_cc": 654,
+      "verdict": 7,
+      "description": "The unit-construction BSA twin in sporting trim, with twin carbs and genuine pace. Later bikes fixed most of the early problems. Buy one that has had the crank and bearings sorted and enjoy it.",
+      "pros": [
+        "Proper period performance",
+        "handsome",
+        "strong club support"
+      ],
+      "cons": [
+        "Early crank and bearing issues",
+        "vibration"
+      ],
+      "price": {
+        "low": 3400,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: A65L £3400-£6000, Lightning £4950-£5750, A65 Lightning £4999"
+    },
+    {
+      "id": "bsa-gold-star-dbd34-1956",
+      "make": "BSA",
+      "model": "Gold Star",
+      "variant": "DBD34",
+      "category": "Classic",
+      "year_from": 1956,
+      "year_to": 1963,
+      "engine_cc": 499,
+      "verdict": 10,
+      "description": "The most charismatic British single ever built. Clip-ons, a swept-back pipe and a megaphone bark that stops conversation. Genuine matching-numbers examples command serious money, and there are more 'Goldies' about than BSA ever made.",
+      "pros": [
+        "Legendary status",
+        "glorious noise",
+        "blue-chip investment"
+      ],
+      "cons": [
+        "Provenance is everything",
+        "difficult to start and ride slowly"
+      ],
+      "price": {
+        "low": 8000,
+        "high": 20000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Auctions £7015 and £10925; dealer asks £18950-£22000. Our own listing £10500. Provenance is everything"
+    },
+    {
+      "id": "bsa-m20-1937",
+      "make": "BSA",
+      "model": "M20",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1937,
+      "year_to": 1955,
+      "engine_cc": 496,
+      "verdict": 6,
+      "description": "The despatch rider's bike, built by the tens of thousands for the war effort and demobbed into civilian life afterwards. Slow, heavy and almost impossible to break. A cheap way into pre-war-style motorcycling.",
+      "pros": [
+        "Extremely cheap",
+        "unburstable",
+        "huge military following"
+      ],
+      "cons": [
+        "Very slow",
+        "girder forks on early bikes"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: M20 £1450, WM20 £4500 and £6950. Military provenance adds a lot"
+    },
+    {
+      "id": "ariel-red-hunter-1932",
+      "make": "Ariel",
+      "model": "Red Hunter",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1932,
+      "year_to": 1959,
+      "engine_cc": 497,
+      "verdict": 8,
+      "description": "Ariel's sporting single, and one of the handsomest British bikes of the period. Well made, nicely finished and quick enough in its day. A quality machine that has always been appreciated by people who know.",
+      "pros": [
+        "Beautiful build quality",
+        "strong single",
+        "well supported"
+      ],
+      "cons": [
+        "Prices reflect the quality",
+        "pre-war examples need specialist knowledge"
+      ],
+      "price": {
+        "low": 4000,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Two Red Hunters in our classifieds, both price-on-application; NH350 listed at £3600"
+    },
+    {
+      "id": "ariel-leader-1958",
+      "make": "Ariel",
+      "model": "Leader",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1958,
+      "year_to": 1965,
+      "engine_cc": 247,
+      "verdict": 7,
+      "description": "A two-stroke twin wrapped in full enclosure, with legshields and a dashboard. Ariel's attempt to make motorcycling clean and civilised, and a commercial failure that looks visionary now.",
+      "pros": [
+        "Genuinely innovative",
+        "weatherproof",
+        "cheap for what it is"
+      ],
+      "cons": [
+        "Bodywork is hard to find",
+        "performance is modest"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: Arrow £1500; two Leaders price-on-application"
+    },
+    {
+      "id": "ajs-model-18-1945",
+      "make": "AJS",
+      "model": "Model 18",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1945,
+      "year_to": 1962,
+      "engine_cc": 498,
+      "verdict": 7,
+      "description": "A big AJS single, mechanically all but identical to the Matchless G80 after the two firms merged. Torquey, comfortable and honest, with enough character to make slow progress enjoyable.",
+      "pros": [
+        "Torquey and relaxed",
+        "good parts support",
+        "interchangeable with Matchless"
+      ],
+      "cons": [
+        "Vibration at speed",
+        "AMC gearboxes need care"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: Model 18 Statesman £3750, AJS 30 £4950, 31CSR £3250"
+    },
+    {
+      "id": "matchless-g80-1946",
+      "make": "Matchless",
+      "model": "G80",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1946,
+      "year_to": 1966,
+      "engine_cc": 498,
+      "verdict": 7,
+      "description": "The Matchless heavyweight single, and the AJS Model 18's twin under a different badge. Sound, comfortable and beautifully made, with the teledraulic forks that were genuinely advanced in 1946.",
+      "pros": [
+        "Comfortable",
+        "well engineered",
+        "strong club support"
+      ],
+      "cons": [
+        "Vibration",
+        "AMC gearbox weaknesses"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 6500,
+        "as_of": "2026-08-17",
+        "source": "own-classifieds",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Our classifieds: 350 G3LS £3750, G80CS £6200"
+    },
+    {
+      "id": "velocette-venom-1955",
+      "make": "Velocette",
+      "model": "Venom",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1955,
+      "year_to": 1970,
+      "engine_cc": 499,
+      "verdict": 9,
+      "description": "The connoisseur's British single. A high-camshaft 500 with a fishtail silencer and a gearchange that rewards precision. Slower than a Gold Star, more civilised than almost anything, and utterly addictive.",
+      "pros": [
+        "Superb engineering",
+        "wonderful to ride",
+        "strong values"
+      ],
+      "cons": [
+        "Many have been turned into Thruxton lookalikes",
+        "specialist knowledge needed"
+      ],
+      "price": {
+        "low": 5000,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Listings £5495-£12000; Viper 350 scrambler £7995. Check numbers - many wear Thruxton parts"
+    },
+    {
+      "id": "norton-dominator-99-1952",
+      "make": "Norton",
+      "model": "Dominator",
+      "variant": "99",
+      "category": "Classic",
+      "year_from": 1952,
+      "year_to": 1966,
+      "engine_cc": 597,
+      "verdict": 8,
+      "description": "A Featherbed-framed twin, which means it handles better than almost anything else of its age. The engine is willing and the chassis is famous for good reason. One of the great British roadsters.",
+      "pros": [
+        "Featherbed frame handling",
+        "willing twin",
+        "enormous following"
+      ],
+      "cons": [
+        "Oil leaks",
+        "gearbox is of its time"
+      ],
+      "price": {
+        "low": 4700,
+        "high": 7500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Typical £5000-£7100; listings £4750-£4999 for tidy 99s"
+    },
+    {
+      "id": "panther-m100-1932",
+      "make": "Panther",
+      "model": "M100",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1932,
+      "year_to": 1963,
+      "engine_cc": 598,
+      "verdict": 7,
+      "description": "The sloper. A huge, slow-revving single canted forward to act as the frame's front downtube, built to haul a sidecar and family up any hill in Yorkshire. Utterly unlike anything else on the road.",
+      "pros": [
+        "Extraordinary torque",
+        "unique engineering",
+        "superb sidecar bike"
+      ],
+      "cons": [
+        "Very slow solo",
+        "specialist parts"
+      ],
+      "price": {
+        "low": 6000,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Listings £9995-£13950; a 1952 carried a £6000-£8000 auction estimate"
     }
   ]
 }
