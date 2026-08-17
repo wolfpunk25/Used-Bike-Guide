@@ -11496,6 +11496,1804 @@
       },
       "price_history": [],
       "notes": "Inventory: 2022 with 4.3k miles £10999"
+    },
+    {
+      "id": "honda-ntv650-revere-1988",
+      "make": "Honda",
+      "model": "NTV650",
+      "variant": "Revere",
+      "category": "Commuter",
+      "year_from": 1988,
+      "year_to": 1998,
+      "engine_cc": 647,
+      "verdict": 7,
+      "description": "Shaft drive, a bulletproof V-twin and absolutely no glamour. The Revere was the despatch rider's default for years, which is why so many survive with astronomical mileages and why the good ones are quietly sought after.",
+      "pros": [
+        "Shaft drive",
+        "almost unkillable",
+        "very cheap"
+      ],
+      "cons": [
+        "Utterly anonymous",
+        "most have huge mileages"
+      ],
+      "price": {
+        "low": 700,
+        "high": 2000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cbx750-1984",
+      "make": "Honda",
+      "model": "CBX750",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1984,
+      "year_to": 1986,
+      "engine_cc": 747,
+      "verdict": 7,
+      "description": "An air-cooled four from the tail of the UJM era, and a much better bike than its obscurity suggests. Smooth, strong and increasingly collectable now that the CB900 and CBX1000 have run away in price.",
+      "pros": [
+        "Undervalued",
+        "smooth four",
+        "period charm"
+      ],
+      "cons": [
+        "Parts getting scarce",
+        "cam chain tensioners"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-c90-super-cub-1966",
+      "make": "Honda",
+      "model": "C90",
+      "variant": "Super Cub",
+      "category": "Commuter",
+      "year_from": 1966,
+      "year_to": 2003,
+      "engine_cc": 89,
+      "verdict": 9,
+      "description": "The most-produced motor vehicle in history, and still the best thing ever built for getting about cheaply. Semi-automatic, indestructible and utterly charming. Values for tidy originals have gone through the roof.",
+      "pros": [
+        "Genuinely indestructible",
+        "iconic",
+        "tiny running costs"
+      ],
+      "cons": [
+        "Very slow",
+        "good originals now cost real money"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cb650f-2014",
+      "make": "Honda",
+      "model": "CB650F",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2014,
+      "year_to": 2018,
+      "engine_cc": 649,
+      "verdict": 7,
+      "description": "The CB650R's predecessor, with the same willing inline four in softer clothing. Overlooked and therefore good value, with Honda's usual build quality throughout.",
+      "pros": [
+        "Smooth four",
+        "well built",
+        "undervalued"
+      ],
+      "cons": [
+        "Soft suspension",
+        "less sharp than the later R"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cbr250r-2011",
+      "make": "Honda",
+      "model": "CBR250R",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2011,
+      "year_to": 2013,
+      "engine_cc": 249,
+      "verdict": 7,
+      "description": "A single-cylinder learner sportsbike that behaves like a proper motorcycle. Light, frugal and forgiving, with genuine Honda solidity. A far better first bike than most of the Chinese competition.",
+      "pros": [
+        "Reliable",
+        "easy to ride",
+        "A2 legal"
+      ],
+      "cons": [
+        "Only a single",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1600,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cbr300r-2014",
+      "make": "Honda",
+      "model": "CBR300R",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2014,
+      "year_to": 2018,
+      "engine_cc": 286,
+      "verdict": 7,
+      "description": "The CBR250R bored out and improved, with a little more urgency and better looks. Still the sensible learner sportsbike, still nearly impossible to break.",
+      "pros": [
+        "More usable than the 250",
+        "reliable",
+        "cheap to run"
+      ],
+      "cons": [
+        "Single-cylinder buzz",
+        "limited top end"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-st1100-pan-european-1990",
+      "make": "Honda",
+      "model": "ST1100",
+      "variant": "Pan European",
+      "category": "Tourer",
+      "year_from": 1990,
+      "year_to": 2002,
+      "engine_cc": 1084,
+      "verdict": 8,
+      "description": "The original Pan, and the bike that carried police forces and couriers across Europe for a decade. Shaft drive, a silky V4 and comfort that shames modern tourers. Enormous value for the money.",
+      "pros": [
+        "Superb long-distance ability",
+        "V4 smoothness",
+        "absurdly cheap"
+      ],
+      "cons": [
+        "Very heavy",
+        "most have big mileages"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-xl650v-transalp-2000",
+      "make": "Honda",
+      "model": "XL650V",
+      "variant": "Transalp",
+      "category": "Adventure",
+      "year_from": 2000,
+      "year_to": 2007,
+      "engine_cc": 647,
+      "verdict": 7,
+      "description": "The Transalp grown a little, and still the sensible middleweight trailie. Comfortable, tough and easy to live with, if never remotely exciting. Values remain sensible.",
+      "pros": [
+        "Comfortable",
+        "very reliable",
+        "cheap"
+      ],
+      "cons": [
+        "Modest performance",
+        "soft suspension"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-xl700v-transalp-2008",
+      "make": "Honda",
+      "model": "XL700V",
+      "variant": "Transalp",
+      "category": "Adventure",
+      "year_from": 2008,
+      "year_to": 2013,
+      "engine_cc": 680,
+      "verdict": 7,
+      "description": "The last Transalp before the long hiatus, with fuel injection and a little more polish. Still an unglamorous, hugely capable middleweight that will run forever.",
+      "pros": [
+        "Bulletproof",
+        "comfortable",
+        "practical"
+      ],
+      "cons": [
+        "Not fast",
+        "heavy for the class"
+      ],
+      "price": {
+        "low": 1600,
+        "high": 3600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-nc700x-2012",
+      "make": "Honda",
+      "model": "NC700X",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2012,
+      "year_to": 2013,
+      "engine_cc": 670,
+      "verdict": 7,
+      "description": "The first of the NC family, with the same frugal parallel twin and boot where the tank should be. Deeply sensible, remarkably cheap to run, and rather better to ride than its reputation.",
+      "pros": [
+        "Astonishing economy",
+        "storage compartment",
+        "cheap"
+      ],
+      "cons": [
+        "Low rev ceiling",
+        "dull"
+      ],
+      "price": {
+        "low": 1700,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-gl1000-gold-wing-1975",
+      "make": "Honda",
+      "model": "GL1000",
+      "variant": "Gold Wing",
+      "category": "Tourer",
+      "year_from": 1975,
+      "year_to": 1979,
+      "engine_cc": 999,
+      "verdict": 8,
+      "description": "The original Wing, before the fairings and the stereos. A flat four with shaft drive and a smoothness nothing else could match in 1975. Increasingly collectable as a naked classic.",
+      "pros": [
+        "Historic significance",
+        "superbly smooth",
+        "rising values"
+      ],
+      "cons": [
+        "Heavy",
+        "period brakes"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-gl1500-gold-wing-1988",
+      "make": "Honda",
+      "model": "GL1500",
+      "variant": "Gold Wing",
+      "category": "Tourer",
+      "year_from": 1988,
+      "year_to": 2000,
+      "engine_cc": 1520,
+      "verdict": 8,
+      "description": "Six cylinders, reverse gear and a sofa's worth of comfort. The GL1500 is enormous, effortless and now extraordinarily cheap for the amount of engineering involved.",
+      "pros": [
+        "Unmatched comfort",
+        "silky flat six",
+        "very cheap"
+      ],
+      "cons": [
+        "Vast and heavy",
+        "thirsty"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-vision-110-2011",
+      "make": "Honda",
+      "model": "Vision 110",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2011,
+      "year_to": 2025,
+      "engine_cc": 108,
+      "verdict": 7,
+      "description": "A small, frugal commuter scooter that does exactly what it promises. Cheap to buy, cheaper to run, and typically Honda in its refusal to break.",
+      "pros": [
+        "Very economical",
+        "reliable",
+        "easy to park"
+      ],
+      "cons": [
+        "Slow",
+        "limited weather protection"
+      ],
+      "price": {
+        "low": 900,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "honda-cbf125-2009",
+      "make": "Honda",
+      "model": "CBF125",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 2009,
+      "year_to": 2014,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "The CG125's replacement, and the learner bike that taught a generation. Frugal, dependable and cheap to insure, with just enough performance for town work.",
+      "pros": [
+        "Excellent economy",
+        "very reliable",
+        "cheap"
+      ],
+      "cons": [
+        "Slow",
+        "basic finish"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-z800-2013",
+      "make": "Kawasaki",
+      "model": "Z800",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2013,
+      "year_to": 2016,
+      "engine_cc": 806,
+      "verdict": 7,
+      "description": "The Z750's replacement, with more capacity and sharper styling. Strong midrange, aggressive looks and a price that undercut the European competition. Good value used.",
+      "pros": [
+        "Strong midrange",
+        "aggressive styling",
+        "good value"
+      ],
+      "cons": [
+        "Heavy for the class",
+        "budget suspension"
+      ],
+      "price": {
+        "low": 3200,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-gpz500s-1987",
+      "make": "Kawasaki",
+      "model": "GPZ500S",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 1987,
+      "year_to": 2003,
+      "engine_cc": 498,
+      "verdict": 7,
+      "description": "A parallel twin that ran almost unchanged for sixteen years because it did the job. Cheap, willing and forgiving, and a staple of riding schools everywhere.",
+      "pros": [
+        "Very cheap",
+        "forgiving",
+        "easy to maintain"
+      ],
+      "cons": [
+        "Dated",
+        "rust"
+      ],
+      "price": {
+        "low": 600,
+        "high": 1600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-z550-1980",
+      "make": "Kawasaki",
+      "model": "Z550",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1980,
+      "year_to": 1990,
+      "engine_cc": 553,
+      "verdict": 6,
+      "description": "A middleweight air-cooled four from the era when Kawasaki built them by the thousand. Willing, simple and increasingly scarce in tidy condition.",
+      "pros": [
+        "Simple and tough",
+        "period charm",
+        "cheap"
+      ],
+      "cons": [
+        "Getting scarce",
+        "modest brakes"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-vulcan-900-2006",
+      "make": "Kawasaki",
+      "model": "Vulcan 900",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2006,
+      "year_to": 2023,
+      "engine_cc": 903,
+      "verdict": 7,
+      "description": "A mid-size cruiser with a proper V-twin thump and belt drive. Comfortable, easy to ride and considerably cheaper to own than the Milwaukee alternative.",
+      "pros": [
+        "Genuine cruiser feel",
+        "belt drive",
+        "easy to ride"
+      ],
+      "cons": [
+        "Limited ground clearance",
+        "soft suspension"
+      ],
+      "price": {
+        "low": 3000,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-klx250-2009",
+      "make": "Kawasaki",
+      "model": "KLX250",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2009,
+      "year_to": 2020,
+      "engine_cc": 249,
+      "verdict": 7,
+      "description": "A proper little trail bike that is road legal and genuinely capable off it. Light, forgiving and tough, though slow on tarmac and buzzy at motorway speeds.",
+      "pros": [
+        "Genuinely capable off road",
+        "light",
+        "reliable"
+      ],
+      "cons": [
+        "Slow on road",
+        "tall seat"
+      ],
+      "price": {
+        "low": 2400,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-z125-2019",
+      "make": "Kawasaki",
+      "model": "Z125",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2019,
+      "year_to": 2024,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "A learner naked with proper Z-family styling and a willing little engine. Sharper and better finished than most of the budget competition.",
+      "pros": [
+        "Good looks",
+        "decent chassis",
+        "holds value"
+      ],
+      "cons": [
+        "Pricey against Chinese rivals",
+        "slow"
+      ],
+      "price": {
+        "low": 2400,
+        "high": 3600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-er-6f-2006",
+      "make": "Kawasaki",
+      "model": "ER-6F",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2006,
+      "year_to": 2016,
+      "engine_cc": 649,
+      "verdict": 7,
+      "description": "The faired ER-6, and one of the great sensible middleweights. The parallel twin is flexible and frugal, the riding position is kind, and there are thousands to choose from.",
+      "pros": [
+        "Practical and cheap",
+        "reliable",
+        "easy to ride"
+      ],
+      "cons": [
+        "Soft suspension",
+        "unexciting"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3400,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kawasaki-zx-6r-1995",
+      "make": "Kawasaki",
+      "model": "ZX-6R",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 1995,
+      "year_to": 2002,
+      "engine_cc": 599,
+      "verdict": 7,
+      "description": "The first generation of Kawasaki's 600, and a bike that traded outright sharpness for real-world usability. Cheap now, and increasingly hard to find unmolested.",
+      "pros": [
+        "Usable midrange",
+        "cheap",
+        "period looks"
+      ],
+      "cons": [
+        "Most have been ridden hard",
+        "rust"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-gs500-1989",
+      "make": "Suzuki",
+      "model": "GS500",
+      "variant": "",
+      "category": "Commuter",
+      "year_from": 1989,
+      "year_to": 2008,
+      "engine_cc": 487,
+      "verdict": 7,
+      "description": "A parallel twin built to a price and sold for two decades. Utterly unremarkable and utterly dependable, which is exactly why riding schools bought them by the fleet.",
+      "pros": [
+        "Very cheap",
+        "forgiving",
+        "simple"
+      ],
+      "cons": [
+        "Charmless",
+        "rust"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-sv1000-2003",
+      "make": "Suzuki",
+      "model": "SV1000",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2003,
+      "year_to": 2007,
+      "engine_cc": 996,
+      "verdict": 7,
+      "description": "The SV650's big brother, with the TL1000 V-twin in a friendlier chassis. Torquey and characterful, and far cheaper than the equivalent Ducati.",
+      "pros": [
+        "Strong V-twin",
+        "good value",
+        "comfortable"
+      ],
+      "cons": [
+        "Heavy",
+        "overshadowed by the 650"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 4000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-gladius-sfv650-2009",
+      "make": "Suzuki",
+      "model": "Gladius",
+      "variant": "SFV650",
+      "category": "Naked",
+      "year_from": 2009,
+      "year_to": 2015,
+      "engine_cc": 645,
+      "verdict": 7,
+      "description": "An SV650 restyled for a market that did not much want it, which makes it a bargain now. Same lovely V-twin, same easy manners, considerably less money.",
+      "pros": [
+        "Charismatic V-twin",
+        "cheap",
+        "easy to ride"
+      ],
+      "cons": [
+        "Styling divided opinion",
+        "basic suspension"
+      ],
+      "price": {
+        "low": 2400,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-inazuma-250-2012",
+      "make": "Suzuki",
+      "model": "Inazuma 250",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2012,
+      "year_to": 2016,
+      "engine_cc": 248,
+      "verdict": 6,
+      "description": "A small parallel-twin naked aimed at new riders. Softly tuned and easy to get on with, if short on excitement and quickly outgrown.",
+      "pros": [
+        "Easy and forgiving",
+        "A2 legal",
+        "cheap"
+      ],
+      "cons": [
+        "Very modest performance",
+        "heavy for the class"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-marauder-125-1998",
+      "make": "Suzuki",
+      "model": "Marauder 125",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 1998,
+      "year_to": 2010,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "A learner-legal cruiser with the looks of something far bigger. Slow, of course, but comfortable and popular with riders who wanted the style before the licence.",
+      "pros": [
+        "Cruiser looks on a 125",
+        "low seat",
+        "cheap"
+      ],
+      "cons": [
+        "Very slow",
+        "heavy for a 125"
+      ],
+      "price": {
+        "low": 900,
+        "high": 1900,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-v-strom-1000-2014",
+      "make": "Suzuki",
+      "model": "V-Strom 1000",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2014,
+      "year_to": 2019,
+      "engine_cc": 1037,
+      "verdict": 8,
+      "description": "The second-generation big V-Strom, much improved over the original with better electronics and a stronger twin. Comfortable, tough and consistently undervalued.",
+      "pros": [
+        "Strong V-twin",
+        "comfortable",
+        "very reliable"
+      ],
+      "cons": [
+        "Styling",
+        "heavy off road"
+      ],
+      "price": {
+        "low": 3400,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "suzuki-gs850-1979",
+      "make": "Suzuki",
+      "model": "GS850",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1979,
+      "year_to": 1988,
+      "engine_cc": 843,
+      "verdict": 7,
+      "description": "A big shaft-drive four from Suzuki's most solid era. Heavy and unhurried, but beautifully made and capable of enormous mileages without complaint.",
+      "pros": [
+        "Shaft drive",
+        "very durable",
+        "cheap classic"
+      ],
+      "cons": [
+        "Heavy",
+        "period brakes"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "yamaha-yzf750r-1993",
+      "make": "Yamaha",
+      "model": "YZF750R",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 1993,
+      "year_to": 1998,
+      "engine_cc": 749,
+      "verdict": 7,
+      "description": "Yamaha's homologation-flavoured 750, overshadowed by the FZR1000 and the later R1. Strong, stable and increasingly appreciated by people who remember them racing.",
+      "pros": [
+        "Underrated",
+        "strong motor",
+        "period race looks"
+      ],
+      "cons": [
+        "Heavy by modern standards",
+        "parts getting scarce"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "yamaha-wr125r-2009",
+      "make": "Yamaha",
+      "model": "WR125R",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2009,
+      "year_to": 2017,
+      "engine_cc": 124,
+      "verdict": 8,
+      "description": "The best learner-legal trail bike of its era, with proper suspension and genuine off-road ability. Holds value fiercely because nothing else in the class comes close.",
+      "pros": [
+        "Genuinely capable off road",
+        "superb chassis",
+        "strong residuals"
+      ],
+      "cons": [
+        "Expensive for a 125",
+        "tall seat"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 3400,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "yamaha-rd250-1973",
+      "make": "Yamaha",
+      "model": "RD250",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 1973,
+      "year_to": 1979,
+      "engine_cc": 247,
+      "verdict": 8,
+      "description": "The air-cooled forerunner of the LC, and a proper little screamer in its own right. Light, raw and increasingly collectable as LC prices climb out of reach.",
+      "pros": [
+        "Classic two-stroke",
+        "light",
+        "rising values"
+      ],
+      "cons": [
+        "Most have been modified",
+        "two-stroke upkeep"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "yamaha-xv535-virago-1988",
+      "make": "Yamaha",
+      "model": "XV535",
+      "variant": "Virago",
+      "category": "Cruiser",
+      "year_from": 1988,
+      "year_to": 2003,
+      "engine_cc": 535,
+      "verdict": 7,
+      "description": "The small Virago, and the bike that put thousands of riders on their first cruiser. Low, easy and shaft driven, with a V-twin that sounds far bigger than it is.",
+      "pros": [
+        "Low seat",
+        "shaft drive",
+        "very easy to ride"
+      ],
+      "cons": [
+        "Modest performance",
+        "rear cylinder runs hot"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "aprilia-mana-850-2007",
+      "make": "Aprilia",
+      "model": "Mana 850",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2007,
+      "year_to": 2016,
+      "engine_cc": 839,
+      "verdict": 6,
+      "description": "A big automatic naked with a CVT gearbox, sold to a market that mostly shrugged. Genuinely clever and easy in traffic, and now very cheap because nobody wanted one.",
+      "pros": [
+        "Effortless in town",
+        "genuinely innovative",
+        "very cheap"
+      ],
+      "cons": [
+        "CVT saps character",
+        "parts and dealer support"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "aprilia-dorsoduro-750-2008",
+      "make": "Aprilia",
+      "model": "Dorsoduro 750",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2008,
+      "year_to": 2016,
+      "engine_cc": 750,
+      "verdict": 7,
+      "description": "A big supermoto for the road, with a punchy V-twin and wide bars. Hilarious on a back road, tiring anywhere else, and cheap for the entertainment on offer.",
+      "pros": [
+        "Great fun on back roads",
+        "strong V-twin",
+        "cheap"
+      ],
+      "cons": [
+        "Small tank",
+        "dealer network"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "aprilia-caponord-1000-2001",
+      "make": "Aprilia",
+      "model": "Caponord 1000",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2001,
+      "year_to": 2009,
+      "engine_cc": 997,
+      "verdict": 6,
+      "description": "Aprilia's big adventure twin, based on the RSV Mille engine. Comfortable and quick, but complicated and let down by patchy dealer support. Cheap for the capability.",
+      "pros": [
+        "Strong Rotax V-twin",
+        "comfortable",
+        "very cheap"
+      ],
+      "cons": [
+        "Complex",
+        "parts availability"
+      ],
+      "price": {
+        "low": 1600,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "moto-guzzi-v9-bobber-2016",
+      "make": "Moto Guzzi",
+      "model": "V9 Bobber",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2016,
+      "year_to": 2023,
+      "engine_cc": 853,
+      "verdict": 7,
+      "description": "The V9 in bobber trim, with fat tyres and a low stance. Handsome, relaxed and full of transverse-twin character, if never quick.",
+      "pros": [
+        "Great looks",
+        "real character",
+        "easy to ride"
+      ],
+      "cons": [
+        "Slow",
+        "modest brakes"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 5800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "triumph-thunderbird-sport-1998",
+      "make": "Triumph",
+      "model": "Thunderbird Sport",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 1998,
+      "year_to": 2004,
+      "engine_cc": 885,
+      "verdict": 7,
+      "description": "The Thunderbird given lower bars, better brakes and twin-shock sporting intent. Handsome, characterful and a genuine modern classic that has stayed affordable.",
+      "pros": [
+        "Handsome",
+        "characterful triple",
+        "undervalued"
+      ],
+      "cons": [
+        "Heavy",
+        "modest suspension"
+      ],
+      "price": {
+        "low": 2500,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "royal-enfield-continental-gt-650-2018",
+      "make": "Royal Enfield",
+      "model": "Continental GT 650",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 648,
+      "verdict": 8,
+      "description": "The Interceptor in café racer clothing, with clip-ons and a sportier stance. Same superb parallel twin and the same remarkable value.",
+      "pros": [
+        "Superb value",
+        "genuinely charming",
+        "great engine"
+      ],
+      "cons": [
+        "Committed riding position",
+        "budget suspension"
+      ],
+      "price": {
+        "low": 3600,
+        "high": 5200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "bsa-b25-1967",
+      "make": "BSA",
+      "model": "B25",
+      "variant": "",
+      "category": "Classic",
+      "year_from": 1967,
+      "year_to": 1971,
+      "engine_cc": 247,
+      "verdict": 6,
+      "description": "A unit-construction 250 single from BSA's troubled final years. Light and simple, with the usual caveats about build quality from that period. Cheap way into a British classic.",
+      "pros": [
+        "Cheap entry to British classics",
+        "light",
+        "simple"
+      ],
+      "cons": [
+        "Late-BSA build quality",
+        "oil leaks"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 3800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "ktm-450-exc-2003",
+      "make": "KTM",
+      "model": "450 EXC",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2003,
+      "year_to": 2025,
+      "engine_cc": 449,
+      "verdict": 8,
+      "description": "A genuine competition enduro with a number plate. Ferociously capable off road and utterly uncompromising on it. Service intervals are measured in hours, not miles.",
+      "pros": [
+        "Superb off road",
+        "light",
+        "proper competition machine"
+      ],
+      "cons": [
+        "Very short service intervals",
+        "not a road bike"
+      ],
+      "price": {
+        "low": 2800,
+        "high": 5500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "sinnis-terrain-380-2019",
+      "make": "Sinnis",
+      "model": "Terrain 380",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 378,
+      "verdict": 6,
+      "description": "A budget adventure bike that offers a remarkable amount of kit for the money — luggage, crash bars and a decent screen as standard. Build quality is where the savings show, but as cheap transport with panniers it makes a strong case.",
+      "pros": [
+        "Enormous equipment for the price",
+        "comfortable",
+        "cheap to run"
+      ],
+      "cons": [
+        "Finish suffers in winter",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "zontes-zt125-gk-2022",
+      "make": "Zontes",
+      "model": "ZT125-GK",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2022,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "One of the better Chinese 125s, with a TFT dash, keyless ignition and genuinely good finish. Feels a class above the budget competition, though the dealer network is still thin.",
+      "pros": [
+        "Well equipped for a 125",
+        "good finish",
+        "keyless ignition"
+      ],
+      "cons": [
+        "Thin dealer network",
+        "resale is unproven"
+      ],
+      "price": {
+        "low": 1700,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "zontes-zt310-m-2021",
+      "make": "Zontes",
+      "model": "ZT310-M",
+      "variant": "",
+      "category": "Adventure",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 309,
+      "verdict": 6,
+      "description": "A 310 adventure-styled single with a lot of standard equipment. Competent rather than exciting, but a lot of motorcycle for the money if you can live with the badge.",
+      "pros": [
+        "Well equipped",
+        "A2 legal",
+        "cheap"
+      ],
+      "cons": [
+        "Dealer support",
+        "values fall quickly"
+      ],
+      "price": {
+        "low": 1900,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "mutt-mongrel-125-2016",
+      "make": "Mutt",
+      "model": "Mongrel 125",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2016,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "A British-styled scrambler built on Chinese underpinnings, and rather charming for it. Slow, but full of character and easy to personalise. A popular first bike for people who care how it looks.",
+      "pros": [
+        "Genuine character",
+        "great custom base",
+        "easy to ride"
+      ],
+      "cons": [
+        "Basic mechanicals",
+        "not a motorway bike"
+      ],
+      "price": {
+        "low": 1700,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "mutt-drk-01-250-2020",
+      "make": "Mutt",
+      "model": "DRK-01 250",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 249,
+      "verdict": 7,
+      "description": "The bigger Mutt, with enough capacity to keep up with traffic properly. Same flat-track styling and hand-finished feel, and a nicer thing to own than the spec sheet suggests.",
+      "pros": [
+        "Distinctive styling",
+        "usable performance",
+        "hand-finished touches"
+      ],
+      "cons": [
+        "Modest build quality",
+        "limited dealer network"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 3200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "herald-classic-400-2017",
+      "make": "Herald",
+      "model": "Classic 400",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2017,
+      "year_to": 2025,
+      "engine_cc": 397,
+      "verdict": 6,
+      "description": "A simple, honest retro single from a British-based brand, sold at a price that undercuts everything traditional. Slow and basic, but genuinely likeable and cheap to keep.",
+      "pros": [
+        "Very cheap",
+        "simple to maintain",
+        "period looks"
+      ],
+      "cons": [
+        "Slow",
+        "basic suspension and brakes"
+      ],
+      "price": {
+        "low": 1500,
+        "high": 2600,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "keeway-superlight-125-2007",
+      "make": "Keeway",
+      "model": "Superlight 125",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2007,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "A learner-legal cruiser that looks the part for very little money. Popular with riding schools and new riders, and cheap enough that the modest finish is forgivable.",
+      "pros": [
+        "Very cheap",
+        "cruiser styling on a 125",
+        "low seat"
+      ],
+      "cons": [
+        "Basic finish",
+        "slow"
+      ],
+      "price": {
+        "low": 1100,
+        "high": 1900,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "kymco-visar-125-2020",
+      "make": "Kymco",
+      "model": "Visar 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "A budget commuter scooter from a well-established Taiwanese maker. Not exciting, but better built than the cheapest Chinese offerings and cheap to run.",
+      "pros": [
+        "Cheap",
+        "reasonable build for the price",
+        "economical"
+      ],
+      "cons": [
+        "No character",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "hyosung-gt650-2004",
+      "make": "Hyosung",
+      "model": "GT650",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2004,
+      "year_to": 2015,
+      "engine_cc": 647,
+      "verdict": 5,
+      "description": "A Korean V-twin that looked like a Ducati and cost like a Chinese import. Reasonable when new and now very cheap indeed, though parts and support are a real consideration.",
+      "pros": [
+        "Extremely cheap",
+        "V-twin character",
+        "A2 versions available"
+      ],
+      "cons": [
+        "Patchy build quality",
+        "parts supply is difficult"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "piaggio-vespa-lx125-2005",
+      "make": "Piaggio",
+      "model": "Vespa LX125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2005,
+      "year_to": 2013,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "The small-frame modern Vespa, with the styling and the badge for considerably less than a GTS. Charming, well made and holds value better than any Japanese equivalent.",
+      "pros": [
+        "Genuine Vespa charm",
+        "strong residuals",
+        "well built"
+      ],
+      "cons": [
+        "Small wheels on poor roads",
+        "modest performance"
+      ],
+      "price": {
+        "low": 1100,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "peugeot-speedfight-1997",
+      "make": "Peugeot",
+      "model": "Speedfight",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1997,
+      "year_to": 2025,
+      "engine_cc": 49,
+      "verdict": 6,
+      "description": "The sports scooter that defined a generation of teenage transport. Sharp styling, a willing two-stroke on the early ones, and enormous nostalgia value now.",
+      "pros": [
+        "Iconic styling",
+        "huge aftermarket",
+        "cheap"
+      ],
+      "cons": [
+        "Most have been thrashed",
+        "two-stroke upkeep on early bikes"
+      ],
+      "price": {
+        "low": 700,
+        "high": 1800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "gilera-runner-1997",
+      "make": "Gilera",
+      "model": "Runner",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1997,
+      "year_to": 2016,
+      "engine_cc": 124,
+      "verdict": 7,
+      "description": "The fastest thing in the school car park for the best part of a decade. Sharp handling, proper performance and a following that has never really gone away.",
+      "pros": [
+        "Genuinely quick",
+        "great handling",
+        "cult following"
+      ],
+      "cons": [
+        "Most have been modified",
+        "parts getting scarce"
+      ],
+      "price": {
+        "low": 800,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "cfmoto-300sr-2021",
+      "make": "CFMoto",
+      "model": "300SR",
+      "variant": "",
+      "category": "Supersport",
+      "year_from": 2021,
+      "year_to": 2025,
+      "engine_cc": 292,
+      "verdict": 7,
+      "description": "A small faired single that undercuts the Japanese competition by a wide margin while offering better kit. Genuinely decent to ride, if unproven on residuals.",
+      "pros": [
+        "Excellent value",
+        "well equipped",
+        "A2 legal"
+      ],
+      "cons": [
+        "Resale is weak",
+        "dealer network still growing"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 2800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "fantic-caballero-500-2018",
+      "make": "Fantic",
+      "model": "Caballero 500",
+      "variant": "",
+      "category": "Retro",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 449,
+      "verdict": 7,
+      "description": "An Italian scrambler with real style and a willing single. Light, characterful and far more special-feeling than the price suggests, though dealers are scarce.",
+      "pros": [
+        "Genuine style",
+        "light and fun",
+        "distinctive"
+      ],
+      "cons": [
+        "Thin dealer network",
+        "modest power"
+      ],
+      "price": {
+        "low": 3400,
+        "high": 4800,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "lml-star-deluxe-200-2000",
+      "make": "LML",
+      "model": "Star Deluxe 200",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2000,
+      "year_to": 2015,
+      "engine_cc": 199,
+      "verdict": 6,
+      "description": "An Indian-built continuation of the Vespa PX, complete with hand-change gearbox on some models. Cheaper than a genuine Vespa and mechanically much the same idea.",
+      "pros": [
+        "Classic scooter looks for less",
+        "simple",
+        "parts shared with Vespa"
+      ],
+      "cons": [
+        "Not a genuine Vespa",
+        "build quality varies"
+      ],
+      "price": {
+        "low": 1300,
+        "high": 2200,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "talaria-sting-2021",
+      "make": "Talaria",
+      "model": "Sting",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2021,
+      "year_to": 2026,
+      "engine_cc": 0,
+      "verdict": 7,
+      "description": "An electric off-road machine that sits somewhere between an e-bike and a proper enduro. Silent, torquey and enormous fun on private land, with road-legal versions available.",
+      "pros": [
+        "Near-silent",
+        "instant torque",
+        "great on private land"
+      ],
+      "cons": [
+        "Limited range",
+        "road-legal versions are compromised"
+      ],
+      "price": {
+        "low": 1800,
+        "high": 3000,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
+    },
+    {
+      "id": "horwin-ek1-2020",
+      "make": "Horwin",
+      "model": "EK1",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2020,
+      "year_to": 2025,
+      "engine_cc": 0,
+      "verdict": 6,
+      "description": "A small electric commuter with removable batteries and 125-equivalent performance. Cheap to run and quiet, though range and resale remain the sticking points.",
+      "pros": [
+        "Cheap running costs",
+        "removable batteries",
+        "quiet"
+      ],
+      "cons": [
+        "Limited range",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 1400,
+        "high": 2400,
+        "as_of": "2026-08-17",
+        "source": "budget-dealer-list+market",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Range set from the supplied budget-dealer list (which represents the cheap, high-mileage end) combined with wider UK market knowledge for the upper end"
     }
   ]
 }
