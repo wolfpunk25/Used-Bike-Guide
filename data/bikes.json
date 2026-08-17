@@ -369,15 +369,23 @@
         "soft standard shock"
       ],
       "price": {
-        "low": 4700,
-        "high": 7500,
-        "as_of": "2026-08-16",
-        "source": "uk-classifieds",
-        "confidence": "thin",
+        "low": 3500,
+        "high": 7900,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "No Bennetts used guide; sampled from UK classified listings"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 4700,
+          "high": 7500,
+          "source": "uk-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2017 with 23.5k miles £3500 up to £5990 with 8k; 2023 examples £7295-£7890"
     },
     {
       "id": "ducati-monster-821-2014",
@@ -649,14 +657,22 @@
       ],
       "price": {
         "low": 5000,
-        "high": 7500,
-        "as_of": "2026-08-16",
-        "source": "uk-classifieds",
-        "confidence": "thin",
+        "high": 7300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "No Bennetts used guide for the 900 T100; sampled from UK classifieds"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 5000,
+          "high": 7500,
+          "source": "uk-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2017 with 15.3k miles £5699; low-mileage 2017 c.£7295"
     },
     {
       "id": "ducati-scrambler-icon-2015",
@@ -742,15 +758,23 @@
         "modest low-down torque"
       ],
       "price": {
-        "low": 5000,
-        "high": 7000,
-        "as_of": "2026-08-16",
-        "source": "uk-classifieds",
-        "confidence": "thin",
+        "low": 4000,
+        "high": 7200,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "No Bennetts used guide; sampled from UK classified listings"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "low": 5000,
+          "high": 7000,
+          "source": "uk-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2019 with 18.8k miles £3995; 2022 with 2.7k £6990; 2023 with 8.5k £7150"
     },
     {
       "id": "kawasaki-ninja-650-2017",
@@ -5462,14 +5486,15 @@
         "small tank"
       ],
       "price": {
-        "low": 3500,
-        "high": 5200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3200,
+        "high": 5300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2017-19 £3249-£4195; 2020-22 £4100-£5495; 2023-25 £4790-£5290"
     },
     {
       "id": "yamaha-mt-125-2014",
@@ -5523,14 +5548,15 @@
         "budget suspension"
       ],
       "price": {
-        "low": 3000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2400,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2016-19 well-used from £2400, nice examples £3000-£3400; later bikes higher"
     },
     {
       "id": "yamaha-yzf-r3-2015",
@@ -5553,14 +5579,15 @@
         "limited power"
       ],
       "price": {
-        "low": 3200,
-        "high": 4800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 with 28k miles £1800; recent low-mileage examples £5500+"
     },
     {
       "id": "yamaha-tracer-700-2016",
@@ -5584,13 +5611,14 @@
       ],
       "price": {
         "low": 4200,
-        "high": 6200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2015 with 2.7k miles £4995; 2020 £4999-£5995; 2022 £6590"
     },
     {
       "id": "yamaha-xsr900-2016",
@@ -5613,14 +5641,15 @@
         "snatchy fuelling in A mode"
       ],
       "price": {
-        "low": 5000,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2016 £5990-£6390; 2019 £6490; 2020 £6890. Holding value well"
     },
     {
       "id": "yamaha-tenere-700-2019",
@@ -5644,13 +5673,14 @@
       ],
       "price": {
         "low": 7000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 9800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "eBay examples £4999-£9995; dealer stock c.£7500 upward. New 2025 £10108"
     },
     {
       "id": "yamaha-fjr1300-2001",
@@ -5735,14 +5765,15 @@
         "overshadowed by rivals"
       ],
       "price": {
-        "low": 4000,
-        "high": 6000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 6300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 7.4k miles £5689; 2020 £6090; 2021 £6190"
     },
     {
       "id": "suzuki-dl650-v-strom-2012",
@@ -5796,14 +5827,15 @@
         "modest power"
       ],
       "price": {
-        "low": 3800,
-        "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 4.5k miles £4690; 2021 £4300; 2024 with 2.2k £5990"
     },
     {
       "id": "kawasaki-ninja-400-2018",
@@ -5826,14 +5858,15 @@
         "firm pillion seat"
       ],
       "price": {
-        "low": 3800,
-        "high": 5500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3500,
+        "high": 5700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2023 with 4.5k miles £3990; 2024 with 1071 miles £5999"
     },
     {
       "id": "kawasaki-z1000sx-2011",
@@ -5887,14 +5920,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 6500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6300,
+        "high": 9300,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 8.7k miles £7495; 2023 with 5.9k £8799; 2024 Yellow Ball £9295"
     },
     {
       "id": "kawasaki-versys-1000-2012",
@@ -5950,12 +5984,13 @@
       "price": {
         "low": 3800,
         "high": 5800,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Search returned mainly new and near-new stock (£6728-£6779); little data on older used examples"
     },
     {
       "id": "triumph-street-triple-765-2017",
@@ -5978,14 +6013,15 @@
         "firm ride"
       ],
       "price": {
-        "low": 6000,
-        "high": 9000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5500,
+        "high": 9500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 RS with 5.5k miles £7490; 2023 RS £7999; newest RS £9489-£10495"
     },
     {
       "id": "triumph-bonneville-t120-2016",
@@ -6008,14 +6044,15 @@
         "options inflate prices"
       ],
       "price": {
-        "low": 6000,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7000,
+        "high": 10000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 9.2k miles c.£8700; 2022 £9150; 2024 with 2.5k £10000. Seed was too low"
     },
     {
       "id": "triumph-bobber-2017",
