@@ -19037,6 +19037,161 @@
       },
       "price_history": [],
       "notes": "Added from the reader-poll top 80; priced from UK market knowledge, cross-checked against our auction archive where comparables existed"
+    },
+    {
+      "id": "kawasaki-zzr1200-2002",
+      "make": "Kawasaki",
+      "model": "ZZR1200",
+      "variant": "",
+      "category": "Sports tourer",
+      "year_from": 2002,
+      "year_to": 2005,
+      "engine_cc": 1164,
+      "verdict": 8,
+      "description": "The ZZR1100's replacement, with more midrange and better manners if slightly less of the original's legend. Enormously capable over distance and now remarkably cheap for the performance on offer.",
+      "pros": [
+        "Huge midrange",
+        "comfortable over distance",
+        "very cheap for what it is"
+      ],
+      "cons": [
+        "Heavy",
+        "overshadowed by the ZZR1100's reputation"
+      ],
+      "price": {
+        "low": 2000,
+        "high": 3500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the best-value 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "suzuki-gsf1250-bandit-2007",
+      "make": "Suzuki",
+      "model": "GSF1250",
+      "variant": "Bandit",
+      "category": "Naked",
+      "year_from": 2007,
+      "year_to": 2016,
+      "engine_cc": 1255,
+      "verdict": 8,
+      "description": "The Bandit grown up, with a fuel-injected 1250 that makes its torque low down and asks nothing of you. Less frantic than the old 1200 and a superb budget all-rounder.",
+      "pros": [
+        "Effortless torque",
+        "bulletproof",
+        "excellent value"
+      ],
+      "cons": [
+        "Heavy",
+        "soft standard suspension"
+      ],
+      "price": {
+        "low": 2200,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Priced against the faired GSX1250FA, which dealer lists carry at c.£4999"
+    },
+    {
+      "id": "kawasaki-z400-2019",
+      "make": "Kawasaki",
+      "model": "Z400",
+      "variant": "",
+      "category": "Naked",
+      "year_from": 2019,
+      "year_to": 2025,
+      "engine_cc": 399,
+      "verdict": 8,
+      "description": "The naked Ninja 400, and one of the best A2 bikes on sale. Light, sharp and genuinely fun, with enough quality to feel a class above the budget competition.",
+      "pros": [
+        "Excellent chassis",
+        "A2 legal",
+        "strong residuals"
+      ],
+      "cons": [
+        "Firm pillion seat",
+        "modest wind protection"
+      ],
+      "price": {
+        "low": 3500,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the best-value 50 cross-reference; priced from UK market knowledge and our dealer lists"
+    },
+    {
+      "id": "lexmoto-michigan-125-2015",
+      "make": "Lexmoto",
+      "model": "Michigan 125",
+      "variant": "",
+      "category": "Cruiser",
+      "year_from": 2015,
+      "year_to": 2025,
+      "engine_cc": 124,
+      "verdict": 5,
+      "description": "A learner-legal cruiser sold at a price that undercuts everything. Basic in every respect, but it puts new riders on two wheels for very little money and parts are cheap.",
+      "pros": [
+        "Extremely cheap",
+        "cruiser styling on an A1 licence",
+        "low seat"
+      ],
+      "cons": [
+        "Basic build quality",
+        "weak residuals"
+      ],
+      "price": {
+        "low": 900,
+        "high": 1800,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Dealer list: 2025 Michigan 125 with 8100 miles £1400"
+    },
+    {
+      "id": "honda-zoomer-50-2002",
+      "make": "Honda",
+      "model": "Zoomer 50",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2002,
+      "year_to": 2017,
+      "engine_cc": 49,
+      "verdict": 7,
+      "description": "A stripped-back, exposed-frame 50 that became a cult object well beyond its intended market. Mostly grey imports in the UK, with a huge customising scene behind it.",
+      "pros": [
+        "Cult styling",
+        "huge custom scene",
+        "tough little engine"
+      ],
+      "cons": [
+        "Mostly grey imports",
+        "50cc performance"
+      ],
+      "price": {
+        "low": 1200,
+        "high": 2500,
+        "as_of": "2026-08-17",
+        "source": "market+dealer-lists",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added from the best-value 50 cross-reference; priced from UK market knowledge and our dealer lists"
     }
   ]
 }
