@@ -6075,14 +6075,15 @@
         "limited suspension travel"
       ],
       "price": {
-        "low": 7000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7500,
+        "high": 10500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 9.2k miles £8000; 2022 £9990; 2023 with 2.9k £10299"
     },
     {
       "id": "triumph-speed-twin-1200-2019",
@@ -6105,14 +6106,15 @@
         "firm seat"
       ],
       "price": {
-        "low": 7000,
+        "low": 6500,
         "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 £7344; 2020 £7690-£7990; 2024 £9390. New now £12495"
     },
     {
       "id": "triumph-street-scrambler-2017",
@@ -6135,14 +6137,15 @@
         "modest power"
       ],
       "price": {
-        "low": 5500,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 5800,
+        "high": 8000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2018 with 10.5k miles £6200; 2024 with 1290 miles £8100"
     },
     {
       "id": "bmw-r-ninet-2014",
@@ -6227,14 +6230,15 @@
         "modest performance"
       ],
       "price": {
-        "low": 2800,
-        "high": 4200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 1700,
+        "high": 4500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2017 with 8.1k miles £1650; 2022 with 17k £2225; near-new 2024 £4850"
     },
     {
       "id": "bmw-r1250gs-2019",
@@ -6257,14 +6261,15 @@
         "spec variation is a minefield"
       ],
       "price": {
-        "low": 10000,
-        "high": 15000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 9500,
+        "high": 13500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Median c.£11999. 2019 with 18k miles £9487-£10190; 2022 c.£13290"
     },
     {
       "id": "ducati-panigale-959-2016",
@@ -6287,14 +6292,15 @@
         "runs hot"
       ],
       "price": {
-        "low": 7500,
-        "high": 10500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8500,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2016 from £8699, 2018 £9990-£10990. Corse variants c.£12000"
     },
     {
       "id": "ducati-monster-1200-2014",
@@ -6503,14 +6509,15 @@
         "early recall history"
       ],
       "price": {
-        "low": 5500,
-        "high": 7500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 4500,
+        "high": 7000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Range £3999-£7999, average c.£5500 at c.4200 miles"
     },
     {
       "id": "aprilia-rsv4-2009",
@@ -6626,14 +6633,15 @@
         "budget suspension"
       ],
       "price": {
-        "low": 3800,
-        "high": 5200,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3000,
+        "high": 4700,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 13.2k miles £3000; 2024 with 7.3k £4300; low-mileage 2024 £4699"
     },
     {
       "id": "royal-enfield-himalayan-2018",
@@ -6656,14 +6664,15 @@
         "early build issues"
       ],
       "price": {
-        "low": 3000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3200,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "thin",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "Search returned mainly dealer and near-new stock (£4999-£6499); little clean used data for the 411"
     },
     {
       "id": "husqvarna-svartpilen-401-2018",
@@ -6686,14 +6695,15 @@
         "same servicing as the KTM"
       ],
       "price": {
-        "low": 3500,
-        "high": 5000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 2000,
+        "high": 4400,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 14k miles £2099; 2021 £2995; 2024 with 60 miles £4299"
     },
     {
       "id": "indian-scout-2015",
@@ -6716,14 +6726,15 @@
         "small tank"
       ],
       "price": {
-        "low": 6500,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 8000,
+        "high": 12000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2018 with 12.6k miles £9489; 2022 with 2k £9600; up to c.£12499. Seed was too low"
     },
     {
       "id": "moto-guzzi-v9-roamer-2016",
@@ -6747,13 +6758,14 @@
       ],
       "price": {
         "low": 4500,
-        "high": 6500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "high": 6000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2017 with 5.9k miles £5295; 2019 with 1.9k £5395. Slow sales have deflated values"
     },
     {
       "id": "benelli-trk502-2017",
@@ -6776,14 +6788,15 @@
         "slow"
       ],
       "price": {
-        "low": 3000,
-        "high": 4500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 3300,
+        "high": 5000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2021 with 11.7k miles £3299; 2024 with 2k £4189"
     },
     {
       "id": "kawasaki-zx-10r-2011",
@@ -6837,14 +6850,15 @@
         "styling divides opinion"
       ],
       "price": {
-        "low": 6500,
-        "high": 8500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6300,
+        "high": 8800,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2019 with 10k miles c.£6500, under 5k miles £6700-£7000; dealer asks to £8999"
     },
     {
       "id": "triumph-tiger-sport-1050-2013",
@@ -6898,14 +6912,15 @@
         "heavy"
       ],
       "price": {
-        "low": 5500,
-        "high": 8000,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 7000,
+        "high": 11500,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2018-19 dealer stock £7500-£8300; recent examples £10990-£12699"
     },
     {
       "id": "honda-cb750-hornet-2023",
@@ -8068,14 +8083,15 @@
         "tall seat"
       ],
       "price": {
-        "low": 7000,
-        "high": 9500,
-        "as_of": null,
-        "source": "seed-estimate",
-        "confidence": "unverified",
+        "low": 6800,
+        "high": 11000,
+        "as_of": "2026-08-17",
+        "source": "uk-market-research",
+        "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": []
+      "price_history": [],
+      "notes": "2020 with 1.2k miles £6898; 2021 with 10.6k £8495; 2023 Carbon £11495"
     },
     {
       "id": "royal-enfield-super-meteor-650-2023",
