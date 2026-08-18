@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Refresh the price block on each bike in data/bikes.json.
 
+Prices follow Fast Bikes house style: a `private` figure (realistic private-sale
+money for a running example) and a `dealer` figure (prepped forecourt stock).
+
 Two working modes:
 
   worksheet  Emit a CSV of every bike with its current price, for a human (or
@@ -42,8 +45,8 @@ CONFIDENCE_LEVELS = ("verified", "researched", "thin", "unverified")
 
 WORKSHEET_COLS = [
     "id", "make", "model", "variant", "years",
-    "current_low", "current_high", "current_as_of", "current_source",
-    "new_low", "new_high", "sample_size", "source", "confidence", "notes",
+    "current_private", "current_dealer", "current_as_of", "current_source",
+    "new_private", "new_dealer", "sample_size", "source", "confidence", "notes",
 ]
 
 
@@ -71,20 +74,20 @@ def label(bike):
     return " ".join(x for x in [bike.get("make"), bike.get("model"), bike.get("variant")] if x)
 
 
-def apply_price(bike, low, high, source, sample_size, as_of, confidence="verified"):
+def apply_price(bike, private, dealer, source, sample_size, as_of, confidence="verified"):
     """Archive the outgoing price, then write the new one."""
     old = bike.get("price") or {}
-    if old.get("low") is not None and old.get("source") != "seed-estimate":
+    if old.get("private") is not None and old.get("source") != "seed-estimate":
         bike.setdefault("price_history", []).append({
             "as_of": old.get("as_of"),
-            "low": old.get("low"),
-            "high": old.get("high"),
+            "private": old.get("private"),
+            "dealer": old.get("dealer"),
             "source": old.get("source"),
             "sample_size": old.get("sample_size", 0),
         })
     bike["price"] = {
-        "low": low,
-        "high": high,
+        "private": private,
+        "dealer": dealer,
         "as_of": as_of,
         "source": source,
         "confidence": confidence,
@@ -129,13 +132,13 @@ def cmd_worksheet(args):
             w.writerow({
                 "id": b["id"], "make": b.get("make", ""), "model": b.get("model", ""),
                 "variant": b.get("variant", ""), "years": years(b),
-                "current_low": p.get("low", ""), "current_high": p.get("high", ""),
+                "current_private": p.get("private", ""), "current_dealer": p.get("dealer", ""),
                 "current_as_of": p.get("as_of") or "", "current_source": p.get("source", ""),
-                "new_low": "", "new_high": "", "sample_size": "", "source": "",
+                "new_private": "", "new_dealer": "", "sample_size": "", "source": "",
                 "confidence": "", "notes": "",
             })
     print("Wrote worksheet for %d bikes -> %s" % (len(chosen), out))
-    print("Fill in new_low / new_high / sample_size / source, then run:")
+    print("Fill in new_private / new_dealer / sample_size / source, then run:")
     print("  python3 scripts/refresh_prices.py apply --file %s" % out)
     return 0
 
@@ -156,7 +159,7 @@ def cmd_apply(args):
             if bike_id not in index:
                 unknown.append(bike_id)
                 continue
-            lo, hi = (row.get("new_low") or "").strip(), (row.get("new_high") or "").strip()
+            lo, hi = (row.get("new_private") or "").strip(), (row.get("new_dealer") or "").strip()
             if not lo or not hi:
                 skipped += 1
                 continue

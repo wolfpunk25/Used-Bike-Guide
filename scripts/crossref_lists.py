@@ -107,7 +107,7 @@ def main():
     print("=" * 78)
     off = []
     for mk, mo, b, pl, ph in compared:
-        ol, oh = b["price"]["low"], b["price"]["high"]
+        ol, oh = b["price"]["private"], b["price"]["dealer"]
         omid, lmid = (ol + oh) / 2, (pl + ph) / 2
         diff = (omid - lmid) / lmid * 100 if lmid else 0
         if abs(diff) >= 30:

@@ -44,12 +44,12 @@ def main():
             errors.append("%s: year_to %s before year_from %s" % (where, yt, yf))
 
         p = b.get("price") or {}
-        lo, hi = p.get("low"), p.get("high")
+        lo, hi = p.get("private"), p.get("dealer")
         if isinstance(lo, int) and isinstance(hi, int):
             if lo > hi:
-                errors.append("%s: price low %s above high %s" % (where, lo, hi))
+                errors.append("%s: private %s above dealer %s" % (where, lo, hi))
             if hi > lo * 4:
-                warnings.append("%s: price range looks very wide (%s-%s)" % (where, lo, hi))
+                warnings.append("%s: private-to-dealer spread looks very wide (%s-%s)" % (where, lo, hi))
         conf = p.get("confidence")
         if conf not in ("verified", "researched", "thin", "unverified"):
             errors.append("%s: unknown confidence %r" % (where, conf))

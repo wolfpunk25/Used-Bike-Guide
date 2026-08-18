@@ -50,10 +50,25 @@ other four were within a few hundred pounds (adjusted 2026-08-18). The mismatch 
 concentrated in pre-2000 machines, where our floors came from auction and budget
 sources that sit below any realistic private sale.
 
-**Recommended:** relabel the two price fields as `private` and `dealer` to match
-house style, and raise the floors on pre-2000 entries to a realistic private-sale
-figure rather than a project price. That is a schema change plus a systematic pass
-over roughly 150 older entries, so it should be a deliberate decision.
+**Done, 2026-08-18.** The two price fields are now `private` and `dealer`, matching
+house style, across all 733 entries and their price history.
+
+The floor pass raised **95 pre-2000 entries** whose private figure sat below 45% of
+the dealer figure — project money rather than a running private sale. Two guards
+applied: entries with a production span over 20 years were left alone, because
+there the gap reflects model years rather than condition (a 1965-2025 Electra
+Glide's low figure *is* a 1970s bike), and the 45% target was rounded to £50.
+
+The distribution before and after, measured as private-as-a-percentage-of-dealer
+across pre-2000 entries:
+
+| | Before | After |
+|---|---|---|
+| 10th percentile | 32% | 44% |
+| Median | 47% | 47% |
+
+That is the intended shape: the project-money outliers are gone, the sensible
+majority is untouched.
 
 ## The decision
 

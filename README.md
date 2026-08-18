@@ -176,7 +176,7 @@ and will refuse to publish broken data.
 | `verdict` | 1–10. |
 | `description` | The write-up. Keep under ~400 characters for the layout. |
 | `pros`, `cons` | Arrays; exported comma-joined into the `Plus` / `Minus` CSV columns. |
-| `price` | Written by the refresh scripts. Don't hand-edit unless you also update `as_of`. `confidence` is one of `verified` (sampled from many live listings), `researched` (from a published UK price guide), `thin` (only a handful of comparables — flagged in the UI), or `unverified` (seed estimate). |
+| `price` | Two figures in Fast Bikes house style: `private` (realistic private-sale money for a running example) and `dealer` (prepped forecourt stock). Written by the refresh scripts — don't hand-edit unless you also update `as_of`. `confidence` is one of `verified` (sampled from many live listings), `researched` (from a published UK price guide), `thin` (only a handful of comparables — flagged in the UI), or `unverified` (seed estimate). |
 | `price_history` | Appended automatically. Drives the Change column. |
 
 Photos aren't handled here by design — they're dropped in at page-design stage, as you
@@ -186,6 +186,6 @@ specified. If that ever changes, add an `image` field and a thumbnail column.
 
 **Export CSV** downloads exactly what's on screen — current filters, current sort order —
 with columns in the magazine's running order (Make, Model, Year, Engine, Verdict,
-Description, Plus, Minus, Price range, …). The `Price range` column is pre-formatted as
+Description, Plus, Minus, Price range, Private, Dealer, …). The `Price range` column is pre-formatted as
 `£5,000 - £8,000` so it can drop straight into a layout. **Export JSON** gives the same
 selection with full structure, for anything more programmatic.

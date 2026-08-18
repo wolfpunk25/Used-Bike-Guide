@@ -7,7 +7,7 @@ way are editorial estimates and are marked unverified so the front end keeps
 flagging them until someone does a real price pass.
 
   (make, model, variant, category, year_from, year_to, cc, verdict,
-   description, [pros], [cons], price_low, price_high)
+   description, [pros], [cons], price_private, price_dealer)
 """
 
 import json
@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "bikes.json")
 
 FIELDS = ("make model variant category year_from year_to engine_cc verdict "
-          "description pros cons price_low price_high").split()
+          "description pros cons price_private price_dealer").split()
 
 
 def slug(*parts):
@@ -58,7 +58,7 @@ def add(batch, data_path=DATA):
             "pros": list(r["pros"]),
             "cons": list(r["cons"]),
             "price": {
-                "low": r["price_low"], "high": r["price_high"], "as_of": None,
+                "private": r["price_private"], "dealer": r["price_dealer"], "as_of": None,
                 "source": "seed-estimate", "confidence": "unverified", "sample_size": 0,
             },
             "price_history": [],

@@ -17,8 +17,8 @@
   }
 
   function priceRange(b) {
-    if (b.price_low == null && b.price_high == null) return 'TBC';
-    return money(b.price_low) + ' - ' + money(b.price_high);
+    if (b.price_private == null && b.price_dealer == null) return 'TBC';
+    return money(b.price_private) + ' - ' + money(b.price_dealer);
   }
 
   function years(b) {
@@ -45,8 +45,8 @@
     var hist = bike.price_history || [];
     if (!hist.length) return null;
     var prev = hist[hist.length - 1];
-    var nowMid = midpoint(bike.price && bike.price.low, bike.price && bike.price.high);
-    var prevMid = midpoint(prev.low, prev.high);
+    var nowMid = midpoint(bike.price && bike.price.private, bike.price && bike.price.dealer);
+    var prevMid = midpoint(prev.private, prev.dealer);
     if (nowMid == null || prevMid == null || prevMid === 0) return null;
     return ((nowMid - prevMid) / prevMid) * 100;
   }
@@ -67,8 +67,8 @@
     return raw.map(function (b) {
       var p = b.price || {};
       return Object.assign({}, b, {
-        price_low: p.low != null ? p.low : null,
-        price_high: p.high != null ? p.high : null,
+        price_private: p.private != null ? p.private : null,
+        price_dealer: p.dealer != null ? p.dealer : null,
         as_of: p.as_of || null,
         source: p.source || '',
         confidence: p.confidence || 'unverified',
@@ -102,8 +102,8 @@
       if (yfrom !== null && (b.year_to || b.year_from) < yfrom) return false;
       if (yto !== null && b.year_from > yto) return false;
       // Overlap test: keep a bike whose range intersects the requested window.
-      if (pmin !== null && b.price_high != null && b.price_high < pmin) return false;
-      if (pmax !== null && b.price_low != null && b.price_low > pmax) return false;
+      if (pmin !== null && b.price_dealer != null && b.price_dealer < pmin) return false;
+      if (pmax !== null && b.price_private != null && b.price_private > pmax) return false;
       if (conf === 'verified' && !isSolid(b)) return false;
       if (conf === 'unverified' && isSolid(b)) return false;
       return true;
@@ -188,8 +188,8 @@
     vd.appendChild(pill);
     tr.appendChild(vd);
 
-    tr.appendChild(cell(money(b.price_low), 'num'));
-    tr.appendChild(cell(money(b.price_high), 'num'));
+    tr.appendChild(cell(money(b.price_private), 'num'));
+    tr.appendChild(cell(money(b.price_dealer), 'num'));
 
     var ch = document.createElement('td');
     ch.className = 'num';
@@ -292,8 +292,8 @@
       ['Plus', function (b) { return (b.pros || []).join(', '); }],
       ['Minus', function (b) { return (b.cons || []).join(', '); }],
       ['Price range', function (b) { return priceRange(b); }],
-      ['Price from', function (b) { return b.price_low; }],
-      ['Price to', function (b) { return b.price_high; }],
+      ['Private', function (b) { return b.price_private; }],
+      ['Dealer', function (b) { return b.price_dealer; }],
       ['Category', function (b) { return b.category; }],
       ['Change vs last check', function (b) { return b.change == null ? '' : (Math.round(b.change * 10) / 10) + '%'; }],
       ['Price checked', function (b) { return b.as_of || ''; }],
