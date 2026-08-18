@@ -60,6 +60,10 @@ sensitive, run it locally or move to a host with a password.
 
 ## The quarterly price refresh
 
+The four commands you need are in **[PRICE-COMMANDS.md](PRICE-COMMANDS.md)**:
+`status` to see what's due, `worksheet` to generate a batch, `apply` to write the
+researched prices back, and `validate.py` to check before shipping.
+
 Two routes. They write to the same place and can be mixed.
 
 ### Route 1 — assisted research (what you asked for)

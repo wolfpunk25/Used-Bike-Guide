@@ -118,6 +118,58 @@ def select(bikes, args):
     return out
 
 
+def cmd_status(args):
+    """What state are the prices in, and what is due a re-check?"""
+    import collections
+    import datetime as _dt
+    doc = load()
+    bikes = doc["bikes"]
+    conf = collections.Counter(b["price"].get("confidence") for b in bikes)
+
+    print("USED BIKE GUIDE — price status")
+    print("=" * 52)
+    print("  entries        %d" % len(bikes))
+    print("  issue          %s" % (doc["meta"].get("issue") or "not set"))
+    print("  last refreshed %s" % (doc["meta"].get("last_refreshed") or "never"))
+    print()
+    for level in ("verified", "researched", "thin", "unverified"):
+        if conf.get(level):
+            print("  %-12s %4d" % (level, conf[level]))
+
+    # Anything not researched or verified needs a human look.
+    todo = [b for b in bikes if b["price"].get("confidence") not in ("verified", "researched")]
+    print("\n  needing attention: %d" % len(todo))
+    for b in todo[:12]:
+        print("     %-34s %s" % ((b["make"] + " " + b["model"])[:34], b["price"].get("confidence")))
+    if len(todo) > 12:
+        print("     ... and %d more" % (len(todo) - 12))
+
+    # Staleness: how long since each price was checked.
+    today = _dt.date.today()
+    ages = []
+    for b in bikes:
+        a = b["price"].get("as_of")
+        if a:
+            try:
+                ages.append((today - _dt.date.fromisoformat(a)).days)
+            except ValueError:
+                pass
+    if ages:
+        ages.sort()
+        print("\n  price age (days since checked): newest %d, median %d, oldest %d"
+              % (ages[0], ages[len(ages) // 2], ages[-1]))
+        stale = sum(1 for a in ages if a > 120)
+        print("  older than one quarter: %d — these are the ones to refresh next" % stale)
+
+    print("\n  by decade, still needing attention:")
+    for lo in range(1910, 2030, 10):
+        n = [b for b in todo
+             if not ((b.get("year_to") or b["year_from"]) < lo or b["year_from"] > lo + 9)]
+        if n:
+            print("     %ds  %d" % (lo, len(n)))
+    return 0
+
+
 def cmd_worksheet(args):
     doc = load()
     out = args.file or os.path.join(ROOT, "data", "price-worksheet.csv")
@@ -296,6 +348,9 @@ def cmd_ebay(args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
+
+    st = sub.add_parser("status", help="show price coverage, staleness and what needs a look")
+    st.set_defaults(func=cmd_status)
 
     w = sub.add_parser("worksheet", help="emit a CSV to research prices into")
     w.add_argument("--file")
