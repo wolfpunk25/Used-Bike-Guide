@@ -29,6 +29,32 @@ Three entries where ours reads *higher* were left alone, because the difference 
 explained by span rather than error: our Road Glide and Le Mans entries cover more
 model years than the editorial rows they matched.
 
+## The house style already answers this
+
+Seven *Fast Bikes* / *Used Bike Guide* features supplied on 2026-08-18 settle the
+question. The magazine's own comparison panels quote **two figures per bike**:
+
+```
+2004 KAWASAKI ZX-10R      Private: £4999   Dealer: £6000
+2004 YAMAHA YZF-R1        Private: £4000   Dealer: £4800
+2005 SUZUKI GSX-R1000 K5  Private: £4750   Dealer: £5500
+```
+
+So the established convention is **private sale to dealer forecourt** — not
+rough-to-mint, and not a single "average". The features also use `Verdict: x/10`,
+which matches the `verdict` field already in the database.
+
+Checked against that convention, our ranges hold up well on modern bikes: four of
+eight spot-checks span the magazine's private and dealer figures exactly, and the
+other four were within a few hundred pounds (adjusted 2026-08-18). The mismatch is
+concentrated in pre-2000 machines, where our floors came from auction and budget
+sources that sit below any realistic private sale.
+
+**Recommended:** relabel the two price fields as `private` and `dealer` to match
+house style, and raise the floors on pre-2000 entries to a realistic private-sale
+figure rather than a project price. That is a schema change plus a systematic pass
+over roughly 150 older entries, so it should be a deliberate decision.
+
 ## The decision
 
 **The guide should state, once and prominently, which convention its prices use.**

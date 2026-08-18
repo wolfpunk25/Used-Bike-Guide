@@ -881,10 +881,10 @@
         "aggressive stock fuelling"
       ],
       "price": {
-        "low": 5200,
+        "low": 5000,
         "high": 7500,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "as_of": "2026-08-18",
+        "source": "market+fastbikes-used-guides",
         "confidence": "researched",
         "sample_size": 0
       },
@@ -895,9 +895,16 @@
           "high": 7500,
           "source": "uk-classifieds",
           "sample_size": 0
+        },
+        {
+          "as_of": "2026-08-17",
+          "low": 5200,
+          "high": 7500,
+          "source": "uk-market-research",
+          "sample_size": 0
         }
       ],
-      "notes": "2021 from £5290; 2023 with 5.5k miles £6100; tidy examples to c.£8995"
+      "notes": "Fast Bikes quotes £4999-£6300 for 2020-2022; our top covers later bikes"
     },
     {
       "id": "triumph-speed-triple-1050-rs-2018",
@@ -8243,15 +8250,23 @@
         "firm seat"
       ],
       "price": {
-        "low": 5600,
-        "high": 7300,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "low": 5000,
+        "high": 8000,
+        "as_of": "2026-08-18",
+        "source": "market+fastbikes-used-guides",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "2021 with 11.8k miles £5690; 2023 with 3.7k £7190; 2024 with 1.2k £6995"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 5600,
+          "high": 7300,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Fast Bikes quotes £4999-£7999 for 2021-on"
     },
     {
       "id": "aprilia-tuareg-660-2022",
@@ -14382,15 +14397,23 @@
         "options inflate prices"
       ],
       "price": {
-        "low": 5500,
-        "high": 7500,
-        "as_of": "2026-08-17",
-        "source": "dealer-list-2026",
+        "low": 5000,
+        "high": 9000,
+        "as_of": "2026-08-18",
+        "source": "market+fastbikes-used-guides",
         "confidence": "researched",
         "sample_size": 0
       },
-      "price_history": [],
-      "notes": "Set from the supplied 2023-2026 dealer list (496 listings) combined with wider UK market knowledge; many of these are recent models with a shallow used market"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "low": 5500,
+          "high": 7500,
+          "source": "dealer-list-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Fast Bikes 'Sporty Europeans' quotes £4999-£8999 for 2020-2024"
     },
     {
       "id": "bmw-f900gs-2024",
