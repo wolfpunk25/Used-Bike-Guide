@@ -35,7 +35,14 @@
   // web. Includes the year span, because several models here span generations
   // that look nothing alike (Daytona 675 vs 955i vs 660).
   function imageSearchUrl(b) {
-    var terms = [b.make, b.model, b.variant, years(b)].filter(Boolean).join(' ');
+    // Most variants help the search (Slabside, EXUP, Bol d'Or, DBD34 are all how
+    // people describe these bikes). Strip only our own bookkeeping labels — "Gen 1"
+    // and years duplicated from the span — which would just muddy the results.
+    var variant = (b.variant || '')
+      .replace(/\bgen\s*\d+\b/gi, '')
+      .replace(/\b(19|20)\d{2}\b/g, '')
+      .replace(/\s+/g, ' ').trim();
+    var terms = [b.make, b.model, variant, years(b)].filter(Boolean).join(' ');
     return 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(terms);
   }
 
@@ -320,7 +327,8 @@
       ['Price source', function (b) { return b.source; }],
       ['Sample size', function (b) { return b.sample_size || ''; }],
       ['Confidence', function (b) { return b.confidence; }],
-      ['ID', function (b) { return b.id; }]
+      ['ID', function (b) { return b.id; }],
+      ['Image search', function (b) { return imageSearchUrl(b); }]
     ];
     var lines = [cols.map(function (c) { return csvEscape(c[0]); }).join(',')];
     view.forEach(function (b) {

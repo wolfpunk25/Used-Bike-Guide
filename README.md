@@ -193,6 +193,8 @@ without years returns all of them mixed together.
 
 **Export CSV** downloads exactly what's on screen — current filters, current sort order —
 with columns in the magazine's running order (Make, Model, Year, Engine, Verdict,
-Description, Plus, Minus, Price range, Private, Dealer, …). The `Price range` column is pre-formatted as
+Description, Plus, Minus, Price range, Private, Dealer, …) and an **Image search**
+column at the end carrying the same Google Images link as the expanded row, so
+editorial can work through a spreadsheet against the photo library. The `Price range` column is pre-formatted as
 `£5,000 - £8,000` so it can drop straight into a layout. **Export JSON** gives the same
 selection with full structure, for anything more programmatic.
