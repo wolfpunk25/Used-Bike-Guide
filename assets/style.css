@@ -141,4 +141,10 @@ tr.detail > td { background: rgba(127,127,127,.05); padding: 4px 12px 18px 42px;
 .pc .cons h4 { color: var(--up); }
 .provenance { margin-top: 12px; font-size: 12px; color: var(--ink-soft); }
 
+.image-search {
+  color: var(--accent); font-weight: 600; text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.image-search:hover { border-bottom-color: var(--accent); }
+
 .empty { text-align: center; color: var(--ink-soft); padding: 40px; }

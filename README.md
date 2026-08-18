@@ -184,6 +184,13 @@ specified. If that ever changes, add an `image` field and a thumbnail column.
 
 ## Export
 
+Expanding a row also shows an **Image search** link, which opens Google Images for
+that exact make, model, variant and year span. It is there so editorial can quickly
+cross-check archive photography against what the bike actually looks like — the
+results are for checking only, not for publication. Including the year span matters:
+the guide holds three different Daytonas and two different Nightsters, and a search
+without years returns all of them mixed together.
+
 **Export CSV** downloads exactly what's on screen — current filters, current sort order —
 with columns in the magazine's running order (Make, Model, Year, Engine, Verdict,
 Description, Plus, Minus, Price range, Private, Dealer, …). The `Price range` column is pre-formatted as

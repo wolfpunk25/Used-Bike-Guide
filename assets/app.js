@@ -31,6 +31,14 @@
     return (b.model + ' ' + (b.variant || '')).trim();
   }
 
+  // Google Images link so editorial can cross-check archive photos against the
+  // web. Includes the year span, because several models here span generations
+  // that look nothing alike (Daytona 675 vs 955i vs 660).
+  function imageSearchUrl(b) {
+    var terms = [b.make, b.model, b.variant, years(b)].filter(Boolean).join(' ');
+    return 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(terms);
+  }
+
   function shortDate(iso) {
     if (!iso) return '';
     var d = new Date(iso);
@@ -267,6 +275,18 @@
     bits.push((b.price_history || []).length + ' previous check(s) on record');
     prov.textContent = bits.join(' · ');
     td.appendChild(prov);
+
+    var look = document.createElement('p');
+    look.className = 'provenance';
+    var a = document.createElement('a');
+    a.className = 'image-search';
+    a.href = imageSearchUrl(b);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.textContent = 'Image search \u2197';
+    a.title = 'Google Images — for checking archive photos, not for publication';
+    look.appendChild(a);
+    td.appendChild(look);
 
     tr.appendChild(td);
     return tr;
