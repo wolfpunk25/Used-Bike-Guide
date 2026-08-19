@@ -148,6 +148,7 @@
   /* ---------- rendering ---------- */
 
   function render() {
+    preview.hide();
     var view = currentView();
     var tbody = els.rows;
     tbody.textContent = '';
@@ -249,6 +250,65 @@
     return tr;
   }
 
+  // Hover preview. One floating panel shared by every row: the table re-renders
+  // on every filter and row toggle, so anything parented to a cell would be torn
+  // out from under the pointer mid-hover.
+  var preview = (function () {
+    var el = null, img = null, cap = null, timer = null;
+
+    function build() {
+      if (el) return;
+      el = document.createElement('div');
+      el.className = 'img-preview';
+      el.hidden = true;
+      img = document.createElement('img');
+      cap = document.createElement('div');
+      cap.className = 'img-preview-cap';
+      el.appendChild(img);
+      el.appendChild(cap);
+      document.body.appendChild(el);
+    }
+
+    // Sit beside the thumbnail, flipping to its left if the panel would run off
+    // the right edge, and clamped so a tall photo never hangs off the viewport.
+    function place(anchor) {
+      var r = anchor.getBoundingClientRect();
+      var w = el.offsetWidth, h = el.offsetHeight, gap = 12;
+      var left = r.right + gap;
+      if (left + w > window.innerWidth - 8) left = r.left - gap - w;
+      if (left < 8) left = Math.max(8, (window.innerWidth - w) / 2);
+      var top = Math.min(Math.max(8, r.top + r.height / 2 - h / 2),
+                         Math.max(8, window.innerHeight - h - 8));
+      el.style.left = Math.round(left) + 'px';
+      el.style.top = Math.round(top) + 'px';
+    }
+
+    function show(anchor, url, caption) {
+      build();
+      cap.textContent = caption;
+      if (img.src !== url) img.src = url;
+      el.hidden = false;
+      place(anchor);
+      // A cold image has no dimensions yet, so position again once it decodes.
+      img.onload = function () { if (!el.hidden) place(anchor); };
+    }
+
+    return {
+      enter: function (anchor, url, caption) {
+        clearTimeout(timer);
+        timer = setTimeout(function () { show(anchor, url, caption); }, 140);
+      },
+      hide: function () {
+        clearTimeout(timer);
+        if (el) el.hidden = true;
+      }
+    };
+  })();
+
+  // A fixed panel would be left stranded by a scroll, and a re-render never
+  // fires mouseleave on the element it just replaced.
+  window.addEventListener('scroll', function () { preview.hide(); }, true);
+
   function imageCell(b) {
     var td = document.createElement('td');
     td.className = 'img-cell';
@@ -272,10 +332,14 @@
       img.className = 'img-thumb';
       img.src = rec.url;
       img.alt = b.make + ' ' + b.model;
-      img.title = imageName(b) + (rec.remote ? ' — shared' : ' — in this browser only, not shared')
-                  + '. Click to replace.';
+      img.title = 'Hover to view full size. Click to replace.';
       if (!rec.remote) img.classList.add('img-local');
       img.addEventListener('click', function () { pickFor(b); });
+      img.addEventListener('mouseenter', function () {
+        preview.enter(img, rec.url, imageName(b)
+          + (rec.remote ? ' \u2014 shared' : ' \u2014 in this browser only, not shared'));
+      });
+      img.addEventListener('mouseleave', function () { preview.hide(); });
       wrap.appendChild(img);
 
       var rm = document.createElement('button');
@@ -283,7 +347,9 @@
       rm.type = 'button';
       rm.textContent = '\u00d7';
       rm.title = 'Remove image';
-      rm.addEventListener('click', function () {
+      rm.addEventListener('click', function (e) {
+        e.stopPropagation();
+        preview.hide();
         ImageStore.del(b.id, rec.ext).then(function () {
           if (!rec.remote) URL.revokeObjectURL(rec.url);
           delete state.images[b.id];

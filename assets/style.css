@@ -159,9 +159,31 @@ th.num, td.num { text-align: right; }
 /* Not yet on the shared branch — dashed amber edge so it stands out. */
 .img-thumb.img-local { border: 2px dashed var(--warn-line); }
 .img-remove {
-  position: absolute; top: -6px; right: -6px; width: 16px; height: 16px;
+  position: absolute; top: -7px; right: -7px; width: 18px; height: 18px;
   border-radius: 50%; border: none; background: var(--accent); color: #fff;
-  font-size: 10px; line-height: 16px; padding: 0; cursor: pointer; text-align: center;
+  font-size: 11px; line-height: 18px; padding: 0; cursor: pointer; text-align: center;
+  z-index: 2;
+}
+
+/* Hover preview — a floating full-size look at the photo, for checking it
+   without opening the replace dialogue. pointer-events:none matters: the panel
+   can overlap its own thumbnail without stealing the hover and flickering. */
+.img-preview {
+  position: fixed; z-index: 60; pointer-events: none;
+  padding: 6px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .28);
+}
+.img-preview[hidden] { display: none; }
+.img-preview img {
+  display: block; width: auto; height: auto;
+  max-width: min(560px, 46vw); max-height: 70vh;
+  border-radius: 3px; background: var(--bg);
+}
+.img-preview-cap {
+  max-width: min(560px, 46vw); margin-top: 6px;
+  font-size: 12px; color: var(--ink-soft);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 tbody td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
 tbody tr.row:hover { background: rgba(127,127,127,.06); }
