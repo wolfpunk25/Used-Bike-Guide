@@ -54,8 +54,13 @@ window.ImageStore = (function () {
     var headers = { 'Accept': 'application/vnd.github+json' };
     if (token()) headers.Authorization = 'Bearer ' + token();
     if (opts.body) headers['Content-Type'] = 'application/json';
-    return fetch('https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + path, {
+    var url = 'https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + path;
+    if ((opts.method || 'GET') === 'GET') {
+      url += (url.indexOf('?') === -1 ? '?' : '&') + '_=' + Date.now();
+    }
+    return fetch(url, {
       method: opts.method || 'GET',
+      cache: 'no-store',
       headers: headers,
       body: opts.body ? JSON.stringify(opts.body) : undefined
     }).then(function (r) {
@@ -77,7 +82,10 @@ window.ImageStore = (function () {
         URL.revokeObjectURL(url);
         var w = img.naturalWidth, h = img.naturalHeight;
         var scale = Math.min(1, MAX_EDGE / Math.max(w, h));
-        if (scale === 1 && file.size < 400 * 1024) { resolve({ blob: file, ext: extOf(file) }); return; }
+        // Always re-encode, even when no resizing is needed. Passing the original
+        // through kept its extension, which let .avif and .heic onto the branch
+        // where the listing pattern did not match them — the file existed but was
+        // invisible, so it looked permanently unshared.
         var c = document.createElement('canvas');
         c.width = Math.round(w * scale); c.height = Math.round(h * scale);
         c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
@@ -116,7 +124,7 @@ window.ImageStore = (function () {
       var out = {};
       (items || []).forEach(function (it) {
         if (it.type !== 'file') return;
-        var m = /^(.+)\.(jpg|png|webp)$/i.exec(it.name);
+        var m = /^(.+)\.(jpg|jpeg|png|webp|avif|heic|gif)$/i.exec(it.name);
         if (!m) return;
         shaCache[it.name] = it.sha;
         out[m[1]] = { ext: m[2].toLowerCase(), name: it.name, url: rawUrl(it.name), remote: true };
@@ -144,6 +152,23 @@ window.ImageStore = (function () {
       }
       throw err;
     });
+  }
+
+  // A bike must end up with exactly one file. Uploads are always JPEG now, but a
+  // .avif or .png from before that could otherwise sit alongside the new .jpg.
+  function dropOtherExtensions(id, keepName) {
+    var stale = Object.keys(shaCache).filter(function (n) {
+      return n !== keepName && n.replace(/\.[a-z0-9]+$/i, '') === id;
+    });
+    return stale.reduce(function (chain, name) {
+      return chain.then(function () {
+        return api('/contents/' + encodeURIComponent(name), {
+          method: 'DELETE',
+          body: { message: 'Replace image for ' + id, sha: shaCache[name], branch: BRANCH }
+        }).then(function () { delete shaCache[name]; })
+          .catch(function () { /* already gone, or someone beat us to it */ });
+      });
+    }, Promise.resolve());
   }
 
   function ghDel(id, ext) {
@@ -222,11 +247,17 @@ window.ImageStore = (function () {
       // Anything only in this browser still shows, flagged as not yet shared.
       Object.keys(local).forEach(function (k) { out[k] = local[k]; });
       // The branch is the shared truth, so it wins where both exist.
+      var settled = [];
       Object.keys(remote).forEach(function (k) {
         var was = out[k];
-        if (was && !was.remote && was.url) URL.revokeObjectURL(was.url);
+        if (was && !was.remote) {
+          if (was.url) URL.revokeObjectURL(was.url);
+          settled.push(k);          // confirmed on the branch; the local copy is dead weight
+        }
         out[k] = remote[k];
       });
+      // Tidy up in the background — it must not hold up the first render.
+      settled.forEach(function (k) { localDel(k).catch(function () {}); });
       return out;
     });
   }
@@ -241,6 +272,12 @@ window.ImageStore = (function () {
       // waiting for the commit to reach raw.githubusercontent.com.
       return localPut(id, r.blob, r.ext).then(function () {
         return ghPut(id, r.blob, r.ext);
+      }).then(function (rec) {
+        // Shared now — the local copy would otherwise linger for ever and keep
+        // showing up as "saved in this browser but not shared yet".
+        return localDel(id)
+          .then(function () { return dropOtherExtensions(id, rec.name); })
+          .then(function () { return rec; });
       });
     });
   }
@@ -271,9 +308,11 @@ window.ImageStore = (function () {
       var done = 0;
       return ids.reduce(function (chain, id) {
         return chain.then(function () {
-          return ghPut(id, local[id].blob, local[id].ext).then(function () {
-            done++; if (onProgress) onProgress(done, ids.length);
-          });
+          return ghPut(id, local[id].blob, local[id].ext)
+            .then(function () { return localDel(id); })
+            .then(function () {
+              done++; if (onProgress) onProgress(done, ids.length);
+            });
         });
       }, Promise.resolve()).then(function () { return done; });
     });
