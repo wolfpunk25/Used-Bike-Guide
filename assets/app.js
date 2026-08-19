@@ -272,7 +272,9 @@
       img.className = 'img-thumb';
       img.src = rec.url;
       img.alt = b.make + ' ' + b.model;
-      img.title = imageName(b) + ' — click to replace';
+      img.title = imageName(b) + (rec.remote ? ' — shared' : ' — in this browser only, not shared')
+                  + '. Click to replace.';
+      if (!rec.remote) img.classList.add('img-local');
       img.addEventListener('click', function () { pickFor(b); });
       wrap.appendChild(img);
 

@@ -228,10 +228,13 @@ reduction. They are for identification and cross-reference; print-resolution ori
 belong in the picture library. GitHub asks that files stay near 1MB, and 733 untouched
 archive scans would run to several gigabytes.
 
-**Without a token everything still works**, saved to IndexedDB in that browser alone —
-useful offline or for someone without GitHub access. Reading the shared images needs no
-token at all, though unauthenticated GitHub API calls are capped at 60 an hour per IP,
-so an office sharing one address is better off with tokens set.
+**A token is only needed to upload.** Anyone can open the page and see every shared
+image without one — the repository is public, so both the file listing and the images
+themselves are readable by anybody. Unauthenticated GitHub API calls are capped at 60 an
+hour per IP, so an office sharing one address is still better off with tokens set.
+
+Uploads made *without* a token stay in that browser and are marked with a **dashed amber
+border**, so it is obvious at a glance which photos have not reached the shared branch.
 
 **This repository is public**, so uploaded images are publicly visible, and copies get
 cached and indexed beyond your control. Only upload what is cleared for publication.

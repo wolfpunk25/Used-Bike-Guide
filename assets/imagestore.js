@@ -212,7 +212,24 @@ window.ImageStore = (function () {
 
   /* ---------------- public interface ---------------- */
 
-  function list() { return shared() ? ghList() : localList(); }
+  // Always read the shared set, token or not. The repo is public, so the listing
+  // and the images themselves need no auth — a token is only ever needed to WRITE.
+  // (This was previously gated on shared(), which meant a colleague opening the
+  // page without a token saw nothing at all.)
+  function list() {
+    return Promise.all([ghList(), localList()]).then(function (r) {
+      var remote = r[0] || {}, local = r[1] || {}, out = {};
+      // Anything only in this browser still shows, flagged as not yet shared.
+      Object.keys(local).forEach(function (k) { out[k] = local[k]; });
+      // The branch is the shared truth, so it wins where both exist.
+      Object.keys(remote).forEach(function (k) {
+        var was = out[k];
+        if (was && !was.remote && was.url) URL.revokeObjectURL(was.url);
+        out[k] = remote[k];
+      });
+      return out;
+    });
+  }
 
   function put(id, file) {
     return resize(file).then(function (r) {

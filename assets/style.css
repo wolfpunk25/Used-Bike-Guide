@@ -144,6 +144,8 @@ th.num, td.num { text-align: right; }
   border: 1px solid var(--line); display: block; cursor: pointer;
 }
 .img-wrap { position: relative; width: 52px; }
+/* Not yet on the shared branch — dashed amber edge so it stands out. */
+.img-thumb.img-local { border: 2px dashed var(--warn-line); }
 .img-remove {
   position: absolute; top: -6px; right: -6px; width: 16px; height: 16px;
   border-radius: 50%; border: none; background: var(--accent); color: #fff;
