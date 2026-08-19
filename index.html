@@ -17,6 +17,7 @@
     <div class="masthead-actions">
       <button id="export-csv" class="btn btn-primary">Export CSV</button>
       <button id="export-json" class="btn">Export JSON</button>
+      <button id="export-images" class="btn">Download images</button>
     </div>
   </div>
 </header>
@@ -82,6 +83,7 @@
       <thead>
         <tr>
           <th class="col-expand" scope="col"><span class="sr-only">Expand</span></th>
+          <th class="col-img" scope="col" title="Upload a photo. Images are held in this browser only and travel via the Download images button.">Image</th>
           <th data-sort="make" scope="col">Make</th>
           <th data-sort="model" scope="col">Model</th>
           <th data-sort="year_from" scope="col">Year</th>
@@ -100,6 +102,7 @@
   <p id="empty" class="empty" hidden>No bikes match those filters.</p>
 </main>
 
+<script src="assets/imagestore.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

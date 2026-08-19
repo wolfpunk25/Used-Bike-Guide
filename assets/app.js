@@ -4,7 +4,7 @@
   'use strict';
 
   var DATA_URL = 'data/bikes.json';
-  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {} };
+  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {}, images: {} };
 
   var $ = function (sel) { return document.querySelector(sel); };
   var els = {};
@@ -44,6 +44,21 @@
       .replace(/\s+/g, ' ').trim();
     var terms = [b.make, b.model, variant, years(b)].filter(Boolean).join(' ');
     return 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(terms);
+  }
+
+  // Uploaded photos are keyed by bike id and named on export as <id>.<ext>,
+  // so a designer receives bimota-db1-1985.jpg rather than IMG_0421.jpg.
+  function extFor(file) {
+    var m = /\.([a-z0-9]+)$/i.exec(file.name || '');
+    if (m) return m[1].toLowerCase().replace('jpeg', 'jpg');
+    if (/png/.test(file.type)) return 'png';
+    if (/webp/.test(file.type)) return 'webp';
+    return 'jpg';
+  }
+
+  function imageName(b) {
+    var rec = state.images[b.id];
+    return rec ? b.id + '.' + rec.ext : '';
   }
 
   function shortDate(iso) {
@@ -178,6 +193,8 @@
     tw.innerHTML = '<span class="twist">▶</span>';
     tr.appendChild(tw);
 
+    tr.appendChild(imageCell(b));
+
     tr.appendChild(cell(b.make));
 
     var md = document.createElement('td');
@@ -240,6 +257,78 @@
     return tr;
   }
 
+  function imageCell(b) {
+    var td = document.createElement('td');
+    td.className = 'img-cell';
+    // The row toggles open on click, so keep the image controls to themselves.
+    td.addEventListener('click', function (e) { e.stopPropagation(); });
+
+    var rec = state.images[b.id];
+    if (rec) {
+      var wrap = document.createElement('div');
+      wrap.className = 'img-wrap';
+      var img = document.createElement('img');
+      img.className = 'img-thumb';
+      img.src = rec.url;
+      img.alt = b.make + ' ' + b.model;
+      img.title = imageName(b) + ' — click to replace';
+      img.addEventListener('click', function () { pickFor(b); });
+      wrap.appendChild(img);
+
+      var rm = document.createElement('button');
+      rm.className = 'img-remove';
+      rm.type = 'button';
+      rm.textContent = '\u00d7';
+      rm.title = 'Remove image';
+      rm.addEventListener('click', function () {
+        ImageStore.del(b.id).then(function () {
+          URL.revokeObjectURL(rec.url);
+          delete state.images[b.id];
+          render();
+        });
+      });
+      wrap.appendChild(rm);
+      td.appendChild(wrap);
+    } else {
+      var label = document.createElement('label');
+      label.className = 'img-drop';
+      label.title = 'Upload a photo for ' + b.make + ' ' + b.model;
+      label.textContent = '\uff0b';
+      var inp = document.createElement('input');
+      inp.type = 'file';
+      inp.accept = 'image/*';
+      inp.addEventListener('change', function () {
+        if (inp.files && inp.files[0]) storeImage(b, inp.files[0]);
+      });
+      label.appendChild(inp);
+      td.appendChild(label);
+    }
+    return td;
+  }
+
+  function pickFor(b) {
+    var inp = document.createElement('input');
+    inp.type = 'file';
+    inp.accept = 'image/*';
+    inp.addEventListener('change', function () {
+      if (inp.files && inp.files[0]) storeImage(b, inp.files[0]);
+    });
+    inp.click();
+  }
+
+  function storeImage(b, file) {
+    var ext = extFor(file);
+    ImageStore.put(b.id, file, ext).then(function () {
+      var old = state.images[b.id];
+      if (old) URL.revokeObjectURL(old.url);
+      state.images[b.id] = { blob: file, ext: ext, url: URL.createObjectURL(file) };
+      render();
+    }).catch(function (err) {
+      showStatus('<strong>Could not save that image</strong> (' + err.message +
+                 '). Browser storage may be full — try removing some images first.');
+    });
+  }
+
   function listBlock(title, items, cls) {
     var d = document.createElement('div');
     d.className = cls;
@@ -260,7 +349,7 @@
     var tr = document.createElement('tr');
     tr.className = 'detail';
     var td = document.createElement('td');
-    td.colSpan = 11;
+    td.colSpan = 12;
 
     var p = document.createElement('p');
     p.className = 'detail-desc';
@@ -328,7 +417,8 @@
       ['Sample size', function (b) { return b.sample_size || ''; }],
       ['Confidence', function (b) { return b.confidence; }],
       ['ID', function (b) { return b.id; }],
-      ['Image search', function (b) { return imageSearchUrl(b); }]
+      ['Image search', function (b) { return imageSearchUrl(b); }],
+      ['Image file', function (b) { return imageName(b); }]
     ];
     var lines = [cols.map(function (c) { return csvEscape(c[0]); }).join(',')];
     view.forEach(function (b) {
@@ -340,6 +430,30 @@
 
   function exportJson() {
     download(JSON.stringify({ meta: state.meta, bikes: currentView() }, null, 2), 'application/json', 'json');
+  }
+
+  function exportImages() {
+    var view = currentView();
+    var wanted = view.filter(function (b) { return state.images[b.id]; });
+    if (!wanted.length) {
+      showStatus('<strong>No images to download.</strong> Upload photos with the ' +
+                 '\uff0b button on each row first — the ZIP includes only the rows ' +
+                 'currently shown, so it matches the CSV export.');
+      return;
+    }
+    Promise.all(wanted.map(function (b) {
+      return ImageStore.blobToBytes(state.images[b.id].blob).then(function (bytes) {
+        return { name: imageName(b), bytes: bytes };
+      });
+    })).then(function (files) {
+      var blob = ImageStore.zip(files);
+      var stamp = new Date().toISOString().slice(0, 10);
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url; a.download = 'used-bike-guide-images-' + stamp + '.zip';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    });
   }
 
   function download(text, mime, ext) {
@@ -390,6 +504,7 @@
     });
     $('#export-csv').addEventListener('click', exportCsv);
     $('#export-json').addEventListener('click', exportJson);
+    $('#export-images').addEventListener('click', exportImages);
   }
 
   function init(data) {
@@ -410,6 +525,17 @@
 
     wire();
     render();
+
+    // Pull any previously uploaded photos out of IndexedDB and re-render once.
+    ImageStore.all().then(function (stored) {
+      var n = 0;
+      Object.keys(stored).forEach(function (id) {
+        var rec = stored[id];
+        state.images[id] = { blob: rec.blob, ext: rec.ext, url: URL.createObjectURL(rec.blob) };
+        n++;
+      });
+      if (n) render();
+    }).catch(function () { /* no image store available; carry on without it */ });
   }
 
   document.addEventListener('DOMContentLoaded', function () {

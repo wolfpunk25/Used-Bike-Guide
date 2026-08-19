@@ -105,6 +105,27 @@ thead th.sorted::after { content: " \25B2"; font-size: 9px; }
 thead th.sorted.desc::after { content: " \25BC"; }
 th.num, td.num { text-align: right; }
 .col-expand { width: 30px; }
+.col-img { width: 62px; }
+
+.img-cell { width: 54px; }
+.img-drop {
+  display: flex; align-items: center; justify-content: center;
+  width: 52px; height: 38px; cursor: pointer;
+  border: 1px dashed var(--line); border-radius: var(--radius);
+  color: var(--ink-soft); font-size: 16px; line-height: 1; background: var(--bg);
+}
+.img-drop:hover { border-color: var(--accent); color: var(--accent); }
+.img-drop input { display: none; }
+.img-thumb {
+  width: 52px; height: 38px; object-fit: cover; border-radius: var(--radius);
+  border: 1px solid var(--line); display: block; cursor: pointer;
+}
+.img-wrap { position: relative; width: 52px; }
+.img-remove {
+  position: absolute; top: -6px; right: -6px; width: 16px; height: 16px;
+  border-radius: 50%; border: none; background: var(--accent); color: #fff;
+  font-size: 10px; line-height: 16px; padding: 0; cursor: pointer; text-align: center;
+}
 tbody td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
 tbody tr.row:hover { background: rgba(127,127,127,.06); }
 tbody tr.row { cursor: pointer; }

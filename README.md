@@ -186,6 +186,31 @@ and will refuse to publish broken data.
 Photos aren't handled here by design — they're dropped in at page-design stage, as you
 specified. If that ever changes, add an `image` field and a thumbnail column.
 
+## Images
+
+Each row has a **＋** button that uploads a photo for that bike. The thumbnail appears
+in the row, and the file is renamed to the entry's id — drop in `IMG_0421.PNG` for the
+Bimota DB1 and it becomes `bimota-db1-1985.png`, so design receives a folder of
+sensibly-named files rather than camera roll numbers.
+
+**Download images** produces a ZIP of the photos for whatever is currently on screen,
+matching the CSV export, and the CSV gains an **Image file** column naming each one.
+
+### The important limitation
+
+The site is static — served straight from a branch with no backend — so uploads have
+nowhere on a server to go. They are stored in **this browser only**, in IndexedDB. That
+means:
+
+- images do **not** sync between people or machines
+- clearing browser data deletes them
+- whoever collates the photos should do it in one sitting on one machine, then use
+  **Download images** to get them out
+
+The ZIP is written by hand in `assets/imagestore.js` rather than pulling in a library,
+so there is no CDN dependency to break. Photos are already compressed, so entries are
+stored rather than deflated.
+
 ## Export
 
 Expanding a row also shows an **Image search** link, which opens Google Images for
