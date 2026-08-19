@@ -196,20 +196,45 @@ sensibly-named files rather than camera roll numbers.
 **Download images** produces a ZIP of the photos for whatever is currently on screen,
 matching the CSV export, and the CSV gains an **Image file** column naming each one.
 
-### The important limitation
+### Sharing between several people
 
-The site is static — served straight from a branch with no backend — so uploads have
-nowhere on a server to go. They are stored in **this browser only**, in IndexedDB. That
-means:
+Click **Sharing: off** in the header and paste a GitHub token to turn shared storage on.
+Uploads then commit to the repository's `images` branch and everyone working on the
+guide sees them — that is how several editors in different locations work from one set
+of photos.
 
-- images do **not** sync between people or machines
-- clearing browser data deletes them
-- whoever collates the photos should do it in one sitting on one machine, then use
-  **Download images** to get them out
+Each person needs their own token, made once:
 
-The ZIP is written by hand in `assets/imagestore.js` rather than pulling in a library,
-so there is no CDN dependency to break. Photos are already compressed, so entries are
-stored rather than deflated.
+1. **github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens**
+2. Grant access to **only** the `Used-Bike-Guide` repository
+3. Repository permissions → **Contents: Read and write**. Nothing else.
+4. Paste it into the sharing panel
+
+The token lives in that browser's local storage and is sent only to github.com. Treat it
+as a password: not on shared machines, and revoke it when the issue is finished. Clearing
+the box and saving turns sharing back off, at which point images are local again.
+
+### Design notes worth knowing
+
+**Images go on the `images` branch, not `main`.** Pages builds from `main` and throttles
+at roughly ten builds an hour; committing photos there would exhaust that in an
+afternoon of uploading. The branch is an orphan, so it carries no site history.
+
+**Thumbnails load from `raw.githubusercontent.com`, not the Pages URL**, so a new photo
+appears the moment its commit lands rather than waiting on a deploy.
+
+**Photos are resized to 1600px on the long edge before upload**, typically an 80-90%
+reduction. They are for identification and cross-reference; print-resolution originals
+belong in the picture library. GitHub asks that files stay near 1MB, and 733 untouched
+archive scans would run to several gigabytes.
+
+**Without a token everything still works**, saved to IndexedDB in that browser alone —
+useful offline or for someone without GitHub access. Reading the shared images needs no
+token at all, though unauthenticated GitHub API calls are capped at 60 an hour per IP,
+so an office sharing one address is better off with tokens set.
+
+**This repository is public**, so uploaded images are publicly visible, and copies get
+cached and indexed beyond your control. Only upload what is cleared for publication.
 
 ## Export
 

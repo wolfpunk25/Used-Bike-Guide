@@ -1,26 +1,168 @@
 /* Image store for the Used Bike Guide.
  *
- * The site is static — served straight from a GitHub Pages branch with no
- * backend — so uploaded images cannot be posted anywhere. They are held in
- * IndexedDB in the browser instead: enough room for hundreds of photos
- * (localStorage would blow its ~5MB quota on a handful), and they survive a
- * reload. They do NOT sync between people or machines; the ZIP export is how
- * they leave this browser.
+ * Two backends behind one interface, so the page does not care where photos live
+ * and the choice can change later without touching the UI:
  *
- * Also contains a minimal ZIP writer. Photos are already compressed, so the
- * archive uses STORE (no deflate), which keeps this to a few dozen lines and
- * avoids taking a dependency on a CDN that a strict network could block.
+ *   GitHub  — shared. Reads straight from raw.githubusercontent.com (public, no
+ *             auth, updates the instant a commit lands) and writes through the
+ *             contents API with a token the user supplies. Photos go on the
+ *             `images` branch, NOT main, because Pages builds from main and
+ *             throttles at roughly ten builds an hour; a busy afternoon of
+ *             uploads would otherwise exhaust that.
+ *
+ *   Local   — IndexedDB, per-browser. Used when no token is set, so someone can
+ *             still work offline or without GitHub access.
+ *
+ * Photos are resized to 1600px on the long edge before upload. They are for
+ * identification and cross-reference, not reproduction — print originals belong
+ * in the picture library. GitHub recommends keeping files near 1MB, and 733
+ * untouched archive JPEGs would be several gigabytes.
  */
 window.ImageStore = (function () {
   'use strict';
 
-  var DB = 'ubg-images', STORE = 'images', VERSION = 1;
-  var dbp = null;
+  var BRANCH = 'images';
+  var MAX_EDGE = 1600;
+  var JPEG_Q = 0.82;
+  var TOKEN_KEY = 'ubg-github-token';
+
+  // Derive the repo from the Pages URL; fall back for local testing.
+  function repoInfo() {
+    var m = /^([^.]+)\.github\.io$/.exec(location.hostname);
+    if (m) {
+      var seg = location.pathname.split('/').filter(Boolean)[0];
+      if (seg) return { owner: m[1], repo: seg };
+    }
+    return { owner: 'wolfpunk25', repo: 'Used-Bike-Guide' };
+  }
+  var REPO = repoInfo();
+
+  function token() { try { return localStorage.getItem(TOKEN_KEY) || ''; } catch (e) { return ''; } }
+  function setToken(t) {
+    try { t ? localStorage.setItem(TOKEN_KEY, t) : localStorage.removeItem(TOKEN_KEY); }
+    catch (e) { /* private browsing */ }
+  }
+  function shared() { return !!token(); }
+
+  function rawUrl(name) {
+    return 'https://raw.githubusercontent.com/' + REPO.owner + '/' + REPO.repo +
+           '/' + BRANCH + '/' + encodeURIComponent(name) + '?t=' + Date.now();
+  }
+
+  function api(path, opts) {
+    opts = opts || {};
+    var headers = { 'Accept': 'application/vnd.github+json' };
+    if (token()) headers.Authorization = 'Bearer ' + token();
+    if (opts.body) headers['Content-Type'] = 'application/json';
+    return fetch('https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo + path, {
+      method: opts.method || 'GET',
+      headers: headers,
+      body: opts.body ? JSON.stringify(opts.body) : undefined
+    }).then(function (r) {
+      if (r.status === 404) return null;
+      return r.json().then(function (j) {
+        if (!r.ok) throw new Error(j.message || ('HTTP ' + r.status));
+        return j;
+      });
+    });
+  }
+
+  /* ---------------- resizing ---------------- */
+
+  function resize(file) {
+    return new Promise(function (resolve, reject) {
+      var url = URL.createObjectURL(file);
+      var img = new Image();
+      img.onload = function () {
+        URL.revokeObjectURL(url);
+        var w = img.naturalWidth, h = img.naturalHeight;
+        var scale = Math.min(1, MAX_EDGE / Math.max(w, h));
+        if (scale === 1 && file.size < 400 * 1024) { resolve({ blob: file, ext: extOf(file) }); return; }
+        var c = document.createElement('canvas');
+        c.width = Math.round(w * scale); c.height = Math.round(h * scale);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        c.toBlob(function (b) {
+          resolve({ blob: b || file, ext: 'jpg' });
+        }, 'image/jpeg', JPEG_Q);
+      };
+      img.onerror = function () { URL.revokeObjectURL(url); reject(new Error('not a readable image')); };
+      img.src = url;
+    });
+  }
+
+  function extOf(file) {
+    var m = /\.([a-z0-9]+)$/i.exec(file.name || '');
+    if (m) return m[1].toLowerCase().replace('jpeg', 'jpg');
+    if (/png/.test(file.type)) return 'png';
+    if (/webp/.test(file.type)) return 'webp';
+    return 'jpg';
+  }
+
+  function toBase64(blob) {
+    return new Promise(function (resolve, reject) {
+      var fr = new FileReader();
+      fr.onload = function () { resolve(String(fr.result).split(',')[1]); };
+      fr.onerror = function () { reject(fr.error); };
+      fr.readAsDataURL(blob);
+    });
+  }
+
+  /* ---------------- GitHub backend ---------------- */
+
+  var shaCache = {};
+
+  function ghList() {
+    return api('/contents?ref=' + BRANCH).then(function (items) {
+      var out = {};
+      (items || []).forEach(function (it) {
+        if (it.type !== 'file') return;
+        var m = /^(.+)\.(jpg|png|webp)$/i.exec(it.name);
+        if (!m) return;
+        shaCache[it.name] = it.sha;
+        out[m[1]] = { ext: m[2].toLowerCase(), name: it.name, url: rawUrl(it.name), remote: true };
+      });
+      return out;
+    }).catch(function () { return {}; });
+  }
+
+  function ghPut(id, blob, ext) {
+    var name = id + '.' + ext;
+    return toBase64(blob).then(function (b64) {
+      var body = { message: 'Add image for ' + id, content: b64, branch: BRANCH };
+      if (shaCache[name]) body.sha = shaCache[name];
+      return api('/contents/' + encodeURIComponent(name), { method: 'PUT', body: body });
+    }).then(function (res) {
+      if (res && res.content) shaCache[name] = res.content.sha;
+      return { ext: ext, name: name, url: rawUrl(name), remote: true };
+    }).catch(function (err) {
+      // Someone else wrote the same file first — re-read the sha and retry once.
+      if (/sha|conflict|409/i.test(err.message)) {
+        return api('/contents/' + encodeURIComponent(name) + '?ref=' + BRANCH).then(function (cur) {
+          if (cur && cur.sha) shaCache[name] = cur.sha;
+          return ghPut(id, blob, ext);
+        });
+      }
+      throw err;
+    });
+  }
+
+  function ghDel(id, ext) {
+    var name = id + '.' + ext;
+    if (!shaCache[name]) return Promise.resolve();
+    return api('/contents/' + encodeURIComponent(name), {
+      method: 'DELETE',
+      body: { message: 'Remove image for ' + id, sha: shaCache[name], branch: BRANCH }
+    }).then(function () { delete shaCache[name]; });
+  }
+
+  /* ---------------- local backend ---------------- */
+
+  var DB = 'ubg-images', STORE = 'images', dbp = null;
 
   function open() {
     if (dbp) return dbp;
     dbp = new Promise(function (resolve, reject) {
-      var req = indexedDB.open(DB, VERSION);
+      var req = indexedDB.open(DB, 1);
       req.onupgradeneeded = function () {
         var db = req.result;
         if (!db.objectStoreNames.contains(STORE)) db.createObjectStore(STORE);
@@ -42,16 +184,7 @@ window.ImageStore = (function () {
     });
   }
 
-  function put(id, blob, ext) {
-    return tx('readwrite', function (s) {
-      return s.put({ blob: blob, ext: ext, added: new Date().toISOString() }, id);
-    });
-  }
-  function get(id) { return tx('readonly', function (s) { return s.get(id); }); }
-  function del(id) { return tx('readwrite', function (s) { return s.delete(id); }); }
-  function keys() { return tx('readonly', function (s) { return s.getAllKeys(); }); }
-
-  function all() {
+  function localList() {
     return open().then(function (db) {
       return new Promise(function (resolve, reject) {
         var out = {};
@@ -60,17 +193,51 @@ window.ImageStore = (function () {
         cur.onsuccess = function (e) {
           var c = e.target.result;
           if (!c) { resolve(out); return; }
-          out[c.key] = c.value;
+          out[c.key] = { ext: c.value.ext, name: c.key + '.' + c.value.ext,
+                         url: URL.createObjectURL(c.value.blob), blob: c.value.blob, remote: false };
           c.continue();
         };
         cur.onerror = function () { reject(cur.error); };
       });
+    }).catch(function () { return {}; });
+  }
+
+  function localPut(id, blob, ext) {
+    return tx('readwrite', function (s) { return s.put({ blob: blob, ext: ext }, id); })
+      .then(function () {
+        return { ext: ext, name: id + '.' + ext, url: URL.createObjectURL(blob), blob: blob, remote: false };
+      });
+  }
+  function localDel(id) { return tx('readwrite', function (s) { return s.delete(id); }); }
+
+  /* ---------------- public interface ---------------- */
+
+  function list() { return shared() ? ghList() : localList(); }
+
+  function put(id, file) {
+    return resize(file).then(function (r) {
+      // Always keep a local copy so the thumbnail appears instantly, before the
+      // commit has propagated to raw.githubusercontent.com.
+      return localPut(id, r.blob, r.ext).then(function (localRec) {
+        if (!shared()) return localRec;
+        return ghPut(id, r.blob, r.ext);
+      });
     });
+  }
+
+  function del(id, ext) {
+    return localDel(id).then(function () { return shared() ? ghDel(id, ext) : null; });
+  }
+
+  function bytesFor(rec) {
+    if (rec.blob) return rec.blob.arrayBuffer().then(function (b) { return new Uint8Array(b); });
+    return fetch(rec.url).then(function (r) { return r.arrayBuffer(); })
+      .then(function (b) { return new Uint8Array(b); });
   }
 
   /* ---------------- minimal ZIP (STORE) ---------------- */
 
-  var CRC_TABLE = (function () {
+  var CRC = (function () {
     var t = new Uint32Array(256);
     for (var n = 0; n < 256; n++) {
       var c = n;
@@ -79,72 +246,46 @@ window.ImageStore = (function () {
     }
     return t;
   })();
-
-  function crc32(bytes) {
+  function crc32(b) {
     var c = 0xFFFFFFFF;
-    for (var i = 0; i < bytes.length; i++) c = CRC_TABLE[(c ^ bytes[i]) & 0xFF] ^ (c >>> 8);
+    for (var i = 0; i < b.length; i++) c = CRC[(c ^ b[i]) & 0xFF] ^ (c >>> 8);
     return (c ^ 0xFFFFFFFF) >>> 0;
   }
-
-  function dosTime(d) {
-    return ((d.getHours() << 11) | (d.getMinutes() << 5) | (d.getSeconds() / 2)) & 0xFFFF;
+  function bytesOf(s) {
+    var o = [];
+    for (var i = 0; i < s.length; i++) { var c = s.charCodeAt(i); o.push(c < 128 ? c : 63); }
+    return new Uint8Array(o);
   }
-  function dosDate(d) {
-    return (((d.getFullYear() - 1980) << 9) | ((d.getMonth() + 1) << 5) | d.getDate()) & 0xFFFF;
-  }
-
-  function bytesOf(str) {
-    var out = [];
-    for (var i = 0; i < str.length; i++) {
-      var c = str.charCodeAt(i);
-      if (c < 128) out.push(c);
-      else out.push(63);                      // '?' — filenames here are ASCII ids
-    }
-    return new Uint8Array(out);
-  }
-
   function zip(files) {
-    // files: [{name, bytes}]
-    var chunks = [], central = [], offset = 0, now = new Date();
-    var tm = dosTime(now), dt = dosDate(now);
-
+    var chunks = [], central = [], offset = 0, d = new Date();
+    var tm = ((d.getHours() << 11) | (d.getMinutes() << 5) | (d.getSeconds() / 2)) & 0xFFFF;
+    var dt = (((d.getFullYear() - 1980) << 9) | ((d.getMonth() + 1) << 5) | d.getDate()) & 0xFFFF;
     files.forEach(function (f) {
-      var nameB = bytesOf(f.name), crc = crc32(f.bytes), size = f.bytes.length;
+      var nb = bytesOf(f.name), crc = crc32(f.bytes), size = f.bytes.length;
       var lh = new DataView(new ArrayBuffer(30));
-      lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true); lh.setUint16(6, 0, true);
-      lh.setUint16(8, 0, true);            // STORE
+      lh.setUint32(0, 0x04034b50, true); lh.setUint16(4, 20, true);
       lh.setUint16(10, tm, true); lh.setUint16(12, dt, true);
       lh.setUint32(14, crc, true); lh.setUint32(18, size, true); lh.setUint32(22, size, true);
-      lh.setUint16(26, nameB.length, true); lh.setUint16(28, 0, true);
-      chunks.push(new Uint8Array(lh.buffer), nameB, f.bytes);
-
+      lh.setUint16(26, nb.length, true);
+      chunks.push(new Uint8Array(lh.buffer), nb, f.bytes);
       var cd = new DataView(new ArrayBuffer(46));
       cd.setUint32(0, 0x02014b50, true); cd.setUint16(4, 20, true); cd.setUint16(6, 20, true);
-      cd.setUint16(8, 0, true); cd.setUint16(10, 0, true);
       cd.setUint16(12, tm, true); cd.setUint16(14, dt, true);
       cd.setUint32(16, crc, true); cd.setUint32(20, size, true); cd.setUint32(24, size, true);
-      cd.setUint16(28, nameB.length, true); cd.setUint16(30, 0, true); cd.setUint16(32, 0, true);
-      cd.setUint16(34, 0, true); cd.setUint16(36, 0, true); cd.setUint32(38, 0, true);
-      cd.setUint32(42, offset, true);
-      central.push(new Uint8Array(cd.buffer), nameB);
-
-      offset += 30 + nameB.length + size;
+      cd.setUint16(28, nb.length, true); cd.setUint32(42, offset, true);
+      central.push(new Uint8Array(cd.buffer), nb);
+      offset += 30 + nb.length + size;
     });
-
-    var centralSize = central.reduce(function (n, c) { return n + c.length; }, 0);
-    var eocd = new DataView(new ArrayBuffer(22));
-    eocd.setUint32(0, 0x06054b50, true);
-    eocd.setUint16(8, files.length, true); eocd.setUint16(10, files.length, true);
-    eocd.setUint32(12, centralSize, true); eocd.setUint32(16, offset, true);
-    eocd.setUint16(20, 0, true);
-
-    return new Blob(chunks.concat(central, [new Uint8Array(eocd.buffer)]),
-                    { type: 'application/zip' });
+    var cs = central.reduce(function (n, c) { return n + c.length; }, 0);
+    var e = new DataView(new ArrayBuffer(22));
+    e.setUint32(0, 0x06054b50, true);
+    e.setUint16(8, files.length, true); e.setUint16(10, files.length, true);
+    e.setUint32(12, cs, true); e.setUint32(16, offset, true);
+    return new Blob(chunks.concat(central, [new Uint8Array(e.buffer)]), { type: 'application/zip' });
   }
 
-  function blobToBytes(blob) {
-    return blob.arrayBuffer().then(function (buf) { return new Uint8Array(buf); });
-  }
-
-  return { put: put, get: get, del: del, keys: keys, all: all, zip: zip, blobToBytes: blobToBytes };
+  return {
+    list: list, put: put, del: del, bytesFor: bytesFor, zip: zip,
+    token: token, setToken: setToken, shared: shared, repo: REPO, branch: BRANCH
+  };
 })();

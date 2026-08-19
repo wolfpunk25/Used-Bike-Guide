@@ -4,7 +4,7 @@
   'use strict';
 
   var DATA_URL = 'data/bikes.json';
-  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {}, images: {} };
+  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {}, images: {}, uploading: {} };
 
   var $ = function (sel) { return document.querySelector(sel); };
   var els = {};
@@ -48,17 +48,9 @@
 
   // Uploaded photos are keyed by bike id and named on export as <id>.<ext>,
   // so a designer receives bimota-db1-1985.jpg rather than IMG_0421.jpg.
-  function extFor(file) {
-    var m = /\.([a-z0-9]+)$/i.exec(file.name || '');
-    if (m) return m[1].toLowerCase().replace('jpeg', 'jpg');
-    if (/png/.test(file.type)) return 'png';
-    if (/webp/.test(file.type)) return 'webp';
-    return 'jpg';
-  }
-
   function imageName(b) {
     var rec = state.images[b.id];
-    return rec ? b.id + '.' + rec.ext : '';
+    return rec ? rec.name : '';
   }
 
   function shortDate(iso) {
@@ -263,6 +255,15 @@
     // The row toggles open on click, so keep the image controls to themselves.
     td.addEventListener('click', function (e) { e.stopPropagation(); });
 
+    if (state.uploading[b.id]) {
+      var busy = document.createElement('div');
+      busy.className = 'img-drop';
+      busy.textContent = '\u2026';
+      busy.title = 'Uploading\u2026';
+      td.appendChild(busy);
+      return td;
+    }
+
     var rec = state.images[b.id];
     if (rec) {
       var wrap = document.createElement('div');
@@ -281,10 +282,12 @@
       rm.textContent = '\u00d7';
       rm.title = 'Remove image';
       rm.addEventListener('click', function () {
-        ImageStore.del(b.id).then(function () {
-          URL.revokeObjectURL(rec.url);
+        ImageStore.del(b.id, rec.ext).then(function () {
+          if (!rec.remote) URL.revokeObjectURL(rec.url);
           delete state.images[b.id];
           render();
+        }).catch(function (err) {
+          showStatus('<strong>Could not remove that image</strong> — ' + err.message);
         });
       });
       wrap.appendChild(rm);
@@ -317,15 +320,19 @@
   }
 
   function storeImage(b, file) {
-    var ext = extFor(file);
-    ImageStore.put(b.id, file, ext).then(function () {
-      var old = state.images[b.id];
-      if (old) URL.revokeObjectURL(old.url);
-      state.images[b.id] = { blob: file, ext: ext, url: URL.createObjectURL(file) };
+    state.uploading[b.id] = true;
+    render();
+    ImageStore.put(b.id, file).then(function (rec) {
+      delete state.uploading[b.id];
+      state.images[b.id] = rec;
       render();
     }).catch(function (err) {
-      showStatus('<strong>Could not save that image</strong> (' + err.message +
-                 '). Browser storage may be full — try removing some images first.');
+      delete state.uploading[b.id];
+      render();
+      showStatus('<strong>Could not save that image</strong> — ' + err.message +
+                 (ImageStore.shared()
+                   ? '. Check the sharing token is still valid.'
+                   : '. Browser storage may be full.'));
     });
   }
 
@@ -442,7 +449,7 @@
       return;
     }
     Promise.all(wanted.map(function (b) {
-      return ImageStore.blobToBytes(state.images[b.id].blob).then(function (bytes) {
+      return ImageStore.bytesFor(state.images[b.id]).then(function (bytes) {
         return { name: imageName(b), bytes: bytes };
       });
     })).then(function (files) {
@@ -485,6 +492,47 @@
     els.status.hidden = false;
   }
 
+  function loadImages() {
+    Object.keys(state.images).forEach(function (id) {
+      var r = state.images[id];
+      if (r && !r.remote && r.url) URL.revokeObjectURL(r.url);
+    });
+    state.images = {};
+    return ImageStore.list().then(function (stored) {
+      state.images = stored || {};
+      render();
+      updateShareLabel();
+    }).catch(function () { updateShareLabel(); });
+  }
+
+  function updateShareLabel() {
+    var btn = $('#sharing');
+    if (!btn) return;
+    var on = ImageStore.shared();
+    btn.textContent = on ? 'Sharing: on' : 'Sharing: off';
+    btn.className = 'btn' + (on ? ' btn-primary' : '');
+    btn.title = on
+      ? 'Images upload to the ' + ImageStore.branch + ' branch and are visible to everyone'
+      : 'Images are saved in this browser only — click to turn on sharing';
+  }
+
+  function toggleSharing() {
+    var panel = $('#share-panel');
+    panel.hidden = !panel.hidden;
+    if (!panel.hidden) $('#share-token').value = ImageStore.token();
+  }
+
+  function saveSharing() {
+    ImageStore.setToken($('#share-token').value.trim());
+    $('#share-panel').hidden = true;
+    loadImages();
+    showStatus(ImageStore.shared()
+      ? '<strong>Sharing on.</strong> Uploads now go to the <code>' + ImageStore.branch +
+        '</code> branch of ' + ImageStore.repo.owner + '/' + ImageStore.repo.repo +
+        ' and everyone sees them.'
+      : '<strong>Sharing off.</strong> Images are saved in this browser only.');
+  }
+
   function wire() {
     ['q', 'make', 'category', 'verdict', 'yfrom', 'yto', 'pmin', 'pmax', 'conf'].forEach(function (k) {
       els[k].addEventListener('input', render);
@@ -505,6 +553,8 @@
     $('#export-csv').addEventListener('click', exportCsv);
     $('#export-json').addEventListener('click', exportJson);
     $('#export-images').addEventListener('click', exportImages);
+    $('#sharing').addEventListener('click', toggleSharing);
+    $('#share-save').addEventListener('click', saveSharing);
   }
 
   function init(data) {
@@ -527,15 +577,7 @@
     render();
 
     // Pull any previously uploaded photos out of IndexedDB and re-render once.
-    ImageStore.all().then(function (stored) {
-      var n = 0;
-      Object.keys(stored).forEach(function (id) {
-        var rec = stored[id];
-        state.images[id] = { blob: rec.blob, ext: rec.ext, url: URL.createObjectURL(rec.blob) };
-        n++;
-      });
-      if (n) render();
-    }).catch(function () { /* no image store available; carry on without it */ });
+    loadImages();
   }
 
   document.addEventListener('DOMContentLoaded', function () {

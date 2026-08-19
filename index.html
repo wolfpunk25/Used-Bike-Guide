@@ -18,9 +18,43 @@
       <button id="export-csv" class="btn btn-primary">Export CSV</button>
       <button id="export-json" class="btn">Export JSON</button>
       <button id="export-images" class="btn">Download images</button>
+      <button id="sharing" class="btn">Sharing: off</button>
     </div>
   </div>
 </header>
+
+<div id="share-panel" class="share-panel" hidden>
+  <h2>Sharing images with the rest of the team</h2>
+  <p>
+    Images are saved in this browser only until you paste a GitHub token below. With one
+    set, uploads are committed to the <code>images</code> branch and everyone working on
+    the guide sees them — that is how several people in different places share one set
+    of photos.
+  </p>
+  <ol>
+    <li>Go to <strong>github.com → Settings → Developer settings → Personal access tokens
+        → Fine-grained tokens</strong>.</li>
+    <li>Generate a token with access to <strong>only</strong> the
+        <code>Used-Bike-Guide</code> repository.</li>
+    <li>Under Repository permissions set <strong>Contents: Read and write</strong>. Nothing
+        else is needed.</li>
+    <li>Paste it here.</li>
+  </ol>
+  <div class="share-row">
+    <input type="password" id="share-token" placeholder="github_pat_..." autocomplete="off"
+           spellcheck="false">
+    <button id="share-save" class="btn btn-primary">Save</button>
+  </div>
+  <p class="share-warn">
+    The token is kept in this browser's local storage and sent only to github.com. Treat it
+    like a password: do not set one on a shared or public machine, and revoke it on GitHub
+    when you are done. Leave the box empty and save to turn sharing off.
+  </p>
+  <p class="share-warn">
+    This repository is public, so uploaded images are publicly visible. Do not upload
+    anything that is not cleared for publication.
+  </p>
+</div>
 
 <div id="status-bar" class="status-bar" hidden></div>
 

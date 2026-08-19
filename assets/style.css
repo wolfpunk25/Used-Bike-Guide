@@ -65,6 +65,26 @@ body {
   background: rgba(0,0,0,.07); padding: 1px 5px; border-radius: 3px; font-size: 12.5px;
 }
 
+.share-panel {
+  max-width: 1400px; margin: 16px auto 0; padding: 18px 22px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-left: 4px solid var(--accent); border-radius: var(--radius);
+}
+.share-panel h2 { margin: 0 0 8px; font-size: 16px; }
+.share-panel p, .share-panel li { font-size: 13.5px; color: var(--ink-soft); margin: 6px 0; }
+.share-panel ol { margin: 8px 0; padding-left: 20px; }
+.share-panel code {
+  background: rgba(127,127,127,.14); padding: 1px 5px; border-radius: 3px; font-size: 12.5px;
+}
+.share-row { display: flex; gap: 10px; margin: 12px 0; max-width: 560px; }
+.share-row input {
+  flex: 1; font: inherit; font-size: 14px; padding: 8px 10px;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--bg); color: var(--ink);
+}
+.share-warn { font-size: 12.5px; color: var(--warn-ink); background: var(--warn-bg);
+  border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 8px 11px; }
+
 main { max-width: 1400px; margin: 0 auto; padding: 20px 24px 64px; }
 
 /* Controls */
