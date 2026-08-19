@@ -1,0 +1,734 @@
+﻿id,make,model,verdict_significance
+kawasaki-zx-6r-636-2013,Kawasaki,ZX-6R,7
+yamaha-mt-07-2014,Yamaha,MT-07,9
+honda-cb500f-2013,Honda,CB500F,8
+suzuki-sv650-2016,Suzuki,SV650,8
+triumph-street-triple-675-2013,Triumph,Street Triple,8
+yamaha-mt-09-2014,Yamaha,MT-09,8
+ktm-390-duke-2013,KTM,390 Duke,7
+honda-cbr600rr-2007,Honda,CBR600RR,8
+yamaha-yzf-r6-2006,Yamaha,YZF-R6,8
+suzuki-gsx-r750-2011,Suzuki,GSX-R750,9
+bmw-s1000rr-2010,BMW,S1000RR,9
+kawasaki-z900-2017,Kawasaki,Z900,8
+ducati-monster-821-2014,Ducati,Monster 821,7
+bmw-r1200gs-lc-2013,BMW,R1200GS,9
+honda-crf1000l-africa-twin-2016,Honda,CRF1000L Africa Twin,8
+triumph-tiger-800-xc-2011,Triumph,Tiger 800,7
+yamaha-tracer-900-2015,Yamaha,Tracer 900,8
+kawasaki-versys-650-2015,Kawasaki,Versys 650,7
+honda-vfr800-vtec-2002,Honda,VFR800,7
+suzuki-gsx-s1000-2015,Suzuki,GSX-S1000,8
+triumph-bonneville-t100-2017,Triumph,Bonneville T100,8
+ducati-scrambler-icon-2015,Ducati,Scrambler Icon,7
+harley-davidson-iron-883-2009,Harley-Davidson,Sportster Iron 883,6
+honda-cb650r-2019,Honda,CB650R,8
+kawasaki-ninja-650-2017,Kawasaki,Ninja 650,7
+aprilia-rs660-2020,Aprilia,RS660,8
+ktm-890-duke-r-2020,KTM,890 Duke R,8
+triumph-speed-triple-1050-rs-2018,Triumph,Speed Triple 1050,8
+honda-nc750x-2014,Honda,NC750X,7
+yamaha-xsr700-2016,Yamaha,XSR700,8
+honda-cb750-f2-1977,Honda,CB750,7
+honda-cbx1000-1978,Honda,CBX1000,8
+honda-vf750f-interceptor-1983,Honda,VF750F,6
+honda-vfr750r-rc30-1988,Honda,VFR750R,10
+honda-cbr600f-1987,Honda,CBR600F,8
+honda-cbr1000f-1987,Honda,CBR1000F,7
+honda-ns400r-1985,Honda,NS400R,8
+honda-xbr500-1985,Honda,XBR500,6
+honda-transalp-xl600v-1987,Honda,Transalp,7
+honda-africa-twin-xrv750-1990,Honda,Africa Twin,8
+yamaha-rd350-lc-1980,Yamaha,RD350,9
+yamaha-rd500lc-1984,Yamaha,RD500LC,9
+yamaha-fz750-1985,Yamaha,FZ750,7
+yamaha-fzr1000-exup-1989,Yamaha,FZR1000,9
+yamaha-xj900-1983,Yamaha,XJ900,7
+yamaha-sr500-1978,Yamaha,SR500,7
+yamaha-v-max-1985,Yamaha,V-Max,8
+yamaha-fj1200-1986,Yamaha,FJ1200,7
+suzuki-gsx-r750-slabside-1985,Suzuki,GSX-R750,9
+suzuki-gsx-r1100-1986,Suzuki,GSX-R1100,8
+suzuki-rg500-gamma-1985,Suzuki,RG500,9
+suzuki-gsx1100s-katana-1981,Suzuki,GSX1100S,8
+kawasaki-gpz900r-1984,Kawasaki,GPZ900R,9
+kawasaki-gpz600r-1985,Kawasaki,GPZ600R,7
+kawasaki-zxr750-1989,Kawasaki,ZXR750,8
+kawasaki-z1300-1979,Kawasaki,Z1300,7
+bmw-r80g-s-1980,BMW,R80G/S,9
+bmw-k100-1983,BMW,K100,7
+bmw-r100rs-1976,BMW,R100RS,8
+ducati-851-1988,Ducati,851,8
+moto-guzzi-le-mans-1976,Moto Guzzi,Le Mans,7
+laverda-jota-1976,Laverda,Jota,8
+triumph-bonneville-t140-1973,Triumph,Bonneville,6
+norton-commando-850-1973,Norton,Commando,7
+harley-davidson-fxr-1982,Harley-Davidson,FXR,7
+honda-gold-wing-gl1100-1980,Honda,Gold Wing,7
+suzuki-dr750s-big-1988,Suzuki,DR750S,6
+yamaha-tdr250-1988,Yamaha,TDR250,7
+kawasaki-gt550-1983,Kawasaki,GT550,6
+suzuki-gs550-1977,Suzuki,GS550,7
+honda-cb900f-bol-d-or-1979,Honda,CB900F,7
+yamaha-xt500-1976,Yamaha,XT500,8
+honda-cbr900rr-fireblade-1992,Honda,CBR900RR,10
+honda-cbr600f-f3-1991,Honda,CBR600F,8
+honda-vfr750f-1990,Honda,VFR750F,9
+honda-cb600f-hornet-1998,Honda,CB600F,8
+honda-vtr1000f-firestorm-1997,Honda,VTR1000F,7
+honda-cbr1100xx-blackbird-1996,Honda,CBR1100XX,9
+honda-nx650-dominator-1988,Honda,NX650,7
+yamaha-yzf-r1-1998,Yamaha,YZF-R1,10
+yamaha-yzf-r6-1999,Yamaha,YZF-R6,8
+yamaha-yzf1000r-thunderace-1996,Yamaha,YZF1000R,7
+yamaha-trx850-1995,Yamaha,TRX850,7
+yamaha-xjr1300-1998,Yamaha,XJR1300,8
+yamaha-fzs600-fazer-1998,Yamaha,FZS600,8
+yamaha-tdm850-1991,Yamaha,TDM850,7
+yamaha-xj600-diversion-1992,Yamaha,XJ600,6
+suzuki-gsf600-bandit-1995,Suzuki,GSF600,8
+suzuki-gsf1200-bandit-1996,Suzuki,GSF1200,9
+suzuki-tl1000s-1997,Suzuki,TL1000S,6
+suzuki-gsx-r600-srad-1997,Suzuki,GSX-R600,7
+suzuki-gsx1300r-hayabusa-1999,Suzuki,GSX1300R,9
+suzuki-rf900r-1994,Suzuki,RF900R,7
+kawasaki-zzr1100-1990,Kawasaki,ZZR1100,9
+kawasaki-zx-7r-1996,Kawasaki,ZX-7R,8
+kawasaki-zx-9r-1994,Kawasaki,ZX-9R,8
+kawasaki-er-5-1997,Kawasaki,ER-5,6
+kawasaki-w650-1999,Kawasaki,W650,8
+triumph-speed-triple-t509-1997,Triumph,Speed Triple,8
+triumph-daytona-955i-1997,Triumph,Daytona,7
+triumph-trophy-1200-1991,Triumph,Trophy,7
+triumph-thunderbird-900-1995,Triumph,Thunderbird,7
+triumph-tiger-900-1993,Triumph,Tiger,7
+ducati-916-1994,Ducati,916,10
+ducati-748-1995,Ducati,748,8
+ducati-monster-m900-1993,Ducati,Monster,8
+aprilia-rs250-1995,Aprilia,RS250,9
+aprilia-pegaso-650-1992,Aprilia,Pegaso,6
+bmw-r1100gs-1994,BMW,R1100GS,8
+bmw-f650-funduro-1993,BMW,F650,7
+bmw-r1100s-1998,BMW,R1100S,7
+cagiva-mito-125-1990,Cagiva,Mito,8
+honda-cg125-1976,Honda,CG125,7
+kawasaki-kle500-1991,Kawasaki,KLE500,6
+suzuki-dr350-1990,Suzuki,DR350,7
+honda-cb1000-big-one-1993,Honda,CB1000,7
+honda-cbr1000rr-fireblade-2004,Honda,CBR1000RR,8
+honda-cbr954rr-fireblade-2002,Honda,CBR954RR,9
+honda-cbf600-2004,Honda,CBF600,7
+honda-cbf1000-2006,Honda,CBF1000,7
+honda-xl1000v-varadero-1999,Honda,XL1000V,7
+honda-st1300-pan-european-2002,Honda,ST1300,8
+honda-nt700v-deauville-2006,Honda,NT700V,6
+yamaha-yzf-r1-2004,Yamaha,YZF-R1,9
+yamaha-fz6-fazer-2004,Yamaha,FZ6,7
+yamaha-fz1-fazer-2006,Yamaha,FZ1,8
+yamaha-mt-01-2005,Yamaha,MT-01,7
+yamaha-xt660r-2004,Yamaha,XT660R,7
+yamaha-tdm900-2002,Yamaha,TDM900,7
+suzuki-gsx-r1000-k5-2005,Suzuki,GSX-R1000,10
+suzuki-sv650s-1999,Suzuki,SV650S,8
+suzuki-dl650-v-strom-2004,Suzuki,DL650,8
+suzuki-dl1000-v-strom-2002,Suzuki,DL1000,7
+suzuki-gsr600-2006,Suzuki,GSR600,6
+kawasaki-zx-10r-2004,Kawasaki,ZX-10R,8
+kawasaki-z750-2004,Kawasaki,Z750,7
+kawasaki-z1000-2003,Kawasaki,Z1000,8
+kawasaki-er-6n-2006,Kawasaki,ER-6n,7
+kawasaki-zzr1400-2006,Kawasaki,ZZR1400,9
+kawasaki-w800-2011,Kawasaki,W800,8
+triumph-speed-triple-1050-2005,Triumph,Speed Triple,8
+triumph-sprint-st-1050-2005,Triumph,Sprint ST,8
+triumph-rocket-iii-2004,Triumph,Rocket III,7
+triumph-scrambler-900-2006,Triumph,Scrambler,7
+triumph-daytona-675-2006,Triumph,Daytona,9
+triumph-tiger-1050-2007,Triumph,Tiger,7
+triumph-bonneville-865-2001,Triumph,Bonneville,8
+triumph-thruxton-900-2004,Triumph,Thruxton,8
+bmw-r1200gs-2004,BMW,R1200GS,9
+bmw-f800gs-2008,BMW,F800GS,8
+bmw-k1200s-2004,BMW,K1200S,7
+bmw-r1200rt-2005,BMW,R1200RT,8
+ducati-multistrada-1100-2003,Ducati,Multistrada,7
+ducati-monster-696-2008,Ducati,Monster,7
+ducati-1098-2007,Ducati,1098,9
+ducati-hypermotard-1100-2007,Ducati,Hypermotard,7
+ktm-990-adventure-2006,KTM,990 Adventure,8
+ktm-990-super-duke-2005,KTM,990 Super Duke,8
+aprilia-rsv-mille-1998,Aprilia,RSV Mille,8
+aprilia-tuono-1000-2002,Aprilia,Tuono,9
+harley-davidson-sportster-1200-2004,Harley-Davidson,Sportster,6
+harley-davidson-v-rod-2002,Harley-Davidson,V-Rod,7
+buell-xb12s-lightning-2004,Buell,XB12S,7
+mv-agusta-brutale-910-2005,MV Agusta,Brutale,8
+moto-guzzi-v7-classic-2008,Moto Guzzi,V7,7
+royal-enfield-bullet-500-2000,Royal Enfield,Bullet,6
+suzuki-gsf650-bandit-2005,Suzuki,GSF650,7
+honda-cbr500r-2013,Honda,CBR500R,7
+honda-cb500x-2013,Honda,CB500X,8
+honda-cb1000r-2008,Honda,CB1000R,7
+honda-cbr1000rr-fireblade-2008,Honda,CBR1000RR,8
+honda-cbr650f-2014,Honda,CBR650F,7
+honda-msx125-grom-2013,Honda,MSX125,8
+honda-crf250l-2012,Honda,CRF250L,7
+honda-vfr800f-2014,Honda,VFR800F,8
+honda-cmx500-rebel-2017,Honda,CMX500,7
+yamaha-mt-125-2014,Yamaha,MT-125,7
+yamaha-mt-03-2016,Yamaha,MT-03,7
+yamaha-yzf-r3-2015,Yamaha,YZF-R3,7
+yamaha-tracer-700-2016,Yamaha,Tracer 700,8
+yamaha-xsr900-2016,Yamaha,XSR900,8
+yamaha-tenere-700-2019,Yamaha,Tenere 700,9
+yamaha-fjr1300-2001,Yamaha,FJR1300,8
+suzuki-gsx-r1000-2009,Suzuki,GSX-R1000,8
+suzuki-gsx-s750-2015,Suzuki,GSX-S750,7
+suzuki-dl650-v-strom-2012,Suzuki,DL650,8
+kawasaki-z650-2017,Kawasaki,Z650,7
+kawasaki-ninja-400-2018,Kawasaki,Ninja 400,8
+kawasaki-z1000sx-2011,Kawasaki,Z1000SX,9
+kawasaki-z900rs-2018,Kawasaki,Z900RS,9
+kawasaki-versys-1000-2012,Kawasaki,Versys 1000,7
+kawasaki-vulcan-s-2015,Kawasaki,Vulcan S,7
+triumph-street-triple-765-2017,Triumph,Street Triple,9
+triumph-bonneville-t120-2016,Triumph,Bonneville,8
+triumph-bobber-2017,Triumph,Bobber,8
+triumph-speed-twin-1200-2019,Triumph,Speed Twin,9
+triumph-street-scrambler-2017,Triumph,Street Scrambler,7
+bmw-r-ninet-2014,BMW,R nineT,9
+bmw-s1000r-2014,BMW,S1000R,8
+bmw-g310r-2017,BMW,G310R,6
+bmw-r1250gs-2019,BMW,R1250GS,9
+ducati-panigale-959-2016,Ducati,Panigale,8
+ducati-monster-1200-2014,Ducati,Monster,8
+ducati-multistrada-1200-2010,Ducati,Multistrada,8
+ducati-diavel-2011,Ducati,Diavel,8
+ktm-1290-super-duke-r-2014,KTM,1290 Super Duke R,9
+ktm-690-duke-2012,KTM,690 Duke,8
+ktm-rc390-2014,KTM,RC390,7
+ktm-790-duke-2018,KTM,790 Duke,9
+aprilia-rsv4-2009,Aprilia,RSV4,9
+aprilia-tuono-v4-2011,Aprilia,Tuono,9
+mv-agusta-f3-675-2012,MV Agusta,F3,8
+royal-enfield-interceptor-650-2018,Royal Enfield,Interceptor,8
+royal-enfield-himalayan-2018,Royal Enfield,Himalayan,7
+husqvarna-svartpilen-401-2018,Husqvarna,Svartpilen,7
+indian-scout-2015,Indian,Scout,8
+moto-guzzi-v9-roamer-2016,Moto Guzzi,V9,7
+benelli-trk502-2017,Benelli,TRK502,6
+kawasaki-zx-10r-2011,Kawasaki,ZX-10R,9
+suzuki-katana-2019,Suzuki,Katana,7
+triumph-tiger-sport-1050-2013,Triumph,Tiger Sport,7
+honda-x-adv-2017,Honda,X-ADV,7
+honda-cb750-hornet-2023,Honda,CB750 Hornet,8
+honda-crf1100l-africa-twin-2020,Honda,CRF1100L,9
+honda-nt1100-2022,Honda,NT1100,8
+honda-xl750-transalp-2023,Honda,XL750 Transalp,8
+honda-cmx1100-rebel-2021,Honda,CMX1100,7
+honda-crf300l-2021,Honda,CRF300L,7
+yamaha-mt-09-2021,Yamaha,MT-09,9
+yamaha-mt-07-2021,Yamaha,MT-07,8
+yamaha-yzf-r7-2022,Yamaha,YZF-R7,8
+yamaha-tracer-9-gt-2021,Yamaha,Tracer 9,9
+yamaha-mt-10-2022,Yamaha,MT-10,9
+suzuki-gsx-8s-2023,Suzuki,GSX-8S,8
+suzuki-v-strom-800de-2023,Suzuki,V-Strom 800DE,8
+suzuki-gsx-s1000gt-2022,Suzuki,GSX-S1000GT,8
+suzuki-gsx1300r-hayabusa-2021,Suzuki,GSX1300R,9
+kawasaki-ninja-1000sx-2020,Kawasaki,Ninja 1000SX,9
+kawasaki-z650rs-2022,Kawasaki,Z650RS,8
+kawasaki-ninja-zx-4rr-2023,Kawasaki,Ninja ZX-4RR,8
+triumph-trident-660-2021,Triumph,Trident,9
+triumph-tiger-900-2020,Triumph,Tiger 900,8
+triumph-speed-triple-1200-rs-2021,Triumph,Speed Triple,9
+triumph-tiger-sport-660-2022,Triumph,Tiger Sport,8
+triumph-speed-400-2024,Triumph,Speed 400,8
+triumph-daytona-660-2024,Triumph,Daytona,8
+bmw-r1300gs-2024,BMW,R1300GS,9
+bmw-f900xr-2020,BMW,F900XR,8
+bmw-r18-2020,BMW,R18,7
+bmw-s1000xr-2020,BMW,S1000XR,9
+ducati-multistrada-v4-2021,Ducati,Multistrada,9
+ducati-streetfighter-v4-2020,Ducati,Streetfighter,9
+ducati-panigale-v2-2020,Ducati,Panigale,9
+ducati-desertx-2022,Ducati,DesertX,8
+ktm-890-adventure-2021,KTM,890 Adventure,8
+ktm-1290-super-adventure-2021,KTM,1290 Super Adventure,9
+aprilia-tuono-660-2021,Aprilia,Tuono,8
+aprilia-tuareg-660-2022,Aprilia,Tuareg,8
+harley-davidson-pan-america-2021,Harley-Davidson,Pan America,8
+harley-davidson-nightster-2022,Harley-Davidson,Nightster,7
+indian-ftr1200-2019,Indian,FTR1200,8
+royal-enfield-super-meteor-650-2023,Royal Enfield,Super Meteor,7
+royal-enfield-hunter-350-2022,Royal Enfield,Hunter,7
+cfmoto-700cl-x-2021,CFMoto,700CL-X,7
+zero-sr-f-2020,Zero,SR/F,7
+bmw-ce-04-2022,BMW,CE-04,7
+ducati-monster-2021,Ducati,Monster,8
+kawasaki-z1-900-1972,Kawasaki,Z1,10
+honda-cb400-four-1975,Honda,CB400,8
+suzuki-gt750-1972,Suzuki,GT750,8
+yamaha-xs650-1970,Yamaha,XS650,7
+honda-vf1000r-1984,Honda,VF1000R,7
+honda-cbr600rr-2003,Honda,CBR600RR,8
+kawasaki-zx-6r-2003,Kawasaki,ZX-6R,8
+yamaha-yzf-r6-2003,Yamaha,YZF-R6,8
+suzuki-gsx-r600-2006,Suzuki,GSX-R600,8
+triumph-tt600-2000,Triumph,TT600,6
+honda-vfr1200f-2010,Honda,VFR1200F,7
+kawasaki-gtr1400-2008,Kawasaki,GTR1400,8
+honda-cbr1000rr-fireblade-sp-2017,Honda,CBR1000RR,9
+yamaha-yzf-r1-2015,Yamaha,YZF-R1,9
+aprilia-rs125-1995,Aprilia,RS125,8
+yamaha-yzf-r125-2008,Yamaha,YZF-R125,8
+honda-cbr125r-2004,Honda,CBR125R,7
+ktm-125-duke-2011,KTM,125 Duke,8
+suzuki-gsx-r125-2017,Suzuki,GSX-R125,7
+honda-pcx125-2010,Honda,PCX125,8
+vespa-gts-300-2008,Vespa,GTS,8
+yamaha-xmax-300-2017,Yamaha,XMAX,8
+honda-forza-350-2021,Honda,Forza,8
+harley-davidson-fat-boy-1990,Harley-Davidson,Fat Boy,7
+harley-davidson-street-bob-2006,Harley-Davidson,Street Bob,7
+harley-davidson-road-king-1994,Harley-Davidson,Road King,8
+moto-guzzi-griso-2005,Moto Guzzi,Griso,7
+bmw-f800st-2006,BMW,F800ST,7
+bmw-g650gs-2008,BMW,G650GS,7
+suzuki-gsx650f-2008,Suzuki,GSX650F,6
+kawasaki-ninja-300-2013,Kawasaki,Ninja 300,7
+honda-cb125f-2015,Honda,CB125F,7
+lexmoto-lxr-125-2017,Lexmoto,LXR,5
+ducati-scrambler-1100-2018,Ducati,Scrambler,7
+triumph-rocket-3-r-2020,Triumph,Rocket 3,8
+bmw-r1250rt-2019,BMW,R1250RT,9
+ktm-390-adventure-2020,KTM,390 Adventure,7
+honda-cb650r-2024,Honda,CB650R,8
+yamaha-xsr900-2022,Yamaha,XSR900,9
+suzuki-gsx-8r-2024,Suzuki,GSX-8R,8
+kawasaki-eliminator-500-2023,Kawasaki,Eliminator,7
+honda-nc750s-2014,Honda,NC750S,7
+aprilia-shiver-900-2017,Aprilia,Shiver,7
+mv-agusta-brutale-800-2013,MV Agusta,Brutale,8
+norton-commando-961-2010,Norton,Commando,6
+honda-fireblade-cbr1000rr-r-sp-2020,Honda,Fireblade,9
+maeving-rm1-2022,Maeving,RM1,7
+maeving-rm1s-2023,Maeving,RM1S,8
+livewire-one-2021,LiveWire,One,7
+livewire-s2-del-mar-2024,LiveWire,S2 Del Mar,8
+zero-s-2013,Zero,S,7
+zero-fxe-2022,Zero,FXE,7
+zero-ds-2013,Zero,DS,7
+energica-eva-ribelle-2020,Energica,Eva Ribelle,7
+super-soco-tc-max-2019,Super Soco,TC Max,6
+vespa-px125-1978,Vespa,PX125,8
+vespa-px200-1977,Vespa,PX200,8
+vespa-t5-1985,Vespa,T5,7
+lambretta-li-150-1958,Lambretta,LI 150,8
+lambretta-sx200-1966,Lambretta,SX200,9
+lambretta-gp200-1969,Lambretta,GP200,9
+bsa-bantam-1948,BSA,Bantam,7
+bsa-c15-1958,BSA,C15,6
+bsa-b31-1945,BSA,B31,7
+bsa-a10-golden-flash-1950,BSA,A10,8
+bsa-a65-lightning-1964,BSA,A65,7
+bsa-gold-star-dbd34-1956,BSA,Gold Star,10
+bsa-m20-1937,BSA,M20,6
+ariel-red-hunter-1932,Ariel,Red Hunter,8
+ariel-leader-1958,Ariel,Leader,7
+ajs-model-18-1945,AJS,Model 18,7
+matchless-g80-1946,Matchless,G80,7
+velocette-venom-1955,Velocette,Venom,9
+norton-dominator-99-1952,Norton,Dominator,8
+panther-m100-1932,Panther,M100,7
+triumph-bonneville-speedmaster-1200-2018,Triumph,Bonneville Speedmaster,8
+triumph-scrambler-400-x-2024,Triumph,Scrambler 400 X,8
+bmw-r1200rs-2015,BMW,R1200RS,7
+yamaha-mt-10-2016,Yamaha,MT-10,8
+yamaha-tracer-7-2021,Yamaha,Tracer 7,8
+yamaha-xsr125-2021,Yamaha,XSR125,8
+yamaha-tricity-125-2014,Yamaha,Tricity 125,7
+yamaha-tricity-300-2020,Yamaha,Tricity 300,7
+yamaha-x-max-125-2018,Yamaha,X-Max 125,8
+suzuki-gsx1300r-hayabusa-gen-2-2008,Suzuki,GSX1300R,9
+suzuki-gsx1250fa-2010,Suzuki,GSX1250FA,7
+suzuki-v-strom-1050-2020,Suzuki,V-Strom 1050,8
+suzuki-gsx250r-2017,Suzuki,GSX250R,6
+suzuki-burgman-an650-2003,Suzuki,Burgman,7
+moto-guzzi-v85-tt-2019,Moto Guzzi,V85 TT,8
+moto-guzzi-v100-mandello-2022,Moto Guzzi,V100 Mandello,8
+moto-guzzi-v7-iii-2017,Moto Guzzi,V7 III,7
+ktm-690-enduro-r-2008,KTM,690 Enduro R,8
+ktm-790-adventure-2019,KTM,790 Adventure,8
+ktm-1050-adventure-2015,KTM,1050 Adventure,7
+ktm-890-smt-2023,KTM,890 SMT,8
+royal-enfield-classic-350-2021,Royal Enfield,Classic 350,8
+royal-enfield-meteor-350-2021,Royal Enfield,Meteor 350,7
+aprilia-tuono-v4-1100-2021,Aprilia,Tuono V4 1100,9
+honda-ntv650-revere-1988,Honda,NTV650,7
+honda-cbx750-1984,Honda,CBX750,7
+honda-c90-super-cub-1966,Honda,C90,9
+honda-cb650f-2014,Honda,CB650F,7
+honda-cbr250r-2011,Honda,CBR250R,7
+honda-cbr300r-2014,Honda,CBR300R,7
+honda-st1100-pan-european-1990,Honda,ST1100,8
+honda-xl650v-transalp-2000,Honda,XL650V,7
+honda-xl700v-transalp-2008,Honda,XL700V,7
+honda-nc700x-2012,Honda,NC700X,7
+honda-gl1000-gold-wing-1975,Honda,GL1000,8
+honda-gl1500-gold-wing-1988,Honda,GL1500,8
+honda-vision-110-2011,Honda,Vision 110,7
+honda-cbf125-2009,Honda,CBF125,7
+kawasaki-z800-2013,Kawasaki,Z800,7
+kawasaki-gpz500s-1987,Kawasaki,GPZ500S,7
+kawasaki-z550-1980,Kawasaki,Z550,6
+kawasaki-vulcan-900-2006,Kawasaki,Vulcan 900,7
+kawasaki-klx250-2009,Kawasaki,KLX250,7
+kawasaki-z125-2019,Kawasaki,Z125,7
+kawasaki-er-6f-2006,Kawasaki,ER-6F,7
+kawasaki-zx-6r-1995,Kawasaki,ZX-6R,7
+suzuki-gs500-1989,Suzuki,GS500,7
+suzuki-sv1000-2003,Suzuki,SV1000,7
+suzuki-gladius-sfv650-2009,Suzuki,Gladius,7
+suzuki-inazuma-250-2012,Suzuki,Inazuma 250,6
+suzuki-marauder-125-1998,Suzuki,Marauder 125,6
+suzuki-v-strom-1000-2014,Suzuki,V-Strom 1000,8
+suzuki-gs850-1979,Suzuki,GS850,7
+yamaha-yzf750r-1993,Yamaha,YZF750R,7
+yamaha-wr125r-2009,Yamaha,WR125R,8
+yamaha-rd250-1973,Yamaha,RD250,8
+yamaha-xv535-virago-1988,Yamaha,XV535,7
+aprilia-mana-850-2007,Aprilia,Mana 850,6
+aprilia-dorsoduro-750-2008,Aprilia,Dorsoduro 750,7
+aprilia-caponord-1000-2001,Aprilia,Caponord 1000,6
+moto-guzzi-v9-bobber-2016,Moto Guzzi,V9 Bobber,7
+triumph-thunderbird-sport-1998,Triumph,Thunderbird Sport,7
+royal-enfield-continental-gt-650-2018,Royal Enfield,Continental GT 650,8
+bsa-b25-1967,BSA,B25,6
+ktm-450-exc-2003,KTM,450 EXC,8
+sinnis-terrain-380-2019,Sinnis,Terrain 380,6
+zontes-zt125-gk-2022,Zontes,ZT125-GK,7
+zontes-zt310-m-2021,Zontes,ZT310-M,6
+mutt-mongrel-125-2016,Mutt,Mongrel 125,7
+mutt-drk-01-250-2020,Mutt,DRK-01 250,7
+herald-classic-400-2017,Herald,Classic 400,6
+keeway-superlight-125-2007,Keeway,Superlight 125,6
+kymco-visar-125-2020,Kymco,Visar 125,6
+hyosung-gt650-2004,Hyosung,GT650,5
+piaggio-vespa-lx125-2005,Piaggio,Vespa LX125,7
+peugeot-speedfight-1997,Peugeot,Speedfight,6
+gilera-runner-1997,Gilera,Runner,7
+cfmoto-300sr-2021,CFMoto,300SR,7
+fantic-caballero-500-2018,Fantic,Caballero 500,7
+lml-star-deluxe-200-2000,LML,Star Deluxe 200,6
+talaria-sting-2021,Talaria,Sting,7
+horwin-ek1-2020,Horwin,EK1,6
+honda-cb1000-hornet-2024,Honda,CB1000 Hornet,8
+honda-cbr650r-2019,Honda,CBR650R,8
+honda-cbr600rr-2021,Honda,CBR600RR,9
+honda-adv350-2022,Honda,ADV350,8
+honda-forza-125-2015,Honda,Forza 125,8
+honda-forza-750-2021,Honda,Forza 750,8
+honda-gb350s-2023,Honda,GB350S,8
+honda-cl500-2023,Honda,CL500,7
+honda-nx500-2024,Honda,NX500,7
+honda-cb300r-2018,Honda,CB300R,7
+honda-cb125r-2018,Honda,CB125R,8
+honda-super-cub-c125-2018,Honda,Super Cub C125,8
+honda-monkey-125-2018,Honda,Monkey 125,8
+honda-dax-125-2023,Honda,DAX 125,7
+yamaha-nmax-125-2015,Yamaha,NMAX 125,8
+yamaha-r9-2025,Yamaha,R9,9
+yamaha-dt125-1974,Yamaha,DT125,8
+kawasaki-ninja-1100sx-2025,Kawasaki,Ninja 1100SX,9
+kawasaki-ninja-500-2024,Kawasaki,Ninja 500,7
+kawasaki-ninja-125-2019,Kawasaki,Ninja 125,7
+kawasaki-z-h2-2020,Kawasaki,Z H2,9
+kawasaki-ninja-h2-sx-2018,Kawasaki,Ninja H2 SX,9
+suzuki-gsx-s125-2017,Suzuki,GSX-S125,7
+suzuki-burgman-400-2007,Suzuki,Burgman 400,8
+suzuki-dr-z400-2000,Suzuki,DR-Z400,8
+suzuki-gsx-s1000gx-2024,Suzuki,GSX-S1000GX,8
+suzuki-sv650x-2018,Suzuki,SV650X,8
+suzuki-address-125-2015,Suzuki,Address 125,7
+bmw-c400gt-2019,BMW,C400GT,7
+bmw-f900r-2020,BMW,F900R,7
+bmw-f900gs-2024,BMW,F900GS,8
+bmw-r12-ninet-2024,BMW,R12 nineT,8
+bmw-r1300rs-2025,BMW,R1300RS,8
+bmw-k1600gtl-2011,BMW,K1600GTL,9
+bmw-m1000xr-2024,BMW,M1000XR,9
+bmw-r1250r-2019,BMW,R1250R,8
+bmw-r1250rs-2019,BMW,R1250RS,8
+triumph-tiger-sport-800-2024,Triumph,Tiger Sport 800,8
+triumph-tiger-1200-2022,Triumph,Tiger 1200,8
+triumph-scrambler-1200-2019,Triumph,Scrambler 1200,8
+triumph-speed-twin-900-2019,Triumph,Speed Twin 900,8
+triumph-tiger-sport-850-2021,Triumph,Tiger Sport 850,7
+ducati-hypermotard-698-2024,Ducati,Hypermotard 698,8
+ducati-diavel-v4-2023,Ducati,Diavel V4,9
+ducati-panigale-v4-2018,Ducati,Panigale V4,10
+aprilia-rs457-2024,Aprilia,RS457,8
+aprilia-sr-gt-125-2022,Aprilia,SR GT 125,7
+royal-enfield-shotgun-650-2024,Royal Enfield,Shotgun 650,8
+royal-enfield-guerrilla-450-2024,Royal Enfield,Guerrilla 450,8
+royal-enfield-himalayan-450-2024,Royal Enfield,Himalayan 450,8
+bsa-gold-star-650-2022,BSA,Gold Star 650,7
+husqvarna-norden-901-2022,Husqvarna,Norden 901,8
+husqvarna-701-enduro-2016,Husqvarna,701 Enduro,8
+husqvarna-701-supermoto-2016,Husqvarna,701 Supermoto,8
+husqvarna-svartpilen-125-2020,Husqvarna,Svartpilen 125,7
+ktm-rc125-2014,KTM,RC125,7
+ktm-390-smc-r-2024,KTM,390 SMC R,8
+ktm-1390-super-duke-r-2024,KTM,1390 Super Duke R,9
+mv-agusta-superveloce-800-2020,MV Agusta,Superveloce 800,9
+voge-ds625x-2023,Voge,DS625X,7
+voge-ds900x-2024,Voge,DS900X,7
+voge-r125-2023,Voge,R125,7
+benelli-bn125-2018,Benelli,BN125,6
+benelli-752s-2019,Benelli,752S,7
+benelli-trk-702-2023,Benelli,TRK 702,7
+cfmoto-800nk-2023,CFMoto,800NK,7
+cfmoto-450mt-2024,CFMoto,450MT,8
+cfmoto-300nk-2018,CFMoto,300NK,6
+royal-alloy-gp125-2018,Royal Alloy,GP125,7
+lambretta-v125-special-2018,Lambretta,V125 Special,6
+piaggio-liberty-125-2005,Piaggio,Liberty 125,7
+piaggio-mp3-300-2007,Piaggio,MP3 300,7
+beta-rr-4t-125-2018,Beta,RR 4T 125,7
+stark-varg-2022,Stark,VARG,8
+moto-morini-calibro-700-2023,Moto Morini,Calibro 700,7
+rieju-mrt-50-2010,Rieju,MRT 50,7
+niu-nqi-gts-2019,NIU,NQi GTS,7
+sym-symphony-125-2015,SYM,Symphony 125,7
+harley-davidson-electra-glide-1965,Harley-Davidson,Electra Glide,8
+harley-davidson-road-glide-1998,Harley-Davidson,Road Glide,8
+harley-davidson-street-glide-2006,Harley-Davidson,Street Glide,8
+harley-davidson-heritage-softail-1986,Harley-Davidson,Heritage Softail,8
+harley-davidson-fat-bob-2008,Harley-Davidson,Fat Bob,7
+harley-davidson-breakout-2013,Harley-Davidson,Breakout,7
+harley-davidson-low-rider-s-2016,Harley-Davidson,Low Rider S,8
+harley-davidson-sportster-s-2021,Harley-Davidson,Sportster S,7
+harley-davidson-softail-standard-2020,Harley-Davidson,Softail Standard,7
+indian-chief-2014,Indian,Chief,8
+indian-chieftain-2014,Indian,Chieftain,8
+indian-springfield-2016,Indian,Springfield,8
+yamaha-fzs1000-fazer-2001,Yamaha,FZS1000,9
+yamaha-fz8-fazer-2010,Yamaha,FZ8,7
+yamaha-xv950-bolt-2014,Yamaha,XV950,7
+kawasaki-zrx1200-2001,Kawasaki,ZRX1200,8
+kawasaki-zr-7-1999,Kawasaki,ZR-7,6
+kawasaki-klr650-1987,Kawasaki,KLR650,7
+kawasaki-ninja-250r-2008,Kawasaki,Ninja 250R,7
+honda-cb1300-2003,Honda,CB1300,8
+honda-x-11-1999,Honda,X-11,7
+honda-cbf500-2004,Honda,CBF500,6
+honda-cb900f-hornet-2002,Honda,CB900F,8
+suzuki-b-king-2007,Suzuki,B-King,8
+yamaha-ybr125-2005,Yamaha,YBR125,7
+yamaha-xt125r-2005,Yamaha,XT125R,7
+honda-vtr250-1998,Honda,VTR250,8
+suzuki-gn125-1982,Suzuki,GN125,6
+vincent-black-shadow-1948,Vincent,Black Shadow,10
+brough-superior-ss100-1924,Brough Superior,SS100,10
+ariel-square-four-1931,Ariel,Square Four,9
+sunbeam-s7-1946,Sunbeam,S7,8
+scott-flying-squirrel-1926,Scott,Flying Squirrel,9
+rudge-ulster-1929,Rudge,Ulster,9
+douglas-dragonfly-1955,Douglas,Dragonfly,7
+velocette-viper-1956,Velocette,Viper,8
+francis-barnett-falcon-1947,Francis-Barnett,Falcon,6
+james-captain-1950,James,Captain,6
+excelsior-talisman-1949,Excelsior,Talisman,6
+greeves-scottish-1957,Greeves,Scottish,8
+royal-enfield-crusader-1956,Royal Enfield,Crusader,6
+ducati-999-2003,Ducati,999,8
+ducati-1198-2009,Ducati,1198,9
+ducati-monster-796-2010,Ducati,Monster 796,7
+ducati-multistrada-950-2017,Ducati,Multistrada 950,8
+ducati-supersport-950-2017,Ducati,SuperSport 950,8
+bmw-r1150gs-1999,BMW,R1150GS,8
+bmw-f650gs-twin-2008,BMW,F650GS,7
+bmw-r1200r-2006,BMW,R1200R,8
+ktm-1190-adventure-2013,KTM,1190 Adventure,8
+ktm-690-smc-r-2012,KTM,690 SMC R,8
+mv-agusta-f4-1999,MV Agusta,F4,9
+moto-guzzi-california-1972,Moto Guzzi,California,7
+aprilia-sr50-1992,Aprilia,SR50,7
+ktm-300-exc-1990,KTM,300 EXC,9
+ktm-250-exc-f-2007,KTM,250 EXC-F,8
+ktm-350-exc-f-2012,KTM,350 EXC-F,9
+ktm-500-exc-f-2012,KTM,500 EXC-F,8
+husqvarna-te-300-2014,Husqvarna,TE 300,9
+husqvarna-fe-250-2014,Husqvarna,FE 250,8
+husqvarna-fe-350-2014,Husqvarna,FE 350,9
+husqvarna-fe-501-2014,Husqvarna,FE 501,8
+beta-rr-300-2t-2013,Beta,RR 300 2T,8
+beta-rr-350-4t-2013,Beta,RR 350 4T,8
+gasgas-ec-300-2000,GasGas,EC 300,8
+gasgas-ec-350f-2021,GasGas,EC 350F,8
+sherco-se-300-2010,Sherco,SE 300,8
+sherco-sef-450-2015,Sherco,SEF 450,8
+yamaha-wr250f-2001,Yamaha,WR250F,8
+yamaha-wr450f-2003,Yamaha,WR450F,8
+honda-crf450x-2005,Honda,CRF450X,8
+honda-crf300-rally-2021,Honda,CRF300 Rally,8
+suzuki-dr650se-1996,Suzuki,DR650SE,8
+kawasaki-klx230-2020,Kawasaki,KLX230,7
+rieju-mr-300-racing-2021,Rieju,MR 300 Racing,8
+fantic-xef-250-2022,Fantic,XEF 250,7
+ajp-pr7-2017,AJP,PR7,7
+honda-xr400r-1996,Honda,XR400R,8
+bmw-r100s-1976,BMW,R100S,8
+bmw-r69s-1960,BMW,R69S,9
+ducati-350-desmo-1968,Ducati,350 Desmo,8
+ducati-pantah-500sl-1979,Ducati,Pantah 500SL,8
+ducati-900ss-bevel-1975,Ducati,900SS,10
+honda-vtr1000-sp-1-sp-2-2000,Honda,VTR1000 SP-1,9
+yamaha-sdr-200-1987,Yamaha,SDR 200,8
+yamaha-yzf600r-thundercat-1996,Yamaha,YZF600R,7
+triumph-x75-hurricane-1972,Triumph,X75 Hurricane,9
+mv-agusta-600gt-1965,MV Agusta,600GT,8
+yamaha-pw50-1981,Yamaha,PW50,9
+kawasaki-ninja-h2-2015,Kawasaki,Ninja H2,10
+ktm-rc8-2008,KTM,RC8,8
+kawasaki-zx-10-tomcat-1988,Kawasaki,ZX-10,8
+suzuki-intruder-vs800-1985,Suzuki,Intruder,6
+suzuki-boulevard-m109r-2006,Suzuki,Boulevard,7
+keeway-cruiser-250-2015,Keeway,Cruiser 250,5
+bmw-hp4-2012,BMW,HP4,9
+yamaha-road-star-1999,Yamaha,Road Star,7
+kawasaki-zzr600-1990,Kawasaki,ZZR600,7
+yamaha-fs1-e-1973,Yamaha,FS1-E,9
+triumph-trident-t150-t160-1968,Triumph,Trident,8
+velocette-thruxton-1964,Velocette,Thruxton,9
+norton-jubilee-250-1958,Norton,Jubilee,6
+moto-morini-350-sport-1973,Moto Morini,350 Sport,8
+triumph-model-h-1915,Triumph,Model H,8
+metisse-desert-racer-2009,Metisse,Desert Racer,8
+norton-manx-1946,Norton,Manx,10
+kawasaki-ar50-1981,Kawasaki,AR50,7
+kawasaki-zzr1200-2002,Kawasaki,ZZR1200,8
+suzuki-gsf1250-bandit-2007,Suzuki,GSF1250,8
+kawasaki-z400-2019,Kawasaki,Z400,8
+lexmoto-michigan-125-2015,Lexmoto,Michigan 125,5
+honda-zoomer-50-2002,Honda,Zoomer 50,7
+suzuki-gsx1400-2001,Suzuki,GSX1400,8
+honda-cb1100-ex-2010,Honda,CB1100,9
+kawasaki-zephyr-750-1991,Kawasaki,Zephyr 750,8
+kawasaki-zephyr-1100-1992,Kawasaki,Zephyr 1100,8
+honda-cb750-seven-fifty-1992,Honda,CB750,7
+suzuki-gsx750-inazuma-1998,Suzuki,GSX750,7
+yamaha-xjr400-1993,Yamaha,XJR400,7
+triumph-thruxton-1200-r-2016,Triumph,Thruxton 1200 R,9
+bmw-r-ninet-racer-2017,BMW,R nineT Racer,8
+honda-hawk-11-2022,Honda,Hawk 11,8
+royal-enfield-scram-411-2022,Royal Enfield,Scram 411,7
+benelli-leoncino-500-2018,Benelli,Leoncino 500,7
+husqvarna-vitpilen-401-2018,Husqvarna,Vitpilen 401,7
+suzuki-vanvan-200-2017,Suzuki,VanVan 200,7
+mash-black-seven-125-2015,Mash,Black Seven 125,6
+fb-mondial-hps-125-2018,FB Mondial,HPS 125,7
+herald-cafe-125-2018,Herald,Cafe 125,6
+chang-jiang-pekin-express-2019,Chang Jiang,Pekin Express,7
+mv-agusta-brutale-750-2001,MV Agusta,Brutale 750,8
+ducati-streetfighter-848-2011,Ducati,Streetfighter 848,8
+suzuki-tl1000r-1998,Suzuki,TL1000R,7
+honda-vfr800x-crossrunner-2011,Honda,VFR800X,7
+yamaha-xt600-1984,Yamaha,XT600,8
+yamaha-xt1200z-super-tenere-2010,Yamaha,XT1200Z,8
+yamaha-xvs650-dragstar-1997,Yamaha,XVS650,7
+honda-xl125v-varadero-2001,Honda,XL125V,7
+suzuki-rgv250-1988,Suzuki,RGV250,9
+triumph-speed-four-2002,Triumph,Speed Four,7
+suzuki-bandit-400-1989,Suzuki,Bandit 400,7
+harley-davidson-dyna-low-rider-fxdl-1993,Harley-Davidson,Dyna Low Rider,8
+ducati-750-ss-1973,Ducati,750 SS,10
+bmw-r90s-1973,BMW,R90S,9
+laverda-750-sfc-1971,Laverda,750 SFC,10
+moto-guzzi-v7-sport-1971,Moto Guzzi,V7 Sport,9
+mv-agusta-750s-1970,MV Agusta,750S,10
+ducati-900-darmah-1977,Ducati,900 Darmah,8
+ducati-mhr-mike-hailwood-replica-1979,Ducati,MHR,9
+benelli-750-sei-1972,Benelli,750 Sei,8
+bultaco-sherpa-t-325-1972,Bultaco,Sherpa T,9
+montesa-cota-247-1970,Montesa,Cota 247,8
+husqvarna-400-cross-1970,Husqvarna,400 Cross,9
+maico-mc400-mc490-1978,Maico,MC400,8
+hercules-w-2000-1974,Hercules,W-2000,7
+gilera-cx-125-1989,Gilera,CX 125,8
+aprilia-af1-125-project-108-1987,Aprilia,AF1 125,8
+bimota-db1-1985,Bimota,DB1,9
+bimota-yb4-ei-1988,Bimota,YB4,9
+bimota-tesi-1d-1990,Bimota,Tesi 1D,9
+cagiva-elefant-900-1989,Cagiva,Elefant 900,8
+norton-classic-rotary-p43-1987,Norton,Classic,8
+norton-f1-rotary-p52-1990,Norton,F1,9
+ktm-500-mx-1985,KTM,500 MX,8
+husqvarna-500-auto-1982,Husqvarna,500 Auto,7
+bmw-r100gs-1987,BMW,R100GS,9
+moto-guzzi-daytona-1000-1992,Moto Guzzi,Daytona 1000,9
+ducati-supermono-1993,Ducati,Supermono,10
+ducati-996-sps-1999,Ducati,996 SPS,9
+ktm-620-duke-1994,KTM,620 Duke,8
+husaberg-fe501-1992,Husaberg,FE501,8
+ducati-desmosedici-rr-2008,Ducati,Desmosedici RR,10
+bmw-hp2-enduro-2005,BMW,HP2 Enduro,8
+ducati-panigale-1199-1299-2012,Ducati,Panigale 1199,9
+bmw-s1000xr-gen-1-2015,BMW,S1000XR,8
+husqvarna-vitpilen-701-2018,Husqvarna,Vitpilen 701,8
+bmw-m1000rr-2021,BMW,M1000RR,10
+triumph-street-triple-675-gen-1-2007,Triumph,Street Triple 675,9
+harley-davidson-xr750-1970,Harley-Davidson,XR750,10
+harley-davidson-xlcr-1000-1977,Harley-Davidson,XLCR 1000,9
+harley-davidson-fx-super-glide-1971,Harley-Davidson,FX Super Glide,8
+harley-davidson-fxs-low-rider-1977,Harley-Davidson,FXS Low Rider,8
+harley-davidson-fxst-softail-1984,Harley-Davidson,FXST Softail,8
+harley-davidson-xr1000-1983,Harley-Davidson,XR1000,9
+harley-davidson-sportster-evolution-xlh883-1200-1986,Harley-Davidson,Sportster Evolution,7
+harley-davidson-fxrt-sport-glide-1983,Harley-Davidson,FXRT Sport Glide,8
+harley-davidson-fxdx-super-glide-sport-1999,Harley-Davidson,FXDX Super Glide Sport,8
+harley-davidson-flsts-heritage-springer-1997,Harley-Davidson,FLSTS Heritage Springer,8
+harley-davidson-xr1200-2008,Harley-Davidson,XR1200,8
+harley-davidson-nightster-xl1200n-2007,Harley-Davidson,Nightster,7
+harley-davidson-cross-bones-flstsb-2008,Harley-Davidson,Cross Bones,8
+harley-davidson-forty-eight-xl1200x-2010,Harley-Davidson,Forty-Eight,7
+harley-davidson-softail-slim-fls-2012,Harley-Davidson,Softail Slim,8
+harley-davidson-street-glide-special-flhxs-2014,Harley-Davidson,Street Glide Special,9
+harley-davidson-low-rider-st-fxlrst-2022,Harley-Davidson,Low Rider ST,9
+buell-s1-lightning-1996,Buell,S1 Lightning,8
+buell-thunderbolt-s2-rss1200-1994,Buell,Thunderbolt,7
+buell-firebolt-xb9r-xb12r-2002,Buell,Firebolt,7
+buell-1125r-2008,Buell,1125R,8
+buell-ulysses-xb12x-2006,Buell,Ulysses,7
+victory-vegas-2003,Victory,Vegas,7
+victory-hammer-2005,Victory,Hammer,7
+victory-vision-tour-2008,Victory,Vision Tour,7
+victory-octane-2016,Victory,Octane,7
+indian-challenger-2020,Indian,Challenger,9
+indian-pursuit-dark-horse-2022,Indian,Pursuit,9
+zero-dsr-x-2023,Zero,DSR/X,8
+ebr-1190rx-2014,EBR,1190RX,8
+honda-cb750-k0-k6-1969,Honda,CB750,10
+kawasaki-h2-mach-iv-1971,Kawasaki,H2 Mach IV,9
+kawasaki-kh400-1976,Kawasaki,KH400,8
+kawasaki-z650-1976,Kawasaki,Z650,8
+suzuki-gs750-1976,Suzuki,GS750,8
+suzuki-re5-rotary-1974,Suzuki,RE5,8
+yamaha-tz350-1973,Yamaha,TZ350,9
+honda-cb1100r-1981,Honda,CB1100R,9
+honda-cx500-turbo-1982,Honda,CX500,8
+kawasaki-gpz750-turbo-1983,Kawasaki,GPZ750,8
+honda-nsr250r-mc18-mc21-1987,Honda,NSR250R,9
+yamaha-tzr250-3ma-3xv-1989,Yamaha,TZR250,8
+kawasaki-kr1-s-1989,Kawasaki,KR1-S,8
+honda-nr750-rc40-1992,Honda,NR750,10
+honda-rvf750r-rc45-1994,Honda,RVF750R,10
+honda-vfr800fi-1998,Honda,VFR800Fi,9
+kawasaki-zrx1100-1997,Kawasaki,ZRX1100,8
+suzuki-gsx-r1000-k1-k4-2001,Suzuki,GSX-R1000,9
+honda-gl1800-gold-wing-2001,Honda,GL1800,9
+honda-rc213v-s-2015,Honda,RC213V-S,10
+kawasaki-ninja-7-hybrid-2024,Kawasaki,Ninja 7 Hybrid,7
+kawasaki-zx-6r-636-2024-2024,Kawasaki,ZX-6R,8
+honda-cb400f-super-sport-1975,Honda,CB400F,9

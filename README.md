@@ -177,7 +177,7 @@ and will refuse to publish broken data.
 | `year_from`, `year_to` | The generation the entry covers. |
 | `engine_cc` | Number only; the "cc" is added on display. |
 | `category` | Free text, but reuse existing values — it populates the filter. |
-| `verdict` | 1–10. |
+| `verdict` | 1–10, scored on **how good a buy this is for what it costs** — value for money, running costs, reliability, parts and dealer support, residual values and ownership risk. It is deliberately *not* a measure of how significant or desirable the motorcycle is: a Vincent is a more important machine than a Bandit 600, but the Bandit is the easier thing to go and buy. Scores are produced by `scripts/rescore_verdicts.py`, which ranks every entry on signals drawn from its own pros and cons and maps that ranking onto a fixed distribution. The previous significance-based scores are preserved in `data/verdicts-significance-scale.csv`. |
 | `description` | The write-up. Keep under ~400 characters for the layout. |
 | `pros`, `cons` | Arrays; exported comma-joined into the `Plus` / `Minus` CSV columns. |
 | `price` | Two figures in Fast Bikes house style: `private` (realistic private-sale money for a running example) and `dealer` (prepped forecourt stock). Written by the refresh scripts — don't hand-edit unless you also update `as_of`. `confidence` is one of `verified` (sampled from many live listings), `researched` (from a published UK price guide), `thin` (only a handful of comparables — flagged in the UI), or `unverified` (seed estimate). |
