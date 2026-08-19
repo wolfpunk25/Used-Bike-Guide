@@ -76,6 +76,9 @@ body {
 .share-panel code {
   background: rgba(127,127,127,.14); padding: 1px 5px; border-radius: 3px; font-size: 12.5px;
 }
+.share-panel a { color: var(--accent); font-weight: 600; }
+.share-panel a:hover { text-decoration: underline; }
+
 .share-row { display: flex; gap: 10px; margin: 12px 0; max-width: 560px; }
 .share-row input {
   flex: 1; font: inherit; font-size: 14px; padding: 8px 10px;

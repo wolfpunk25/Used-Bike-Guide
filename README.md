@@ -205,7 +205,7 @@ of photos.
 
 Each person needs their own token, made once:
 
-1. **github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens**
+1. Open **<https://github.com/settings/personal-access-tokens>** and click *Generate new token*
 2. Grant access to **only** the `Used-Bike-Guide` repository
 3. Repository permissions → **Contents: Read and write**. Nothing else.
 4. Paste it into the sharing panel
