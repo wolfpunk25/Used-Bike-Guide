@@ -1,8 +1,8 @@
 ﻿site,category,title,price,seller,url
 bikemotormart,adventure,Africa Twin 1100 Sport Manual,10000,Private listing,https://bikemotormart.com/bikes-for-sale/africa-twin-1100-sport-manuel-p3356/
+bikemotormart,adventure,BMW R850GS,3100,Private listing,https://bikemotormart.com/bikes-for-sale/bmw-r850gs-p3521/
 bikemotormart,adventure,Herald 125 Scrambler,1200,Private listing,https://bikemotormart.com/bikes-for-sale/herald-125-scrambler-p3472/
 bikemotormart,adventure,Suzuki Van Van,2500,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-van-van-p3486/
-bikemotormart,classic,AJS 30,4950,Private listing,https://bikemotormart.com/bikes-for-sale/ajs-30-p3323/
 bikemotormart,classic,AJS 31CSR,3250,Private listing,https://bikemotormart.com/bikes-for-sale/ajs-31csr-p3372/
 bikemotormart,classic,Ariel NH 350,3600,Private listing,https://bikemotormart.com/bikes-for-sale/ariel-nh-350-p3434/
 bikemotormart,classic,Ariel Red Hunter,,Private listing,https://bikemotormart.com/bikes-for-sale/ariel-red-hunter-p3487/
@@ -20,8 +20,6 @@ bikemotormart,classic,BSA A65L,3400,Private listing,https://bikemotormart.com/bi
 bikemotormart,classic,BSA B40,975,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-b40-p3480/
 bikemotormart,classic,BSA B40,975,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-b40-p3234/
 bikemotormart,classic,BSA Bantam B175,2250,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-bantam-b175-p3466/
-bikemotormart,classic,BSA DBD34 Goldstar,10500,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-dbd34-goldstar-p3463/
-bikemotormart,classic,BSA Lightning,4950,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-lightning-p3322/
 bikemotormart,classic,BSA Lightning,4950,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-lightning-p3329/
 bikemotormart,classic,BSA Lightning,5750,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-lightning-p3224/
 bikemotormart,classic,BSA Starfire,1650,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-starfire-p3324/
@@ -30,7 +28,6 @@ bikemotormart,classic,BSA V Special,,Private listing,https://bikemotormart.com/b
 bikemotormart,classic,BSA Victor Special,4950,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-victor-special-p3233/
 bikemotormart,classic,BSA wanted,,Private listing,https://bikemotormart.com/bikes-for-sale/bsa-wanted-p3439/
 bikemotormart,classic,Classic Jap bike wanted,,Private listing,https://bikemotormart.com/bikes-for-sale/classic-jap-bike-wanted-in-any-condition-p3292/
-bikemotormart,classic,Classic motorcycle wanted,,Private listing,https://bikemotormart.com/bikes-for-sale/classic-motorcycle-wanted-p3243/
 bikemotormart,classic,Classic vintage motorbike wanted,,Private listing,https://bikemotormart.com/bikes-for-sale/classic-vintage-motorbike-wanted-p3317/
 bikemotormart,classic,Ducati MHR,13000,Private listing,https://bikemotormart.com/bikes-for-sale/ducati-mhr-p3459/
 bikemotormart,classic,Harley-Davidson Sportster 1200,5750,Private listing,https://bikemotormart.com/bikes-for-sale/harley-davidson-sportster-1200-p3483/
@@ -43,6 +40,7 @@ bikemotormart,classic,Honda CB750 K3,7850,Private listing,https://bikemotormart.
 bikemotormart,classic,Honda CB750 KO,16500,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cb750-ko-p3484/
 bikemotormart,classic,Honda CB750K2,1800,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cb750k2-p3285/
 bikemotormart,classic,Honda CB760,,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cb760-p3235/
+bikemotormart,classic,Honda CBF,1,Private listing,https://bikemotormart.com/bikes-for-sale/cbf-for-sale-p3522/
 bikemotormart,classic,Honda CX500 Eurosport,2750,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cx500-eurosport-p3444/
 bikemotormart,classic,Honda XLV750,2000,Private listing,https://bikemotormart.com/bikes-for-sale/honda-xlv750-p3265/
 bikemotormart,classic,Honda Yamaha Suzuki Kawasaki wanted,,Private listing,https://bikemotormart.com/bikes-for-sale/honda-yamaha-suzuki-kawasaki-wanted-project-per-1982-p3349/
@@ -51,12 +49,12 @@ bikemotormart,classic,Kawasaki Estrella 250,1250,Private listing,https://bikemot
 bikemotormart,classic,Kawasaki KH100,2750,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-kh100-p3382/
 bikemotormart,classic,Kawasaki KH100,2750,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-kh100-p3381/
 bikemotormart,classic,Kawasaki KH100,2750,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-kh100-p3380/
+bikemotormart,classic,Kawasaki KH100,2750,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-kh100-p3379/
 bikemotormart,classic,Kawasaki KL250,1500,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-kl250-p3465/
 bikemotormart,classic,Miller M600 Peak Type Headlamp Rim,,Private listing,https://bikemotormart.com/bikes-for-sale/miller-m600-peak-type-headlamp-rim-p3325/
 bikemotormart,classic,Norton Commando,6500,Private listing,https://bikemotormart.com/bikes-for-sale/norton-commando-p3264/
 bikemotormart,classic,Panther M120,3500,Private listing,https://bikemotormart.com/bikes-for-sale/panther-m120-p3260/
 bikemotormart,classic,Royal Enfield,2750,Private listing,https://bikemotormart.com/bikes-for-sale/royal-enfield-p3232/
-bikemotormart,classic,Royal Enfield Crusader,2950,Private listing,https://bikemotormart.com/bikes-for-sale/royal-enfield-crusader-p3457/
 bikemotormart,classic,Suzuki Burgman,2500,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-burgman-p3319/
 bikemotormart,classic,Suzuki GS550E,895,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-gs550e-p3348/
 bikemotormart,classic,Suzuki GT125B,1595,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-gt125b-p3252/
@@ -64,6 +62,8 @@ bikemotormart,classic,Suzuki GT750M,7500,Private listing,https://bikemotormart.c
 bikemotormart,classic,Suzuki T32,2200,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-t32-1965-150cc-two-stroke-lovely-little-classic-bike-p3355/
 bikemotormart,classic,Triumph 5T,5750,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-5t-p3255/
 bikemotormart,classic,Triumph Bonneville T120R,5995,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-bonneville-t120r-p3475/
+bikemotormart,classic,Triumph Bonneville T120R,5850,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-bonneville-t120r-p3467/
+bikemotormart,classic,Triumph Bonneville T140v,3,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-bonneville-t140v-p3552/
 bikemotormart,classic,Triumph Speed Twin,5750,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-speed-twin-p3271/
 bikemotormart,classic,Triumph Sprint ST 955i,2350,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-sprint-st-955i-p3257/
 bikemotormart,classic,Triumph T140V,5500,Private listing,https://bikemotormart.com/bikes-for-sale/triumph-t140v-p3270/
@@ -73,7 +73,7 @@ bikemotormart,classic,Triumph Tiger 100S,5000,Private listing,https://bikemotorm
 bikemotormart,classic,"Wanted BSA, Norton, Triumph, Velocette, Matchless",,Private listing,https://bikemotormart.com/bikes-for-sale/wanted-bsa-norton-triumph-velocette-matchless-p3436/
 bikemotormart,classic,Wanted Honda C90 CB125/75 CB200 or any other small Honda bikes,,Private listing,https://bikemotormart.com/bikes-for-sale/wanted-hondac90-cb125-75-cb200-or-any-other-small-honda-bikes-p3435/
 bikemotormart,classic,Wanted any classic British motorcycle,,Private listing,https://bikemotormart.com/bikes-for-sale/wanted-any-classic-british-motorcycle-by-genuine-enthusiast-p3291/
-bikemotormart,classic,Wanted classic BSA Bantam Tiger Cub,,Private listing,https://bikemotormart.com/bikes-for-sale/wanted-classic-bsa-bantam-tiger-cub-p3241/
+bikemotormart,classic,Wanted classic motorcycle up to 250cc Bantam Cub etc,,Private listing,https://bikemotormart.com/bikes-for-sale/wanted-classic-motorcycle-up-to-250cc-bantam-cub-etc-p3524/
 bikemotormart,classic,Yamaha SR400 Roadster,5000,Private listing,https://bikemotormart.com/bikes-for-sale/yamaha-sr400-rosdster-p3359/
 bikemotormart,classic,Yamaha Virago 250V,450,Private listing,https://bikemotormart.com/bikes-for-sale/yamaha-virago-250v-p3458/
 bikemotormart,classic,Yamaha XS650SE,3000,Private listing,https://bikemotormart.com/bikes-for-sale/yamaha-xs650se-p3321/
@@ -89,6 +89,7 @@ bikemotormart,naked,Benelli 900 Sei,14000,Private listing,https://bikemotormart.
 bikemotormart,naked,Honda CB1000,1900,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cb1000-big-one-p3344/
 bikemotormart,naked,Honda CB1000 Big One,1900,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cb1000-big-one-p3315/
 bikemotormart,naked,Honda CBF250,1495,Private listing,https://bikemotormart.com/bikes-for-sale/honda-cbf250-p3369/
+bikemotormart,naked,Indian FTR 1200,7395,Private listing,https://bikemotormart.com/bikes-for-sale/indian-ftr-1200-p3518/
 bikemotormart,naked,KTM 1290 Superduke R Special Edition,8000,Private listing,https://bikemotormart.com/bikes-for-sale/ktm-1290-superduke-r-special-edition-p3318/
 bikemotormart,naked,Kawasaki GT500,2250,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-gt500-p3227/
 bikemotormart,naked,Suzuki GS750,,Private listing,https://bikemotormart.com/bikes-for-sale/suzuki-gs750-p3230/
@@ -102,6 +103,7 @@ bikemotormart,scooter,Lambretta Indian GP,3000,Private listing,https://bikemotor
 bikemotormart,scooter,Lambretta LI Series 3,4850,Private listing,https://bikemotormart.com/bikes-for-sale/lambretta-li-series-3-p3376/
 bikemotormart,scooter,Lambretta LI125 Special,5950,Private listing,https://bikemotormart.com/bikes-for-sale/a1966-lambretta-li125-special-fully-refurb-engine-respray-p3357/
 bikemotormart,scooter,Lambretta Lui Frame and Engine 50cc,549,Private listing,https://bikemotormart.com/bikes-for-sale/lambretta-lui-frame-and-engine-50cc-p3363/
+bikemotormart,scooter,Lambretta SX150,4850,Private listing,https://bikemotormart.com/bikes-for-sale/original-sx150-fully-restored-p3526/
 bikemotormart,scooter,Lambretta SX225,4000,Private listing,https://bikemotormart.com/bikes-for-sale/lambretta-sx225-p3248/
 bikemotormart,scooter,Lambretta Starstream,1950,Private listing,https://bikemotormart.com/bikes-for-sale/lambretta-starstream-for-sale-p3277/
 bikemotormart,scooter,Modena 125,250,Private listing,https://bikemotormart.com/bikes-for-sale/modena-125-p3259/
@@ -110,8 +112,9 @@ bikemotormart,scooter,Suzuki Burgman,2500,Private listing,https://bikemotormart.
 bikemotormart,scooter,Vespa GTS,2500,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-gts-p3352/
 bikemotormart,scooter,Vespa P125 ETS,3250,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-p125-ets-p3250/
 bikemotormart,scooter,Vespa PX200,,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-px200-p3279/
-bikemotormart,scooter,"Vespa T5 Classic PX125 (1999) - 1,315 Miles , one owner",4750,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-t5-classic-px125-1999-1315-miles-one-owner-p3520/
+bikemotormart,scooter,Vespa T5 Classic PX125 (1999) -,4750,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-t5-classic-px125-1999-1315-miles-one-owner-p3520/
 bikemotormart,scooter,Vespa T5 mk1,3500,Private listing,https://bikemotormart.com/bikes-for-sale/vespa-t5-mk1-p3314/
+bikemotormart,sport-tourer,Ducati ST4,4000,Private listing,https://bikemotormart.com/bikes-for-sale/ducati-st4-p3539/
 bikemotormart,sport-tourer,Excellent Motorcycle Tourer,,Private listing,https://bikemotormart.com/bikes-for-sale/excellent-motorcycle-tourer-p3432/
 bikemotormart,sport-tourer,Honda ST1300,2000,Private listing,https://bikemotormart.com/bikes-for-sale/honda-st1300-p3471/
 bikemotormart,sport-tourer,Kawasaki GPZ500,500,Private listing,https://bikemotormart.com/bikes-for-sale/kawasaki-gpz500-p3373/
@@ -123,10 +126,13 @@ bikemotormart,sports,Moto Guzzi V7 850,600,Private listing,https://bikemotormart
 bikemotormart,touring,BMW R850R,2250,Private listing,https://bikemotormart.com/bikes-for-sale/bmw-r850r-p3353/
 bikemotormart,touring,Harley-Davidson Sportster,4200,Private listing,https://bikemotormart.com/bikes-for-sale/harley-davidson-sportster-p3275/
 bikemotormart,touring,Honda Deauville,975,Private listing,https://bikemotormart.com/bikes-for-sale/excellent-honda-deauville-reliable-comfortable-and-smooth-p3470/
+bikemotormart,touring,KTM 990 SMT,3995,Private listing,https://bikemotormart.com/bikes-for-sale/ktm-990-smt-p3519/
 bikemotormart,touring,Yamaha 600 Diversion,1100,Private listing,https://bikemotormart.com/bikes-for-sale/yamaha-600-diversion-p3374/
 bikemotormart,trike,Harley-Davidson Servicar,9750,Private listing,https://bikemotormart.com/bikes-for-sale/harley-davidson-servicar-p3327/
 oldbikemart,classic,2 3/4 Douglas Model U,,Private listing,https://www.oldbikemart.co.uk/listings/a2-3-4-douglas-model-u-p3205/
 oldbikemart,classic,750 Commando Interstate,6000,Private listing,https://www.oldbikemart.co.uk/listings/a750-commando-interstate-p3287/
+oldbikemart,classic,AJS 30,3000,Private listing,https://www.oldbikemart.co.uk/listings/ajs-30-p3531/
+oldbikemart,classic,Ariel,2950,Private listing,https://www.oldbikemart.co.uk/listings/ariel-p3333/
 oldbikemart,classic,Ariel Arrow,1500,Private listing,https://www.oldbikemart.co.uk/listings/ariel-arrow-p3390/
 oldbikemart,classic,Ariel Huntmaster,,Private listing,https://www.oldbikemart.co.uk/listings/ariel-huntmaster-p3402/
 oldbikemart,classic,Ariel Leader,,Private listing,https://www.oldbikemart.co.uk/listings/ariel-leader-p3389/
@@ -137,6 +143,7 @@ oldbikemart,classic,BMW R60/7,3250,Private listing,https://www.oldbikemart.co.uk
 oldbikemart,classic,BMW R80G/S Combination,8750,Private listing,https://www.oldbikemart.co.uk/listings/bmw-r80g-s-combination-p3211/
 oldbikemart,classic,BSA A10,3875,Private listing,https://www.oldbikemart.co.uk/listings/bsa-a10-p3399/
 oldbikemart,classic,BSA A10 Golden Flash,3875,Private listing,https://www.oldbikemart.co.uk/listings/bsa-a10-golden-flash-p3419/
+oldbikemart,classic,BSA A65,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-a65-p3527/
 oldbikemart,classic,BSA A65L,6000,Private listing,https://www.oldbikemart.co.uk/listings/bsa-a65l-p3192/
 oldbikemart,classic,BSA A65S Spitfire,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-a65s-spitfire-p3300/
 oldbikemart,classic,BSA B10 Super Rocket,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-b10-super-rocket-p3416/
@@ -149,16 +156,19 @@ oldbikemart,classic,BSA Bantam D7,1750,Private listing,https://www.oldbikemart.c
 oldbikemart,classic,BSA C15,1950,Private listing,https://www.oldbikemart.co.uk/listings/bsa-c15-p3509/
 oldbikemart,classic,BSA C15,1950,Private listing,https://www.oldbikemart.co.uk/listings/bsa-c15-p3174/
 oldbikemart,classic,BSA D3 Bantam,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-d3-bantam-p3384/
-oldbikemart,classic,BSA Lightning,4950,Private listing,https://www.oldbikemart.co.uk/listings/bsa-lightning-p3394/
 oldbikemart,classic,BSA Lightning 650,3995,Private listing,https://www.oldbikemart.co.uk/listings/bsa-lightning-650-p3332/
 oldbikemart,classic,BSA M20,1450,Private listing,https://www.oldbikemart.co.uk/listings/bsa-m20-p3219/
+oldbikemart,classic,BSA Spitfire Special,10250,Private listing,https://www.oldbikemart.co.uk/listings/bsa-spitfire-special-p3547/
+oldbikemart,classic,BSA Starfire,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-starfire-p3548/
 oldbikemart,classic,BSA WM20,4500,Private listing,https://www.oldbikemart.co.uk/listings/bsa-wm20-p3498/
 oldbikemart,classic,BSA WM20,6950,Private listing,https://www.oldbikemart.co.uk/listings/bsa-wm20-p3208/
-oldbikemart,classic,BSA petrol tank and seat,,Private listing,https://www.oldbikemart.co.uk/listings/bsa-petrol-tank-and-seat-p3510/
+oldbikemart,classic,Brough Superior SS100 Replica,,Private listing,https://www.oldbikemart.co.uk/listings/brough-superior-ss100-replica-p3492/
 oldbikemart,classic,Douglas T35,4500,Private listing,https://www.oldbikemart.co.uk/listings/a1947-t35-douglas-p3478/
 oldbikemart,classic,Ducati Elite,5500,Private listing,https://www.oldbikemart.co.uk/listings/ducati-elite-p3405/
+oldbikemart,classic,Ducati MHR,13000,Private listing,https://www.oldbikemart.co.uk/listings/ducati-mhr-p3532/
 oldbikemart,classic,Excelsior Manxman,18000,Private listing,https://www.oldbikemart.co.uk/listings/excelsior-manxman-p3400/
 oldbikemart,classic,Excelsior Talisman,3000,Private listing,https://www.oldbikemart.co.uk/listings/excelsior-talisman-p3182/
+oldbikemart,classic,Francis-Barnett Plover,,Private listing,https://www.oldbikemart.co.uk/listings/francis-barnett-plover-p3550/
 oldbikemart,classic,Greeves East Coaster,3750,Private listing,https://www.oldbikemart.co.uk/listings/greeves-east-coaster-p3297/
 oldbikemart,classic,Greeves classic competition,,Private listing,https://www.oldbikemart.co.uk/listings/greeves-classic-competition-p3428/
 oldbikemart,classic,Harley-Davidson WLC,19950,Private listing,https://www.oldbikemart.co.uk/listings/harley-davidson-wlc-p3209/
@@ -175,7 +185,6 @@ oldbikemart,classic,Honda PC50,250,Private listing,https://www.oldbikemart.co.uk
 oldbikemart,classic,Honda Superhawk CB77 factory race kit,5995,Private listing,https://www.oldbikemart.co.uk/listings/honda-superhawk-cb77-factory-race-kit-p3310/
 oldbikemart,classic,Indian 101 Scout,33500,Private listing,https://www.oldbikemart.co.uk/listings/indian-101-scout-p3413/
 oldbikemart,classic,Indian Sidecar and Chassis,2950,Private listing,https://www.oldbikemart.co.uk/listings/indian-sidecar-and-chassis-p3331/
-oldbikemart,classic,Kawasaki Z650,,Private listing,https://www.oldbikemart.co.uk/listings/kawasaki-z650-p3395/
 oldbikemart,classic,MZ 250,200,Private listing,https://www.oldbikemart.co.uk/listings/mz-250-p3514/
 oldbikemart,classic,MZ250,200,Private listing,https://www.oldbikemart.co.uk/listings/mz250-p3295/
 oldbikemart,classic,Matchless 350 G3LS,3750,Private listing,https://www.oldbikemart.co.uk/listings/matchless-350-g3ls-p3477/
@@ -184,14 +193,12 @@ oldbikemart,classic,Matchless Model X,,Private listing,https://www.oldbikemart.c
 oldbikemart,classic,Moto Guzzi T3 California,7000,Private listing,https://www.oldbikemart.co.uk/listings/moto-guzzi-t3-california-p3200/
 oldbikemart,classic,Moto Guzzi V50,2000,Private listing,https://www.oldbikemart.co.uk/listings/moto-guzzi-v50-p3340/
 oldbikemart,classic,NSU Supermax,4850,Private listing,https://www.oldbikemart.co.uk/listings/nsu-supermax-p3306/
-oldbikemart,classic,Norton Commando,5500,Private listing,https://www.oldbikemart.co.uk/listings/norton-commando-p3423/
 oldbikemart,classic,Norton Commando,6500,Private listing,https://www.oldbikemart.co.uk/listings/norton-commando-p3193/
+oldbikemart,classic,Panther Combination,,Private listing,https://www.oldbikemart.co.uk/listings/panther-combination-p3551/
 oldbikemart,classic,Panther M100,2900,Private listing,https://www.oldbikemart.co.uk/listings/panther-m100-p3511/
 oldbikemart,classic,Projects Triumph,5500,Private listing,https://www.oldbikemart.co.uk/listings/projects-triumph-p3197/
 oldbikemart,classic,Royal Enfield,2750,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-p3195/
-oldbikemart,classic,Royal Enfield 250 Continental GT,1500,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-250-continental-gt-p3493/
 oldbikemart,classic,Royal Enfield 650 Interceptor,2600,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-650-interceptor-p3187/
-oldbikemart,classic,Royal Enfield Bullet,1950,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-bullet-p3397/
 oldbikemart,classic,Royal Enfield Bullett,650,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-bullett-p3512/
 oldbikemart,classic,Royal Enfield Crusader,2950,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-crusader-p3393/
 oldbikemart,classic,Royal Enfield Woodsman,2000,Private listing,https://www.oldbikemart.co.uk/listings/royal-enfield-woodsman-p3516/
@@ -208,6 +215,7 @@ oldbikemart,classic,Triumph Sprint Executive,,Private listing,https://www.oldbik
 oldbikemart,classic,Triumph T120R Bonneville pre-unit,8750,Private listing,https://www.oldbikemart.co.uk/listings/triumph-t120r-bonneville-pre-unit-p3308/
 oldbikemart,classic,Triumph T140V,5500,Private listing,https://www.oldbikemart.co.uk/listings/triumph-t140v-p3194/
 oldbikemart,classic,Triumph T160 Trident,6250,Private listing,https://www.oldbikemart.co.uk/listings/triumph-t160-trident-p3181/
+oldbikemart,classic,Triumph TR6R,9250,Private listing,https://www.oldbikemart.co.uk/listings/triumph-tr6r-p3533/
 oldbikemart,classic,Triumph TR7RV,3750,Private listing,https://www.oldbikemart.co.uk/listings/triumph-tr7rv-p3410/
 oldbikemart,classic,Triumph Tiger 110,6000,Private listing,https://www.oldbikemart.co.uk/listings/triumph-tiger-110-p3507/
 oldbikemart,classic,Triumph Tiger Cub,,Private listing,https://www.oldbikemart.co.uk/listings/triumph-tiger-cub-p3513/
@@ -215,10 +223,15 @@ oldbikemart,classic,Triumph Tiger TR6R,6500,Private listing,https://www.oldbikem
 oldbikemart,classic,Triumph Twin,,Private listing,https://www.oldbikemart.co.uk/listings/triumph-twin-p3180/
 oldbikemart,classic,Velocette MAC 350,,Private listing,https://www.oldbikemart.co.uk/listings/velocette-mac-350-p3238/
 oldbikemart,classic,Vintage Sidecar Body,,Private listing,https://www.oldbikemart.co.uk/listings/vintage-sidecar-body-p3218/
+oldbikemart,classic,Wall Auto Wheel,3500,Private listing,https://www.oldbikemart.co.uk/listings/wall-auto-wheel-p3335/
+oldbikemart,classic,Yamaha FS1,,Private listing,https://www.oldbikemart.co.uk/listings/yamaha-fs1-p3336/
+oldbikemart,classic,Yamaha FZ600,,Private listing,https://www.oldbikemart.co.uk/listings/yamah-fz600-p3549/
 oldbikemart,classic,Yamaha FZS600,300,Private listing,https://www.oldbikemart.co.uk/listings/yamaha-fzs600-p3203/
 oldbikemart,classic,Yamaha Virago 535,1450,Private listing,https://www.oldbikemart.co.uk/listings/yamaha-virago-535-p3497/
 oldbikemart,classic,Yamaha XVS650 Dragstar,1700,Private listing,https://www.oldbikemart.co.uk/listings/yamaha-xvs650-dragstar-p3210/
 oldbikemart,cruiser,AJS 18 Statesman,3750,Private listing,https://www.oldbikemart.co.uk/listings/ajs-18-statesman-p3309/
+oldbikemart,cruiser,James Cadet M15,5500,Private listing,https://www.oldbikemart.co.uk/listings/james-cadet-m15-p3534/
+oldbikemart,cruiser,Kawasaki KZ1000,,Private listing,https://www.oldbikemart.co.uk/listings/kawasaki-kz1000-p3537/
 oldbikemart,cruiser,Yamaha Virago 250V,450,Private listing,https://www.oldbikemart.co.uk/listings/yamaha-virago-250v-p3506/
 oldbikemart,naked,BSA Bantam,2500,Private listing,https://www.oldbikemart.co.uk/listings/bsa-bantam-p3189/
 oldbikemart,naked,Honda CBF250,1800,Private listing,https://www.oldbikemart.co.uk/listings/honda-cbf250-p3184/

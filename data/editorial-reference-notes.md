@@ -76,3 +76,39 @@ Sprint Veloce 150 and GS160, plus the Lambretta TV200/GT200.
 25 entries added in total. Prices are editorial estimates set against the
 magazine's list prices and current classified asking prices; the shallow-market
 entries are flagged `thin` and want a proper pass before press.
+
+## Price pass, 19 Aug 2026
+
+Cleared the thin-confidence backlog: 28 flagged entries plus 8 corrections the
+same research turned up. 36 prices changed; the guide now stands at 753
+researched and 5 thin. Worksheet archived as `data/price-pass-2026-08-19.csv`.
+
+Sources used, in order of weight:
+
+* **Vintage Scooters valuation guide** — the find of this pass. It puts the
+  Lambretta SX200, TV200 and GP200 in a £10,000–£30,000 tier and the Vespa
+  Rally 200 and GS160 in £10,000–£20,000, and records a TV200 making £23,000
+  at auction. Our classic scooter prices were far below the market.
+* **Iconic Auctioneers sold results** and **our own Bike Motor Mart / Old Bike
+  Mart classifieds** — first-party, but they only covered 4 of the 28.
+* **UK dealer and classified asking prices** for everything else, discounted to
+  a private figure.
+
+Direction of travel: classic scooters were the big under-valuation, recent
+Ducatis and adventure bikes the big over-valuation. The DesertX was carrying
+£12,000/£16,000 against real stock at £9,890–£10,800, and the Himalayan
+£3,200/£5,000 against 2024 bikes at £4,399. Modern-classic and 1980s Japanese
+prices moved much less.
+
+Still thin, and why:
+
+* **Harley-Davidson Street Bob** — the entry spans 2006–2025, which is two
+  different motorcycles. The 2006–2017 Dyna trades at £6–9k, the 2018-on
+  Milwaukee-Eight Softail at £12,795–£15,345. No single pair of figures is
+  honest here; **this entry needs splitting** and no price pass can fix it.
+* **Suzuki DR750S Big** — cult status is lifting values but UK sales are sparse.
+* **Triumph Tiger 900 (885)** — very few trading; priced by reading across from
+  contemporary Sprint and Daytona 900s.
+* **Kawasaki KLE500** — searches are now swamped by the 2026 KLE500 revival,
+  which makes the 1991–2007 bike hard to price from listings.
+* **Italjet Dragster 300** — read across from 200 stock; too few 300s trading.

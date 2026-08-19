@@ -1084,15 +1084,23 @@
         "neglected ones are money pits"
       ],
       "price": {
-        "private": 2250,
-        "dealer": 5000,
-        "as_of": "2026-08-16",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 1800,
+        "dealer": 3000,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 2
       },
-      "price_history": [],
-      "notes": "Little UK data; US sales $2200-$7875 converted and adjusted"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "private": 2250,
+          "dealer": 5000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "UK runner at GBP1,550 with 40k miles; the old GBP5,000 dealer figure was US collector money, not a UK forecourt"
     },
     {
       "id": "honda-vfr750r-rc30-1988",
@@ -1795,15 +1803,23 @@
         "survivors are scarce"
       ],
       "price": {
-        "private": 1100,
-        "dealer": 2500,
-        "as_of": "2026-08-16",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 1400,
+        "dealer": 2600,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
-      "price_history": [],
-      "notes": "Few complete examples listed; mostly projects. Project seen at £800"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "private": 1100,
+          "dealer": 2500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "UK asks of GBP1,250 (original) to GBP2,803; Iconic has sold several"
     },
     {
       "id": "kawasaki-zxr750-1989",
@@ -2213,12 +2229,12 @@
         "spares are hard work"
       ],
       "price": {
-        "private": 2500,
-        "dealer": 5500,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "private": 3800,
+        "dealer": 5800,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
         "confidence": "thin",
-        "sample_size": 0
+        "sample_size": 2
       },
       "price_history": [
         {
@@ -2227,9 +2243,16 @@
           "sample_size": 0,
           "private": 2000,
           "dealer": 5500
+        },
+        {
+          "as_of": "2026-08-17",
+          "private": 2500,
+          "dealer": 5500,
+          "source": "uk-market-research",
+          "sample_size": 0
         }
       ],
-      "notes": "Still no UK-specific data found; US-derived figure retained and flagged"
+      "notes": "Cult status is lifting these; UK sales are too sparse to be firm, US range USD2,000-8,000"
     },
     {
       "id": "yamaha-tdr250-1988",
@@ -3249,15 +3272,23 @@
         "rust"
       ],
       "price": {
-        "private": 700,
+        "private": 900,
         "dealer": 1600,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
-      "price_history": [],
-      "notes": "Searched but found no reliable UK price guide; figure retained from estimate"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 700,
+          "dealer": 1600,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2005 example GBP990, 1997 project GBP895; a genuine banger-money commuter"
     },
     {
       "id": "kawasaki-w650-1999",
@@ -3450,15 +3481,23 @@
         "corrosion"
       ],
       "price": {
-        "private": 2000,
-        "dealer": 4500,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "private": 2200,
+        "dealer": 3400,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
         "confidence": "thin",
-        "sample_size": 0
+        "sample_size": 2
       },
-      "price_history": [],
-      "notes": "Searched but found no reliable UK guide for 1993-2000; figure retained from estimate"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 2000,
+          "dealer": 4500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Steel-framed 'Steamer'; contemporary Sprint/Daytona 900s trade at GBP795-1,495 and Tigers a little above"
     },
     {
       "id": "ducati-916-1994",
@@ -3821,15 +3860,23 @@
         "soft suspension"
       ],
       "price": {
-        "private": 1000,
-        "dealer": 2200,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "private": 1100,
+        "dealer": 2000,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
         "confidence": "thin",
-        "sample_size": 0
+        "sample_size": 1
       },
-      "price_history": [],
-      "notes": "Search returns the unrelated 2026 KLE500; no usable data for the 1991-2007 bike"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 1000,
+          "dealer": 2200,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Searches are now swamped by the 2026 KLE500 revival; the 1991-2007 bike is still banger money"
     },
     {
       "id": "suzuki-dr350-1990",
@@ -4589,15 +4636,23 @@
         "modest power"
       ],
       "price": {
-        "private": 800,
-        "dealer": 3800,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "private": 1800,
+        "dealer": 3000,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 24
       },
-      "price_history": [],
-      "notes": "Rough £800-1300, tidy £1600-3000, mint £3400-3800"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 800,
+          "dealer": 3800,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "24 across Autotrader and MCN; the GBP800 private figure was below anything roadworthy"
     },
     {
       "id": "kawasaki-zzr1400-2006",
@@ -5054,15 +5109,23 @@
         "belt services"
       ],
       "price": {
-        "private": 2500,
-        "dealer": 4500,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 3200,
+        "dealer": 4800,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "UK listings sparse; most comparables are overseas, so treat with caution"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 2500,
+          "dealer": 4500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "UK ask GBP5,950; European trade EUR3,500-6,450. Belt and service history is the whole game"
     },
     {
       "id": "ducati-monster-696-2008",
@@ -6279,15 +6342,23 @@
         "limited lean angle"
       ],
       "price": {
-        "private": 3800,
-        "dealer": 5800,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 4200,
+        "dealer": 5600,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 79
       },
-      "price_history": [],
-      "notes": "Search returned mainly new and near-new stock (£6728-£6779); little data on older used examples"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 3800,
+          "dealer": 5800,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "79 on Autotrader, dealer range GBP4,095-6,299, median GBP5,995 across 2015-2026"
     },
     {
       "id": "triumph-street-triple-765-2017",
@@ -7001,15 +7072,23 @@
         "early build issues"
       ],
       "price": {
-        "private": 3200,
-        "dealer": 5000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 2700,
+        "dealer": 3700,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Search returned mainly dealer and near-new stock (£4999-£6499); little clean used data for the 411"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 3200,
+          "dealer": 5000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2019/12k mi GBP2,395; 2021 GBP2,990; 2023 GBP3,690; 2024 GBP4,399. Old GBP5,000 dealer figure was well over the market"
     },
     {
       "id": "husqvarna-svartpilen-401-2018",
@@ -7807,15 +7886,23 @@
         "needs revs"
       ],
       "price": {
-        "private": 6500,
-        "dealer": 8000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 6800,
+        "dealer": 8200,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 23
       },
-      "price_history": [],
-      "notes": "Too new for a deep UK used market; European used from c.EUR7990, new UK £7699-£8799"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 6500,
+          "dealer": 8000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "23 on MCN, dealer stock GBP7,500-9,699 against GBP8,799 new; most are delivery-mileage"
     },
     {
       "id": "triumph-trident-660-2021",
@@ -8226,15 +8313,23 @@
         "runs hot"
       ],
       "price": {
-        "private": 10000,
-        "dealer": 13500,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 9500,
+        "dealer": 12000,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Listings found but no usable prices; 34 on Autotrader nationally. Estimate retained and flagged"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 10000,
+          "dealer": 13500,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2020 GBP11,500, 2022 GBP11,750, 2026 GBP11,250 trade. The old GBP13,500 dealer figure was above real stock"
     },
     {
       "id": "ducati-desertx-2022",
@@ -8257,15 +8352,23 @@
         "tall"
       ],
       "price": {
-        "private": 12000,
-        "dealer": 16000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 9500,
+        "dealer": 11500,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Thin used market; pre-registered examples c.£15995 against £17471 new"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 12000,
+          "dealer": 16000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2022 GBP9,890, 2024 GBP10,800. Was badly over-priced at GBP12,000/16,000"
     },
     {
       "id": "ktm-890-adventure-2021",
@@ -8838,15 +8941,23 @@
         "complex to service"
       ],
       "price": {
-        "private": 6300,
-        "dealer": 14000,
-        "as_of": "2026-08-16",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 5500,
+        "dealer": 8500,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
-      "price_history": [],
-      "notes": "Little firm UK data; collector interest rising, prices vary widely"
+      "price_history": [
+        {
+          "as_of": "2026-08-16",
+          "private": 6300,
+          "dealer": 14000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "UK ask GBP5,250; auction USD7,062. Rising, but GBP14,000 was concours-only money"
     },
     {
       "id": "honda-cbr600rr-2003",
@@ -9458,15 +9569,23 @@
         "limited touring ability"
       ],
       "price": {
-        "private": 6500,
-        "dealer": 13000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "private": 8500,
+        "dealer": 13500,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
         "confidence": "thin",
-        "sample_size": 0
+        "sample_size": 26
       },
-      "price_history": [],
-      "notes": "Available data covers only recent 114-engined bikes (£12495-£15345); older Dyna Street Bobs not well represented"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 6500,
+          "dealer": 13000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Split price: 2006-2017 Dyna trades at GBP6-9k, 2018-on M8 Softail at GBP12,795-15,345. One figure cannot honestly cover both - this entry needs splitting"
     },
     {
       "id": "harley-davidson-road-king-1994",
@@ -9939,15 +10058,23 @@
         "modest wind protection"
       ],
       "price": {
-        "private": 6500,
-        "dealer": 8200,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 5800,
+        "dealer": 6900,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Too new for a deep used market; new c.£8999 and GSX-8S comparables £5200-£6999"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 6500,
+          "dealer": 8200,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2024/3k mi GBP6,600, 2025/5.8k mi GBP6,699 against GBP8,399-8,999 new"
     },
     {
       "id": "kawasaki-eliminator-500-2023",
@@ -10342,15 +10469,23 @@
         "range anxiety off the beaten track"
       ],
       "price": {
-        "private": 3500,
-        "dealer": 7000,
-        "as_of": "2026-08-17",
-        "source": "ev-dealer-stock",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 3800,
+        "dealer": 5800,
+        "as_of": "2026-08-19",
+        "source": "ev-dealer-stock-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Few dedicated DS listings; a 2020 DS seen at £3550. Partly derived from S-model comparables"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 3500,
+          "dealer": 7000,
+          "source": "ev-dealer-stock",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2021 GBP5,500; English Electric used Zero stock GBP3,890-8,990 across the range"
     },
     {
       "id": "energica-eva-ribelle-2020",
@@ -10373,15 +10508,23 @@
         "tiny dealer network and uncertain support"
       ],
       "price": {
-        "private": 9000,
-        "dealer": 16000,
-        "as_of": "2026-08-17",
-        "source": "ev-dealer-stock",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 9500,
+        "dealer": 12500,
+        "as_of": "2026-08-19",
+        "source": "ev-dealer-stock-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
-      "price_history": [],
-      "notes": "Only two Energicas listed nationally; £25440 new. Range inferred from comparable EV depreciation"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 9000,
+          "dealer": 16000,
+          "source": "ev-dealer-stock",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Used GBP9,990-12,937 against GBP19,725 launch and GBP26,690 by 2023. Brutal depreciation"
     },
     {
       "id": "super-soco-tc-max-2019",
@@ -10404,15 +10547,23 @@
         "weak residuals"
       ],
       "price": {
-        "private": 1800,
-        "dealer": 3000,
-        "as_of": "2026-08-17",
-        "source": "ev-dealer-stock",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 2200,
+        "dealer": 3200,
+        "as_of": "2026-08-19",
+        "source": "ev-dealer-stock-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "TC Max used listings scarce; TSx and Wanderer seen at £1600-£1800. New TC Max £3995"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 1800,
+          "dealer": 3000,
+          "source": "ev-dealer-stock",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Used GBP2,836-3,999; new 2026 discounted to GBP3,695, which caps the used market"
     },
     {
       "id": "vespa-px125-1978",
@@ -10528,15 +10679,23 @@
         "rust is the enemy"
       ],
       "price": {
-        "private": 2700,
+        "private": 3400,
         "dealer": 6000,
-        "as_of": "2026-08-17",
-        "source": "own-classifieds",
+        "as_of": "2026-08-19",
+        "source": "vintagescooters-guide-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Our classifieds: LI125 Special £4750-£5950, LI Series 3 £4850. Wider guides £2000-£4000"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 2700,
+          "dealer": 6000,
+          "source": "own-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Series 3 Li150 around GBP3,000; series 1/2 in original paint GBP4,000-10,000"
     },
     {
       "id": "lambretta-sx200-1966",
@@ -10559,15 +10718,23 @@
         "serious money"
       ],
       "price": {
-        "private": 6750,
-        "dealer": 15000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 11000,
+        "dealer": 16000,
+        "as_of": "2026-08-19",
+        "source": "vintagescooters-guide-2026",
+        "confidence": "researched",
+        "sample_size": 6
       },
-      "price_history": [],
-      "notes": "Guides quote £9000-£22000 for the best; our own SX225 listing £4000 suggests a wide real-world spread"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 6750,
+          "dealer": 15000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Vintage Scooters puts SX200/TV200/GP200 in a GBP10,000-30,000 tier, doubled in ten years. Private figure was well under the market"
     },
     {
       "id": "lambretta-gp200-1969",
@@ -10590,15 +10757,23 @@
         "expensive to restore properly"
       ],
       "price": {
-        "private": 6300,
+        "private": 9000,
         "dealer": 14000,
-        "as_of": "2026-08-17",
-        "source": "uk-market-research",
+        "as_of": "2026-08-19",
+        "source": "vintagescooters-guide-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 6
       },
-      "price_history": [],
-      "notes": "Our GP200 listing £7000; a restored example made over £11000 at H&H. Indian-built GPs far less (ours listed £3000)"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 6300,
+          "dealer": 14000,
+          "source": "uk-market-research",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Vintage Scooters GBP10,000-30,000 tier alongside SX200/TV200; private figure was too low"
     },
     {
       "id": "bsa-bantam-1948",
@@ -10838,15 +11013,23 @@
         "pre-war examples need specialist knowledge"
       ],
       "price": {
-        "private": 4000,
-        "dealer": 8000,
-        "as_of": "2026-08-17",
-        "source": "own-classifieds",
-        "confidence": "thin",
-        "sample_size": 0
+        "private": 6000,
+        "dealer": 8500,
+        "as_of": "2026-08-19",
+        "source": "auction+own-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Two Red Hunters in our classifieds, both price-on-application; NH350 listed at £3600"
+      "price_history": [
+        {
+          "as_of": "2026-08-17",
+          "private": 4000,
+          "dealer": 8000,
+          "source": "own-classifieds",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Our own classifieds: NH350 GBP3,600, Ariel GBP2,950. Iconic: Huntmaster GBP2,875, NH350 project GBP667. The 497 VH sits above all of these"
     },
     {
       "id": "ariel-leader-1958",
@@ -23201,15 +23384,23 @@
         "Small under-seat space"
       ],
       "price": {
-        "private": 2600,
-        "dealer": 3300,
+        "private": 2800,
+        "dealer": 3500,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 2600,
+          "dealer": 3300,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Trade stock about GBP3,499; private 200s down at GBP2,999"
     },
     {
       "id": "italjet-dragster-300-2020",
@@ -23233,15 +23424,23 @@
         "Firm ride"
       ],
       "price": {
-        "private": 3800,
-        "dealer": 4700,
+        "private": 3700,
+        "dealer": 4600,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "uk-classifieds-2026",
         "confidence": "thin",
-        "sample_size": 0
+        "sample_size": 6
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 3800,
+          "dealer": 4700,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Read across from 200 stock at GBP2,999-3,980; too few 300s trading to be firm"
     },
     {
       "id": "vespa-primavera-125-2014",
@@ -23361,15 +23560,23 @@
         "Cramped and impractical"
       ],
       "price": {
-        "private": 6500,
-        "dealer": 8500,
+        "private": 6800,
+        "dealer": 8800,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 6500,
+          "dealer": 8500,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2018 Red LE, 2,799 miles, GBP7,999 UK. European stock EUR7,990 upward"
     },
     {
       "id": "piaggio-beverly-300-350-400-2001",
@@ -23521,15 +23728,23 @@
         "Corrodes if left outside"
       ],
       "price": {
-        "private": 900,
-        "dealer": 1400,
+        "private": 1000,
+        "dealer": 1900,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 9
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 900,
+          "dealer": 1400,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Private GBP700-1,600, dealer GBP1,999-2,295. 9 on Autotrader"
     },
     {
       "id": "suzuki-burgman-street-125-2021",
@@ -23585,15 +23800,23 @@
         "Tall seat"
       ],
       "price": {
-        "private": 3400,
-        "dealer": 4300,
+        "private": 3600,
+        "dealer": 4600,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 21
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 3400,
+          "dealer": 4300,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "21 on Autotrader against GBP5,999-6,199 new"
     },
     {
       "id": "lambretta-x300-2023",
@@ -23617,15 +23840,23 @@
         "Limited dealer coverage"
       ],
       "price": {
-        "private": 3600,
-        "dealer": 4500,
+        "private": 3500,
+        "dealer": 4300,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 3600,
+          "dealer": 4500,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2026 dealer stock GBP4,499-4,999; a 2025 with 300 miles already down to GBP4,295"
     },
     {
       "id": "aprilia-sxr-50-2021",
@@ -23713,15 +23944,23 @@
         "Slow in standard trim"
       ],
       "price": {
-        "private": 3200,
-        "dealer": 4500,
+        "private": 3500,
+        "dealer": 5000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "uk-classifieds-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 3200,
+          "dealer": 4500,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Sits a clear step below the ET3, which trades at GBP5,500-7,500"
     },
     {
       "id": "vespa-primavera-et3-1976",
@@ -23745,15 +23984,23 @@
         "Prices now high"
       ],
       "price": {
-        "private": 4200,
-        "dealer": 5800,
+        "private": 6000,
+        "dealer": 8000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "uk-classifieds-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 4200,
+          "dealer": 5800,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "UK going rate GBP5,500-7,500, best examples GBP8,500-9,000"
     },
     {
       "id": "vespa-pk50-1982",
@@ -23809,15 +24056,23 @@
         "Plenty of ringers about"
       ],
       "price": {
-        "private": 5500,
-        "dealer": 7500,
+        "private": 8500,
+        "dealer": 12000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "vintagescooters-guide-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 5500,
+          "dealer": 7500,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Vintage Scooters places Rally 200/180 in the GBP10,000-20,000 band; my initial GBP5,500 was well under"
     },
     {
       "id": "vespa-sprint-veloce-150-1969",
@@ -23873,15 +24128,23 @@
         "Restoration costs exceed value on a poor one"
       ],
       "price": {
-        "private": 9000,
-        "dealer": 13000,
+        "private": 11000,
+        "dealer": 16000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "vintagescooters-guide-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 9000,
+          "dealer": 13000,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "GS160 MK1/MK2 sit in the GBP10,000-20,000 band"
     },
     {
       "id": "lambretta-tv200-gt200-1963",
@@ -23905,15 +24168,23 @@
         "Costly to restore properly"
       ],
       "price": {
-        "private": 8500,
-        "dealer": 12000,
+        "private": 13000,
+        "dealer": 19000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
+        "source": "vintagescooters-guide-2026",
         "confidence": "researched",
-        "sample_size": 0
+        "sample_size": 4
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 8500,
+          "dealer": 12000,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "Top of the Lambretta tree - a TV200 made GBP23,000 at auction. My initial GBP8,500 was far too low"
     },
     {
       "id": "vespa-elettrica-2019",
@@ -23937,15 +24208,23 @@
         "Battery replacement cost unknown"
       ],
       "price": {
-        "private": 2800,
-        "dealer": 3600,
+        "private": 3400,
+        "dealer": 4400,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 5
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 2800,
+          "dealer": 3600,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2024 GBP4,875, 2025 GBP4,500, pre-reg GBP4,495. Was under-priced at GBP2,800/3,600"
     },
     {
       "id": "piaggio-one-active-2021",
@@ -23969,15 +24248,23 @@
         "Soft resale values"
       ],
       "price": {
-        "private": 1500,
-        "dealer": 2100,
+        "private": 1300,
+        "dealer": 2000,
         "as_of": "2026-08-19",
-        "source": "scootering-crossref-2026",
-        "confidence": "thin",
-        "sample_size": 0
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 16
       },
-      "price_history": [],
-      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+      "price_history": [
+        {
+          "as_of": "2026-08-19",
+          "private": 1500,
+          "dealer": 2100,
+          "source": "scootering-crossref-2026",
+          "sample_size": 0
+        }
+      ],
+      "notes": "2022 GBP1,100-1,299, 2023 GBP1,495-1,894 against GBP2,500 new. 16 on Autotrader"
     }
   ]
 }
