@@ -112,3 +112,18 @@ Still thin, and why:
 * **Kawasaki KLE500** — searches are now swamped by the 2026 KLE500 revival,
   which makes the 1991–2007 bike hard to price from listings.
 * **Italjet Dragster 300** — read across from 200 stock; too few 300s trading.
+
+### Street Bob split (19 Aug 2026)
+
+The 2006–2025 entry became two, because it was two motorcycles:
+
+* **Street Bob (Dyna), 2006–2017** — air-cooled Twin Cam, rubber-mounted frame.
+  £6,500 / £9,000. Verdict 8: the Dyna line ended in 2017, which has put a firm
+  floor under values, and it is the cheapest genuinely good Harley to own.
+* **Street Bob (Softail), 2018–2025** — Milwaukee-Eight 107, and the 114
+  (1,868cc) from 2021. £10,500 / £13,800. Verdict 6: a better motorcycle, but
+  roughly twice the money and steep early depreciation.
+
+The Dyna keeps the original entry id, so its published price history is intact;
+the blended 2006–2025 figures sit in that history and should be read as the old
+combined row, not as Dyna prices.

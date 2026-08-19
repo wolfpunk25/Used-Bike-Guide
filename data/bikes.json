@@ -9552,29 +9552,31 @@
       "id": "harley-davidson-street-bob-2006",
       "make": "Harley-Davidson",
       "model": "Street Bob",
-      "variant": "",
+      "variant": "Dyna",
       "category": "Cruiser",
       "year_from": 2006,
-      "year_to": 2025,
-      "engine_cc": 1745,
+      "year_to": 2017,
+      "engine_cc": 1584,
       "verdict": 8,
-      "description": "A stripped-back Dyna with mini-apes and a solo seat. Simpler and lighter than most Harleys, and one of the better ones to actually ride.",
+      "description": "The stripped-back Dyna: mini-apes, a solo seat and an air-cooled Twin Cam in a rubber-mounted frame. Simpler, lighter and better to ride than most Harleys of its era, and the last of the line — Harley killed the Dyna after 2017, which has put a firm floor under values. 88ci in 2006, 96ci from 2007, 103ci on later bikes.",
       "pros": [
-        "Simple and characterful",
-        "good custom base",
-        "strong values"
+        "Air-cooled simplicity and cheap independent servicing",
+        "Enormous aftermarket",
+        "Dyna values have stopped falling",
+        "The best-riding cheap Harley"
       ],
       "cons": [
-        "Firm ride",
-        "limited touring ability"
+        "Firm ride on the twin shocks",
+        "Not a tourer",
+        "Belt and cam-chain tensioner checks matter on high-mileage bikes"
       ],
       "price": {
-        "private": 8500,
-        "dealer": 13500,
+        "private": 6500,
+        "dealer": 9000,
         "as_of": "2026-08-19",
         "source": "uk-classifieds-2026",
-        "confidence": "thin",
-        "sample_size": 26
+        "confidence": "researched",
+        "sample_size": 12
       },
       "price_history": [
         {
@@ -9583,9 +9585,50 @@
           "dealer": 13000,
           "source": "uk-market-research",
           "sample_size": 0
+        },
+        {
+          "as_of": "2026-08-19",
+          "private": 8500,
+          "dealer": 13500,
+          "source": "uk-classifieds-2026",
+          "sample_size": 26
         }
       ],
-      "notes": "Split price: 2006-2017 Dyna trades at GBP6-9k, 2018-on M8 Softail at GBP12,795-15,345. One figure cannot honestly cover both - this entry needs splitting"
+      "notes": "Split out from the old combined 2006-2025 Street Bob entry on 19 Aug 2026. The price history below the split is the blended figure the guide used to publish."
+    },
+    {
+      "id": "harley-davidson-street-bob-softail-2018",
+      "make": "Harley-Davidson",
+      "model": "Street Bob",
+      "variant": "Softail",
+      "category": "Cruiser",
+      "year_from": 2018,
+      "year_to": 2025,
+      "engine_cc": 1746,
+      "verdict": 6,
+      "description": "The Street Bob name moved to the new Softail chassis for 2018 with the Milwaukee-Eight 107, and grew to the 114 (1,868cc) in 2021. A far better motorcycle than the Dyna it replaced — stiffer, smoother, quicker — but it costs roughly twice as much used, and the early depreciation is steep. Check which motor you are buying: the 114 commands a clear premium.",
+      "pros": [
+        "Much stiffer chassis than the Dyna",
+        "Milwaukee-Eight is smooth and strong",
+        "Well equipped",
+        "114 models hold value well"
+      ],
+      "cons": [
+        "Heavy depreciation in the first three years",
+        "Expensive to buy used",
+        "Hidden rear shock is awkward to service",
+        "No pillion seat as standard"
+      ],
+      "price": {
+        "private": 10500,
+        "dealer": 13800,
+        "as_of": "2026-08-19",
+        "source": "uk-classifieds-2026",
+        "confidence": "researched",
+        "sample_size": 14
+      },
+      "price_history": [],
+      "notes": "Split out from the old combined 2006-2025 Street Bob entry on 19 Aug 2026. Dealer stock GBP12,795-15,345 (Iron City, MCN); 26 listed across the UK. 2021-on 114 bikes sit at the top of that range."
     },
     {
       "id": "harley-davidson-road-king-1994",
