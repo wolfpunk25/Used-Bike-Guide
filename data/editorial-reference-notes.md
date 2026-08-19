@@ -127,3 +127,20 @@ The 2006–2025 entry became two, because it was two motorcycles:
 The Dyna keeps the original entry id, so its published price history is intact;
 the blended 2006–2025 figures sit in that history and should be read as the old
 combined row, not as Dyna prices.
+
+### Replacing a photo (19 Aug 2026)
+
+Replacing an image keeps the same filename — `honda-xbr500-1985.jpg` — and that
+is correct; nobody needs to rename anything. The file is keyed to the entry id,
+and a rename would orphan it.
+
+The reason a replacement used to look as though it had failed is that
+raw.githubusercontent.com sits behind a CDN which **strips the query string from
+its cache key**. The `?t=` timestamp on our image URLs therefore busts nothing:
+for up to five minutes (`max-age=300`) after a replace, the CDN keeps serving
+the previous image. The upload had worked every time; only the display was old.
+
+The page now shows the bytes it just uploaded, so a replacement is visible
+immediately to the person who made it. Everyone *else* still sees the old photo
+for up to five minutes — that is the CDN's cache and there is nothing in our
+code that can shorten it.

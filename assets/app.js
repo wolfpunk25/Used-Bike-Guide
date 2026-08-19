@@ -351,7 +351,7 @@
         e.stopPropagation();
         preview.hide();
         ImageStore.del(b.id, rec.ext).then(function () {
-          if (!rec.remote) URL.revokeObjectURL(rec.url);
+          if (rec.url && rec.url.indexOf('blob:') === 0) URL.revokeObjectURL(rec.url);
           delete state.images[b.id];
           render();
         }).catch(function (err) {
@@ -401,6 +401,8 @@
     render();
     ImageStore.put(b.id, file).then(function (rec) {
       delete state.uploading[b.id];
+      var prev = state.images[b.id];
+      if (prev && prev.url && prev.url.indexOf('blob:') === 0) URL.revokeObjectURL(prev.url);
       state.images[b.id] = rec;
       render();
     }).catch(function (err) {

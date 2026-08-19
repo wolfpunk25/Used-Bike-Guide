@@ -277,7 +277,19 @@ window.ImageStore = (function () {
         // showing up as "saved in this browser but not shared yet".
         return localDel(id)
           .then(function () { return dropOtherExtensions(id, rec.name); })
-          .then(function () { return rec; });
+          .then(function () {
+            // Show the bytes we just uploaded rather than fetching them back.
+            // raw.githubusercontent sits behind a CDN that strips the query
+            // string from its cache key, so the ?t= on rawUrl() is not the
+            // cache-buster it looks like: for up to five minutes after a
+            // REPLACE the CDN keeps serving the previous image, which made a
+            // successful replace look as though it had silently failed.
+            // The file really is on the branch, so this stays flagged remote —
+            // only the display source is local, and the next page load (by
+            // which time the CDN has caught up) goes back to the raw URL.
+            rec.url = URL.createObjectURL(r.blob);
+            return rec;
+          });
       });
     });
   }
