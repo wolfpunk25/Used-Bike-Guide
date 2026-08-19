@@ -53,3 +53,26 @@ From *Inspired by the RCV* rivals panel:
 
 Four of eight spot-checks against these spanned our range exactly; three were
 adjusted on 2026-08-18 (F900R, 890 Duke R, Tuono 660).
+
+## Scootering buyers-guide cross-reference (19 Aug 2026)
+
+Checked the guide against two pages of Scootering's own new-scooter buyers guide
+(s1/s2, covering 50cc to 700cc plus electric, with the magazine's three classic
+benchmarks: a Vespa small frame, a Vespa PX and a Lambretta GP 200).
+
+Every model named in those tables is now represented, except for machines still
+too new to have a used market: the Royal Alloy 350 range (GP350MT/SE, JPS350,
+TG350), Royal Alloy GT2 125/160, Lambretta G350, the Italjet Dragster 459 and
+700 twins, Vespa GTS 125 RST, Suzuki Avenis 125 and the Vespa Primavera
+Elettrica 45. These are on the watchlist for the next issue rather than the
+database — several launched in the last twelve months and have no used stock.
+
+The cross-reference also exposed a real gap that had nothing to do with the new
+models: the guide carried the PX and the GP200 but **no small-frame Vespa at
+all**, which is the third of Scootering's own benchmarks. Six classic scooters
+were added to close it — Vespa 50 Special, Primavera ET3, PK50, Rally 200,
+Sprint Veloce 150 and GS160, plus the Lambretta TV200/GT200.
+
+25 entries added in total. Prices are editorial estimates set against the
+magazine's list prices and current classified asking prices; the shallow-market
+entries are flagged `thin` and want a proper pass before press.

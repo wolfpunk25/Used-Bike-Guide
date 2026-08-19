@@ -4,7 +4,7 @@
     "publication": "Used Bike Guide",
     "currency": "GBP",
     "issue": "2026 Q3",
-    "last_refreshed": "2026-08-18",
+    "last_refreshed": "2026-08-19",
     "notes": "Seed prices are unverified editorial estimates. Run a price refresh before going to press.",
     "price_convention": "private = realistic private-sale figure; dealer = dealer forecourt figure. Matches Fast Bikes house style.",
     "verdict_scale": "How good a buy is this for what it costs — value, running costs, reliability, parts support and ownership risk. Not a measure of how significant the motorcycle is."
@@ -23178,6 +23178,806 @@
       },
       "price_history": [],
       "notes": "Price taken from the editorial top-100/top-50 lists supplied 2026-08-18, which quote representative UK values for good examples rather than the full rough-to-mint spread"
+    },
+    {
+      "id": "italjet-dragster-125-2019",
+      "make": "Italjet",
+      "model": "Dragster 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2019,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "Italjet's exoskeleton-framed 125 is the most visually extreme scooter on sale, with trellis frame, single-sided front suspension and genuinely sharp handling. Build quality and the thin UK dealer network are the trade-offs, but nothing else looks like it.",
+      "pros": [
+        "Handles far better than a normal 125",
+        "Real head-turner",
+        "Holds value on looks alone"
+      ],
+      "cons": [
+        "Patchy UK dealer support",
+        "Finish not up to Piaggio standards",
+        "Small under-seat space"
+      ],
+      "price": {
+        "private": 2600,
+        "dealer": 3300,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "italjet-dragster-300-2020",
+      "make": "Italjet",
+      "model": "Dragster 300",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2020,
+      "year_to": 2026,
+      "engine_cc": 278,
+      "verdict": 6,
+      "description": "The 278cc version of the Dragster gives the chassis the performance it always deserved — genuinely quick, motorway-capable and still the best-handling twist-and-go you can buy. Priced against far more sensible machinery.",
+      "pros": [
+        "Seriously fast for a scooter",
+        "Superb chassis",
+        "Distinctive"
+      ],
+      "cons": [
+        "Expensive used",
+        "Dealer network thin",
+        "Firm ride"
+      ],
+      "price": {
+        "private": 3800,
+        "dealer": 4700,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-primavera-125-2014",
+      "make": "Vespa",
+      "model": "Primavera 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2014,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "The modern small-frame Vespa and the sweet spot of the range: light, easy, beautifully finished and the one that holds value best. A sensible first scooter that will still be worth money in five years.",
+      "pros": [
+        "Strongest residuals in the class",
+        "Easy to ride",
+        "Excellent finish"
+      ],
+      "cons": [
+        "Pricey new",
+        "Modest performance",
+        "Small under-seat storage"
+      ],
+      "price": {
+        "private": 2400,
+        "dealer": 3100,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-sprint-125-2014",
+      "make": "Vespa",
+      "model": "Sprint 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2014,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 7,
+      "description": "Mechanically the Primavera with 12in wheels, flat-faced headlamp and a sportier look. Slightly better on poor roads than its sibling and usually a shade cheaper used.",
+      "pros": [
+        "Better ride on 12in wheels",
+        "Same strong residuals",
+        "Sharper styling"
+      ],
+      "cons": [
+        "Same modest power",
+        "Premium price",
+        "Limited storage"
+      ],
+      "price": {
+        "private": 2500,
+        "dealer": 3200,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-gts-125-2007",
+      "make": "Vespa",
+      "model": "GTS 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2007,
+      "year_to": 2026,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "The full-size large-frame Vespa with the smaller motor — all the presence and build quality of the GTS 300 without the performance or the insurance bill. A good buy for A1 riders who want the real thing.",
+      "pros": [
+        "Proper large-frame Vespa quality",
+        "Cheap to insure",
+        "Good residuals"
+      ],
+      "cons": [
+        "Slow for its size and weight",
+        "Not motorway capable",
+        "Heavy for a 125"
+      ],
+      "price": {
+        "private": 2300,
+        "dealer": 3000,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-946-2013",
+      "make": "Vespa",
+      "model": "946",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2013,
+      "year_to": 2023,
+      "engine_cc": 125,
+      "verdict": 4,
+      "description": "A design exercise sold as a production scooter: gorgeous, hand-finished, and priced at superbike money when new. Values have fallen a long way and parts are eye-watering, so buy one because you love it, not as an investment.",
+      "pros": [
+        "Genuinely beautiful",
+        "Rare",
+        "Bespoke detailing"
+      ],
+      "cons": [
+        "Enormous depreciation from new",
+        "Very expensive parts",
+        "Cramped and impractical"
+      ],
+      "price": {
+        "private": 6500,
+        "dealer": 8500,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "piaggio-beverly-300-350-400-2001",
+      "make": "Piaggio",
+      "model": "Beverly",
+      "variant": "300/350/400",
+      "category": "Scooter",
+      "year_from": 2001,
+      "year_to": 2026,
+      "engine_cc": 330,
+      "verdict": 7,
+      "description": "Twenty-five years of quietly excellent commuting: big wheels, a comfortable seat and enough poke to sit at motorway speeds. Under-rated, cheap used and much better on British roads than the small-wheeled competition.",
+      "pros": [
+        "Big wheels cope with poor surfaces",
+        "Comfortable over distance",
+        "Cheap for the performance"
+      ],
+      "cons": [
+        "Anonymous styling",
+        "Bulky to park",
+        "Later HPE motors thirstier than claimed"
+      ],
+      "price": {
+        "private": 2200,
+        "dealer": 2900,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "piaggio-mp3-500-530-2007",
+      "make": "Piaggio",
+      "model": "MP3 500",
+      "variant": "530",
+      "category": "Scooter",
+      "year_from": 2007,
+      "year_to": 2026,
+      "engine_cc": 493,
+      "verdict": 6,
+      "description": "The big three-wheeler, and the one that makes the concept make sense — the extra capacity gives it real motorway pace, and the tilting front end is genuinely reassuring in the wet. Heavy and complex, so service history matters.",
+      "pros": [
+        "Remarkable wet-weather grip",
+        "Motorway capable",
+        "Can be ridden on a car licence in some specs"
+      ],
+      "cons": [
+        "Heavy",
+        "Complex front end is costly to fix",
+        "Thirsty"
+      ],
+      "price": {
+        "private": 3200,
+        "dealer": 4200,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "lambretta-v200-special-2018",
+      "make": "Lambretta",
+      "model": "V200 Special",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2018,
+      "year_to": 2026,
+      "engine_cc": 169,
+      "verdict": 6,
+      "description": "The larger-engined modern Lambretta: retro styling over a conventional automatic drivetrain, with enough performance to keep up with traffic. Divides opinion among purists but a far easier ownership proposition than a real one.",
+      "pros": [
+        "Classic looks with no classic hassle",
+        "Usable performance",
+        "Well equipped"
+      ],
+      "cons": [
+        "Not a real Lambretta underneath",
+        "Patchy dealer network",
+        "Depreciates faster than a Vespa"
+      ],
+      "price": {
+        "private": 2400,
+        "dealer": 3100,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "royal-alloy-gt125-2018",
+      "make": "Royal Alloy",
+      "model": "GT125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2018,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "The full-bodied Royal Alloy, all pressed steel and chrome, with modern running gear underneath. Cheaper than a Vespa to buy and to fix, and the later liquid-cooled version with ABS is the one to have.",
+      "pros": [
+        "Steel body feels substantial",
+        "Much cheaper than a Vespa",
+        "Later ABS models good value"
+      ],
+      "cons": [
+        "Weaker residuals than Vespa",
+        "Heavy",
+        "Early air-cooled bikes underpowered"
+      ],
+      "price": {
+        "private": 2100,
+        "dealer": 2800,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "ajs-modena-125-2015",
+      "make": "AJS",
+      "model": "Modena 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2015,
+      "year_to": 2026,
+      "engine_cc": 125,
+      "verdict": 5,
+      "description": "Budget retro commuting: cheap to buy, cheap to run and honest about what it is. Build quality is where the money was saved, so check the chrome and the electrics carefully.",
+      "pros": [
+        "Very cheap to buy",
+        "Cheap parts",
+        "Easy to ride"
+      ],
+      "cons": [
+        "Basic build quality",
+        "Poor residuals",
+        "Corrodes if left outside"
+      ],
+      "price": {
+        "private": 900,
+        "dealer": 1400,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "suzuki-burgman-street-125-2021",
+      "make": "Suzuki",
+      "model": "Burgman Street 125",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2021,
+      "year_to": 2026,
+      "engine_cc": 124,
+      "verdict": 6,
+      "description": "Suzuki's maxi-styled 125 commuter — bigger and more comfortable than the Address, with a flat floor and decent weather protection. Dull but dependable, and Suzuki reliability is the selling point.",
+      "pros": [
+        "Suzuki build quality",
+        "Comfortable for a 125",
+        "Good weather protection"
+      ],
+      "cons": [
+        "Uninspiring to ride",
+        "Bland styling",
+        "Modest performance"
+      ],
+      "price": {
+        "private": 1900,
+        "dealer": 2500,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "aprilia-sr-gt-400-2022",
+      "make": "Aprilia",
+      "model": "SR GT 400",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2022,
+      "year_to": 2026,
+      "engine_cc": 399,
+      "verdict": 6,
+      "description": "The big-bore version of the adventure-styled SR GT, with enough power for motorways and long-travel suspension that genuinely helps on broken British roads. A niche machine that does its niche well.",
+      "pros": [
+        "Copes with bad surfaces",
+        "Motorway capable",
+        "Distinctive"
+      ],
+      "cons": [
+        "Thin dealer network",
+        "Shallow used market",
+        "Tall seat"
+      ],
+      "price": {
+        "private": 3400,
+        "dealer": 4300,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "lambretta-x300-2023",
+      "make": "Lambretta",
+      "model": "X300",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2023,
+      "year_to": 2026,
+      "engine_cc": 275,
+      "verdict": 5,
+      "description": "Lambretta's largest modern offering, aimed squarely at the Vespa GTS. Capable enough, but too new to have found its used level and the brand's residuals lag Piaggio's badly.",
+      "pros": [
+        "Good performance",
+        "Well specified",
+        "Undercuts the GTS new"
+      ],
+      "cons": [
+        "Steep early depreciation",
+        "Unproven",
+        "Limited dealer coverage"
+      ],
+      "price": {
+        "private": 3600,
+        "dealer": 4500,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "aprilia-sxr-50-2021",
+      "make": "Aprilia",
+      "model": "SXR 50",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2021,
+      "year_to": 2026,
+      "engine_cc": 49,
+      "verdict": 5,
+      "description": "A maxi-styled 50 for sixteen-year-olds who want something that looks grown-up. Restricted performance is the law rather than the fault, but it costs Vespa money for a moped.",
+      "pros": [
+        "Looks like a bigger scooter",
+        "Well finished",
+        "Good for new riders"
+      ],
+      "cons": [
+        "Expensive for 50cc",
+        "Restricted to 28mph",
+        "Heavy for a moped"
+      ],
+      "price": {
+        "private": 1500,
+        "dealer": 2100,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "piaggio-liberty-50-2005",
+      "make": "Piaggio",
+      "model": "Liberty 50",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 2005,
+      "year_to": 2026,
+      "engine_cc": 49,
+      "verdict": 5,
+      "description": "The high-wheeled 50cc commuter that has quietly outlasted most of its rivals. Light, cheap and easy, with big wheels that make it far safer on rough roads than most mopeds.",
+      "pros": [
+        "Big wheels",
+        "Very cheap used",
+        "Simple to maintain"
+      ],
+      "cons": [
+        "Slow",
+        "Basic finish",
+        "Low resale value"
+      ],
+      "price": {
+        "private": 700,
+        "dealer": 1200,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-50-special-1969",
+      "make": "Vespa",
+      "model": "50 Special",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1969,
+      "year_to": 1983,
+      "engine_cc": 50,
+      "verdict": 6,
+      "description": "The definitive small-frame Vespa and the entry point to classic scootering. Simple, light, endlessly tuneable and supported by a huge parts industry — values have climbed steadily and good ones are getting hard to find.",
+      "pros": [
+        "Excellent parts availability",
+        "Values still rising",
+        "Easy to work on"
+      ],
+      "cons": [
+        "Widespread rust and filler",
+        "Many are rebuilt imports",
+        "Slow in standard trim"
+      ],
+      "price": {
+        "private": 3200,
+        "dealer": 4500,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-primavera-et3-1976",
+      "make": "Vespa",
+      "model": "Primavera ET3",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1976,
+      "year_to": 1983,
+      "engine_cc": 125,
+      "verdict": 6,
+      "description": "The three-port small frame and the one the scooter world wants: noticeably quicker than a standard Primavera and the most collectable of the small Vespas. Beware rebadged Primaveras wearing ET3 stripes.",
+      "pros": [
+        "The desirable small frame",
+        "Genuinely quick for its size",
+        "Strong values"
+      ],
+      "cons": [
+        "Frequently faked",
+        "Rust in the frame legshields",
+        "Prices now high"
+      ],
+      "price": {
+        "private": 4200,
+        "dealer": 5800,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-pk50-1982",
+      "make": "Vespa",
+      "model": "PK50",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1982,
+      "year_to": 1990,
+      "engine_cc": 50,
+      "verdict": 5,
+      "description": "The angular 1980s replacement for the small frame — mechanically sound, cheap, and long ignored by collectors. Prices are only now starting to move, which makes it the value entry into classic Vespas.",
+      "pros": [
+        "Cheapest way into a classic Vespa",
+        "Mechanically simple",
+        "Values starting to rise"
+      ],
+      "cons": [
+        "Styling still out of fashion",
+        "Rusts badly",
+        "Fewer parts than a smallframe"
+      ],
+      "price": {
+        "private": 1600,
+        "dealer": 2400,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-rally-200-1972",
+      "make": "Vespa",
+      "model": "Rally 200",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1972,
+      "year_to": 1979,
+      "engine_cc": 198,
+      "verdict": 6,
+      "description": "The fastest of the classic large frames and the one that made the Vespa a genuine road bike. Electronic ignition on later cars makes them usable, and values have been firm for years.",
+      "pros": [
+        "Real performance for a classic",
+        "Strong steady values",
+        "Good parts supply"
+      ],
+      "cons": [
+        "Expensive to buy well",
+        "Rot in the floor and legshields",
+        "Plenty of ringers about"
+      ],
+      "price": {
+        "private": 5500,
+        "dealer": 7500,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-sprint-veloce-150-1969",
+      "make": "Vespa",
+      "model": "Sprint Veloce 150",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1969,
+      "year_to": 1979,
+      "engine_cc": 150,
+      "verdict": 6,
+      "description": "The handsome, usable classic large frame — quick enough for real use, cheaper than a Rally and better looking than a PX to most eyes. A sensible first classic Vespa.",
+      "pros": [
+        "Cheaper than a Rally",
+        "Handsome",
+        "Well supported by specialists"
+      ],
+      "cons": [
+        "Rust is the killer",
+        "Many Indian-built imports",
+        "Modest brakes"
+      ],
+      "price": {
+        "private": 4500,
+        "dealer": 6000,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-gs160-1962",
+      "make": "Vespa",
+      "model": "GS160",
+      "variant": "",
+      "category": "Scooter",
+      "year_from": 1962,
+      "year_to": 1964,
+      "engine_cc": 158,
+      "verdict": 5,
+      "description": "The blue-chip classic Vespa: two years of production, unmistakable styling and prices to match. A collector's machine rather than a rider's, and authenticity is everything.",
+      "pros": [
+        "Genuinely blue-chip collectable",
+        "Beautiful",
+        "Holds value through downturns"
+      ],
+      "cons": [
+        "Very expensive",
+        "Rare and costly parts",
+        "Restoration costs exceed value on a poor one"
+      ],
+      "price": {
+        "private": 9000,
+        "dealer": 13000,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "lambretta-tv200-gt200-1963",
+      "make": "Lambretta",
+      "model": "TV200",
+      "variant": "GT200",
+      "category": "Scooter",
+      "year_from": 1963,
+      "year_to": 1965,
+      "engine_cc": 198,
+      "verdict": 5,
+      "description": "The fastest Innocenti Lambretta and the one every collector wants. Genuine UK-market GT200s command serious money, and the number of converted TV175s in circulation makes provenance critical.",
+      "pros": [
+        "The most desirable Lambretta",
+        "Front disc brake",
+        "Very strong values"
+      ],
+      "cons": [
+        "Prices are collector-level",
+        "Frequently faked from TV175s",
+        "Costly to restore properly"
+      ],
+      "price": {
+        "private": 8500,
+        "dealer": 12000,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "researched",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "vespa-elettrica-2019",
+      "make": "Vespa",
+      "model": "Elettrica",
+      "variant": "",
+      "category": "Electric",
+      "year_from": 2019,
+      "year_to": 2026,
+      "engine_cc": 0,
+      "verdict": 4,
+      "description": "An electric Vespa that looks and feels like a Vespa, with a 60-mile range and 28mph restriction on the standard model. Charming and beautifully made, but it costs GTS money to go moped speeds.",
+      "pros": [
+        "Unmistakably a Vespa",
+        "Near-silent",
+        "Almost no servicing"
+      ],
+      "cons": [
+        "Very expensive for the performance",
+        "Limited range",
+        "Battery replacement cost unknown"
+      ],
+      "price": {
+        "private": 2800,
+        "dealer": 3600,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
+    },
+    {
+      "id": "piaggio-one-active-2021",
+      "make": "Piaggio",
+      "model": "One",
+      "variant": "Active",
+      "category": "Electric",
+      "year_from": 2021,
+      "year_to": 2026,
+      "engine_cc": 0,
+      "verdict": 5,
+      "description": "Piaggio's small electric commuter, sized like a 50 and aimed at cities. Cheap to run and simple to live with, with the removable-battery convenience that most rivals lack.",
+      "pros": [
+        "Removable battery",
+        "Cheap to run",
+        "Compact and light"
+      ],
+      "cons": [
+        "Short range",
+        "Moped performance",
+        "Soft resale values"
+      ],
+      "price": {
+        "private": 1500,
+        "dealer": 2100,
+        "as_of": "2026-08-19",
+        "source": "scootering-crossref-2026",
+        "confidence": "thin",
+        "sample_size": 0
+      },
+      "price_history": [],
+      "notes": "Added when cross-referencing Scootering's new-scooter buyers guide against the database. Used values are editorial estimates set against the guide's list prices and current UK classified asking prices; confirm before press."
     }
   ]
 }
