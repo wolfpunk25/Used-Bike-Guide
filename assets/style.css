@@ -54,6 +54,8 @@ body {
 .btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .btn-primary:hover { filter: brightness(1.1); }
 .btn-quiet { background: transparent; color: var(--ink-soft); }
+.btn-warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink); }
+.btn-warn:hover { border-color: var(--warn-ink); }
 
 /* Status bar */
 .status-bar {
@@ -85,6 +87,16 @@ body {
   border: 1px solid var(--line); border-radius: var(--radius);
   background: var(--bg); color: var(--ink);
 }
+.share-why {
+  font-size: 13.5px; color: var(--warn-ink); background: var(--warn-bg);
+  border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 9px 12px;
+}
+.share-error {
+  font-size: 13px; color: #fff; background: var(--accent);
+  border-radius: var(--radius); padding: 8px 11px; margin: 4px 0 0; max-width: 560px;
+}
+.status-bar .btn { margin-left: 10px; vertical-align: middle; }
+
 .share-warn { font-size: 12.5px; color: var(--warn-ink); background: var(--warn-bg);
   border: 1px solid var(--warn-line); border-radius: var(--radius); padding: 8px 11px; }
 

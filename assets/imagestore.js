@@ -231,14 +231,51 @@ window.ImageStore = (function () {
     });
   }
 
+  // Uploading REQUIRES a token. Storing photos in one browser only was a trap:
+  // someone could add a hundred images, connect sharing afterwards, and find none
+  // of them had ever left their machine. The UI asks for a token first instead.
   function put(id, file) {
+    if (!shared()) return Promise.reject(new Error('NO_TOKEN'));
     return resize(file).then(function (r) {
-      // Always keep a local copy so the thumbnail appears instantly, before the
-      // commit has propagated to raw.githubusercontent.com.
-      return localPut(id, r.blob, r.ext).then(function (localRec) {
-        if (!shared()) return localRec;
+      // Keep a local copy too, so the thumbnail appears instantly rather than
+      // waiting for the commit to reach raw.githubusercontent.com.
+      return localPut(id, r.blob, r.ext).then(function () {
         return ghPut(id, r.blob, r.ext);
       });
+    });
+  }
+
+  // Check a token really works before we rely on it — a typo'd or expired token
+  // would otherwise fail silently at the moment someone tries to upload.
+  function validateToken(t) {
+    return fetch('https://api.github.com/repos/' + REPO.owner + '/' + REPO.repo, {
+      headers: { Accept: 'application/vnd.github+json', Authorization: 'Bearer ' + t }
+    }).then(function (r) {
+      if (r.status === 401) throw new Error('That token was not accepted — check it was copied in full.');
+      if (!r.ok) throw new Error('GitHub returned HTTP ' + r.status + '.');
+      return r.json();
+    }).then(function (j) {
+      if (!j.permissions || !j.permissions.push) {
+        throw new Error('That token can read the repository but not write to it. ' +
+                        'Set Repository permissions \u2192 Contents: Read and write.');
+      }
+      return true;
+    });
+  }
+
+  // Push anything stranded in this browser up to the shared branch.
+  function pushLocal(onProgress) {
+    if (!shared()) return Promise.reject(new Error('NO_TOKEN'));
+    return localList().then(function (local) {
+      var ids = Object.keys(local).filter(function (k) { return !local[k].remote; });
+      var done = 0;
+      return ids.reduce(function (chain, id) {
+        return chain.then(function () {
+          return ghPut(id, local[id].blob, local[id].ext).then(function () {
+            done++; if (onProgress) onProgress(done, ids.length);
+          });
+        });
+      }, Promise.resolve()).then(function () { return done; });
     });
   }
 
@@ -303,6 +340,7 @@ window.ImageStore = (function () {
 
   return {
     list: list, put: put, del: del, bytesFor: bytesFor, zip: zip,
-    token: token, setToken: setToken, shared: shared, repo: REPO, branch: BRANCH
+    token: token, setToken: setToken, shared: shared, repo: REPO, branch: BRANCH,
+    validateToken: validateToken, pushLocal: pushLocal, localList: localList
   };
 })();

@@ -198,10 +198,19 @@ matching the CSV export, and the CSV gains an **Image file** column naming each 
 
 ### Sharing between several people
 
-Click **Sharing: off** in the header and paste a GitHub token to turn shared storage on.
-Uploads then commit to the repository's `images` branch and everyone working on the
-guide sees them — that is how several editors in different locations work from one set
-of photos.
+Everyone works from one set of photos, held on the repository's `images` branch.
+
+**Viewing them needs nothing.** Open the page and the shared photos are already there.
+
+**Adding them needs a GitHub token.** Click the **＋** on any row and, if you have not
+connected yet, the sharing panel opens and explains why — your chosen file is held and
+uploads the moment you save a valid token. There is deliberately no way to add a photo
+that only exists on your own machine: an earlier version allowed it, and the obvious
+failure was someone adding a hundred images before realising none of them had ever
+reached the team.
+
+Tokens are checked against GitHub when you save one, so a mistyped or expired token is
+rejected there and then rather than failing silently at the next upload.
 
 Each person needs their own token, made once:
 
@@ -233,8 +242,9 @@ image without one — the repository is public, so both the file listing and the
 themselves are readable by anybody. Unauthenticated GitHub API calls are capped at 60 an
 hour per IP, so an office sharing one address is still better off with tokens set.
 
-Uploads made *without* a token stay in that browser and are marked with a **dashed amber
-border**, so it is obvious at a glance which photos have not reached the shared branch.
+Any photos left in a browser from before this rule existed still show, with a **dashed
+amber border**, and the page offers to upload them to the shared branch as soon as you
+connect.
 
 **This repository is public**, so uploaded images are publicly visible, and copies get
 cached and indexed beyond your control. Only upload what is cleared for publication.

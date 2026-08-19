@@ -4,7 +4,7 @@
   'use strict';
 
   var DATA_URL = 'data/bikes.json';
-  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {}, images: {}, uploading: {} };
+  var state = { bikes: [], meta: {}, sort: { key: 'make', dir: 1 }, open: {}, images: {}, uploading: {}, pending: null };
 
   var $ = function (sel) { return document.querySelector(sel); };
   var els = {};
@@ -304,6 +304,7 @@
       inp.accept = 'image/*';
       inp.addEventListener('change', function () {
         if (inp.files && inp.files[0]) storeImage(b, inp.files[0]);
+        inp.value = '';
       });
       label.appendChild(inp);
       td.appendChild(label);
@@ -322,6 +323,14 @@
   }
 
   function storeImage(b, file) {
+    if (!ImageStore.shared()) {
+      // Hold the file and the bike, ask for a token, then carry straight on.
+      state.pending = { bike: b, file: file };
+      openSharePanel('<strong>Connect image sharing to add photos.</strong> ' +
+        'Photos are shared with everyone working on the guide, so a GitHub token is ' +
+        'needed before uploading. Your image is held and will upload as soon as you save one.');
+      return;
+    }
     state.uploading[b.id] = true;
     render();
     ImageStore.put(b.id, file).then(function (rec) {
@@ -332,9 +341,7 @@
       delete state.uploading[b.id];
       render();
       showStatus('<strong>Could not save that image</strong> — ' + err.message +
-                 (ImageStore.shared()
-                   ? '. Check the sharing token is still valid.'
-                   : '. Browser storage may be full.'));
+                 '. The sharing token may have expired; reconnect and try again.');
     });
   }
 
@@ -511,28 +518,95 @@
     var btn = $('#sharing');
     if (!btn) return;
     var on = ImageStore.shared();
-    btn.textContent = on ? 'Sharing: on' : 'Sharing: off';
-    btn.className = 'btn' + (on ? ' btn-primary' : '');
+    btn.textContent = on ? 'Sharing connected' : 'Connect to add photos';
+    btn.className = 'btn' + (on ? '' : ' btn-warn');
     btn.title = on
-      ? 'Images upload to the ' + ImageStore.branch + ' branch and are visible to everyone'
-      : 'Images are saved in this browser only — click to turn on sharing';
+      ? 'Photos you add go to the ' + ImageStore.branch + ' branch and everyone sees them'
+      : 'Viewing shared photos needs nothing. Adding them needs a GitHub token — click to connect.';
+  }
+
+  function openSharePanel(msg) {
+    var panel = $('#share-panel');
+    panel.hidden = false;
+    $('#share-why').innerHTML = msg || '';
+    $('#share-why').hidden = !msg;
+    $('#share-token').value = ImageStore.token();
+    $('#share-error').hidden = true;
+    panel.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    $('#share-token').focus();
   }
 
   function toggleSharing() {
     var panel = $('#share-panel');
-    panel.hidden = !panel.hidden;
-    if (!panel.hidden) $('#share-token').value = ImageStore.token();
+    if (panel.hidden) openSharePanel('');
+    else panel.hidden = true;
   }
 
   function saveSharing() {
-    ImageStore.setToken($('#share-token').value.trim());
-    $('#share-panel').hidden = true;
-    loadImages();
-    showStatus(ImageStore.shared()
-      ? '<strong>Sharing on.</strong> Uploads now go to the <code>' + ImageStore.branch +
-        '</code> branch of ' + ImageStore.repo.owner + '/' + ImageStore.repo.repo +
-        ' and everyone sees them.'
-      : '<strong>Sharing off.</strong> Images are saved in this browser only.');
+    var t = $('#share-token').value.trim();
+    var err = $('#share-error');
+    err.hidden = true;
+
+    if (!t) {
+      ImageStore.setToken('');
+      $('#share-panel').hidden = true;
+      updateShareLabel();
+      showStatus('<strong>Sharing disconnected.</strong> You can still view and export ' +
+                 'shared images, but adding photos needs a token.');
+      return;
+    }
+
+    var btn = $('#share-save');
+    btn.disabled = true; btn.textContent = 'Checking\u2026';
+    ImageStore.validateToken(t).then(function () {
+      ImageStore.setToken(t);
+      $('#share-panel').hidden = true;
+      updateShareLabel();
+      var held = state.pending;
+      state.pending = null;
+      showStatus('<strong>Image sharing connected.</strong> Photos you add now go to the ' +
+                 '<code>' + ImageStore.branch + '</code> branch and everyone working on the ' +
+                 'guide sees them.');
+      return loadImages().then(function () {
+        if (held) storeImage(held.bike, held.file);
+        offerLocalPush();
+      });
+    }).catch(function (e) {
+      err.textContent = e.message;
+      err.hidden = false;
+    }).then(function () {
+      btn.disabled = false; btn.textContent = 'Save';
+    });
+  }
+
+  // Anything stranded in this browser from before sharing was connected.
+  function offerLocalPush() {
+    if (!ImageStore.shared()) return;
+    ImageStore.localList().then(function (local) {
+      var stranded = Object.keys(local).filter(function (k) {
+        var here = state.images[k];
+        return !here || !here.remote;
+      });
+      if (!stranded.length) return;
+      showStatus('<strong>' + stranded.length + ' image' + (stranded.length > 1 ? 's are' : ' is') +
+        '</strong> saved in this browser but not shared yet. ' +
+        '<button id="push-local" class="btn btn-primary">Upload ' +
+        (stranded.length > 1 ? 'them' : 'it') + ' now</button>');
+      var pb = $('#push-local');
+      if (pb) pb.addEventListener('click', function () {
+        pb.disabled = true; pb.textContent = 'Uploading\u2026';
+        ImageStore.pushLocal(function (done, total) {
+          pb.textContent = 'Uploading ' + done + ' of ' + total + '\u2026';
+        }).then(function (n) {
+          return loadImages().then(function () {
+            showStatus('<strong>' + n + ' image' + (n > 1 ? 's' : '') + ' uploaded</strong> ' +
+                       'to the shared branch.');
+          });
+        }).catch(function (e) {
+          showStatus('<strong>Could not upload those images</strong> — ' + e.message);
+        });
+      });
+    });
   }
 
   function wire() {
@@ -579,7 +653,7 @@
     render();
 
     // Pull any previously uploaded photos out of IndexedDB and re-render once.
-    loadImages();
+    loadImages().then(offerLocalPush);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
