@@ -4,7 +4,7 @@
     "publication": "Used Bike Guide",
     "currency": "GBP",
     "issue": "2026 Q3",
-    "last_refreshed": "2026-08-19",
+    "last_refreshed": "2026-08-20",
     "notes": "Seed prices are unverified editorial estimates. Run a price refresh before going to press.",
     "price_convention": "private = realistic private-sale figure; dealer = dealer forecourt figure. Matches Fast Bikes house style.",
     "verdict_scale": "How good a buy is this for what it costs — value, running costs, reliability, parts support and ownership risk. Not a measure of how significant the motorcycle is."
@@ -2217,24 +2217,27 @@
       "year_from": 1988,
       "year_to": 1990,
       "engine_cc": 727,
-      "verdict": 5,
-      "description": "Suzuki's answer to the Paris-Dakar boom, and a bike far better known on the continent than here. Big, tall and single-cylinder, with genuine off-road ability and an appealingly odd shape.",
+      "verdict": 7,
+      "description": "Suzuki's answer to the Paris-Dakar boom, and a bike far better known on the continent than here. Big, tall and single-cylinder, with genuine off-road ability and an appealingly odd shape. The cult reputation has not yet reached UK prices — good ones still change hands for less than a tired modern middleweight, which makes it one of the better-value classic adventure bikes.",
       "pros": [
-        "Genuine trail ability",
-        "rare and distinctive",
-        "tough single"
+        "Cheap for such an unusual bike",
+        "Genuinely capable off road",
+        "Air/oil-cooled single is simple and tough",
+        "Growing following on the continent"
       ],
       "cons": [
-        "Vibration",
-        "spares are hard work"
+        "Tall seat",
+        "Thumper vibration on a long run",
+        "Bodywork and graphics are hard to find",
+        "Often mistaken for the later 800"
       ],
       "price": {
-        "private": 3800,
-        "dealer": 5800,
-        "as_of": "2026-08-19",
+        "private": 1900,
+        "dealer": 2500,
+        "as_of": "2026-08-20",
         "source": "uk-classifieds-2026",
-        "confidence": "thin",
-        "sample_size": 2
+        "confidence": "researched",
+        "sample_size": 4
       },
       "price_history": [
         {
@@ -2250,9 +2253,16 @@
           "dealer": 5500,
           "source": "uk-market-research",
           "sample_size": 0
+        },
+        {
+          "as_of": "2026-08-19",
+          "private": 3800,
+          "dealer": 5800,
+          "source": "uk-classifieds-2026",
+          "sample_size": 2
         }
       ],
-      "notes": "Cult status is lifting these; UK sales are too sparse to be firm, US range USD2,000-8,000"
+      "notes": "Supplied DR750 listings page, Aug 2026: dealer stock at GBP1,995 (1990, 9,032 mi, Northants), GBP2,495 (1988, Bucks) and GBP2,495 (Desert Express, Cosmo Classic); a private 1987 on eBay opened at GBP2,199 with no bids against a GBP3,199 Buy It Now. The old GBP3,800/5,800 came from US figures and was well over the UK market."
     },
     {
       "id": "yamaha-tdr250-1988",

@@ -144,3 +144,27 @@ The page now shows the bytes it just uploaded, so a replacement is visible
 immediately to the person who made it. Everyone *else* still sees the old photo
 for up to five minutes — that is the CDN's cache and there is nothing in our
 code that can shorten it.
+
+### Suzuki DR750S Big repriced from supplied listings (20 Aug 2026)
+
+A supplied page of live DR750 listings settled one of the four thin entries, and
+in the opposite direction to the one I had guessed:
+
+* Dealer, Northamptonshire — 1990, 750cc, 9,032 miles — **£1,995**
+* Dealer, Buckinghamshire — 1988, 750cc — **£2,495** (down from £2,500)
+* Cosmo Classic Motorcycles, St Leonards — Desert Express DR Big — **£2,495**
+* eBay, private, 1987 — opened at **£2,199 with no bids**, £3,199 Buy It Now,
+  40 watchers
+
+It is the right bike — the DR750S Big, not the later 779cc DR800S. Repriced from
+£3,800/£5,800 to **£1,900/£2,500**, and moved from thin to researched.
+
+The old figure came from a US range of $2,000–8,000 plus an assumption that cult
+status had lifted UK values. The UK evidence says otherwise: three dealers are
+asking under £2,500 and a private bike attracted no bids at £2,199. Verdict
+raised 5 → 7 — the reputation has not reached the prices, which makes it good
+value rather than merely interesting.
+
+Worth checking before press: the eBay bike is described as a 1987 while our
+entry runs 1988–1990. Probably a seller quoting the build year, but the range
+may want widening.
