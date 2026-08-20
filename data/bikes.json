@@ -3479,24 +3479,27 @@
       "year_from": 1993,
       "year_to": 2000,
       "engine_cc": 885,
-      "verdict": 5,
-      "description": "A big trailie with a triple, built when adventure bikes were still a niche. More road-biased than it looks, comfortable over distance, and increasingly sought after by people avoiding GS prices.",
+      "verdict": 6,
+      "description": "The steel-framed, 885cc triple that Triumph built its adventure reputation on, and known to everyone as the Steamer. Tall, heavy and softly suspended, with a lovely three-cylinder engine and more presence than pace. Values are at the bottom of the curve: good ones sell for less than a decent scooter, which makes it a lot of motorcycle for the money if you can live with the weight.",
       "pros": [
         "Characterful triple",
-        "comfortable",
-        "cheaper than a GS"
+        "Very cheap for the size",
+        "Comfortable over distance",
+        "Simple, well-supported mechanicals"
       ],
       "cons": [
-        "Heavy off-road",
-        "corrosion"
+        "Heavy and top-heavy off road",
+        "Soft suspension",
+        "Plastics and decals hard to find",
+        "Easily confused with the 2020-on Tiger 900"
       ],
       "price": {
-        "private": 2200,
-        "dealer": 3400,
-        "as_of": "2026-08-19",
-        "source": "uk-classifieds-2026",
-        "confidence": "thin",
-        "sample_size": 2
+        "private": 1800,
+        "dealer": 2900,
+        "as_of": "2026-08-20",
+        "source": "carandclassic-2026",
+        "confidence": "researched",
+        "sample_size": 3
       },
       "price_history": [
         {
@@ -3505,9 +3508,16 @@
           "dealer": 4500,
           "source": "uk-market-research",
           "sample_size": 0
+        },
+        {
+          "as_of": "2026-08-19",
+          "private": 2200,
+          "dealer": 3400,
+          "source": "uk-classifieds-2026",
+          "sample_size": 2
         }
       ],
-      "notes": "Steel-framed 'Steamer'; contemporary Sprint/Daytona 900s trade at GBP795-1,495 and Tigers a little above"
+      "notes": "Car and Classic, Aug 2026. Most recent achieved sale for the 885cc bike: a 1999 at GBP1,650. Two asking prices, both continental: a 1993 with 44,800 miles and a T400 with 36,000km, each EUR3,000 (about GBP2,550). NOTE the same page quotes an average of GBP8,474 and a high of GBP18,999 across 40 sales, but those pool the 885cc Steamer with the 2020-on 888cc Tiger 900 and must not be read across to this entry."
     },
     {
       "id": "ducati-916-1994",

@@ -168,3 +168,29 @@ value rather than merely interesting.
 Worth checking before press: the eBay bike is described as a 1987 while our
 entry runs 1988–1990. Probably a seller quoting the build year, but the range
 may want widening.
+
+### Triumph Tiger 900 (885) repriced — and a naming trap (20 Aug 2026)
+
+A supplied Car & Classic search page cleared the second of the four thin
+entries. **Read it carefully: eight of its ten listings are the 2020-on Tiger
+900, not the 885cc Steamer.** Both are called "Tiger 900" and both are in the
+guide, as separate entries.
+
+Relevant to the 885cc bike:
+
+* **£1,650** — most recent achieved sale, a 1999 Tiger 900
+* €3,000 (about £2,550) — 1993, 44,800 miles, Switzerland, asking
+* €3,000 (about £2,550) — T400 "sandstorm", 36,000km, Austria, LHD, asking
+
+Repriced £2,200/£3,400 → **£1,800/£2,900**, thin → researched. Verdict 5 → 6:
+the values are at the bottom of the curve and it is a lot of motorcycle for the
+money.
+
+**Do not quote the page's headline figures against this entry.** Its "average
+£8,474", "highest £18,999" and "40 sold" pool the Steamer with the modern
+888cc Tiger 900. The average is roughly five times what an 885 actually makes.
+
+The modern entry (`triumph-tiger-900-2020`, £7,400/£10,500) checks out against
+the same page — dealer asks of £10,999 for a 2024 with 4,790 miles and £8,795
+for a GT Pro with 15,500 — so it needs no change. The £19,850 007 Bond Edition
+is a limited edition and not a guide to standard values.
