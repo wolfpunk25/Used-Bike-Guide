@@ -30,6 +30,23 @@ got rate-limited (HTTP 429) when the runner tried to download the Pages actions 
 codeload.github.com. Serving from the branch removes that dependency entirely and
 publishes faster.
 
+### After editing anything in `assets/`
+
+Run this before committing:
+
+```
+python3 scripts/stamp_assets.py
+```
+
+Pages serves `index.html`, `app.js` and `style.css` with `max-age=600` and no
+versioning, so a browser can hold one of them for ten minutes while fetching a fresh
+copy of another. A stale `index.html` next to a new `app.js` is the case that hurts:
+the script looks up an element the old markup does not contain and `render()` throws
+on the null, taking the whole listing with it. Stamping a content hash onto the asset
+URLs ties them together, so a current `index.html` always pulls the assets that
+shipped with it. Editorial staff will still see up to ten minutes of the old page
+after a deploy — that is the Pages cache and a hard refresh is the only way to skip it.
+
 `validate.yml` still runs `scripts/validate.py` on any change to the bike data, but it
 is a safety net rather than a gate — if it fails or is throttled, the site still
 publishes. Run it locally before pushing:

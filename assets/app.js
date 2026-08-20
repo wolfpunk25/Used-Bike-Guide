@@ -162,9 +162,14 @@
 
     // Photo progress is counted across the whole guide, not the filtered view:
     // it answers "how much of the shoot is done", which a filter should not move.
-    var shot = state.bikes.filter(function (b) { return state.images[b.id]; }).length;
-    els.photoCount.textContent = shot + ' of ' + state.bikes.length + ' bikes have photos';
-    els.photoCount.classList.toggle('complete', shot === state.bikes.length && shot > 0);
+    // Guarded because a browser can hold a cached index.html while fetching a
+    // fresh app.js: the element would be missing and an unguarded write here
+    // would throw and take the whole listing down with it.
+    if (els.photoCount) {
+      var shot = state.bikes.filter(function (b) { return state.images[b.id]; }).length;
+      els.photoCount.textContent = shot + ' of ' + state.bikes.length + ' bikes have photos';
+      els.photoCount.classList.toggle('complete', shot === state.bikes.length && shot > 0);
+    }
 
     var unver = view.filter(function (b) { return !isSolid(b); }).length;
     els.summary.textContent = view.length + ' of ' + state.bikes.length + ' bikes' +
