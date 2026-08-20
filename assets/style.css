@@ -119,7 +119,12 @@ main { max-width: 1400px; margin: 0 auto; padding: 20px 24px 64px; }
 }
 .control input:focus, .control select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 
-.summary { font-size: 13px; color: var(--ink-soft); margin: 14px 2px 8px; }
+.summary { font-size: 13px; color: var(--ink-soft); margin: 2px 2px 8px; }
+/* Photo progress across the whole guide — a shoot tracker, so it sits above
+   the listing summary and is not moved by the filters. */
+.photo-count { font-size: 13px; font-weight: 600; color: var(--ink);
+  margin: 14px 2px 0; }
+.photo-count.complete { color: var(--down); }
 
 /* Table */
 .table-wrap {

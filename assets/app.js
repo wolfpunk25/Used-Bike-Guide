@@ -159,6 +159,13 @@
     });
 
     els.empty.hidden = view.length !== 0;
+
+    // Photo progress is counted across the whole guide, not the filtered view:
+    // it answers "how much of the shoot is done", which a filter should not move.
+    var shot = state.bikes.filter(function (b) { return state.images[b.id]; }).length;
+    els.photoCount.textContent = shot + ' of ' + state.bikes.length + ' bikes have photos';
+    els.photoCount.classList.toggle('complete', shot === state.bikes.length && shot > 0);
+
     var unver = view.filter(function (b) { return !isSolid(b); }).length;
     els.summary.textContent = view.length + ' of ' + state.bikes.length + ' bikes' +
       (unver ? ' — ' + unver + ' need a price check' : ' — all prices researched or verified');
@@ -729,7 +736,7 @@
       q: $('#q'), make: $('#f-make'), category: $('#f-category'), verdict: $('#f-verdict'),
       yfrom: $('#f-yfrom'), yto: $('#f-yto'),
       pmin: $('#f-pmin'), pmax: $('#f-pmax'), conf: $('#f-conf'),
-      rows: $('#rows'), summary: $('#summary'), empty: $('#empty'), status: $('#status-bar')
+      rows: $('#rows'), summary: $('#summary'), photoCount: $('#photo-count'), empty: $('#empty'), status: $('#status-bar')
     };
     fetch(DATA_URL)
       .then(function (r) {
